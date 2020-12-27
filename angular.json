@@ -132,6 +132,10 @@
               "devServerTarget": "sample-structure:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }

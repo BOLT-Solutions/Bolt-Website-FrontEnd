@@ -25,7 +25,8 @@ import { SpecificNewComponent } from './modules/specific-new/specific-new.compon
     HttpClientModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    SlickCarouselModule, // Slick Carousel import
+    SlickCarouselModule,
+    // Slick Carousel import
     RouterModule.forRoot(routes, { useHash: true }),
   ],
   providers: [],
