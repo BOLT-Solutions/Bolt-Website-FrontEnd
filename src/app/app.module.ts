@@ -23,7 +23,8 @@ import { ContactUsComponent } from './modules/contact-us/contact-us.component';
     HttpClientModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    SlickCarouselModule, // Slick Carousel import
+    SlickCarouselModule,
+    // Slick Carousel import
     RouterModule.forRoot(routes, { useHash: true }),
   ],
   providers: [],
