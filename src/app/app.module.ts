@@ -8,12 +8,16 @@ import { AppComponent } from './app.component';
 import { LayoutModule } from './modules/layout/layout.module';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { ContactUsComponent } from './modules/contact-us/contact-us.component';
+import { NewsComponent } from './modules/news/news.component';
+import { SpecificNewComponent } from './modules/specific-new/specific-new.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactUsComponent,
+    NewsComponent,
+    SpecificNewComponent,
   ],
   imports: [
     FormsModule,
