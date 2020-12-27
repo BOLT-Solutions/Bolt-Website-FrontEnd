@@ -7,10 +7,8 @@ section {
   background-image: url("../../../assets/img/contactus/contact-background.png");
   background-repeat: no-repeat;
   background-size: cover;
-  //background-position: center;
-  // padding-bottom: 10%;
   width: 100%;
-  height: 60vh;
+  height: 68vh;
 }
 
 
@@ -43,8 +41,7 @@ section {
 .contact-body {
   text-align: center;
 }
-//Contact Section
-.contact-section {
+ .contact-section {
   padding-top: 10%;
 
   .contact-introduction {
@@ -59,17 +56,12 @@ section {
     p {
       font-size: 24px;
       color: dimgray;
-      // max-width: 80%;
-      margin-top: 3%;
-      // text-align: justify;
-    }
+       margin-top: 3%;
+     }
   }
 
   .contact-form {
-    // width: 80%;
     height: 100%;
-    //  margin: 20px;
-    // margin-top: 5%;
     input {
       margin-top: 5%;
       margin-bottom: 5%;
@@ -86,6 +78,7 @@ section {
 
     ::placeholder {
       color: #848484;
+      font-family: 'Mulish', sans-serif;
     }
 
     .message-box {
@@ -107,11 +100,36 @@ section {
   }
 }
 
+.socialSection
+{
+    width:80%;
+}
 .svg-icons {
   width: 88px;
 }
-.mapBox {
+.mapBox
+{
+  max-width:600px ;
+  max-height:450px;
   box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 0.16);
+
+}
+.mapSection
+{
+    margin-top:5% ;
+    margin-left:5%;
+}
+.mapName {
+  font-family: 'Raleway', sans-serif;
+  font-size: 30px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: left;
+  color: #2e2e2e;
+  margin-top:3%;
 }
 
 .contact-data {
@@ -122,8 +140,8 @@ section {
   font-style: normal;
   line-height: 1.21;
   letter-spacing: normal;
-  text-align: left;
-  font-size: 24px;
+  font-size: 22px;
+  margin-top: 6%;
 }
 
 .Custom-map-container {
@@ -276,4 +294,29 @@ section {
   .contact-data {
     font-size: 14px;
   }
+}
+
+.textInputStatusValue {
+  position: relative;
+  z-index: 8;
+}
+.selectBusinessType {
+  background-color: white;
+  color: black;
+  width: 85%;
+  border-radius: 6px;
+  margin-top: -21px;
+  padding-top: 26px;
+  padding-bottom: 20px;
+  position: absolute;
+  z-index: 7;
+}
+#filtersubmit {
+  position: relative;
+  z-index: 9;
+  left: -31px;
+  top: -3px;
+  color: black;
+  cursor: pointer;
+  width: 0;
 }
