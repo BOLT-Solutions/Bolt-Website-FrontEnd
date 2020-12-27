@@ -5,8 +5,12 @@
     "\\src\\app",
     "\\src\\app\\models",
     "\\src\\app\\modules",
-    "\\src\\app\\services"
+    "\\src\\app\\modules\\contact-us",
+    "\\src\\app\\modules\\layout",
+    "\\src\\assets",
+    "\\src\\assets\\img",
+    "\\src\\assets\\img\\contactus"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\src\\app\\modules\\contact-us\\contact-us.component.ts",
   "PreviewInSolutionExplorer": false
 }
