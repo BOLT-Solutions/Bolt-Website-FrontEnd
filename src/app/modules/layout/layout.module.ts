@@ -9,10 +9,11 @@ import { SharedModule } from '../shared/shared.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from '../home/home.component';
+import { AboutUsComponent } from '../about-us/about-us.component';
 
 
 @NgModule({
-  declarations: [LayoutComponent, HeaderComponent, FooterComponent, HomeComponent],
+  declarations: [LayoutComponent, HeaderComponent, FooterComponent, HomeComponent, AboutUsComponent],
   imports: [
     CommonModule,
     FormsModule,
