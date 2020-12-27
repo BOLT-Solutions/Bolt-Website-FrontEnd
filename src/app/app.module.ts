@@ -7,11 +7,13 @@ import { AppRoutingModule, routes } from './app-routing.module'; // Default Angu
 import { AppComponent } from './app.component';
 import { LayoutModule } from './modules/layout/layout.module';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { ContactUsComponent } from './modules/contact-us/contact-us.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    ContactUsComponent,
   ],
   imports: [
     FormsModule,

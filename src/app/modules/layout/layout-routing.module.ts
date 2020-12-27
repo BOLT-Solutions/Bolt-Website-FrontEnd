@@ -3,6 +3,7 @@ import { Routes, RouterModule } from '@angular/router';
 import { AboutUsComponent } from '../about-us/about-us.component';
 import { HomeComponent } from '../home/home.component';
 import { LayoutComponent } from './layout/layout.component';
+import {ContactUsComponent } from '../contact-us/contact-us.component';
 
 
 const routes: Routes = [
@@ -13,6 +14,7 @@ const routes: Routes = [
 
       { path: 'home', component: HomeComponent },
       { path: 'about-us', component: AboutUsComponent },
+      { path: 'contact-us', component:ContactUsComponent },
 
       { path: '', redirectTo: 'home', pathMatch: 'full' } //default redirect to desired child component on routing module call
     ],
