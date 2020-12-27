@@ -1,0 +1,38 @@
+main {
+  background-color: #d6d9e6;
+
+
+  h1 {
+    font-family: SitkaHeading;
+    font-size: 50px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2e2e2e;
+  }
+
+  p {
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2d2d2d;
+  }
+
+  #bg {
+    background: url("../../../../assets/img/client_bg.png") no-repeat 0 0;
+    height: 65vh;
+    position:relative;
+  }
+
+  #content {
+      padding:30px;
+  }
+}
