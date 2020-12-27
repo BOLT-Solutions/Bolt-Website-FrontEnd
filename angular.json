@@ -136,5 +136,8 @@
       }
     }
   },
-  "defaultProject": "sample-structure"
+  "defaultProject": "sample-structure",
+  "cli": {
+    "analytics": "0e3b467c-542f-46a0-9f4d-e1bfd0bfa5a0"
+  }
 }
