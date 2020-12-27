@@ -301,15 +301,14 @@ section {
   z-index: 8;
 }
 .selectBusinessType {
-  background-color: white;
+  font-family: 'Mulish', sans-serif;
   color: black;
   width: 85%;
   border-radius: 6px;
-  margin-top: -21px;
-  padding-top: 26px;
-  padding-bottom: 20px;
+  margin-top: -32px;
   position: absolute;
   z-index: 7;
+  background-color: #ebe6e6;
 }
 #filtersubmit {
   position: relative;
@@ -320,3 +319,15 @@ section {
   cursor: pointer;
   width: 0;
 }
+
+.typeBusinessText {
+    margin:0 auto;
+    padding:0;
+  font-size: 16px;
+  text-align: left;
+  margin-left: 9%;
+  margin-top:2%;
+}
+
+
+
