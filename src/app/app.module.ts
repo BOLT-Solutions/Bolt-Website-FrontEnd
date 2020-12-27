@@ -21,7 +21,8 @@ import { SlickCarouselModule } from 'ngx-slick-carousel';
     HttpClientModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    SlickCarouselModule, // Slick Carousel import
+    SlickCarouselModule,
+    // Slick Carousel import
     RouterModule.forRoot(routes, { useHash: true }),
   ],
   providers: [],
