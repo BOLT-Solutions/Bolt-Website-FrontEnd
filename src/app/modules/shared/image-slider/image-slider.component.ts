@@ -20,11 +20,11 @@ export class ImageSliderComponent implements OnInit {
     slidesToShow: 3,
     slidesToScroll: 1,
     infinite: true,
-    autoplay: true,
-    arrows: true,
-    dots: false,
+    autoplay: false,
+    arrows: false,
+    dots: true,
     swipe: true,
-    autoplaySpeed: 2000,
+    autoplaySpeed: 3000,
     //responsive: [
     //  {
     //    breakpoint: 900,
@@ -53,33 +53,33 @@ export class ImageSliderComponent implements OnInit {
     this.galleryItems = [
       {
         id: 0,
-        title: 'Bolt Solutions #1',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        imagePath: '2b5295b3e047b2324d0d1f2e75dee684.jpg'
+        title: 'Project Presentation',
+        content: 'The final step is to present our project to a client.We show our vision of his request',
+        imagePath: 'solution1.png'
       },
       {
         id: 1,
-        title: 'Bolt Solutions #2',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        imagePath: '2b5295b3e047b2324d0d1f2e75dee684.jpg'
+        title: 'Identifying the need',
+        content: 'On this stage we communicate with the client to know more about his company and',
+        imagePath: 'solution2.png'
       },
       {
         id: 2,
-        title: 'Bolt Solutions #3',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        imagePath: '2b5295b3e047b2324d0d1f2e75dee684.jpg'
+        title: 'Creating a project',
+        content: 'Our creative team works on the project, offering its several variants.We make visual',
+        imagePath: 'solution3.png'
       },
       {
         id: 3,
-        title: 'Bolt Solutions #4',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        imagePath: '2b5295b3e047b2324d0d1f2e75dee684.jpg'
+        title: 'Creating a project',
+        content: 'Our creative team works on the project, offering its several variants.We make visual',
+        imagePath: 'solution3.png'
       },
       {
         id: 4,
-        title: 'Bolt Solutions #5',
-        content: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
-        imagePath: '2b5295b3e047b2324d0d1f2e75dee684.jpg'
+        title: 'Creating a project',
+        content: 'Our creative team works on the project, offering its several variants.We make visual',
+        imagePath: 'solution3.png'
       }
     ];
   }
