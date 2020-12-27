@@ -1,10 +1,14 @@
+//Shared
+h1 {
+  font-family: 'Raleway', sans-serif;
+}
+//Cover Image Section
 header {
   h1 {
     color: white;
     width: 782px;
     height: 170px;
     margin: 151px 115px 35px 45px;
-    font-family: Raleway;
     font-size: 72px;
     font-weight: normal;
     font-stretch: normal;
@@ -19,7 +23,7 @@ header {
     width: 628px;
     height: 170px;
     margin: 35px 72px 65px 45px;
-    font-family: Muli;
+    font-family: 'Muli', sans-serif;
     font-size: 27px;
     font-weight: 300;
     font-stretch: normal;
@@ -42,7 +46,7 @@ header {
     .h2 {
       width: 174px;
       height: 44px;
-      font-family: Muli;
+      font-family: 'Muli', sans-serif;
       font-size: 35px;
       font-weight: 300;
       font-stretch: normal;
@@ -59,8 +63,7 @@ header {
   h1 {
     width: 968px;
     height: 192px;
-    margin: 116px 262px 114.2px 85px;
-    font-family: 'Raleway', sans-serif;
+    margin: 100px 262px 76.2px 30px;
     font-size: 54px;
     font-weight: normal;
     font-stretch: normal;
@@ -69,5 +72,24 @@ header {
     letter-spacing: normal;
     text-align: left;
     color: #2e2e2e;
+  }
+}
+
+//Section Two
+.title-list {
+  display: inline-block;
+  width: 200px;
+  max-width: 250px;
+
+  h2 {
+    color: dimgrey;
+    font-weight: 600;
+    font-size: 18px;
+    padding-right: 5%;
+    cursor: pointer;
+  }
+
+  h2:hover {
+    color: black;
   }
 }
