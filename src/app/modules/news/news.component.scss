@@ -2,32 +2,129 @@
   padding: 0;
   margin: 0;
   position: relative;
+  overflow-y: hidden;
 }
 
 
-.container {
+.ourNews {
   position: absolute;
-  top: 30%;
-  left: 12%;
+  top: 8%;
+  left: 10%;
+}
+
+
+
+.col-lg-6 {
+  padding: 0;
 }
 .TitleNews {
   color: white;
   font-family: 'Raleway';
-  padding-top: 27%;
+  padding-top: 15%;
+  padding-left: 12%;
+  font-weight: 800;
 }
 .ContentNews {
   color: white;
   font-family: century-gothic, sans-serif;
   font-size: 15px;
+  width: 90%;
+  padding-left: 12%;
 }
 .TitleOFLatestNews {
   color: #408ed1;
   font-size: 24px;
   font-family: 'Raleway';
-  font-weight:800;
+  font-weight: 800;
+  padding-left: 10%;
+  padding-top: 7%;
 }
 .ContentOFLatestNews {
-  color:grey;
-  font-size:14px;
+  color: grey;
+  font-size: 14px;
+  padding-left: 10%;
+}
+
+.ReadMoreBtn {
+  font-size: 10px;
+  color: #408ed1;
+  font-weight: bold !important;
+  font-family: 'Raleway';
+}
+.ReadMoreBtn:hover {
+  background-color: #D5DFD2;
+}
+.btn-Align {
+  text-align: right;
+  padding-right: 10%;
+  margin-top: -3%;
+  padding-bottom: 3%;
+}
+.divBeside {
+  background-color: #ffffff;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.mobileImage
+{
+    border-bottom-left-radius:10px;
+    border-top-left-radius:10px;
+}
+.secondDivOfLatestNews {
+  border-radius: 12px;
+  box-shadow: 0 1px 7px 1px grey;
+  animation: secondDivOfLatestNewsAnimation 1.2s;
+}
+
+@keyframes secondDivOfLatestNewsAnimation
+{
+  0% {
+    transform: translateX(111%);
   }
 
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.newsDiv
+{
+    animation:newsDivAnimation 1.2s;
+}
+@keyframes newsDivAnimation {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.text-muted {
+  margin-left: 30%;
+  width: 40%;
+}
+
+
+
+.EveryTitle {
+  width: 70%;
+  font-weight: 900 !important;
+  font-family: 'Raleway';
+  color: #408ed1;
+  font-size: 15px;
+}
+.EveryContent {
+  font-family: century-gothic, sans-serif;
+  font-size: 11px;
+  color:grey;
+}
+.card
+{
+    border-radius:12px;
+}
+.imgNews {
+  border-top-left-radius: 12px;
+  border-top-right-radius:12px;
+}
