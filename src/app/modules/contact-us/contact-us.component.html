@@ -1,0 +1,127 @@
+<!-- Image Section -->
+<section class="contact-img container-fluid"></section>
+
+<!--Contact Section-->
+<section class="contact-section">
+
+  <!--Contact Section -->
+  <div class="container info-container">
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-6">
+        <div>
+          <p class="contactHeading">Let's get in touch</p>
+          <p class="contactBody">
+            We're open for any suggestion or
+            just to have a chat.
+          </p>
+        </div>
+        <div class="socialSection">
+          <div class="row mt-4">
+            <div class="col-2 text-left p-0" >
+
+            <img src="../../../../assets/img/contactus/location.png" class=" svg-icons">
+            </div>
+            <P class="contact-data col-9">1171 Building , Road 9,    
+             El-Mokattam, Cairo, Egypt.</P>
+
+
+          </div>
+          <div class="row mt-4">
+            <img src="../../../../assets/img/contactus/phone.png" class="svg-icons">
+            <P class="contact-data">+2024213323</P>
+
+
+          </div>
+          <div class="row mt-4">
+            <img src="../../../../assets/img/contactus/message.png" class=" svg-icons ">
+            <P class="contact-data">Info@Boltsolutions.net</P>
+
+          </div>
+        </div>
+        
+
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6">
+
+        <div class="contact-form text-center container-fluid">
+          <p class="contactHeading">Contact Us With</p>
+          <form>
+            <div class="container-fluid">
+
+              <input type="text" placeholder="Full Name" />
+
+              <input type="text" placeholder="E-mail" />
+
+              <input type="text" placeholder="Phone Number" />
+
+              <div >
+                <input class="textInputStatusValue" type="text" placeholder="select Business Type" value="{{stValue}}" (click)="showOption()" />
+                <i *ngIf="show" id="filtersubmit" class="fa fa-chevron-down" aria-hidden="true"></i>
+                <i *ngIf="!show" id="filtersubmit" class="fa fa-chevron-up" aria-hidden="true"></i>
+
+                <div *ngIf="showOptions" id="businsessValue" class="selectBusinessType">
+                  <!-- -->
+                  <div *ngFor="let status_item of status_values">
+                    <p class="typeBusinessText"  > {{status_item.value}}</p>
+                    
+                  </div>
+                </div>
+              </div>
+              <input type="text" class="message-box" placeholder="Your Massage :" />
+
+
+              <button type="submit" class="contact-submit">
+                SEND MESSAGE
+              </button>
+            </div>
+
+            
+           
+
+          </form>
+        </div>
+
+
+      </div>
+    </div>
+
+
+      
+  </div>
+  <!--End Contact Section -->
+  
+   
+  <!-- Contact Form -->
+
+
+  <div class="container-fluid mapSection">
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 ">
+        <div class="mapBox">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1452.5718534483174!2d31.293471505588318!3d30.013394356836127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDAwJzQ3LjciTiAzMcKwMTcnMzYuNiJF!5e0!3m2!1sar!2seg!4v1608540644488!5m2!1sar!2seg"
+                  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="600" height="450"></iframe>
+        </div>
+      
+        <p class="mapName">Egypt</p>
+
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 ">
+        <div class="mapBox">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1452.5718534483174!2d31.293471505588318!3d30.013394356836127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDAwJzQ3LjciTiAzMcKwMTcnMzYuNiJF!5e0!3m2!1sar!2seg!4v1608540644488!5m2!1sar!2seg"
+                  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" width="600" height="450"></iframe>
+        </div>
+        
+        <p class="mapName">United Arab Emirates</p>
+
+      </div>
+    </div>
+
+  </div>
+
+
+
+
+
+ 
+</section>
+<!--End of Contact Section-->

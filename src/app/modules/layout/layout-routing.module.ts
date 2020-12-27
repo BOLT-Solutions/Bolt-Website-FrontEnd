@@ -5,6 +5,7 @@ import { HomeComponent } from '../home/home.component';
 import { NewsComponent } from '../news/news.component';
 import { SpecificNewComponent } from '../specific-new/specific-new.component';
 import { LayoutComponent } from './layout/layout.component';
+import {ContactUsComponent } from '../contact-us/contact-us.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,7 @@ const routes: Routes = [
 
       { path: 'home', component: HomeComponent },
       { path: 'about-us', component: AboutUsComponent },
+      { path: 'contact-us', component:ContactUsComponent },
       { path: 'News', component: NewsComponent },
       { path: 'specificNew', component: SpecificNewComponent },
 
