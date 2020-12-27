@@ -75,16 +75,27 @@ header {
   }
 }
 
-//Section Two
+//Section Two: Solutions
+.sectionTwo{
+    padding-bottom: 10%;
+}
 .title-list {
   display: inline-block;
-  width: 200px;
-  max-width: 250px;
+  width: 100%;
+  text-align: center;
+
+  .active {
+    font-weight: 600 !important;
+  }
 
   h2 {
-    color: dimgrey;
-    font-weight: 600;
-    font-size: 18px;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.32;
+    letter-spacing: normal;
     padding-right: 5%;
     cursor: pointer;
   }
@@ -92,4 +103,28 @@ header {
   h2:hover {
     color: black;
   }
+}
+.title-list::after {
+  content: "";
+  display: block;
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 10px;
+  border-bottom: 3px solid black;
+}
+.news-container {
+ margin-top:10%;
+  h2 {
+    font-family: 'avenir', Arial, sans-serif;
+    color: #232D37;
+    font-weight: 300;
+    font-size: 32px;
+    margin-top: 3%;
+    text-align: left;
+  }
+}
+//End of Solutions Section
+//Latest News Section
+.sectionThree {
+  background-color: #eaeaea;
 }
