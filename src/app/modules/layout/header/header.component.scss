@@ -1,0 +1,15 @@
+.navbar-brand{
+    width:200px;
+}
+//Override Nav default color
+nav{
+    background-color: transparent !important;
+}
+.btn-outline-primary{
+    border-color: white;
+    color: white;
+}
+.nav-link {
+  font-size: 30px;
+  margin: 40px;
+}
