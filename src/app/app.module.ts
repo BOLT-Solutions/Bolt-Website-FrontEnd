@@ -7,11 +7,15 @@ import { AppRoutingModule, routes } from './app-routing.module'; // Default Angu
 import { AppComponent } from './app.component';
 import { LayoutModule } from './modules/layout/layout.module';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { NewsComponent } from './modules/news/news.component';
+import { SpecificNewComponent } from './modules/specific-new/specific-new.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    NewsComponent,
+    SpecificNewComponent,
   ],
   imports: [
     FormsModule,
