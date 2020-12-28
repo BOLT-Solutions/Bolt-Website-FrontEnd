@@ -15,9 +15,6 @@ import { SpecificNewComponent } from './modules/specific-new/specific-new.compon
 @NgModule({
   declarations: [
     AppComponent,
-    ContactUsComponent,
-    NewsComponent,
-    SpecificNewComponent,
   ],
   imports: [
     FormsModule,
