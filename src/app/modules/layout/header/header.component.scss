@@ -1,16 +1,23 @@
 .navbar-brand{
     width:200px;
+    margin-right: 4rem;
+}
+.fixed-top{
+    position: absolute !important;
 }
 //Override Nav default color
-nav{
-    background-color: transparent !important;
+nav {
+    background: none !important;
 }
 .btn-outline-primary{
     border-color: white;
     color: white;
+    font-size: 22px;
 }
 .nav-link {
   font-size: 30px;
   margin: 40px;
+  cursor: pointer;
+  font-family: 'CenturyGothic', sans-serif;
 }
 

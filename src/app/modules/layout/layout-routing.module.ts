@@ -17,7 +17,7 @@ const routes: Routes = [
       { path: 'home', component: HomeComponent },
       { path: 'about-us', component: AboutUsComponent },
       { path: 'contact-us', component:ContactUsComponent },
-      { path: 'News', component: NewsComponent },
+      { path: 'news', component: NewsComponent },
       { path: 'specificNew', component: SpecificNewComponent },
 
       { path: '', redirectTo: 'home', pathMatch: 'full' } //default redirect to desired child component on routing module call
