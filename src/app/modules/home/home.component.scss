@@ -3,7 +3,14 @@ h1 {
   font-family: 'Raleway', sans-serif;
 }
 //Cover Image Section
+.homeBG {
+  background-size: cover;
+  background-position: bottom;
+  background-image: url('../../../assets/img/homeBG.png');
+}
 header {
+
+
   h1 {
     color: white;
     width: 782px;
