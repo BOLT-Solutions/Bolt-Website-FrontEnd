@@ -8,6 +8,23 @@
   src: url(assets/fonts/SitkaB.ttc) format("truetype");
 }
 
+@font-face {
+  font-family: SitkaHeading;
+  src: url(assets/fonts/SitkaB.ttc) format("truetype");
+}
+
+
+@font-face {
+  font-family: SitkaHeading;
+  src: url(assets/fonts/SitkaB.ttc) format("truetype");
+}
+
+@font-face {
+  font-family: avenir;
+  src: url(assets/fonts/Avenir.ttf) format("opentype");
+}
+
+
 //Remove outline from website
 *{
   outline: none;
