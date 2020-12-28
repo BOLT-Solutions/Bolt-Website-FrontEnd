@@ -13,6 +13,7 @@ export class LayoutComponent implements OnInit {
   ngOnInit(): void {
     //Restore window scroll to top position
     window.scroll(0, 0);
+
   }
 
 }

@@ -9,20 +9,20 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" routerLink="/home">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item" id="home">
+        <a class="nav-link" (click)="Navigate('home')" >Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/about-us">About</a>
+      <li class="nav-item" id="about-us">
+        <a class="nav-link" (click)="Navigate('about-us')" >About</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/solutions">Solutions</a>
+      <li class="nav-item" id="solutions">
+        <a class="nav-link" (click)="Navigate('solutions')" >Solutions</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/contact-us">Contact Us</a>
+      <li class="nav-item" id="contact-us">
+        <a class="nav-link" (click)="Navigate('contact-us')" >Contact Us</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/news">News</a>
+      <li class="nav-item" id="news">
+        <a class="nav-link" (click)="Navigate('news')" >News</a>
       </li>
       <!--<li class="nav-item dropdown disabled">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -37,7 +37,7 @@
       </li>-->
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit" style="font-family: 'Almarai', sans-serif;">العربية</button>
+      <button class="btn btn-outline-primary my-2 my-sm-0 {{languageStyle}}" type="submit" style="font-family: 'Almarai', sans-serif;">العربية</button>
     </form>
   </div>
 </nav>

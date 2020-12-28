@@ -20,18 +20,20 @@ export class ImageSliderComponent implements OnInit {
     slidesToShow: 3,
     slidesToScroll: 1,
     infinite: true,
-    autoplay: false,
+    autoplay: true,
     arrows: false,
     dots: true,
     swipe: true,
     autoplaySpeed: 3000,
-    //responsive: [
-    //  {
-    //    breakpoint: 900,
-    //    settings: {
-    //    }
-    //  }
-    //]
+    responsive: [
+      {
+        breakpoint: 900,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      }
+    ]
   };
 
   //Declare services
