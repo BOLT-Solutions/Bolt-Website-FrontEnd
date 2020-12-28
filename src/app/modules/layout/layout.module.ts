@@ -13,6 +13,9 @@ import { AboutUsComponent } from '../about-us/about-us.component';
 import { NewsComponent } from '../news/news.component';
 import { ContactUsComponent } from '../contact-us/contact-us.component';
 import { SpecificNewComponent } from '../specific-new/specific-new.component';
+import { MobileAppComponent } from '../mobile-app/mobile-app.component';
+import { WebPlatformComponent } from '../web-platform/web-platform.component';
+import { ERPComponent } from '../erp/erp.component';
 
 
 @NgModule({
@@ -24,7 +27,10 @@ import { SpecificNewComponent } from '../specific-new/specific-new.component';
     AboutUsComponent,
     NewsComponent,
     SpecificNewComponent,
-    ContactUsComponent
+    ContactUsComponent,
+    MobileAppComponent,
+    WebPlatformComponent,
+    ERPComponent,
   ],
   imports: [
     CommonModule,
