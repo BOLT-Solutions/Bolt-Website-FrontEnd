@@ -37,7 +37,6 @@ export class HeaderComponent implements OnInit {
 
   //Adjust language button
   AdjustLanguageButton(selector) {
-    console.log(selector);
     if (selector == 'news') {
       this.languageStyle = "lang-blue";
     }

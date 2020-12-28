@@ -24,3 +24,8 @@
   src: url(assets/fonts/Avenir.ttf) format("opentype");
 }
 
+
+//Remove outline from website
+*{
+  outline: none;
+}
