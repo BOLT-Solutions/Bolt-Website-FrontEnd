@@ -31,7 +31,13 @@ export class HeaderComponent implements OnInit {
     this.ClearNavigationHighLight();
     this.router.navigate([selector]);
     this.AdjustLanguageButton(selector);
-    document.getElementById(selector).classList.add('active'); // Add active class
+    if (selector == 'mobApp') {
+      document.getElementById('products').classList.add('active');
+    }
+    else {
+      document.getElementById(selector).classList.add('active'); // Add active class
+    }
+
   }
 
 
