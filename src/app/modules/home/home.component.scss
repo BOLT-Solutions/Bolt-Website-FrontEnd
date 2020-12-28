@@ -2,6 +2,9 @@
 h1 {
   font-family: 'Raleway', sans-serif;
 }
+.img-fluid{
+  width: 100% !important;
+}
 //Cover Image Section
 .homeBG {
   background-size: cover;
@@ -111,16 +114,68 @@ header {
     color: black;
   }
 }
+.solution-tab {
+  font-weight: normal;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+.solution-tab:hover {
+  font-weight: 600 !important;
+  transform: scale(1.1);
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
 .title-list::after {
   content: "";
   display: block;
   width: 80%;
   margin: 0 auto;
   padding-top: 10px;
-  border-bottom: 3px solid black;
+  border-bottom: solid 0.5px rgba(70, 70, 70, 0.83);
 }
 .news-container {
- margin-top:10%;
+  margin-top: 10%;
+  animation: fadeIn ease 1s;
+  -webkit-animation: fadeIn ease 1s;
+  -moz-animation: fadeIn ease 1s;
+  -o-animation: fadeIn ease 1s;
+  //Hoverable container
+  .container-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99999;
+    background-color: rgba(53, 119, 147, 0.6);
+    display: none;
+    animation: fadeIn ease 1s;
+    -webkit-animation: fadeIn ease 1s;
+    -moz-animation: fadeIn ease 1s;
+    -o-animation: fadeIn ease 1s;
+
+    .read-more {
+      border: 1px solid black;
+      margin: 123px 0px 0 0px;
+      padding: 13px 36px;
+      border-radius: 35px;
+      width: 246px;
+      height: 70px;
+
+      .h2 {
+        width: 174px;
+        height: 44px;
+        font-family: 'Muli', sans-serif;
+        font-size: 35px;
+        font-weight: 100;
+      }
+    }
+  }
+
   h2 {
     font-family: 'avenir', Arial, sans-serif;
     color: #232D37;
@@ -129,6 +184,11 @@ header {
     margin-top: 3%;
     text-align: left;
   }
+}
+.news-container:hover{
+    .container-overlay{
+        display: block;
+    }
 }
 //End of Solutions Section
 //Latest News Section
@@ -242,5 +302,46 @@ header {
       padding: 0 !important;
       padding-top: 10% !important;
     }
+  }
+}
+
+//Animations and keyframes
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
