@@ -2,15 +2,18 @@ section {
   background-color: #f2f2f2;
   overflow-x: hidden;
 }
-//Img Slider
-.contact-img {
+ .contact-img {
   background-image: url("../../../assets/img/contactus/contact-background.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   height: 68vh;
 }
+/*
+    height: 38vh;
+    background-position: bottom;
 
+*/
 
 .contactHeading {
   font-size: 50px;
@@ -41,7 +44,7 @@ section {
 .contact-body {
   text-align: center;
 }
- .contact-section {
+.contact-section {
   padding-top: 10%;
 
   .contact-introduction {
@@ -236,9 +239,7 @@ section {
 .fa-angle-down {
   font-size: 40px;
 }
-//svg-icons
-//contact-data
-//contact-submit
+
 
 
 @media all and (max-width: 480px) {
@@ -270,6 +271,23 @@ section {
   input {
     font-size: 15px !important;
   }
+  .contact-img {
+    height: 38vh;
+    background-position: top;
+  }
+  .contact-section
+  {
+      padding-top:0 ; 
+  }
+  .contactHeading
+  {
+    font-size:27px ; 
+  }
+  .contactBody
+  {
+      font-size:14px; 
+  }
+
 }
 
 @media all and (max-width: 320px) {
@@ -319,7 +337,6 @@ section {
   cursor: pointer;
   width: 0;
 }
-
 .typeBusinessText {
     margin:0 auto;
     padding:0;
