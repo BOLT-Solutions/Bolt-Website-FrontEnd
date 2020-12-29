@@ -6,14 +6,6 @@
 }
 
 
-.ourNews {
-  position: absolute;
-  top: 8%;
-  left: 10%;
-}
-
-
-
 .col-lg-6 {
   padding: 0;
 }
@@ -70,36 +62,7 @@
     border-bottom-left-radius:10px;
     border-top-left-radius:10px;
 }
-.secondDivOfLatestNews {
-  border-radius: 12px;
-  box-shadow: 0 1px 7px 1px grey;
-  animation: secondDivOfLatestNewsAnimation 1.2s;
-}
 
-@keyframes secondDivOfLatestNewsAnimation
-{
-  0% {
-    transform: translateX(111%);
-  }
-
-  100% {
-    transform: translateX(0);
-  }
-}
-
-.newsDiv
-{
-    animation:newsDivAnimation 1.2s;
-}
-@keyframes newsDivAnimation {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}
 
 .text-muted {
   margin-left: 30%;
@@ -127,4 +90,73 @@
 .imgNews {
   border-top-left-radius: 12px;
   border-top-right-radius:12px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .newsDiv
+  {
+      background-color:red;
+  }
+  .ContentNews
+  {
+      display:none;
+  }
+  .container-fluid.img-fluid
+  {
+      width:150% !important;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+ 
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+ 
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .secondDivOfLatestNews {
+    border-radius: 12px;
+    box-shadow: 0 1px 7px 1px grey;
+    animation: secondDivOfLatestNewsAnimation 1.2s;
+  }
+
+  @keyframes secondDivOfLatestNewsAnimation {
+    0% {
+      transform: translateX(111%);
+    }
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .newsDiv {
+    animation: newsDivAnimation 1.2s;
+  }
+
+  @keyframes newsDivAnimation {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+  .ourNews {
+    position: absolute;
+    top: 8%;
+    left: 10%;
+  }
+
 }

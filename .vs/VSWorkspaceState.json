@@ -3,10 +3,9 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\models",
     "\\src\\app\\modules",
-    "\\src\\app\\services"
+    "\\src\\app\\modules\\news"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\src\\app\\modules\\news\\news.component.scss",
   "PreviewInSolutionExplorer": false
 }
