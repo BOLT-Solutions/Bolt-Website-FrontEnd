@@ -74,8 +74,8 @@ header {
     width: 968px;
     height: 192px;
     margin: 100px 262px 76.2px 30px;
-    font-size: 54px;
-    font-weight: normal;
+    font-size: 47px;
+    font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.19;
@@ -83,11 +83,17 @@ header {
     text-align: left;
     color: #2e2e2e;
   }
+  h2{
+      font-weight: 300;
+  }
 }
 
 //Section Two: Solutions
 .sectionTwo{
     padding-bottom: 10%;
+    h1{
+        font-weight:600;
+    }
 }
 .title-list {
   display: inline-block;
@@ -95,7 +101,7 @@ header {
   text-align: center;
 
   .active {
-    font-weight: 600 !important;
+    font-weight: 800 !important;
   }
 
   h2 {
@@ -194,6 +200,9 @@ header {
 //Latest News Section
 .sectionThree {
   background-color: #eaeaea;
+  h1{
+      font-weight: bold;
+  }
 }
 
 //Responsive
