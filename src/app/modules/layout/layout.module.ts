@@ -16,6 +16,14 @@ import { MobileAppComponent } from '../mobile-app/mobile-app.component';
 import { WebPlatformComponent } from '../web-platform/web-platform.component';
 import { ERPComponent } from '../erp/erp.component';
 import { AboutUsModule } from '../about-us/about-us.module';
+import { CdnComponent } from '../cdn/cdn.component';
+import { BoltErpComponent } from '../bolt-erp/bolt-erp.component';
+import { TailoredSolutionsComponent } from '../tailored-solutions/tailored-solutions.component';
+import { DigitalTransformationComponent } from '../digital-transformation/digital-transformation.component';
+import { BOLTRESTAURANTComponent } from '../boltrestaurant/boltrestaurant.component';
+import { BOLTSALONComponent } from '../boltsalon/boltsalon.component';
+import { AtmComponent } from '../atm/atm.component';
+import { BOLTDOCTORComponent } from '../boltdoctor/boltdoctor.component';
 
 
 @NgModule({
@@ -30,6 +38,14 @@ import { AboutUsModule } from '../about-us/about-us.module';
     MobileAppComponent,
     WebPlatformComponent,
     ERPComponent,
+    CdnComponent,
+    BoltErpComponent,
+    TailoredSolutionsComponent,
+    DigitalTransformationComponent,
+    BOLTRESTAURANTComponent,
+    BOLTSALONComponent,
+    BOLTDOCTORComponent,
+    AtmComponent,
   ],
   imports: [
     CommonModule,
