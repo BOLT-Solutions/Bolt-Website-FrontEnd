@@ -33,7 +33,7 @@ nav {
   -o-transition: all 0.5s;
 }
 
-.nav-link:hover {
+#about .nav-link:hover, #products .nav-link:hover, #services .nav-link:hover {
   background-color: rgba(0, 0, 0, 0.6);
 }
 .lang-blue {
