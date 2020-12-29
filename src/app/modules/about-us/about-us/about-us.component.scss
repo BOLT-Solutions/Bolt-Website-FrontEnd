@@ -6,7 +6,7 @@ main {
 
 #bg{
    
-  background: url("../../../assets/img/Header.png") no-repeat 0 0;
+  background: url("../../../../assets/img/Header.png") no-repeat 0 0;
   height: 70vh;
   background-size: cover;
   display: flex;
@@ -126,7 +126,7 @@ img{
 
 @media screen and (max-width: 1024px) {
   #bg {
-    background: url("../../../assets/img/about_bg_mobile.png") no-repeat 0 0;
+    background: url("../../../../assets/img/about_bg_mobile.png") no-repeat 0 0;
     height: 40vh;
     background-size: contain;
     /*background-position: center;*/
@@ -175,7 +175,7 @@ img{
 @media screen and (max-width: 700px) {
 
   #bg {
-    background: url("../../../assets/img/about_bg_mobile.png") no-repeat 0 0;
+    background: url("../../../../assets/img/about_bg_mobile.png") no-repeat 0 0;
     height: 33vh;
     background-size: contain;
     /*background-position: center;*/
