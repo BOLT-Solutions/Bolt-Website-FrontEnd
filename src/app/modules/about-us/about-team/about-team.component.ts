@@ -12,4 +12,9 @@ export class AboutTeamComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  DisplayTeam(selector) {
+    if (selector == "tech") {
+      document.getElementById('dynamicTeam').style.display = 'block';
+    }
+  }
 }
