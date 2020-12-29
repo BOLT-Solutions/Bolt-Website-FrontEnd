@@ -6,6 +6,9 @@ import { NewsComponent } from '../news/news.component';
 import { SpecificNewComponent } from '../specific-new/specific-new.component';
 import { LayoutComponent } from './layout/layout.component';
 import {ContactUsComponent } from '../contact-us/contact-us.component';
+import { MobileAppComponent } from '../mobile-app/mobile-app.component';
+import { WebPlatformComponent } from '../web-platform/web-platform.component';
+import { ERPComponent } from '../erp/erp.component';
 
 
 const routes: Routes = [
@@ -17,8 +20,12 @@ const routes: Routes = [
       { path: 'home', component: HomeComponent },
       { path: 'about-us', component: AboutUsComponent },
       { path: 'contact-us', component:ContactUsComponent },
-      { path: 'News', component: NewsComponent },
+      { path: 'news', component: NewsComponent },
       { path: 'specificNew', component: SpecificNewComponent },
+      { path: 'mobApp', component: MobileAppComponent },
+      { path: 'web', component: WebPlatformComponent },
+      { path: 'erp', component: ERPComponent },
+
 
       { path: '', redirectTo: 'home', pathMatch: 'full' } //default redirect to desired child component on routing module call
     ],

@@ -47,3 +47,38 @@
 :host ::ng-deep .slick-dots li button::before {
   font-size: 16px;
 }
+
+//Mobile View
+@media only screen and (max-device-width: 450px) {
+  .custom-news-card {
+    border-radius: 7px;
+    box-shadow: 0 3px 9px 0 rgba(0, 0, 0, 0.3);
+
+    img {
+      border-top-left-radius: 10px;
+      border-top-right-radius: 10px;
+    }
+
+    h1 {
+      font-size: 16px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+
+    h2 {
+      font-size: 13px;
+    }
+  }
+  :host ::ng-deep .slick-dots{
+      width: 75%;
+  }
+  :host ::ng-deep .slick-active button::before {
+    font-size: 10px;
+  }
+
+  :host ::ng-deep .slick-dots li button::before {
+    font-size: 10px;
+  }
+}
