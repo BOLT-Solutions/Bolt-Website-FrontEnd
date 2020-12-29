@@ -34,8 +34,13 @@ export class HeaderComponent implements OnInit {
     if (selector == "about-us" || selector == "about-us/about-team") { // highlight about dropdown
       document.getElementById('about').classList.add('active');
     }
-    else if (selector == 'mobApp') {
+    else if (selector == 'MobileApp' || selector == 'ERP' || 
+      selector == 'web' || selector == 'DCN' || selector == 'TailoredSolution' ||
+      selector == 'DigitalTransformation' || selector == 'ATM' ) {
       document.getElementById('products').classList.add('active');
+    }
+    else if (selector == 'BoltSalon' || selector == 'BoltDoctor' || selector == 'BoltRestaurant' || selector == 'BoltERP') {
+      document.getElementById('services').classList.add('active');
     }
     else {
       document.getElementById(selector).classList.add('active'); // Add active class
