@@ -2,10 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\app",
-    "\\src\\app\\modules",
-    "\\src\\app\\modules\\news"
+    "\\src\\app"
   ],
-  "SelectedNode": "\\src\\app\\modules\\news\\news.component.scss",
+  "SelectedNode": "\\src\\favicon.ico",
   "PreviewInSolutionExplorer": false
 }

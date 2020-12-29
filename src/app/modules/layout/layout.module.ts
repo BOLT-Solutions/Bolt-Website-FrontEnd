@@ -10,10 +10,28 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from '../home/home.component';
 import { AboutUsComponent } from '../about-us/about-us.component';
+import { NewsComponent } from '../news/news.component';
+import { ContactUsComponent } from '../contact-us/contact-us.component';
+import { SpecificNewComponent } from '../specific-new/specific-new.component';
+import { MobileAppComponent } from '../mobile-app/mobile-app.component';
+import { WebPlatformComponent } from '../web-platform/web-platform.component';
+import { ERPComponent } from '../erp/erp.component';
 
 
 @NgModule({
-  declarations: [LayoutComponent, HeaderComponent, FooterComponent, HomeComponent, AboutUsComponent],
+  declarations: [
+    LayoutComponent,
+    HeaderComponent,
+    FooterComponent,
+    HomeComponent,
+    AboutUsComponent,
+    NewsComponent,
+    SpecificNewComponent,
+    ContactUsComponent,
+    MobileAppComponent,
+    WebPlatformComponent,
+    ERPComponent,
+  ],
   imports: [
     CommonModule,
     FormsModule,

@@ -1,7 +1,7 @@
 <!--Bootstrap Navigation Component-->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <!--Brand-->
-  <img class="navbar-brand" src="../../../../assets/designer-assets/landing/bolt.png" alt="bolt-solutions" routerLink="/home"> 
+  <img class="navbar-brand" src="./assets/img/bolt.png" alt="bolt-solutions" routerLink="/home"> 
 
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -9,35 +9,43 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" routerLink="/home">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item" id="home">
+        <a class="nav-link" (click)="Navigate('home')">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/about-us">About</a>
+      <li class="nav-item" id="about-us">
+        <a class="nav-link" (click)="Navigate('about-us')">About</a>
       </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/solutions">Solutions</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/contact-us">Contact Us</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/news">News</a>
-      </li>
-      <!--<li class="nav-item dropdown disabled">
+      <li class="nav-item dropdown disabled">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
+          Services
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" (click)="Navigate('services')">Action</a>
+          <a class="dropdown-item" (click)="Navigate('services')">Another action</a>
+          <a class="dropdown-item" (click)="Navigate('services')">Something else here</a>
         </div>
-      </li>-->
+      </li>
+      <li class="nav-item dropdown" id="products">
+        <a class="nav-link dropdown-toggle" href="#"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Products
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <!--<div class="dropdown-divider"></div>-->
+          <a class="dropdown-item" (click)="Navigate('products')">ERP</a>
+          <a class="dropdown-item" (click)="Navigate('products')">CRM</a>
+          <a class="dropdown-item"  (click)="Navigate('mobApp')">Mobile Application</a>
+          <a class="dropdown-item" (click)="Navigate('products')">Website Platform</a>
+        </div>
+      </li>
+      <li class="nav-item" id="contact-us">
+        <a class="nav-link" (click)="Navigate('contact-us')">Contact Us</a>
+      </li>
+      <li class="nav-item" id="news">
+        <a class="nav-link" (click)="Navigate('news')">News</a>
+      </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">العربيه</button>
+      <button class="btn btn-outline-primary my-2 my-sm-0 {{languageStyle}}" type="submit" style="font-family: 'Almarai', sans-serif;">العربية</button>
     </form>
   </div>
 </nav>
