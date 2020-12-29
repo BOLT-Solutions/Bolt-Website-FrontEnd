@@ -2,6 +2,19 @@ main {
   background-color: #f2f2f2;
 }
 
+img {
+  width: 100%;
+}
+
+.selectionButton {
+  position: relative;
+  z-index: 99999;
+
+  img {
+    cursor: pointer;
+  }
+}
+
 #bg {
   background: url("../../../../assets/img/team/about-teamBG.png") no-repeat 0 0;
   background-size: cover;
@@ -11,10 +24,6 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-img {
-  width: 100%;
 }
 
 #content {
@@ -38,7 +47,6 @@ img {
     color: #ffffff;
   }
 }
-
 
 #board {
   background-color: #e8e8e9;
@@ -92,9 +100,9 @@ img {
   }
 }
 
+//Teams Section
 #teams {
   padding-bottom: 600px;
-
   .img-container {
     img {
       width: 200px;
@@ -102,13 +110,14 @@ img {
       object-fit: contain;
     }
   }
-
   p {
     font-size: 22px !important;
   }
 }
 
-#dynamicTeam {
+
+
+#technicalTeam {
   position: relative;
   display: none;
   z-index: 1;
@@ -117,8 +126,8 @@ img {
     position: absolute !important;
     top: -316px;
     left: -90px;
-    -webkit-animation: slideInTeam 2s forwards;
-    animation: slideInTeam 2s forwards;
+    -webkit-animation: slideInTechnicalTeam 2s forwards;
+    animation: slideInTechnicalTeam 2s forwards;
   }
 
   .hideTeam {
@@ -126,18 +135,67 @@ img {
     top: 0;
     left: 0;
     right: 0;
-    -webkit-animation: slideOutTeam  1s forwards;
-    animation: slideOutTeam 1s forwards;
+    -webkit-animation: slideOutTechnicalTeam 1s forwards;
+    animation: slideOutTechnicalTeam 1s forwards;
   }
 
   .col-2 {
     width: 0;
-    /*    -webkit-animation: slideTeamCol 3s forwards;
-    animation: slideTeamCol 3s forwards;*/
   }
 }
+#marketingTeam {
+  position: relative;
+  display: none;
+  z-index: 1;
 
-@keyframes slideInTeam {
+  .displayTeam {
+    position: absolute !important;
+    top: -316px;
+    left: 150px;
+    -webkit-animation: slideInTechnicalTeam 2s forwards;
+    animation: slideInTechnicalTeam 2s forwards;
+  }
+
+  .hideTeam {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-animation: slideOutMarketingTeam 1s forwards;
+    animation: slideOutMarketingTeam 1s forwards;
+  }
+
+  .col-2 {
+    width: 0;
+  }
+}
+#businessTeam {
+  position: relative;
+  display: none;
+  z-index: 1;
+
+  .displayTeam {
+    position: absolute !important;
+    top: -316px;
+    left: 405px;
+    -webkit-animation: slideInTechnicalTeam 2s forwards;
+    animation: slideInTechnicalTeam 2s forwards;
+  }
+
+  .hideTeam {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-animation: slideOutBusinessTeam 1s forwards;
+    animation: slideOutBusinessTeam 1s forwards;
+  }
+
+  .col-2 {
+    width: 0;
+  }
+}
+@keyframes slideInTechnicalTeam {
   0% {
     top: -316px;
     right: 50%;
@@ -159,7 +217,7 @@ img {
   }
 }
 
-@keyframes slideOutTeam {
+@keyframes slideOutTechnicalTeam {
   0% {
     top: 0;
     left: 0;
@@ -179,14 +237,51 @@ img {
     opacity: 0;
   }
 }
-.selectionButton {
-  position: relative;
-  z-index: 99999;
-
-  img {
-    cursor: pointer;
+@keyframes slideOutMarketingTeam {
+  0% {
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  25% {
+    right: 0;
+  }
+  50% {
+    top: 0;
+    right: 0;
+  }
+  100% {
+    top: -316px;
+    left: 150px;
+    right: 90%;
+    opacity: 0;
   }
 }
+@keyframes slideOutBusinessTeam {
+  0% {
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  25% {
+    right: 0;
+  }
+
+  50% {
+    top: 0;
+    right: 0;
+  }
+
+  100% {
+    top: -316px;
+    left: 405px;
+    right: 90%;
+    opacity: 0;
+  }
+}
+
+
 //Responsive design
 @media screen and (max-width: 1024px) {
   #bg {
