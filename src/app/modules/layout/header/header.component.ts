@@ -31,7 +31,10 @@ export class HeaderComponent implements OnInit {
     this.ClearNavigationHighLight();
     this.router.navigate([selector]);
     this.AdjustLanguageButton(selector);
-    if (selector == 'mobApp') {
+    if (selector == "about-us" || selector == "about-us/about-team") { // highlight about dropdown
+      document.getElementById('about').classList.add('active');
+    }
+    else if (selector == 'mobApp') {
       document.getElementById('products').classList.add('active');
     }
     else {

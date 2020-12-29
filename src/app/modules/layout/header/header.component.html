@@ -12,10 +12,16 @@
       <li class="nav-item" id="home">
         <a class="nav-link" (click)="Navigate('home')">Home <span class="sr-only">(current)</span></a>
       </li>
-      <li class="nav-item" id="about-us">
-        <a class="nav-link" (click)="Navigate('about-us')">About</a>
+      <li class="nav-item dropdown" id="about">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          About
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" (click)="Navigate('about-us')">About The Company</a>
+          <a class="dropdown-item" (click)="Navigate('about-us/about-team')">About The Team</a>
+        </div>
       </li>
-      <li class="nav-item dropdown disabled">
+      <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Services
         </a>
@@ -26,14 +32,14 @@
         </div>
       </li>
       <li class="nav-item dropdown" id="products">
-        <a class="nav-link dropdown-toggle" href="#"  role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Products
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <!--<div class="dropdown-divider"></div>-->
           <a class="dropdown-item" (click)="Navigate('products')">ERP</a>
           <a class="dropdown-item" (click)="Navigate('products')">CRM</a>
-          <a class="dropdown-item"  (click)="Navigate('mobApp')">Mobile Application</a>
+          <a class="dropdown-item" (click)="Navigate('mobApp')">Mobile Application</a>
           <a class="dropdown-item" (click)="Navigate('products')">Website Platform</a>
         </div>
       </li>

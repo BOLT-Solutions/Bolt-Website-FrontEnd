@@ -9,13 +9,13 @@ import { SharedModule } from '../shared/shared.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { RouterModule } from '@angular/router';
 import { HomeComponent } from '../home/home.component';
-import { AboutUsComponent } from '../about-us/about-us.component';
 import { NewsComponent } from '../news/news.component';
 import { ContactUsComponent } from '../contact-us/contact-us.component';
 import { SpecificNewComponent } from '../specific-new/specific-new.component';
 import { MobileAppComponent } from '../mobile-app/mobile-app.component';
 import { WebPlatformComponent } from '../web-platform/web-platform.component';
 import { ERPComponent } from '../erp/erp.component';
+import { AboutUsModule } from '../about-us/about-us.module';
 
 
 @NgModule({
@@ -24,7 +24,6 @@ import { ERPComponent } from '../erp/erp.component';
     HeaderComponent,
     FooterComponent,
     HomeComponent,
-    AboutUsComponent,
     NewsComponent,
     SpecificNewComponent,
     ContactUsComponent,
@@ -37,6 +36,7 @@ import { ERPComponent } from '../erp/erp.component';
     FormsModule,
     ReactiveFormsModule,
     LayoutRoutingModule,
+    AboutUsModule,
     SharedModule
   ]
 })
