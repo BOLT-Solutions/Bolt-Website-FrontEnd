@@ -8,6 +8,14 @@ import {ContactUsComponent } from '../contact-us/contact-us.component';
 import { MobileAppComponent } from '../mobile-app/mobile-app.component';
 import { WebPlatformComponent } from '../web-platform/web-platform.component';
 import { ERPComponent } from '../erp/erp.component';
+import { AtmComponent } from '../atm/atm.component';
+import { CdnComponent } from '../cdn/cdn.component';
+import { TailoredSolutionsComponent } from '../tailored-solutions/tailored-solutions.component';
+import { DigitalTransformationComponent } from '../digital-transformation/digital-transformation.component';
+import { BOLTSALONComponent } from '../boltsalon/boltsalon.component';
+import { BoltErpComponent } from '../bolt-erp/bolt-erp.component';
+import { BOLTDOCTORComponent } from '../boltdoctor/boltdoctor.component';
+import { BOLTRESTAURANTComponent } from '../boltrestaurant/boltrestaurant.component';
 
 
 const routes: Routes = [
@@ -24,6 +32,15 @@ const routes: Routes = [
       { path: 'mobApp', component: MobileAppComponent },
       { path: 'web', component: WebPlatformComponent },
       { path: 'erp', component: ERPComponent },
+      { path: 'atm', component: AtmComponent },
+      { path: 'cdn', component: CdnComponent },
+      { path: 'tailoredSolution', component: TailoredSolutionsComponent },
+      { path: 'digital', component: DigitalTransformationComponent },
+      { path: 'salon', component: BOLTSALONComponent },
+      { path: 'bolterp', component: BoltErpComponent },
+      { path: 'doctor', component: BOLTDOCTORComponent },
+      { path: 'restaurant', component: BOLTRESTAURANTComponent },
+
 
 
       { path: '', redirectTo: 'home', pathMatch: 'full' } //default redirect to desired child component on routing module call
