@@ -92,63 +92,97 @@ img {
   }
 }
 
-#teams{
-    padding-bottom: 600px;
-    .img-container{
-        img{
-            width:200px;
-            height:300px;
-            object-fit:contain;
-        }
-    }
-    p{
-        font-size:22px !important;
-    }
+#teams {
+  padding-bottom: 600px;
 
+  .img-container {
+    img {
+      width: 200px;
+      height: 300px;
+      object-fit: contain;
+    }
+  }
+
+  p {
+    font-size: 22px !important;
+  }
 }
+
 #dynamicTeam {
   position: relative;
   display: none;
+  z-index: 1;
 
-  .row {
-    position: absolute;
+  .displayTeam {
+    position: absolute !important;
     top: -316px;
     left: -90px;
-    -webkit-animation: slideTeam 3s forwards;
-    animation: slideTeam 3s forwards;
+    -webkit-animation: slideInTeam 2s forwards;
+    animation: slideInTeam 2s forwards;
+  }
+
+  .hideTeam {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-animation: slideOutTeam  1s forwards;
+    animation: slideOutTeam 1s forwards;
   }
 
   .col-2 {
     width: 0;
-    -webkit-animation: slideTeamCol 3s forwards;
-    animation: slideTeamCol 3s forwards;
+    /*    -webkit-animation: slideTeamCol 3s forwards;
+    animation: slideTeamCol 3s forwards;*/
   }
 }
-@keyframes slideTeam {
+
+@keyframes slideInTeam {
+  0% {
+    top: -316px;
+    right: 50%;
+  }
+
+  25% {
+    top: 0;
+    right: 0;
+  }
+
   50% {
-      right: 0;
+    right: 0;
   }
-  70%{
-      top:0;
-  }
+
   100% {
     top: 0;
     left: 0;
     right: 0;
   }
 }
-@keyframes slideTeamCol {
-  50% {
-      width: 3%;
+
+@keyframes slideOutTeam {
+  0% {
+    top: 0;
+    left: 0;
+    right: 0;
   }
-  70%{
-      width:7%;
+  25% {
+    right: 0;
+  }
+  50% {
+    top: 0;
+    right: 0;
   }
   100% {
-    width: 10%;
+    top: -316px;
+    left: -100px;
+    right: 90%;
+    opacity: 0;
   }
 }
 .selectionButton {
+  position: relative;
+  z-index: 99999;
+
   img {
     cursor: pointer;
   }
