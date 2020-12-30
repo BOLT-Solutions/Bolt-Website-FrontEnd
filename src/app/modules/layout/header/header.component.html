@@ -17,18 +17,22 @@
           About
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" (click)="Navigate('about-us')">About The Company</a>
-          <a class="dropdown-item" (click)="Navigate('about-us/about-team')">About The Team</a>
+          <a class="dropdown-item" (click)="Navigate('about-us')">  Company</a>
+          <a class="dropdown-item" (click)="Navigate('about-us/about-team')">  Team</a>
         </div>
       </li>
-      <li class="nav-item dropdown">
+      <li class="nav-item dropdown" id="services">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Services
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" (click)="Navigate('services')">Action</a>
-          <a class="dropdown-item" (click)="Navigate('services')">Another action</a>
-          <a class="dropdown-item" (click)="Navigate('services')">Something else here</a>
+          <a class="dropdown-item" (click)="Navigate('ERP')">ERO</a>
+          <a class="dropdown-item" (click)="Navigate('web')">Website Platform</a>
+          <a class="dropdown-item" (click)="Navigate('MobileApp')">Mobile Application</a>
+          <a class="dropdown-item" (click)="Navigate('ATM')">ATM</a>
+          <a class="dropdown-item" (click)="Navigate('DCN')">Data Center Network</a>
+          <a class="dropdown-item" (click)="Navigate('DigitalTransformation')">Digital Transformation</a>
+          <a class="dropdown-item" (click)="Navigate('TaileredSolution')">Tailered Solution</a>
         </div>
       </li>
       <li class="nav-item dropdown" id="products">
@@ -37,10 +41,10 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <!--<div class="dropdown-divider"></div>-->
-          <a class="dropdown-item" (click)="Navigate('products')">ERP</a>
-          <a class="dropdown-item" (click)="Navigate('products')">CRM</a>
-          <a class="dropdown-item" (click)="Navigate('mobApp')">Mobile Application</a>
-          <a class="dropdown-item" (click)="Navigate('products')">Website Platform</a>
+          <a class="dropdown-item" (click)="Navigate('BoltDoctor')">Bolt Doctor</a>
+          <a class="dropdown-item" (click)="Navigate('BoltSalon')">Bolt Salon</a>
+          <a class="dropdown-item" (click)="Navigate('BoltRestaurant')">Bolt restaurant</a>
+          <a class="dropdown-item" (click)="Navigate('BoltERP')">Bolt ERP</a>
         </div>
       </li>
       <li class="nav-item" id="contact-us">

@@ -1,5 +1,5 @@
 .navbar-brand {
-  width: 200px;
+  width: 160px;
   margin-right: 4rem;
   cursor: pointer;
   transition: all 0.5s;
@@ -15,7 +15,9 @@
 nav {
   background: none !important;
 }
-
+li {
+  margin: 18px;
+}
 .btn-outline-primary {
   border-color: white;
   color: white;
@@ -23,8 +25,8 @@ nav {
 }
 
 .nav-link {
-  font-size: 26px;
-  margin: 18px;
+  font-size: 23px;
+  
   cursor: pointer;
   font-family: 'CenturyGothic', sans-serif;
   transition: all 0.5s;
@@ -33,6 +35,10 @@ nav {
   -o-transition: all 0.5s;
 }
 
+#about .nav-link:focus, #products .nav-link:focus, #services .nav-link:focus {
+  background-color: rgba(0, 0, 0, 0.6);
+  transform: scale(1.05);
+}
 .lang-blue {
   border-radius: 14px;
   border-color: #759fdb !important;
@@ -53,14 +59,42 @@ nav {
 
 //Override dropdown menu style
 .dropdown-menu {
-  top: 63%;
-  left: 5px;
+  top: 73px;
+  left: 10px;
+  padding: 9px;
+  background-color: rgba(0,0,0,0.6);
+}
+#products .dropdown-menu {
+  top: 50px;
+  left: -8px;
+  padding: 0!important;
   background-color: rgba(0,0,0,0.6);
 }
 
-.dropdown-toggle:focus {
-  border-bottom: 2px solid lightgrey;
+#services .dropdown-menu {
+  top: 50px;
+  left: -10px;
+  padding: 2px !important;
+  background-color: rgba(0,0,0,0.6);
 }
+#about .dropdown-menu {
+  top: 50px;
+  left: -6px;
+  padding: 0!important;
+  min-width: 8.8rem;
+  background-color: rgba(0,0,0,0.6);
+}
+#about .nav-link {
+  padding-right: 18px;
+}
+#about .dropdown-item {
+  padding: 0.3rem 1rem !important;
+}
+
+#services .dropdown-item {
+  padding: .3rem 0rem !important;
+}
+
 
 .dropdown-item {
   color: #ffff;
@@ -69,7 +103,7 @@ nav {
 
 .dropdown-item:hover {
   background-color: transparent !important;
-  transform: scale(1.05);
+  transform: scale(1.15);
 }
 //Transitions and animations
 .navbar-brand:hover {
