@@ -45,7 +45,7 @@ export class HeaderComponent implements OnInit {
     else {
       document.getElementById(selector).classList.add('active'); // Add active class
     }
-    if (window.screen.width < 999) {
+    if (window.screen.width < 1025) {
       document.getElementById('responsiveButton').click();
     }
   }
