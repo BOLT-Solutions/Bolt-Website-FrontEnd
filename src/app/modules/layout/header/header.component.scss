@@ -153,8 +153,25 @@ li {
   .navbar-dark .navbar-toggler {
     border: none !important;
   }
+  li
+  {
+      margin:unset !important;
+  }
+  #about .dropdown-item{
+    padding: 0.3rem 5.8rem !important;
+  }
+  #services .dropdown-item {
+    padding: 0.3rem 5.8rem !important;
+  }
+  #products .dropdown-item {
+    padding: 0.3rem 5.8rem !important;
+  }
 }
-
+@media only screen and (max-device-width: 350px) {
+  li {
+    margin: 5px !important;
+  }
+}
 nav .collapse.show {
 
 }
