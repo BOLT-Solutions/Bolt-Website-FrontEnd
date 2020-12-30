@@ -9,7 +9,7 @@
 }
 
 .fixed-top {
-  position: absolute !important;
+  position: absolute;
 }
 //Override Nav default color
 nav {
@@ -128,9 +128,21 @@ li {
   -o-transition: all 0.5s;
 }
 
-@media screen and (max-width: 700px) {
-
+@media screen and (max-width: 992px) {
+  .navbarSupportedContent {
+    background-color: rgba(0,0,0,0.8) !important;
+  }
   .navbar-brand {
     width: 100px;
   }
+  .fixed-top{
+      position: fixed !important;
+  }
+  footer.row{
+      margin:0!important;
+  }
+}
+
+nav .collapse.show {
+
 }
