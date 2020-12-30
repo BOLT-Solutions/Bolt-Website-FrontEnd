@@ -419,7 +419,7 @@ section {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width:900px) {
   .selectBusinessType {
     width: 81%;
     margin-top: -28px;
