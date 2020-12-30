@@ -37,15 +37,17 @@ export class HeaderComponent implements OnInit {
     else if (selector == 'MobileApp' || selector == 'ERP' || 
       selector == 'web' || selector == 'DCN' || selector == 'TailoredSolution' ||
       selector == 'DigitalTransformation' || selector == 'ATM' ) {
-      document.getElementById('products').classList.add('active');
+      document.getElementById('services').classList.add('active');
     }
     else if (selector == 'BoltSalon' || selector == 'BoltDoctor' || selector == 'BoltRestaurant' || selector == 'BoltERP') {
-      document.getElementById('services').classList.add('active');
+      document.getElementById('products').classList.add('active');
     }
     else {
       document.getElementById(selector).classList.add('active'); // Add active class
     }
-
+    if (window.screen.width < 999) {
+      document.getElementById('responsiveButton').click();
+    }
   }
 
 
@@ -68,5 +70,17 @@ export class HeaderComponent implements OnInit {
         return;
       }
     }
+  }
+
+  //MobileDropDown
+  ViewNavBar() {
+    var nav = document.getElementById('nav');
+    if (nav.classList.contains('NavbarDropMobile')) {
+      nav.classList.remove('NavbarDropMobile');
+    }
+    else {
+      nav.classList.add('NavbarDropMobile');
+    }
+
   }
 }

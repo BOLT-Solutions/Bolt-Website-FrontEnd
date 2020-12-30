@@ -11,7 +11,7 @@ export class AboutTeamComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-
+    this.DisplayTeam('technicalTeam');
   }
 
   DisplayTeam(selectedTeam) {

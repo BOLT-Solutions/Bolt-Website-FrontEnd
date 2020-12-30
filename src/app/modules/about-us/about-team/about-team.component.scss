@@ -285,7 +285,7 @@ img {
 //Responsive design
 @media screen and (max-width: 1024px) {
   #bg {
-    background: url("../../../../assets/img/about_bg_mobile.png") no-repeat 0 0;
+    background: url("../../../../assets/img/team/about-teamBG.png") no-repeat 0 0;
     height: 40vh;
     background-size: contain;
     /*background-position: center;*/
@@ -330,17 +330,21 @@ img {
 @media screen and (max-width: 700px) {
 
   #bg {
-    background: url("../../../../assets/img/about_bg_mobile.png") no-repeat 0 0;
-    height: 33vh;
-    background-size: contain;
-    /*background-position: center;*/
+    background: url("../../../../assets/img/team/about-teamBG.png") no-repeat 0 0;
+    height: 43vh;
+    background-size: cover;
+    background-position: center;
+    background-color: #e8e8e9;
   }
 
   #content {
 
     h1 {
-      font-size: 20px;
+      font-size: 18px;
+      width: 246px;
     }
+
+
   }
 
   .mr-5 {
@@ -377,31 +381,34 @@ img {
 
     h2 {
       margin: 0 auto;
-      width: 220px;
-      text-align: left;
       font-size: 20px;
+    }
+
+    p {
+      padding-top: .8rem !important;
+      font-size: 14px;
+      margin: 0 auto;
     }
 
     h1 {
       padding-top: 20px;
       padding-left: 15px;
       font-size: 22px;
+      font-weight: 600;
     }
 
     h3 {
       padding-left: 15px;
-      font-size: 14px;
+      font-size: 16px;
     }
 
+    .img-container {
 
-
-    p {
-      width: 220px;
-      padding-top: .8rem !important;
-      padding-right: 0 !important;
-      text-align: left;
-      font-size: 14px;
-      margin: 0 auto;
+      img {
+        width: 180px;
+        height: 200px;
+        object-fit: contain;
+      }
     }
 
     img {
@@ -411,6 +418,33 @@ img {
 
     .mb-5 {
       margin-bottom: 1.8rem !important;
+    }
+  }
+  #teams {
+    padding-bottom: 800px;
+
+    .img-container {
+      img {
+        width: 180px;
+        height: 200px;
+        object-fit: contain;
+      }
+    }
+
+    h2 {
+      margin: 0 auto;
+      font-size: 20px;
+    }
+
+    p {
+      padding-top: .8rem !important;
+      font-size: 14px !important;
+      margin: 0 auto;
+    }
+  }
+  .selectionButton {
+    img {
+      width: 100px !important;
     }
   }
 }
