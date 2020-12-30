@@ -142,11 +142,16 @@ li {
     bottom: 0;
     background-color: rgba(0,0,0,0.8) !important;
     text-align: center;
-    #langButton{
-        margin: 0 auto;
+
+    #langButton {
+      margin: 0 auto;
     }
-    .nav-link{
-        font-size: 26px;
+
+    .nav-link {
+      font-size: 26px;
     }
+  }
+  .navbar-dark .navbar-toggler {
+    border: none !important;
   }
 }
