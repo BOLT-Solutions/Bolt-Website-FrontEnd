@@ -74,7 +74,7 @@ header {
     width: 968px;
     height: 192px;
     margin: 100px 262px 76.2px 30px;
-    font-size: 47px;
+    font-size: 41px;
     font-weight: bold;
     font-stretch: normal;
     font-style: normal;
@@ -208,7 +208,7 @@ header {
 //Responsive
 
 //Mobile View
-@media only screen and (max-device-width: 450px) {
+@media only screen and (max-device-width: 1024px) {
   header {
     h1 {
       width: 250px;

@@ -283,51 +283,8 @@ img {
 
 
 //Responsive design
+
 @media screen and (max-width: 1024px) {
-  #bg {
-    background: url("../../../../assets/img/team/about-teamBG.png") no-repeat 0 0;
-    height: 40vh;
-    background-size: contain;
-    /*background-position: center;*/
-  }
-
-  #content {
-
-    h1 {
-      font-size: 38px;
-    }
-
-    p {
-      display: none;
-    }
-  }
-
-  #contentImg {
-    display: none;
-  }
-
-  .mt-5 {
-    margin-top: 0 !important;
-  }
-
-  #siteContent {
-    padding-top: 0 !important;
-
-    h3 {
-      font-size: 30px;
-    }
-
-    h1 {
-      font-size: 24px;
-    }
-
-    p {
-      font-size: 20px;
-    }
-  }
-}
-
-@media screen and (max-width: 700px) {
 
   #bg {
     background: url("../../../../assets/img/team/about-teamBG.png") no-repeat 0 0;
