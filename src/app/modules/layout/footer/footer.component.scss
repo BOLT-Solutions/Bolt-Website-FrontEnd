@@ -5,7 +5,7 @@ footer {
   overflow:hidden;
 }
 // Custom Bolt Footer
-
+      
 h6 {
   b {
     font-size: 24px;
@@ -17,8 +17,46 @@ h6 {
   color: #4e72ff !important;
 }
 li {
-  padding-bottom:7%;
+  padding-bottom:10px;
   color: rgba(255, 255, 255, 0.64);
-  font-size:24px;
+  font-size:22px;
   cursor: pointer;
+}
+
+
+@media screen and (max-width: 992px) {
+
+  footer .row {
+    margin: 0 !important;
+    p{
+        width:auto !important;
+    }
+  }
+  .custom {
+    padding-left: 20px!important;
+    
+  }
+  .customText{
+      display:none;
+  }
+
+  h6 {
+    b {
+      font-size: 20px;
+    }
+
+  }
+
+  li {
+    padding-bottom: 10px;
+    font-size: 18px;
+  }
+  .navbar-brand {
+    margin-bottom: 1rem !important;
+    width: 135px;
+  }
+
+}
+.custom {
+  padding-left: 106px
 }
