@@ -148,17 +148,23 @@ main {
   }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1024px)and (min-width: 800px) {
+  #bg {
+    height: 390px;
+  }
+
+  .benefit-inner {
+    height: 234px !important;
+  }
 }
 
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 800px) {
   #bg {
-    height: 40vh;
+    height: 270px;
     background-size: cover;
     background-position: center;
   }
-
 
 
   @keyframes secondDivOfLatestNewsAnimation {
