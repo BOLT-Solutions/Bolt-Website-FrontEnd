@@ -79,6 +79,7 @@ section {
     ::placeholder {
       color: #848484;
       font-family: 'Mulish', sans-serif;
+     font-size:14px;
     }
 
     .message-box {
@@ -112,7 +113,13 @@ section {
   max-width:600px ;
   max-height:450px;
   box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 0.16);
+  
 
+}
+.mapBox1 {
+  max-width: 600px;
+  max-height: 450px;
+  box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 0.16);
 }
 .mapSection
 {
@@ -240,62 +247,6 @@ section {
 //contact-data
 //contact-submit
 
-
-@media all and (max-width: 480px) {
-  .svg-icons {
-    width: 26px;
-  }
-
-  .contact-data {
-    font-size: 13px;
-  }
-
-  .contact-submit {
-    width: 60% !important;
-    font-size: 20px !important;
-  }
-
-  .contact-header {
-    font-size: 1.8rem;
-  }
-
-  .contact-body {
-    font-size: 20px !important;
-  }
-
-  .contact-form {
-    margin: 0 !important;
-  }
-
-  input {
-    font-size: 15px !important;
-  }
-}
-
-@media all and (max-width: 320px) {
-  .svg-icons {
-    width: 24px;
-  }
-
-  .contact-data {
-    font-size: 11px;
-  }
-
-  .contact-body {
-    font-size: 16px !important;
-  }
-}
-
-@media all and (width:540px) {
-  .svg-icons {
-    width: 25px;
-  }
-
-  .contact-data {
-    font-size: 14px;
-  }
-}
-
 .textInputStatusValue {
   position: relative;
   z-index: 8;
@@ -329,3 +280,184 @@ section {
   margin-top:2%;
 }
 
+.Mapfram {
+  width: 100%;
+  height: 100%;
+}
+
+.mapBox1
+{
+    margin-left:3%;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .contact-img {
+    height: 48vh !important;
+  }
+
+  .contact-section {
+    padding-top: unset;
+  }
+
+  .contactHeading {
+    font-size: 27px;
+  }
+
+  .contactBody {
+    font-size: 17px;
+    width: 83%;
+  }
+
+  .contact-data {
+    margin-top: 13%;
+    margin-left: 8%;
+    font-size: 15px;
+  }
+
+  .container-fluid {
+    padding-right: 2px;
+    padding-left: 2px;
+  }
+
+  .selectBusinessType {
+    width: 88%;
+    margin-top: -22px;
+  }
+
+  .valueOfStatus {
+    padding-top: 3.2%;
+    padding-bottom: 5%;
+  }
+
+  .contact-form {
+    input {
+    }
+
+    ::placeholder {
+      font-size: 14px;
+    }
+  }
+
+  .contact-submit {
+    height: 50px !important;
+  }
+
+  .Mapfram {
+    width: 100%;
+    height: 100%;
+  }
+
+  .mapBox {
+    width: 90%;
+    margin-bottom:16%;
+  }
+  .mapBox1 {
+    width: 90%;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 3%;
+    margin-bottom: 16%;
+  }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) and (max-width:800px) {
+ .contact-img
+ {
+     height:26vh;
+ }
+ .text-center
+ {
+     margin-top:unset !important;
+ }
+ .container-fluid
+ {
+     padding:unset !important;
+     margin:unset!important;
+ }
+ .socialSection
+ {
+     width:100%;
+ }
+  .contact-data {
+    margin-left: 7%;
+    font-size: 19px;
+    margin-top: 11%;
+  }
+  .contactHeading
+  {
+      font-size:35px;
+  }
+
+  
+  .selectBusinessType {
+    width: 88%;
+    margin-top: -22px;
+  }
+
+  .valueOfStatus {
+    padding-top: 3.2%;
+    padding-bottom: 5%;
+  }
+  .mapBox {
+    max-width: 360px;
+    max-height: 250px;
+    box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 0.16);
+    margin-left:3%;
+  }
+
+  .mapBox1 {
+    max-width: 360px;
+    max-height: 250px;
+    box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 0.16);
+  }
+  .mapSection{
+      margin-top:7% !important;
+      margin-bottom:13% !important;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width:900px) {
+  .selectBusinessType {
+    width: 81%;
+    margin-top: -28px;
+  }
+
+  .valueOfStatus {
+    padding-top: 3.2%;
+    padding-bottom: 5%;
+  }
+
+  .mapBox {
+    max-width: 500px;
+    max-height: 250px;
+    box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 0.16);
+    margin-left: 3%;
+  }
+
+  .mapBox1 {
+    max-width: 500px;
+    max-height: 250px;
+    box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 0.16);
+  }
+
+  .mapSection {
+    margin-top: 7% !important;
+    margin-bottom: 13% !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+ 
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+ 
+}
