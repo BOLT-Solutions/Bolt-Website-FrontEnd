@@ -284,6 +284,26 @@ img {
 
 //Responsive design
 
+@media only screen and (max-device-width: 350px) {
+  #bg {
+    height: 63vh !important;
+    background-color: #e8e8e9;
+    background-size: cover;
+    background-position: center;
+  }
+  .img-container {
+    img {
+      width: 120px !important;
+      height: 180px !important;
+      object-fit: contain;
+    }
+  }
+  .selectionButton {
+    img {
+      width: 80px !important;
+    }
+  }
+}
 @media screen and (max-width: 1024px) {
 
   #bg {
