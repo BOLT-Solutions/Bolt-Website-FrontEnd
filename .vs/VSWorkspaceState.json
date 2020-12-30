@@ -4,11 +4,9 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\modules",
-    "\\src\\app\\modules\\news",
-    "\\src\\assets",
-    "\\src\\assets\\designer-assets",
-    "\\src\\assets\\img"
+    "\\src\\app\\modules\\layout",
+    "\\src\\app\\modules\\layout\\layout"
   ],
-  "SelectedNode": "\\src\\assets\\img\\mobbg.png",
+  "SelectedNode": "\\src\\app\\modules\\layout\\layout",
   "PreviewInSolutionExplorer": false
 }
