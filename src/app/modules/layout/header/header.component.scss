@@ -9,12 +9,13 @@
 }
 
 .fixed-top {
-  position: absolute !important;
+  position: absolute;
 }
 //Override Nav default color
 nav {
   background: none !important;
 }
+
 li {
   margin: 18px;
 }
@@ -129,8 +130,23 @@ li {
 }
 
 @media screen and (max-width: 700px) {
-
+  
+  .navbar {
+    background-color: rgba(0,0,0,0.6);
+  }
   .navbar-brand {
     width: 100px;
+  }
+  .NavbarDropMobile {
+    position: fixed !important;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8) !important;
+    text-align: center;
+    #langButton{
+        margin: 0 auto;
+    }
+    .nav-link{
+        font-size: 26px;
+    }
   }
 }
