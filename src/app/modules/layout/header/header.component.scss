@@ -15,6 +15,7 @@
 nav {
   background: none !important;
 }
+
 li {
   margin: 18px;
 }
@@ -128,18 +129,25 @@ li {
   -o-transition: all 0.5s;
 }
 
-@media screen and (max-width: 992px) {
-  .navbarSupportedContent {
-    background-color: rgba(0,0,0,0.8) !important;
+@media screen and (max-width: 700px) {
+  
+  .navbar {
+    background-color: rgba(0,0,0,0.6);
   }
   .navbar-brand {
     width: 100px;
   }
-  .fixed-top{
-      position: fixed !important;
-  }
-  footer.row{
-      margin:0!important;
+  .NavbarDropMobile {
+    position: fixed !important;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.8) !important;
+    text-align: center;
+    #langButton{
+        margin: 0 auto;
+    }
+    .nav-link{
+        font-size: 26px;
+    }
   }
 }
 
