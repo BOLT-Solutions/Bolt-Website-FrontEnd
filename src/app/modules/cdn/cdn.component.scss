@@ -8,8 +8,6 @@ main {
   background-size: cover;
 }
 
-
-
 #desc {
   margin-top: 40px;
 
@@ -101,7 +99,7 @@ main {
 
   .benefit-inner {
     width: 96%;
-    height: 40vh;
+    height: 260px;
     padding: 5% 4%;
     border-radius: 24px;
     transition: transform 0.8s ease-in-out;
@@ -148,101 +146,109 @@ main {
   }
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1024px)and (min-width: 800px) {
+  #bg {
+    height: 390px;
+  }
+
+  .benefit-inner {
+    height: 234px !important;
+  }
 }
 
 
-@media screen and (max-width: 700px) {
-  #bg {
-    height: 40vh;
-    background-size: cover;
-    background-position: center;
-  }
 
-
-
-  @keyframes secondDivOfLatestNewsAnimation {
-
-    100% {
-      transform: translateX(0);
-    }
-  }
-
-  #desc {
-    margin-top: 40px;
-
-    h1 {
-      font-size: 24px;
+  @media screen and (max-width: 800px) {
+    #bg {
+      height: 270px;
+      background-size: cover;
+      background-position: center;
     }
 
-    p {
-      font-size: 14px;
-    }
-  }
 
 
-  #benefits {
-    padding-left: 4rem;
-    padding-right: 4rem;
+    @keyframes secondDivOfLatestNewsAnimation {
 
-    img {
-      width: 60px;
+      100% {
+        transform: translateX(0);
+      }
     }
 
-    h1 {
-      font-size: 1.6rem;
-      margin-bottom: 10px;
-    }
+    #desc {
+      margin-top: 0;
 
-    h2 {
-      padding-top: 20px;
-      font-size: 20px;
-    }
+      h1 {
+        font-size: 24px;
+      }
 
-    p {
-      padding-left: 40px;
-      font-size: 16px;
-    }
-
-    .benefit {
-      perspective: 300px;
-    }
-
-    .benefit-img {
-      height: 7vh;
-      background-position: bottom;
-    }
-
-    .benefit-inner {
-      height: 26vh;
-      padding: 5% 5%;
-      border-radius: 24px;
-    }
-
-    .benefit:hover .benefit-inner {
       p {
-        color: #8d8d8d !important;
+        font-size: 14px;
+      }
+    }
+
+
+    #benefits {
+      padding-left: 4rem;
+      padding-right: 4rem;
+
+      img {
+        width: 60px;
+      }
+
+      h1 {
+        font-size: 1.6rem;
+        margin-bottom: 10px;
       }
 
       h2 {
-        color: #454545 !important;
+        padding-top: 20px;
+        font-size: 20px;
       }
 
-      box-shadow: none;
-      background-color: transparent;
-      transform: rotateY(0);
-      transition: transform 0.8s ease-in-out;
-    }
+      p {
+        padding-left: 40px;
+        font-size: 16px;
+      }
 
-    .benefit:hover .benefit-img {
-      height: 7vh;
-      background: url("../../../assets/img/icons/icon2.png") no-repeat 0 0;
-      background-size: 40px 40px;
-      background-position: bottom;
-    }
+      .benefit {
+        perspective: 300px;
+      }
 
-    .py-4 {
-      padding-top: 0 !important;
+      .benefit-img {
+        height: 7vh;
+        background-position: bottom;
+      }
+
+      .benefit-inner {
+        height: 234px;
+        padding: 5% 5%;
+        border-radius: 24px;
+      }
+
+      .benefit:hover .benefit-inner {
+        p {
+          color: #8d8d8d !important;
+        }
+
+        h2 {
+          color: #454545 !important;
+        }
+
+        box-shadow: none;
+        background-color: transparent;
+        transform: rotateY(0);
+        transition: transform 0.8s ease-in-out;
+      }
+
+      .benefit:hover .benefit-img {
+        height: 7vh;
+        background: url("../../../assets/img/icons/icon2.png") no-repeat 0 0;
+        background-size: 40px 40px;
+        background-position: bottom;
+      }
+
+      .py-4 {
+        padding-top: 0 !important;
+      }
     }
   }
-}
