@@ -155,7 +155,11 @@ li {
     border: none !important;
   }
 }
-
+@media only screen and (max-device-width: 350px) {
+  li {
+    margin: 5px !important;
+  }
+}
 nav .collapse.show {
 
 }
