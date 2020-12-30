@@ -90,6 +90,7 @@ export class ImageSliderComponent implements OnInit {
   ViewItem(galleryItemId) {
     //Store id in local storage
     localStorage.setItem('galleryId', galleryItemId);
-    this.router.navigate(['about-us']);
+    this.router.navigate(['specificNew']);
+    window.scroll(0,0)
   }
 }
