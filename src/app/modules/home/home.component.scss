@@ -124,7 +124,6 @@ header {
 .title-list {
   display: inline-block;
   width: 100%;
-  text-align: center;
 
   .active {
     font-weight: 800 !important;
@@ -164,8 +163,7 @@ header {
 .title-list::after {
   content: "";
   display: block;
-  width: 80%;
-  margin: 0 auto;
+  width: 90%;
   padding-top: 10px;
   border-bottom: solid 0.5px rgba(70, 70, 70, 0.83);
 }
@@ -213,7 +211,7 @@ header {
     color: #232D37;
     font-weight: 300;
     font-size: 26px;
-    margin-top: 30px;
+    margin: 0 auto;
     text-align: left;
   }
 }
