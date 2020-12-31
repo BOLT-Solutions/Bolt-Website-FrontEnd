@@ -27,7 +27,7 @@ li {
 
 .nav-link {
   font-size: 23px;
-  
+  padding: 0;
   cursor: pointer;
   font-family: 'CenturyGothic', sans-serif;
   transition: all 0.5s;
@@ -37,8 +37,8 @@ li {
 }
 
 #about .nav-link:focus, #products .nav-link:focus, #services .nav-link:focus {
-  background-color: rgba(0, 0, 0, 0.6);
-  transform: scale(1.05);
+  /*  background-color: rgba(0, 0, 0, 0.6);*/
+    border-bottom: solid 0.5px lightgrey;
 }
 .lang-blue {
   border-radius: 14px;
@@ -66,24 +66,31 @@ li {
   background-color: rgba(0,0,0,0.6);
 }
 #products .dropdown-menu {
-  top: 50px;
-  left: -8px;
-  padding: 0!important;
-  background-color: rgba(0,0,0,0.6);
+  top: -3px;
+  left: -26px;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1 !important;
+  padding-top: 40px;
+}
+#navbarDropdown {
+  z-index: 999999 !important;
+  position: relative !important;
 }
 
+
 #services .dropdown-menu {
-  top: 50px;
-  left: -10px;
-  padding: 2px !important;
-  background-color: rgba(0,0,0,0.6);
+  top: -3px;
+  left: -26px;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1 !important;
+  padding-top: 40px;
 }
 #about .dropdown-menu {
-  top: 50px;
-  left: -6px;
-  padding: 0!important;
-  min-width: 8.8rem;
-  background-color: rgba(0,0,0,0.6);
+  top: -3px;
+  left: -26px;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1 !important;
+  padding-top: 40px;
 }
 #about .nav-link {
   padding-right: 18px;
@@ -104,7 +111,6 @@ li {
 
 .dropdown-item:hover {
   background-color: transparent !important;
-  transform: scale(1.15);
 }
 //Transitions and animations
 .navbar-brand:hover {
@@ -137,6 +143,14 @@ li {
   .navbar-brand {
     width: 100px;
   }
+  .dropdown-menu{
+      background-color: transparent !important;
+      padding: 0 !important;
+      border: none !important;
+  }
+  #about .nav-link:focus, #products .nav-link:focus, #services .nav-link:focus {
+    border-bottom: none;
+  }
   .NavbarDropMobile {
     position: fixed !important;
     bottom: 0;
@@ -154,11 +168,14 @@ li {
   .navbar-dark .navbar-toggler {
     border: none !important;
   }
-  li
+  #navbarSupportedContent{
+      padding-bottom: 30%;
+  }
+  /*  li
   {
       margin:unset !important;
-  }
-  #about .dropdown-item{
+  }*/
+  #about .dropdown-item {
     padding: 0.3rem 5.8rem !important;
   }
   #services .dropdown-item {
@@ -168,7 +185,20 @@ li {
     padding: 0.3rem 5.8rem !important;
   }
 }
+@media only screen and (max-device-width: 360px) {
+  li {
+    margin: 5px !important;
+  }
+  .dropdown-menu {
+    background-color: transparent !important;
+    padding: 0 !important;
+    border: none !important;
+  }
 
+  #about .nav-link:focus, #products .nav-link:focus, #services .nav-link:focus {
+    border-bottom: none;
+  }
+}
 nav .collapse.show {
 
 }

@@ -62,7 +62,7 @@ export class ImageSliderComponent implements OnInit {
       {
         id: 1,
         title: 'Identifying the need',
-        content: 'On this stage we communicate with the client to know more about his company and',
+        content: 'On this stage we communicate with the client to know more about his company',
         imagePath: 'solution2.jpg'
       },
       {

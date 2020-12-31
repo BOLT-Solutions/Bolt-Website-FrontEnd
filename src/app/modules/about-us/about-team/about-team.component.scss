@@ -32,7 +32,7 @@ img {
 
   h1 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 44px;
+    font-size: 36px;
     width: 1402px;
     height: 142px;
     font-weight: 300;
@@ -55,8 +55,8 @@ img {
 
   h1 {
     font-family: 'Raleway', sans-serif;
-    font-size: 50px;
-    font-weight: 800;
+    font-size: 30px;
+    font-weight: bold;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.18;
@@ -67,11 +67,12 @@ img {
 
   h3 {
     font-family: 'Mulish', sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.26;
+    margin-top:2%;
     letter-spacing: normal;
     text-align: left;
     color: rgba(0, 0, 0, 0.78);
@@ -284,6 +285,26 @@ img {
 
 //Responsive design
 
+@media only screen and (max-device-width: 350px) {
+  #bg {
+    height: 63vh !important;
+    background-color: #e8e8e9;
+    background-size: cover;
+    background-position: center;
+  }
+  .img-container {
+    img {
+      width: 120px !important;
+      height: 180px !important;
+      object-fit: contain;
+    }
+  }
+  .selectionButton {
+    img {
+      width: 80px !important;
+    }
+  }
+}
 @media screen and (max-width: 1024px) {
 
   #bg {
