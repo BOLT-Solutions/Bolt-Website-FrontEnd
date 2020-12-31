@@ -5,8 +5,9 @@
     "\\src\\app",
     "\\src\\app\\modules",
     "\\src\\app\\modules\\layout",
-    "\\src\\app\\modules\\layout\\layout"
+    "\\src\\app\\modules\\layout\\header",
+    "\\src\\assets"
   ],
-  "SelectedNode": "\\src\\app\\modules\\layout\\layout",
+  "SelectedNode": "\\src\\app\\modules\\layout\\header\\header.component.ts",
   "PreviewInSolutionExplorer": false
 }
