@@ -53,7 +53,7 @@ export class HeaderComponent implements OnInit {
 
   //Adjust language button
   AdjustLanguageButton(selector) {
-    if (selector == 'news' || selector == 'web' || selector == 'MobileApp') {
+    if (selector == 'news' || selector == 'web' || selector == 'MobileApp' ) {
       this.languageStyle = "lang-blue";
     }
     else {
