@@ -413,3 +413,12 @@ header {
     opacity: 1;
   }
 }
+
+@media only screen and (width: 320px)
+
+{
+  .homeBG p {
+    font-size: 13px !important;
+    margin: 7px 12px -24px !important;
+  }
+}
