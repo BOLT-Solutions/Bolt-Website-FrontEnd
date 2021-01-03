@@ -13,7 +13,7 @@ section {
 
 
 .contactHeading {
-  font-size: 50px;
+  font-size: 38px;
   font-weight: 600;
   font-stretch: normal;
   font-style: normal;
@@ -65,7 +65,7 @@ section {
     input {
       margin-top: 5%;
       margin-bottom: 5%;
-      border-radius: 20px;
+      border-radius: 12px;
       border: 1px solid transparent;
       width: 100%;
       height: 50px;
@@ -108,24 +108,7 @@ section {
 .svg-icons {
   width: 88px;
 }
-.mapBox
-{
-  max-width:600px ;
-  max-height:450px;
-  box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 0.16);
-  
 
-}
-.mapBox1 {
-  max-width: 600px;
-  max-height: 450px;
-  box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 0.16);
-}
-.mapSection
-{
-    margin-top:5% ;
-    margin-left:5%;
-}
 .mapName {
   font-family: 'Raleway', sans-serif;
   font-size: 30px;
@@ -147,7 +130,7 @@ section {
   font-style: normal;
   line-height: 1.21;
   letter-spacing: normal;
-  font-size: 22px;
+  font-size: 18px;
   margin-top: 6%;
 }
 
@@ -280,15 +263,7 @@ section {
   margin-top:2%;
 }
 
-.Mapfram {
-  width: 100%;
-  height: 100%;
-}
 
-.mapBox1
-{
-    margin-left:3%;
-}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .contact-img {
@@ -348,18 +323,27 @@ section {
   }
 
   .mapBox {
-    width: 90%;
-    margin-bottom:16%;
-  }
-  .mapBox1 {
-    width: 90%;
-    margin: 0px;
-    padding: 0px;
-    margin-top: 3%;
+    width: 99%;
     margin-bottom: 16%;
-  }
+    margin-top: 12%;
+    }
+    .mapBox1 {
+      width: 90%;
+      margin: 0px;
+      padding: 0px;
+      margin-top: 3%;
+      margin-bottom: 16%;
+    }
 
-}
+    .row {
+      margin: 0 !important;
+      padding: 0 !important;
+    }
+  .mapName
+  {
+      font-size:28px;
+  }
+  }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width:800px) {
@@ -449,15 +433,93 @@ section {
   }
 }
 
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-}
+
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
- 
+  .mapBox {
+    margin-left: 9%;
+    max-width: 450px;
+    height: 400px;
+    box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 0.16);
+  }
+
+  .mapBox1 {
+    max-width: 450px;
+    height: 400px;
+    box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 0.16);
+  }
+
+  .mapSection {
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+  .Mapfram {
+    margin-left: -12px;
+    width: 108%;
+    height: 100%;
+  }
+
+  .mapBox1 {
+    margin-left: 3%;
+  }
 }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
- 
+  .mapBox {
+    margin-left:7.5%;
+    max-width: 300px;
+    height: 400px;
+    box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 0.16);
+  }
+
+  .mapBox1 {
+    max-width: 300px;
+    height: 400px;
+    box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 0.16);
+  }
+
+  .mapSection {
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+  .Mapfram {
+    margin-left: -12px;
+    width: 108%;
+    height: 100%;
+  }
+
+  .mapBox1 {
+    margin-left: 3%;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
+  .mapBox {
+    margin-left: 2%;
+    max-width: 450px;
+    height: 400px;
+    box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 0.16);
+  }
+
+  .mapBox1 {
+    max-width: 450px;
+    height: 400px;
+    box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 0.16);
+  }
+
+  .mapSection {
+    margin-top: 5%;
+    margin-left: 5%;
+  }
+
+  .Mapfram {
+    margin-left: -12px;
+    width: 108%;
+    height: 100%;
+  }
+
+  .mapBox1 {
+    margin-left: 3%;
+  }
 }
