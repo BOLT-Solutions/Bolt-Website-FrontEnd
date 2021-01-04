@@ -33,7 +33,7 @@ header {
   p {
     width: 628px;
     height: 170px;
-    margin: 35px 72px 35px 45px;
+    margin: 35px 72px 0 45px;
     font-family: 'Muli', sans-serif;
     font-size: 24px;
     font-weight: 300;
@@ -49,23 +49,21 @@ header {
     border: 1px solid black;
     margin: 65px 57px 0 105px;
     margin-top: 0 !important;
-    padding: 13px 36px;
+    padding: 7px 22px;
     border-radius: 35px;
-    width: 246px;
-    height: 70px;
+
 
     h2 {
-      width: 174px;
-      height: 44px;
       font-family: 'Muli', sans-serif;
-      font-size: 32px;
+      font-size: 26px;
       font-weight: 300 !important;
       font-stretch: normal;
       font-style: normal;
       line-height: 1.26;
       letter-spacing: normal;
       text-align: left;
-      color: #3b3b3b;
+      margin: 0;
+      color: #3b3b3bcc;
     }
   }
 }
@@ -189,19 +187,19 @@ header {
     -o-animation: fadeIn ease 1s;
 
     .read-more {
-      border: 1px solid black;
+      border: 1px solid rgba(53, 119, 147, 0.6);
       margin: 91px 0px 0 0px;
-      padding: 13px 36px;
+      padding: 13px ;
       border-radius: 35px;
-      width: 246px;
-      height: 70px;
-      outline-style:none;
+      width: 185px;
+      height: 55px;
+      outline-style: none;
+
       h2 {
-        width: 174px;
-        height: 44px;
         font-family: 'Muli', sans-serif;
-        font-size: 35px;
+        font-size: 22px;
         font-weight: 100;
+        text-align: center;
       }
     }
   }
