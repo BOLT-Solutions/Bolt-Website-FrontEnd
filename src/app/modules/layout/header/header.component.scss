@@ -1,5 +1,5 @@
 .navbar-brand {
-  width: 160px;
+  width: 140px;
   margin-right: 4rem;
   cursor: pointer;
   transition: all 0.5s;
@@ -22,11 +22,12 @@ li {
 .btn-outline-primary {
   border-color: white;
   color: white;
-  font-size: 22px;
+  font-size: 20px;
 }
 
 .nav-link {
-  font-size: 23px;
+  font-size: 20px;
+  
   padding: 0;
   cursor: pointer;
   font-family: 'CenturyGothic', sans-serif;
@@ -51,7 +52,7 @@ li {
 }
 
 .lang-default {
-  border-radius: 14px;
+  border-radius: 10px;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
