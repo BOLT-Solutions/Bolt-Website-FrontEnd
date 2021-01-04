@@ -257,6 +257,26 @@ header {
             font-size:16px !important;
         }
     }
+  .read-more {
+    margin: 33px 0px 0 -4px !important;
+    padding: 8px 21px !important;
+    border-radius: 35px;
+    width: 107px !important;
+    height: 33px !important;
+
+    &:focus {
+      border: none;
+      outline-style: none;
+    }
+
+    h2 {
+      width: 174px !important;
+      height: 44px !important;
+      font-family: "Muli", sans-serif;
+      font-size: 13px !important;
+      font-weight: 100;
+    }
+  }
 }
 @media only screen and (max-device-width: 1024px) {
     .homeBG{
@@ -293,33 +313,7 @@ header {
       color: #dcdcdc;
     }
 
-    .read-more {
-      width: 130px;
-      height: 36px;
-      margin: 25px 147.5px 0 21px;
-      padding: 7px 23px 6px 18px;
-      border-radius: 35px;
-      background-color: #ffffff;
-      &:focus {
-      border:none;
-        outline-style: none;
-      }
 
-      h2 {
-        width: 89px;
-        height: 23px;
-        font-family: 'Muli',sans-serif;
-        font-size: 16px;
-        font-weight: 300;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.28;
-        letter-spacing: normal;
-        text-align: left;
-        color: #3b3b3b;
-        outline-style: none;
-      }
-    }
   }
   .sectionOne {
     h1 {
@@ -369,6 +363,26 @@ header {
       padding: 0 !important;
       padding-top: 10% !important;
       width: auto;
+    }
+  }
+  .read-more {
+    margin: 40px 0px 0 0px !important;
+    padding: 8px 21px !important;
+    border-radius: 35px;
+    width: 107px !important;
+    height: 33px !important;
+
+    &:focus {
+      border: none;
+      outline-style: none;
+    }
+
+    h2 {
+      width: 174px !important;
+      height: 44px !important;
+      font-family: "Muli", sans-serif;
+      font-size: 13px !important;
+      font-weight: 100;
     }
   }
 }
