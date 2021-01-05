@@ -33,7 +33,7 @@ header {
   p {
     width: 628px;
     height: 170px;
-    margin: 35px 72px 35px 45px;
+    margin: 35px 72px 0 45px;
     font-family: 'Muli', sans-serif;
     font-size: 24px;
     font-weight: 300;
@@ -49,23 +49,21 @@ header {
     border: 1px solid black;
     margin: 65px 57px 0 105px;
     margin-top: 0 !important;
-    padding: 13px 36px;
+    padding: 7px 22px;
     border-radius: 35px;
-    width: 246px;
-    height: 70px;
+
 
     h2 {
-      width: 174px;
-      height: 44px;
       font-family: 'Muli', sans-serif;
-      font-size: 32px;
+      font-size: 26px;
       font-weight: 300 !important;
       font-stretch: normal;
       font-style: normal;
       line-height: 1.26;
       letter-spacing: normal;
       text-align: left;
-      color: #3b3b3b;
+      margin: 0;
+      color: #3b3b3bcc;
     }
   }
 }
@@ -76,7 +74,7 @@ header {
     height: 192px;
     margin: 100px 262px 76.2px 30px;
     font-size: 38px;
-    font-weight: bold;
+    font-weight: 100;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.19;
@@ -189,19 +187,19 @@ header {
     -o-animation: fadeIn ease 1s;
 
     .read-more {
-      border: 1px solid black;
+      border: 1px solid rgba(53, 119, 147, 0.6);
       margin: 91px 0px 0 0px;
-      padding: 13px 36px;
+      padding: 13px ;
       border-radius: 35px;
-      width: 246px;
-      height: 70px;
-      outline-style:none;
+      width: 185px;
+      height: 55px;
+      outline-style: none;
+
       h2 {
-        width: 174px;
-        height: 44px;
         font-family: 'Muli', sans-serif;
-        font-size: 35px;
+        font-size: 22px;
         font-weight: 100;
+        text-align: center;
       }
     }
   }
@@ -257,6 +255,26 @@ header {
             font-size:16px !important;
         }
     }
+  .read-more {
+    margin: 33px 0px 0 -4px !important;
+    padding: 8px 21px !important;
+    border-radius: 35px;
+    width: 107px !important;
+    height: 33px !important;
+
+    &:focus {
+      border: none;
+      outline-style: none;
+    }
+
+    h2 {
+      width: 174px !important;
+      height: 44px !important;
+      font-family: "Muli", sans-serif;
+      font-size: 13px !important;
+      font-weight: 100;
+    }
+  }
 }
 @media only screen and (max-device-width: 1024px) {
     .homeBG{
@@ -293,33 +311,7 @@ header {
       color: #dcdcdc;
     }
 
-    .read-more {
-      width: 130px;
-      height: 36px;
-      margin: 25px 147.5px 0 21px;
-      padding: 7px 23px 6px 18px;
-      border-radius: 35px;
-      background-color: #ffffff;
-      &:focus {
-      border:none;
-        outline-style: none;
-      }
 
-      h2 {
-        width: 89px;
-        height: 23px;
-        font-family: 'Muli',sans-serif;
-        font-size: 16px;
-        font-weight: 300;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.28;
-        letter-spacing: normal;
-        text-align: left;
-        color: #3b3b3b;
-        outline-style: none;
-      }
-    }
   }
   .sectionOne {
     h1 {
@@ -369,6 +361,26 @@ header {
       padding: 0 !important;
       padding-top: 10% !important;
       width: auto;
+    }
+  }
+  .read-more {
+    margin: 40px 0px 0 0px !important;
+    padding: 8px 21px !important;
+    border-radius: 35px;
+    width: 107px !important;
+    height: 33px !important;
+
+    &:focus {
+      border: none;
+      outline-style: none;
+    }
+
+    h2 {
+      width: 174px !important;
+      height: 44px !important;
+      font-family: "Muli", sans-serif;
+      font-size: 13px !important;
+      font-weight: 100;
     }
   }
 }
