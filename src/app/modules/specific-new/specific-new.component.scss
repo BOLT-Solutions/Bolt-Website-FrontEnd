@@ -23,3 +23,22 @@ p {
     margin:0;
     padding-bottom:20%;
 }
+
+@media only screen and (max-width: 1100px) {
+
+  .container-fluid .img-fluid {
+    height: 22vh !important;
+  }
+
+  .SpecificNewTitle {
+    font-size: 17px !important;
+  }
+
+  .bg-light {
+    background-color: unset !important;
+  }
+  .ourNews .img-fluid
+  {
+      height:auto!important;
+  }
+}
