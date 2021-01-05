@@ -1,0 +1,263 @@
+main {
+
+   background-color: #f2f2f2;
+ 
+}
+
+#bg{
+   
+  background: url("../../../../assets/img/Header.png") no-repeat 0 0;
+  height: 70vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+img{
+    width:100%;
+}
+#content {
+  color: #fff;
+  text-align: center;
+
+  h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 300;
+    line-height: 1.37;
+    color: #ffffff;
+  }
+
+  p {
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #ffffff;
+  }
+}
+
+#siteContent {
+  h3 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.78);
+  }
+
+  h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #408ed1;
+  }
+
+  p {
+    font-family: 'Mulish', sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #808080;
+  }
+}
+
+#board {
+  background-color: #e8e8e9;
+  padding: 50px;
+
+  h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 50px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.18;
+    letter-spacing: normal;
+    text-align: left;
+    color: #408ed1;
+  }
+
+  h3 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.26;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(0, 0, 0, 0.78);
+  }
+
+  h2 {
+  }
+
+  p {
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #808080;
+  }
+
+  img {
+    width: 380px;
+    height: 450px
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  #bg {
+    background: url("../../../../assets/img/about_bg_mobile.png") no-repeat 0 0;
+    height: 40vh;
+    background-size: contain;
+    /*background-position: center;*/
+  }
+  #content {
+   
+    h1 {
+      
+      font-size: 38px;
+     
+    }
+
+    p {
+     display:none;
+    }
+  }
+  #contentImg{
+      display:none;
+  }
+  .mt-5 {
+    margin-top: 0 !important;
+  }
+  #siteContent {
+   
+      padding-top:0 !important;
+    h3 {
+    
+      font-size: 30px;
+     
+    }
+
+    h1 {
+  
+      font-size: 24px;
+
+    }
+
+    p {
+   
+      font-size: 20px;
+    
+    }
+  }
+}
+
+@media screen and (max-width: 700px) {
+
+  #bg {
+    background: url("../../../../assets/img/about_bg_mobile.png") no-repeat 0 0;
+    height: 33vh;
+    background-size: contain;
+    /*background-position: center;*/
+  }
+
+  #content {
+
+    h1 {
+      font-size: 20px;
+    }
+
+ 
+  }
+  .mr-5 {
+    margin-right:0!important;
+  }
+
+  .mt-5 {
+    margin-top: 0 !important;
+  }
+
+  #siteContent {
+    padding-top: 0 !important;
+
+    h3 {
+      font-size: 20px;
+    }
+
+    h1 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  #board {
+    padding: 10px;
+    text-align: center;
+
+    .mb-5 {
+      text-align: center;
+    }
+
+    h2 {
+      margin: 0 auto;
+      width: 220px;
+      text-align: left;
+      font-size: 20px;
+    }
+
+    h1 {
+      padding-top: 20px;
+      padding-left: 15px;
+      font-size: 22px;
+    }
+
+    h3 {
+      padding-left: 15px;
+      font-size: 14px;
+    }
+
+
+
+    p {
+      width: 220px;
+      padding-top: .8rem !important;
+      padding-right: 0 !important;
+      text-align: left;
+      font-size: 14px;
+      margin: 0 auto;
+    }
+
+    img {
+      width: 220px;
+      height: 250px
+    }
+
+    .mb-5 {
+      margin-bottom: 1.8rem !important;
+    }
+  }
+
+  }

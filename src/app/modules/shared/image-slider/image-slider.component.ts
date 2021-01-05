@@ -62,26 +62,26 @@ export class ImageSliderComponent implements OnInit {
       {
         id: 1,
         title: 'Identifying the need',
-        content: 'On this stage we communicate with the client to know more about his company and',
-        imagePath: 'solution2.png'
+        content: 'On this stage we communicate with the client to know more about his company',
+        imagePath: 'solution2.jpg'
       },
       {
         id: 2,
         title: 'Creating a project',
         content: 'Our creative team works on the project, offering its several variants.We make visual',
-        imagePath: 'solution3.png'
+        imagePath: 'solution3.jpg'
       },
       {
         id: 3,
         title: 'Creating a project',
         content: 'Our creative team works on the project, offering its several variants.We make visual',
-        imagePath: 'solution3.png'
+        imagePath: 'solution3.jpg'
       },
       {
         id: 4,
         title: 'Creating a project',
         content: 'Our creative team works on the project, offering its several variants.We make visual',
-        imagePath: 'solution3.png'
+        imagePath: 'solution3.jpg'
       }
     ];
   }
@@ -90,6 +90,7 @@ export class ImageSliderComponent implements OnInit {
   ViewItem(galleryItemId) {
     //Store id in local storage
     localStorage.setItem('galleryId', galleryItemId);
-    this.router.navigate(['about-us']);
+    this.router.navigate(['specificNew']);
+    window.scroll(0,0)
   }
 }

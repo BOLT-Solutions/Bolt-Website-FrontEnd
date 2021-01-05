@@ -31,19 +31,29 @@ export class HeaderComponent implements OnInit {
     this.ClearNavigationHighLight();
     this.router.navigate([selector]);
     this.AdjustLanguageButton(selector);
-    if (selector == 'mobApp') {
+    if (selector == "about-us" || selector == "about-us/about-team") { // highlight about dropdown
+      document.getElementById('about').classList.add('active');
+    }
+    else if (selector == 'MobileApp' || selector == 'ERP' || 
+      selector == 'web' || selector == 'DCN' || selector == 'TailoredSolution' ||
+      selector == 'DigitalTransformation' || selector == 'ATM' ) {
+      document.getElementById('services').classList.add('active');
+    }
+    else if (selector == 'BoltSalon' || selector == 'BoltDoctor' || selector == 'BoltRestaurant' || selector == 'BoltERP') {
       document.getElementById('products').classList.add('active');
     }
     else {
       document.getElementById(selector).classList.add('active'); // Add active class
     }
-
+    if (window.screen.width < 1025) {
+      document.getElementById('responsiveButton').click();
+    }
   }
 
 
   //Adjust language button
   AdjustLanguageButton(selector) {
-    if (selector == 'news') {
+    if (selector == 'news' || selector == 'web' || selector == 'MobileApp' ) {
       this.languageStyle = "lang-blue";
     }
     else {
@@ -60,5 +70,17 @@ export class HeaderComponent implements OnInit {
         return;
       }
     }
+  }
+
+  //MobileDropDown
+  ViewNavBar() {
+    var nav = document.getElementById('nav');
+    if (nav.classList.contains('NavbarDropMobile')) {
+      nav.classList.remove('NavbarDropMobile');
+    }
+    else {
+      nav.classList.add('NavbarDropMobile');
+    }
+
   }
 }

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import AOS from 'aos';
 
 @Component({
   selector: 'app-web-platform',
@@ -10,6 +11,8 @@ export class WebPlatformComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
+    AOS.init();
+
   }
 
 }

@@ -2,8 +2,12 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\app"
+    "\\src\\app",
+    "\\src\\app\\modules",
+    "\\src\\app\\modules\\contact-us",
+    "\\src\\app\\modules\\layout\\header",
+    "\\src\\assets"
   ],
-  "SelectedNode": "\\src\\favicon.ico",
+  "SelectedNode": "\\src\\app\\modules\\contact-us\\contact-us.component.scss",
   "PreviewInSolutionExplorer": false
 }
