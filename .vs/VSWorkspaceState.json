@@ -4,10 +4,9 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\modules",
-    "\\src\\app\\modules\\contact-us",
-    "\\src\\app\\modules\\layout\\header",
+    "\\src\\app\\modules\\home",
     "\\src\\assets"
   ],
-  "SelectedNode": "\\src\\app\\modules\\contact-us\\contact-us.component.scss",
+  "SelectedNode": "\\src\\app\\modules\\home\\home.component.scss",
   "PreviewInSolutionExplorer": false
 }
