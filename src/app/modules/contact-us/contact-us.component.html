@@ -56,7 +56,7 @@
 
               <input type="text" placeholder="Phone Number" />
 
-              <div >
+              <div (mouseleave)="hideOption()">
                 <input class="textInputStatusValue" type="text" placeholder="Product Name" value="{{stValue}}" (click)="showOption()" />
                 <i *ngIf="show" id="filtersubmit" class="fa fa-chevron-down" aria-hidden="true"></i>
                 <i *ngIf="!show" id="filtersubmit" class="fa fa-chevron-up" aria-hidden="true"></i>
@@ -64,7 +64,7 @@
                 <div *ngIf="showOptions" id="businsessValue" class="selectBusinessType">
                   <!-- -->
                   <div class="valueOfStatus" *ngFor="let status_item of status_values">
-                    <p class="typeBusinessText"  > {{status_item.value}}</p>
+                    <p class="typeBusinessText" (click)="getItemValue(status_item.id)"  > {{status_item.value}}</p>
                     
                   </div>
                 </div>
