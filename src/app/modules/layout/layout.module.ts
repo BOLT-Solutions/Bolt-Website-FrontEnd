@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LayoutRoutingModule } from './layout-routing.module';
 import { LayoutComponent } from './layout/layout.component';
 import { HeaderComponent } from './header/header.component';
@@ -53,7 +53,8 @@ import { BOLTDOCTORComponent } from '../boltdoctor/boltdoctor.component';
     ReactiveFormsModule,
     LayoutRoutingModule,
     AboutUsModule,
-    SharedModule
+    SharedModule,
+    BrowserAnimationsModule, //Routing animations
   ]
 })
 export class LayoutModule { }
