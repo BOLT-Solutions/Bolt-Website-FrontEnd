@@ -6,7 +6,7 @@ export const routeTransitionAnimations = trigger('triggerName', [
 
     query(':enter',
       [
-        style({ opacity: 1 })
+        style({ opacity: 0.5 })
       ],
       { optional: true }
     ),
@@ -21,8 +21,8 @@ export const routeTransitionAnimations = trigger('triggerName', [
 
     query(':enter',
       [
-        style({ opacity: 1 }),
-        animate('0.2s', style({ opacity: 0.6 }))
+        style({ opacity: 0.6 }),
+        animate('0.2s', style({ opacity: 1 }))
       ],
       { optional: true }
     )
