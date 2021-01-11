@@ -7,7 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutTeamComponent implements OnInit {
 
-
+  technicalTeamImage: string = 'technical-icon-clicked';
+  marketingTeamImage: string = 'marketing-icon';
+  businessTeamImage: string = 'business-icon';
+  pmTeamImage: string = 'pm-icon';
+  qaTeamImage: string = 'qa-icon';
+  uiTeamImage: string = 'ui-icon';
   constructor() { }
 
   ngOnInit(): void {
@@ -23,6 +28,7 @@ export class AboutTeamComponent implements OnInit {
     //Toggle Show animation and enable document
     if (selectedTeam == "technicalTeam" && !technicalTeam.classList.contains('displayTeam')) {
       if (marketingTeam.classList.contains('displayTeam')) {
+        this.marketingTeamImage = 'marketing-icon';
         marketingTeam.classList.remove('displayTeam');
         marketingTeam.classList.add('hideTeam');
         setTimeout(() => {
@@ -31,6 +37,7 @@ export class AboutTeamComponent implements OnInit {
         }, 1000);
       }
       else if (businessTeam.classList.contains('displayTeam')) {
+        this.businessTeamImage = 'business-icon';
         businessTeam.classList.remove('displayTeam');
         businessTeam.classList.add('hideTeam');
         setTimeout(() => {
@@ -38,11 +45,13 @@ export class AboutTeamComponent implements OnInit {
           document.getElementById('businessTeam').style.display = 'none';
         }, 1000);
       }
+      this.technicalTeamImage = 'technical-icon-clicked';
       document.getElementById('technicalTeam').style.display = 'block';
-      technicalTeam.classList.add('displayTeam')
+      technicalTeam.classList.add('displayTeam');
     }
     //Toggle Hide Animation and disable document
     else if (selectedTeam == "technicalTeam" && technicalTeam.classList.contains('displayTeam')) {
+      this.technicalTeamImage = 'technical-icon';
       technicalTeam.classList.remove('displayTeam');
       technicalTeam.classList.add('hideTeam');
       setTimeout(() => {
@@ -52,6 +61,7 @@ export class AboutTeamComponent implements OnInit {
     }
     else if (selectedTeam == "marketingTeam" && !marketingTeam.classList.contains('displayTeam')) {
       if (technicalTeam.classList.contains('displayTeam')) {
+        this.technicalTeamImage = 'technical-icon';
         technicalTeam.classList.remove('displayTeam');
         technicalTeam.classList.add('hideTeam');
         setTimeout(() => {
@@ -60,6 +70,7 @@ export class AboutTeamComponent implements OnInit {
         }, 1000);
       }
       else if (businessTeam.classList.contains('displayTeam')) {
+        this.businessTeamImage = 'business-icon';
         businessTeam.classList.remove('displayTeam');
         businessTeam.classList.add('hideTeam');
         setTimeout(() => {
@@ -68,9 +79,11 @@ export class AboutTeamComponent implements OnInit {
         }, 1000);
       }
       document.getElementById('marketingTeam').style.display = 'block';
+      this.marketingTeamImage = 'marketing-icon-clicked';
       marketingTeam.classList.add('displayTeam');
     }
     else if (selectedTeam == "marketingTeam" && marketingTeam.classList.contains('displayTeam')) {
+      this.marketingTeamImage = 'marketing-icon';
       marketingTeam.classList.remove('displayTeam');
       marketingTeam.classList.add('hideTeam');
       setTimeout(() => {
@@ -80,6 +93,7 @@ export class AboutTeamComponent implements OnInit {
     }
     else if (selectedTeam == "businessTeam" && !businessTeam.classList.contains('displayTeam')) {
       if (technicalTeam.classList.contains('displayTeam')) {
+        this.technicalTeamImage = 'technical-icon';
         technicalTeam.classList.remove('displayTeam');
         technicalTeam.classList.add('hideTeam');
         setTimeout(() => {
@@ -88,6 +102,7 @@ export class AboutTeamComponent implements OnInit {
         }, 1000);
       }
       else if (marketingTeam.classList.contains('displayTeam')) {
+        this.marketingTeamImage = 'marketing-icon';
         marketingTeam.classList.remove('displayTeam');
         marketingTeam.classList.add('hideTeam');
         setTimeout(() => {
@@ -95,10 +110,12 @@ export class AboutTeamComponent implements OnInit {
           document.getElementById('marketingTeam').style.display = 'none';
         }, 1000);
       }
+      this.businessTeamImage = 'business-icon-clicked';
       document.getElementById('businessTeam').style.display = 'block';
       businessTeam.classList.add('displayTeam');
     }
     else if (selectedTeam == "businessTeam" && businessTeam.classList.contains('displayTeam')) {
+      this.businessTeamImage = 'business-icon';
       businessTeam.classList.remove('displayTeam');
       businessTeam.classList.add('hideTeam');
       setTimeout(() => {
