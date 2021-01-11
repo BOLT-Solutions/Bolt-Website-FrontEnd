@@ -17,68 +17,120 @@
         </div>
         <div class="socialSection">
           <div class="row">
-            <div class="col-2 text-left p-0" >
+            <div class="col-2 text-left p-0">
 
-            <img src="./assets/img/contactus/location.png" class=" svg-icons">
+              <img src="./assets/img/contactus/location.png" class=" svg-icons">
             </div>
-            <P class="contact-data col-9">1171 Building , Road 9,    
-             El-Mokattam, Cairo, Egypt.</P>
+            <P class="contact-data col-9">
+              1171 Building , Road 9,
+              El-Mokattam, Cairo, Egypt.
+            </P>
 
           </div>
           <div class="row">
             <div class="col-2 text-left p-0">
               <img src="./assets/img/contactus/phone.png" class="svg-icons">
-              </div>
-              <P class="contact-data col-9">+2024213323</P>
-
             </div>
+            <P class="contact-data col-9">+2024213323</P>
+
+          </div>
           <div class="row">
             <div class="col-2 text-left p-0">
               <img src="./assets/img/contactus/message.png" class=" svg-icons ">
-              </div>
-              <P class="contact-data col-9">Info@Boltsolutions.net</P>
-
             </div>
+            <P class="contact-data col-9">Info@Boltsolutions.net</P>
+
           </div>
-        
+        </div>
+
 
       </div>
       <div class="col-sm-12 col-md-6 col-lg-6">
 
         <div class="contact-form text-center container-fluid">
           <p class="contactHeading">Contact Us With</p>
-          <form>
+          <form [formGroup]="contactRequestForm">
             <div class="container-fluid">
+              <div class="row">
+                <input type="text" placeholder="Full Name" formControlName="fullname" maxlength="25" />
+                <div *ngIf="ContactFormValidation.fullname.invalid
+                         && (ContactFormValidation.fullname.dirty
+                         || ContactFormValidation.fullname.touched)" class="alert-danger "
+                     style="display:block; background-color: transparent !important;">
+                  <div *ngIf="ContactFormValidation.fullname.errors?.required" style="color:red !important;">Please enter your name</div>
+                  <div *ngIf="ContactFormValidation.fullname.errors?.pattern" style="color:red !important;">Only arabic and english letters are allowed</div>
+                  <div *ngIf="ContactFormValidation.fullname.errors?.minLength" style="color:red !important;">Name letters must be more than 3 letters</div>
+                  <div *ngIf="ContactFormValidation.fullname.errors?.maxLength" style="color:red !important;">Name letters must be less than 20 letters</div>
+                </div>
+              </div>
 
-              <input type="text" placeholder="Full Name" />
-
-              <input type="text" placeholder="E-mail" />
-
-              <input type="text" placeholder="Phone Number" />
-
-              <div (mouseleave)="hideOption()">
-                <input class="textInputStatusValue" type="text" placeholder="Product Name" value="{{stValue}}" (click)="showOption()" readonly/>
-                <i *ngIf="show" id="filtersubmit" class="fa fa-chevron-down" aria-hidden="true"></i>
-                <i *ngIf="!show" id="filtersubmit" class="fa fa-chevron-up" aria-hidden="true"></i>
-
-                <div *ngIf="showOptions" id="businsessValue" class="selectBusinessType">
-                  <!-- -->
-                  <div class="valueOfStatus" *ngFor="let status_item of status_values">
-                    <p class="typeBusinessText" (click)="getItemValue(status_item.id)"  > {{status_item.value}}</p>
-                    
+              <div class="row">
+                <input type="text" placeholder="E-mail" formControlName="email" />
+                <div *ngIf="ContactFormValidation.email.invalid
+                           && (ContactFormValidation.email.dirty
+                           || ContactFormValidation.email.touched)" class="alert-danger mt-1"
+                     style="display:block; background-color: transparent !important;">
+                  <div *ngIf="ContactFormValidation.email.errors?.required" style="color: red !important;">
+                    Email is required.
+                  </div>
+                  <div *ngIf="ContactFormValidation.email.errors?.email" style="color: red !important;">
+                    Email must be in a correct format (Ex: email@provider.com)
                   </div>
                 </div>
               </div>
-              <input type="text" class="message-box" placeholder="Your Message :" />
+
+              <div class="row">
+                <input type="text" placeholder="Phone Number" formControlName="phoneNumber" />
+                <div *ngIf="ContactFormValidation.phoneNumber.invalid
+                       && (ContactFormValidation.phoneNumber.dirty
+                       || ContactFormValidation.phoneNumber.touched)" class="alert-danger mt-1"
+                     style="display:block; background-color: transparent !important;">
+                  <div *ngIf="ContactFormValidation.phoneNumber.errors?.required" style="color: red !important;">
+                    Kindly enter your phone number.
+                  </div>
+                  <div *ngIf="ContactFormValidation.phoneNumber.errors?.pattern" style="color: red !important;">
+                    Please enter a valid phone number.
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="row">
+
+                <div  class="col-12">
+                  <input class="textInputStatusValue customInput" type="text" placeholder="Product Name" value="{{stValue}}" (click)="showOption()" readonly />
+                  <i *ngIf="show" id="filtersubmit" class="fa fa-chevron-down" aria-hidden="true"></i>
+                  <i *ngIf="!show" id="filtersubmit" class="fa fa-chevron-up" aria-hidden="true"></i>
+
+                  <div *ngIf="showOptions" id="businsessValue" class="selectBusinessType">
+                    <!-- -->
+                    <div class="valueOfStatus" *ngFor="let status_item of status_values">
+                      <p class="typeBusinessText" (click)="getItemValue(status_item.id)"> {{status_item.value}}</p>
+
+                    </div>
+                  </div>
+                </div>
+
+              </div>
 
 
-              <button type="submit" class="contact-submit">
+              <div class="row">
+                <input type="text" class="message-box" placeholder="Your Message :" formControlName="message" />
+                <div *ngIf="ContactFormValidation.message.invalid
+                 && (ContactFormValidation.message.dirty
+                 || ContactFormValidation.message.touched)" class="alert-danger mt-2"
+                     style="display:block; background-color: transparent !important;">
+                  <div *ngIf="ContactFormValidation.message.errors?.required" style="color: red !important;">
+                    Message is required.
+                  </div>
+                </div>
+              </div>
+
+
+              <button type="submit" class="contact-submit" [disabled]="!contactRequestForm.valid">
                 SEND MESSAGE
               </button>
             </div>
-
-            
-           
 
           </form>
         </div>
@@ -88,32 +140,30 @@
     </div>
 
 
-      
+
   </div>
   <!--End Contact Section -->
-  
-   
   <!-- Contact Form -->
 
 
   <div style="margin-bottom:10%" class="container-fluid mapSection">
     <div class="row">
-      
+
       <div class="mapBox col-lg-6  col-sm-6 ">
 
         <iframe class="Mapfram" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1452.5718534483174!2d31.293471505588318!3d30.013394356836127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDAwJzQ3LjciTiAzMcKwMTcnMzYuNiJF!5e0!3m2!1sar!2seg!4v1608540644488!5m2!1sar!2seg"
                 frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         <p class="mapName">Egypt</p>
       </div>
-      
-      
-      <div  class="mapBox col-lg-6  col-sm-6">
+
+
+      <div class="mapBox col-lg-6  col-sm-6">
         <iframe class="Mapfram" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1452.5718534483174!2d31.293471505588318!3d30.013394356836127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDAwJzQ3LjciTiAzMcKwMTcnMzYuNiJF!5e0!3m2!1sar!2seg!4v1608540644488!5m2!1sar!2seg"
-                frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0" ></iframe>
+                frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
         <p class="mapName">United Arab Emirates</p>
       </div>
-        
-        
+
+
     </div>
 
   </div>
@@ -122,6 +172,6 @@
 
 
 
- 
+
 </section>
 <!--End of Contact Section-->
