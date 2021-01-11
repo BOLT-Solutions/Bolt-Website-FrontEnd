@@ -24,22 +24,22 @@ const routes: Routes = [
     //Children modules/components are declared here.
     path: '', component: LayoutComponent, children: [
 
-      { path: 'home', component: HomeComponent },
-      { path: 'about-us', loadChildren: () => import('../about-us/about-us.module').then(m => m.AboutUsModule) }, // AboutUs module lazy loaded
-      { path: 'contact-us', component:ContactUsComponent },
-      { path: 'news', component: NewsComponent },
-      { path: 'specificNew', component: SpecificNewComponent },
-      { path: 'MobileApp', component: MobileAppComponent },
-      { path: 'web', component: WebPlatformComponent },
-      { path: 'ERP', component: ERPComponent },
-      { path: 'ATM', component: AtmComponent },
-      { path: 'DCN', component: CdnComponent },
-      { path: 'TaileredSolution', component: TailoredSolutionsComponent },
-      { path: 'DigitalTransformation', component: DigitalTransformationComponent },
-      { path: 'BoltSalon', component: BOLTSALONComponent },
-      { path: 'BoltERP', component: BoltErpComponent },
-      { path: 'BoltDoctor', component: BOLTDOCTORComponent },
-      { path: 'BoltRestaurant', component: BOLTRESTAURANTComponent },
+      { path: 'home', component: HomeComponent, data: { animationState: 'One' } },
+      { path: 'about-us', loadChildren: () => import('../about-us/about-us.module').then(m => m.AboutUsModule), data: { animationState: 'Two' } }, // AboutUs module lazy loaded
+      { path: 'contact-us', component: ContactUsComponent, data: { animationState: 'Three' } },
+      { path: 'news', component: NewsComponent, data: { animationState: 'Four' } },
+      { path: 'specificNew', component: SpecificNewComponent, data: { animationState: 'Five' } },
+      { path: 'MobileApp', component: MobileAppComponent, data: { animationState: 'Six' } },
+      { path: 'web', component: WebPlatformComponent, data: { animationState: 'Seven' } },
+      { path: 'ERP', component: ERPComponent, data: { animationState: 'Eight' } },
+      { path: 'ATM', component: AtmComponent, data: { animationState: 'Nine' } },
+      { path: 'DCN', component: CdnComponent, data: { animationState: 'Ten' } },
+      { path: 'TaileredSolution', component: TailoredSolutionsComponent, data: { animationState: 'Eleven' } },
+      { path: 'DigitalTransformation', component: DigitalTransformationComponent, data: { animationState: 'Twelve' } },
+      { path: 'BoltSalon', component: BOLTSALONComponent, data: { animationState: 'Thirteen' } },
+      { path: 'BoltERP', component: BoltErpComponent, data: { animationState: 'Fourteen' }},
+      { path: 'BoltDoctor', component: BOLTDOCTORComponent, data: { animationState: 'Fifteen' } },
+      { path: 'BoltRestaurant', component: BOLTRESTAURANTComponent, data: { animationState: 'Sixteen' } },
 
 
 
