@@ -24,6 +24,9 @@ export class AboutTeamComponent implements OnInit {
     var technicalTeam = document.getElementById('technicalTeam').querySelector('.row');
     var marketingTeam = document.getElementById('marketingTeam').querySelector('.row');
     var businessTeam = document.getElementById('businessTeam').querySelector('.row');
+    //var qaTeam = document.getElementById('qaTeam').querySelector('.row');
+    //var uiTeam = document.getElementById('uiTeam').querySelector('.row');
+    //var pmTeam = document.getElementById('pmTeam').querySelector('.row');
 
     //Toggle Show animation and enable document
     if (selectedTeam == "technicalTeam" && !technicalTeam.classList.contains('displayTeam')) {
