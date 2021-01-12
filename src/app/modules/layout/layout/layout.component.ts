@@ -1,11 +1,41 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
+import { Router, RouterOutlet } from '@angular/router';
+import { trigger, transition, style, query, animate } from '@angular/animations';
+export const routeTransitionAnimations = trigger('triggerName', [
+  transition('* => *', [
 
+    query(':enter',
+      [
+        style({ opacity: 0.5 })
+      ],
+      { optional: true }
+    ),
+
+    query(':leave',
+      [
+        style({ opacity: 1 }),
+        animate('0.2s', style({ opacity: 0.6 }))
+      ],
+      { optional: true }
+    ),
+
+    query(':enter',
+      [
+        style({ opacity: 0.6 }),
+        animate('0.2s', style({ opacity: 1 }))
+      ],
+      { optional: true }
+    )
+
+  ])
+]);
 @Component({
   selector: 'app-layout',
   templateUrl: './layout.component.html',
-  styleUrls: ['./layout.component.scss']
+  styleUrls: ['./layout.component.scss'],
+  animations: [routeTransitionAnimations]
 })
+
 export class LayoutComponent implements OnInit {
 
   constructor(private router: Router) { }
@@ -15,5 +45,9 @@ export class LayoutComponent implements OnInit {
     window.scroll(0, 0);
 
   }
-
+  prepareRoute(outlet: RouterOutlet) {
+    return outlet &&
+      outlet.activatedRouteData &&
+      outlet.activatedRouteData['animationState'];
+  }
 }
