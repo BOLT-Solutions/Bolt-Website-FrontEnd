@@ -129,8 +129,8 @@ img {
     position: absolute !important;
     top: -316px;
     left: -90px;
-    -webkit-animation: slideInTechnicalTeam 2s forwards;
-    animation: slideInTechnicalTeam 2s forwards;
+    -webkit-animation: slideInTeam 2s forwards;
+    animation: slideInTeam 2s forwards;
   }
 
   .hideTeam {
@@ -155,8 +155,8 @@ img {
     position: absolute !important;
     top: -316px;
     left: 150px;
-    -webkit-animation: slideInTechnicalTeam 2s forwards;
-    animation: slideInTechnicalTeam 2s forwards;
+    -webkit-animation: slideInTeam 2s forwards;
+    animation: slideInTeam 2s forwards;
   }
 
   .hideTeam {
@@ -172,6 +172,58 @@ img {
     width: 0;
   }
 }
+#qaTeam {
+  position: relative;
+  display: none;
+  z-index: 1;
+
+  .displayTeam {
+    position: absolute !important;
+    top: -316px;
+    left: 500px;
+    -webkit-animation: slideInTeam 2s forwards;
+    animation: slideInTeam 2s forwards;
+  }
+
+  .hideTeam {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-animation: slideOutQaTeam 1s forwards;
+    animation: slideOutQaTeam 1s forwards;
+  }
+
+  .col-2 {
+    width: 0;
+  }
+}
+#uiTeam {
+  position: relative;
+  display: none;
+  z-index: 1;
+
+  .displayTeam {
+    position: absolute !important;
+    top: -316px;
+    left: 700px;
+    -webkit-animation: slideInTeam 2s forwards;
+    animation: slideInTeam 2s forwards;
+  }
+
+  .hideTeam {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-animation: slideOutUiTeam 1s forwards;
+    animation: slideOutUiTeam 1s forwards;
+  }
+
+  .col-2 {
+    width: 0;
+  }
+}
 #businessTeam {
   position: relative;
   display: none;
@@ -180,9 +232,9 @@ img {
   .displayTeam {
     position: absolute !important;
     top: -316px;
-    left: 405px;
-    -webkit-animation: slideInTechnicalTeam 2s forwards;
-    animation: slideInTechnicalTeam 2s forwards;
+    left: 900px;
+    -webkit-animation: slideInTeam 2s forwards;
+    animation: slideInTeam 2s forwards;
   }
 
   .hideTeam {
@@ -198,7 +250,54 @@ img {
     width: 0;
   }
 }
-@keyframes slideInTechnicalTeam {
+#pmTeam {
+  position: relative;
+  display: none;
+  z-index: 1;
+
+  .displayTeam {
+    position: absolute !important;
+    top: -316px;
+    left: 80%;
+    -webkit-animation: slideInPmTeam 2s forwards;
+    animation: slideInPmTeam 2s forwards;
+  }
+
+  .hideTeam {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-animation: slideOutPmTeam 1s forwards;
+    animation: slideOutPmTeam 1s forwards;
+  }
+
+  .col-2 {
+    width: 0;
+  }
+}
+@keyframes slideInTeam {
+  0% {
+    top: -316px;
+    right: 50%;
+  }
+
+  25% {
+    top: 0;
+    right: 0;
+  }
+
+  50% {
+    right: 0;
+  }
+
+  100% {
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}
+@keyframes slideInPmTeam {
   0% {
     top: -316px;
     right: 50%;
@@ -220,6 +319,7 @@ img {
   }
 }
 
+//Hide Animations
 @keyframes slideOutTechnicalTeam {
   0% {
     top: 0;
@@ -260,6 +360,46 @@ img {
     opacity: 0;
   }
 }
+@keyframes slideOutQaTeam {
+  0% {
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  25% {
+    right: 0;
+  }
+  50% {
+    top: 0;
+    right: 0;
+  }
+  100% {
+    top: -316px;
+    left: 520px;
+    right: 90%;
+    opacity: 0;
+  }
+}
+@keyframes slideOutUiTeam {
+  0% {
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+  25% {
+    right: 0;
+  }
+  50% {
+    top: 0;
+    right: 0;
+  }
+  100% {
+    top: -316px;
+    left: 715px;
+    right: 90%;
+    opacity: 0;
+  }
+}
 @keyframes slideOutBusinessTeam {
   0% {
     top: 0;
@@ -278,7 +418,30 @@ img {
 
   100% {
     top: -316px;
-    left: 405px;
+    left: 900px;
+    right: 90%;
+    opacity: 0;
+  }
+}
+@keyframes slideOutPmTeam {
+  0% {
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  25% {
+    right: 0;
+  }
+
+  50% {
+    top: 0;
+    right: 0;
+  }
+
+  100% {
+    top: -316px;
+    left: 80%;
     right: 90%;
     opacity: 0;
   }
@@ -354,7 +517,6 @@ img {
   #board {
     padding: 10px;
     text-align: center;
-
     .mb-5 {
       text-align: center;
     }
@@ -393,7 +555,7 @@ img {
 
     img {
       width: 220px;
-      height: 250px
+      height: 250px;
     }
 
     .mb-5 {
@@ -401,7 +563,7 @@ img {
     }
   }
   #teams {
-    padding-bottom: 800px;
+    padding-bottom: 850px;
 
     .img-container {
       img {
@@ -425,6 +587,7 @@ img {
   .selectionButton {
     img {
       width: 100px !important;
+      height: 100px !important;
     }
   }
 }
