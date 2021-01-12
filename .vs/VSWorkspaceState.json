@@ -1,13 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\src",
-    "\\src\\app",
-    "\\src\\app\\modules",
-    "\\src\\app\\modules\\news",
-    "\\src\\app\\modules\\specific-new",
-    "\\src\\assets"
+    ""
   ],
-  "SelectedNode": "\\src\\app\\modules\\news\\news.component.scss",
   "PreviewInSolutionExplorer": false
 }

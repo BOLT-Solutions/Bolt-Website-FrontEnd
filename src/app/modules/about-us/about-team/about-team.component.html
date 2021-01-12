@@ -18,50 +18,39 @@
     </h3>
     <div class="row mt-5">
 
-      <div class="col-6 col-lg-3 text-center ">
+      <div class="col-6 col-lg text-center ">
         <div class="mb-5 img-container">
-          <img src="./assets/img/team/Group 9.png" />
+          <img src="./assets/img/teams/ahmed hassan.png" />
         </div>
         <h2>
-          Mohammed Ali
+          Ahmed Hassan
         </h2>
         <p class="text-center pt-4">
-          Graphic Designer
+          Software Engineer
         </p>
       </div>
 
-      <div class="col-6 col-lg-3 text-center ">
+      <div class="col-6 col-lg text-center ">
         <div class="mb-5 img-container">
-          <img src="./assets/img/team/Group 8.png" />
+          <img src="./assets/img/teams/mohammed ragab.png" />
         </div>
         <h2>
-          Youssef Nabil
+          Mohammed Ragab
         </h2>
         <p class="text-center pt-4">
-          UI/UX Designer
+          Business Analyst
         </p>
       </div>
 
-      <div class="col-6 col-lg-3 text-center">
+      <div class="col-12 col-lg text-center">
         <div class="mb-5 img-container">
-          <img src="./assets/img/team/Group 7.png" />
+          <img src="./assets/img/teams/jamie.png" />
         </div>
         <h2>
-          Ahmed Omar
+          Jamie Halpin
         </h2>
         <p class="text-center pt-4">
-          Full Stack Dev.
-        </p>
-      </div>
-      <div class="col-6 col-lg-3 text-center ">
-        <div class="mb-5 img-container">
-          <img src="./assets/img/team/Group 6.png" />
-        </div>
-        <h2>
-          Nasser Amin
-        </h2>
-        <p class="text-center pt-4">
-          Full Stack Dev.
+          Marketing Lead
         </p>
       </div>
     </div>
@@ -69,19 +58,34 @@
     <section id="teams" class="ml-lg-5">
       <!--Selection-->
       <div class="row mt-3">
-        <div class="col-4 col-lg-2 text-center">
+        <div class="col-4 col-lg text-center">
           <div class="mb-2 img-container selectionButton" (click)="DisplayTeam('technicalTeam')">
-            <img src="./assets/img/team/Group 11.png" />
+            <img src="./assets/img/team/{{technicalTeamImage}}.png" />
           </div>
         </div>
-        <div class="col-4 col-lg-2 text-center ml-lg-5">
+        <div class="col-4 col-lg text-center">
           <div class="mb-2 img-container selectionButton" (click)="DisplayTeam('marketingTeam')">
-            <img src="./assets/img/team/Group 10.png" />
+            <img src="./assets/img/team/{{marketingTeamImage}}.png" />
           </div>
         </div>
-        <div class="col-4 col-lg-2 text-center ml-lg-5">
+        <div class="col-4 col-lg text-center">
+          <div class="mb-2 img-container selectionButton" (click)="DisplayTeam('qaTeam')">
+            <img src="./assets/img/team/{{qaTeamImage}}.png" />
+          </div>
+        </div>
+        <div class="col-4 col-lg text-center">
+          <div class="mb-2 img-container selectionButton" (click)="DisplayTeam('uiTeam')">
+            <img src="./assets/img/team/{{uiTeamImage}}.png" />
+          </div>
+        </div>
+        <div class="col-4 col-lg text-center">
           <div class="mb-2 img-container selectionButton" (click)="DisplayTeam('businessTeam')">
-            <img src="./assets/img/team/Group 10.png" />
+            <img src="./assets/img/team/{{businessTeamImage}}.png" />
+          </div>
+        </div>
+        <div class="col-4 col-lg text-center">
+          <div class="mb-2 img-container selectionButton" (click)="DisplayTeam('pmTeam')">
+            <img src="./assets/img/team/{{pmTeamImage}}.png" />
           </div>
         </div>
       </div>
@@ -89,18 +93,62 @@
       <!--Technical Team-->
       <div id="technicalTeam">
         <div class="row">
-          <div class="col-6 col-lg-2 text-center ">
+          <div class="col-6 col-lg text-center ">
             <div class="mb-2 img-container">
-              <img src="./assets/img/team/Group 9.png" />
+              <img src="./assets/img/teams/yasmina.png" />
             </div>
             <h2>
-              Mohammed Ali
+              Yasmin Ghazy
             </h2>
             <p class="text-center pt-4">
-              Graphic Designer
+              Software Engineer
             </p>
           </div>
-          <div class="col-6 col-lg-2 text-center ">
+          <div class="col-6 col-lg text-center ">
+            <div class="mb-2 img-container">
+              <img src="./assets/img/teams/nader.png" />
+            </div>
+            <h2>
+              Nader Hosny
+            </h2>
+            <p class="text-center pt-4">
+              Software Engineer
+            </p>
+          </div>
+          <div class="col-6 col-lg text-center ">
+            <div class="mb-2 img-container">
+              <img src="./assets/img/teams/moataz.png" />
+            </div>
+            <h2>
+              Moataz Yassin
+            </h2>
+            <p class="text-center pt-4">
+              Software Engineer
+            </p>
+          </div>
+          <div class="col-6 col-lg text-center ">
+            <div class="mb-2 img-container">
+              <img src="./assets/img/teams/bandarawy.png" />
+            </div>
+            <h2>
+              Ahmed El-Bandarawy
+            </h2>
+            <p class="text-center pt-4">
+              Software Engineer
+            </p>
+          </div>
+          <div class="col-6 col-lg text-center ">
+            <div class="mb-2 img-container">
+              <img src="./assets/img/teams/default.png" />
+            </div>
+            <h2>
+              Amr Moushtaha
+            </h2>
+            <p class="text-center pt-4">
+              Software Engineer
+            </p>
+          </div>
+          <!--<div class="col-6 col-lg-2 text-center ">
             <div class="mb-2 img-container">
               <img src="./assets/img/team/Group 8.png" />
             </div>
@@ -110,120 +158,54 @@
             <p class="text-center pt-4">
               Graphic Designer
             </p>
-          </div>
-          <div class="col-6 col-lg-2 text-center ">
-            <div class="mb-2 img-container">
-              <img src="./assets/img/team/Group 7.png" />
-            </div>
-            <h2>
-              Mohammed Ali
-            </h2>
-            <p class="text-center pt-4">
-              Graphic Designer
-            </p>
-          </div>
-          <div class="col-6 col-lg-2 text-center ">
-            <div class="mb-2 img-container">
-              <img src="./assets/img/team/Group 6.png" />
-            </div>
-            <h2>
-              Mohammed Ali
-            </h2>
-            <p class="text-center pt-4">
-              Graphic Designer
-            </p>
-          </div>
-          <div class="col-6 col-lg-2 text-center ">
-            <div class="mb-2 img-container">
-              <img src="./assets/img/team/Group 9.png" />
-            </div>
-            <h2>
-              Mohammed Ali
-            </h2>
-            <p class="text-center pt-4">
-              Graphic Designer
-            </p>
-          </div>
-          <div class="col-6 col-lg-2 text-center ">
-            <div class="mb-2 img-container">
-              <img src="./assets/img/team/Group 8.png" />
-            </div>
-            <h2>
-              Mohammed Ali
-            </h2>
-            <p class="text-center pt-4">
-              Graphic Designer
-            </p>
-          </div>
+          </div>-->
         </div>
       </div>
       <!--Marketing Team-->
       <div id="marketingTeam">
         <div class="row ">
-          <div class="col-6 col-lg-2 text-center ">
+          <div class="col-6 col-lg text-center ">
             <div class="mb-2 img-container">
-              <img src="./assets/img/team/Group 9.png" />
+              <img src="./assets/img/teams/default.png" />
             </div>
             <h2>
-              Mohammed Ali
+              Youssef Dawood
             </h2>
             <p class="text-center pt-4">
-              Graphic Designer
+              Creative/Art Director
             </p>
           </div>
-          <div class="col-6 col-lg-2 text-center ">
+          <div class="col-6 col-lg text-center ">
             <div class="mb-2 img-container">
-              <img src="./assets/img/team/Group 8.png" />
+              <img src="./assets/img/teams/tarek.png" />
             </div>
             <h2>
-              Mohammed Ali
+              Mohammed Tarek
             </h2>
             <p class="text-center pt-4">
-              Graphic Designer
+              2D/Motion Designer
             </p>
           </div>
-          <div class="col-6 col-lg-2 text-center ">
+          <div class="col-6 col-lg text-center ">
             <div class="mb-2 img-container">
-              <img src="./assets/img/team/Group 7.png" />
+              <img src="./assets/img/teams/fishawy.png" />
             </div>
             <h2>
-              Mohammed Ali
+              Mahmoud El-Fishawy
             </h2>
             <p class="text-center pt-4">
-              Graphic Designer
+              Video Editor
             </p>
           </div>
-          <div class="col-6 col-lg-2 text-center ">
+          <div class="col-6 col-lg text-center ">
             <div class="mb-2 img-container">
-              <img src="./assets/img/team/Group 6.png" />
+              <img src="./assets/img/teams/reem.png" />
             </div>
             <h2>
-              Mohammed Ali
+              Reem Abo El-Makarem
             </h2>
             <p class="text-center pt-4">
-              Graphic Designer
-            </p>
-          </div>
-          <div class="col-6 col-lg-2 text-center ">
-            <div class="mb-2 img-container">
-              <img src="./assets/img/team/Group 9.png" />
-            </div>
-            <h2>
-              Mohammed Ali
-            </h2>
-            <p class="text-center pt-4">
-              Graphic Designer
-            </p>
-          </div>
-          <div class="col-6 col-lg-2 text-center ">
-            <div class="mb-2 img-container">
-              <img src="./assets/img/team/Group 8.png" />
-            </div>
-            <h2>
-              Mohammed Ali
-            </h2>
-            <p class="text-center pt-4">
-              Graphic Designer
+              Marketing Team
             </p>
           </div>
         </div>
@@ -231,74 +213,79 @@
       <!--Business Team-->
       <div id="businessTeam">
         <div class="row ">
-          <div class="col-6 col-lg-2 text-center ">
+          <div class="col-12 col-lg text-center ">
             <div class="mb-2 img-container">
-              <img src="./assets/img/team/Group 9.png" />
+              <img src="./assets/img/teams/hossam.png" />
             </div>
             <h2>
-              Mohammed Ali
+              Mohammed Hossam
             </h2>
             <p class="text-center pt-4">
-              Graphic Designer
-            </p>
-          </div>
-          <div class="col-6 col-lg-2 text-center ">
-            <div class="mb-2 img-container">
-              <img src="./assets/img/team/Group 8.png" />
-            </div>
-            <h2>
-              Mohammed Ali
-            </h2>
-            <p class="text-center pt-4">
-              Graphic Designer
-            </p>
-          </div>
-          <div class="col-6 col-lg-2 text-center ">
-            <div class="mb-2 img-container">
-              <img src="./assets/img/team/Group 7.png" />
-            </div>
-            <h2>
-              Mohammed Ali
-            </h2>
-            <p class="text-center pt-4">
-              Graphic Designer
-            </p>
-          </div>
-          <div class="col-6 col-lg-2 text-center ">
-            <div class="mb-2 img-container">
-              <img src="./assets/img/team/Group 6.png" />
-            </div>
-            <h2>
-              Mohammed Ali
-            </h2>
-            <p class="text-center pt-4">
-              Graphic Designer
-            </p>
-          </div>
-          <div class="col-6 col-lg-2 text-center ">
-            <div class="mb-2 img-container">
-              <img src="./assets/img/team/Group 9.png" />
-            </div>
-            <h2>
-              Mohammed Ali
-            </h2>
-            <p class="text-center pt-4">
-              Graphic Designer
-            </p>
-          </div>
-          <div class="col-6 col-lg-2 text-center ">
-            <div class="mb-2 img-container">
-              <img src="./assets/img/team/Group 8.png" />
-            </div>
-            <h2>
-              Mohammed Ali
-            </h2>
-            <p class="text-center pt-4">
-              Graphic Designer
+              Product Owner
             </p>
           </div>
         </div>
       </div>
+      <!--QA/QC Team-->
+      <div id="qaTeam">
+        <div class="row ">
+          <div class="col-12 col-lg text-center ">
+            <div class="mb-2 img-container">
+              <img src="./assets/img/teams/default.png" />
+            </div>
+            <h2>
+              Mohammed Adel
+            </h2>
+            <p class="text-center pt-4">
+              AVP - QA/QC Lead
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--UI/UX Team-->
+      <div id="uiTeam">
+        <div class="row ">
+          <div class="col-12 col-lg text-center ">
+            <div class="mb-2 img-container">
+              <img src="./assets/img/teams/medhat.png" />
+            </div>
+            <h2>
+              Mohammed Medhat
+            </h2>
+            <p class="text-center pt-4">
+              UI/UX Designer
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--Project Management Team-->
+      <div id="pmTeam">
+        <div class="row ">
+          <div class="col-6 col-lg text-center ">
+            <div class="mb-2 img-container">
+              <img src="./assets/img/teams/youssef.png" />
+            </div>
+            <h2>
+              Youssef
+            </h2>
+            <p class="text-center pt-4">
+              Project Manager
+            </p>
+          </div>
+          <div class="col-6 col-lg text-center ">
+            <div class="mb-2 img-container">
+              <img src="./assets/img/teams/heba.png" />
+            </div>
+            <h2>
+              Hiba Chnawra
+            </h2>
+            <p class="text-center pt-4">
+              Project Manager
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--End of Teams-->
     </section>
   </section>
 </main>
