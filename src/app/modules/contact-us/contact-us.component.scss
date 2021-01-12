@@ -108,6 +108,10 @@ section {
 .svg-icons {
   width: 88px;
 }
+.customInput {
+   width: 107% !important;
+  margin-left: -4% !important;
+}
 
 .mapName {
   font-family: 'Raleway', sans-serif;
@@ -119,7 +123,7 @@ section {
   letter-spacing: normal;
   text-align: left;
   color: #2e2e2e;
-  margin-top:3%;
+  margin-top: 3%;
 }
 
 .contact-data {
@@ -241,18 +245,19 @@ section {
 .selectBusinessType {
   font-family: 'Mulish', sans-serif;
   color: black;
-  width: 85%;
+  width: 101%;
   border-radius: 6px;
   margin-top: -32px;
   position: absolute;
   z-index: 7;
   background-color: #ebe6e6;
+  margin-left: -4% !important;
 }
 #filtersubmit {
-  position: relative;
+  position: absolute;
   z-index: 9;
-  left: -31px;
-  top: -3px;
+  left: 94%;
+  top: 39%;
   color: black;
   cursor: pointer;
   width: 0;
@@ -529,4 +534,31 @@ section {
   .mapBox1 {
     margin-left: 3%;
   }
+}
+@media all and (max-width: 480px) {
+
+  #filtersubmit {
+   
+    left: 88%;
+    top: 39%;
+   
+  }
+    .selectBusinessType
+    {
+        width:97%;
+    }
+    .customInput {
+        width: 112% !important;
+        margin-left: -5% !important;
+    }
+  
+}
+
+@media all and (max-width: 320px) {
+ 
+}
+
+
+@media screen and (max-width: 992px) {
+  
 }
