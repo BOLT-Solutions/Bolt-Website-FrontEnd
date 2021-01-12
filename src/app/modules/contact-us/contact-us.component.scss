@@ -230,9 +230,6 @@ section {
 .fa-angle-down {
   font-size: 40px;
 }
-//svg-icons
-//contact-data
-//contact-submit
 
 .textInputStatusValue {
   position: relative;
@@ -505,6 +502,10 @@ section {
   .mapBox1 {
     margin-left: 3%;
   }
+  .contact-img
+  {
+      height:28vh;
+  }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   .mapBox {
@@ -559,6 +560,7 @@ section {
 }
 
 
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 992px)
+{
   
 }
