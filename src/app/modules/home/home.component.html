@@ -1,13 +1,11 @@
  <!-- Cover Image  -->
-<header class="py-5 bg-image-full homeBG">
+<header class="py-5 bg-image-full homeBG" dir="{{direction}}">
 
-  <h1>Feel comfortable <br />when you meet excellence</h1>
-  <p>
-    Bolt Solutions is an established Software house in Egypt with a commitment
-    to align employee development with the overall company culture and operating systems.
-    We will help empower people and businesses alike on a scientific basis, through the provision of optimally tailored solutions that are targeted to business excellence.
+  <h1 class="{{langHelper.header.classes.header_class}}">{{langHelper.header.h1_1}} <br />{{langHelper.header.h1_2}}</h1>
+  <p class="{{langHelper.header.classes.paragraph_class}}">
+    {{langHelper.header.paragraph}}
   </p>
-  <button class="read-more" routerLink="/about-us"><h2>Read More</h2></button>
+  <button class="read-more" routerLink="/about-us"><h2>{{langHelper.readMore}}</h2></button>
 </header>
 
 <!-- Section 1 -->

@@ -3,28 +3,56 @@
   font-family: CenturyGothic;
   src: url(assets/fonts/CenturyGothic.ttf) format("truetype");
 }
-@font-face {
+/*@font-face {
   font-family: SitkaHeading;
   src: url(assets/fonts/SitkaB.ttc) format("truetype");
-}
-
-@font-face {
-  font-family: SitkaHeading;
-  src: url(assets/fonts/SitkaB.ttc) format("truetype");
-}
-
-
-@font-face {
-  font-family: SitkaHeading;
-  src: url(assets/fonts/SitkaB.ttc) format("truetype");
-}
-
+}*/
 @font-face {
   font-family: avenir;
   src: url(assets/fonts/Avenir.ttf) format("opentype");
 }
+//Tajawal Arabic Fonts
+@font-face {
+  font-family: Tajawal-Medium;
+  src: url(assets/fonts/Tajawal/Tajawal-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: Tajawal-Black;
+  src: url(assets/fonts/Tajawal/Tajawal-Black.ttf) format("truetype");
+}
+@font-face {
+  font-family: Tajawal-Bold;
+  src: url(assets/fonts/Tajawal/Tajawal-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: Tajawal-Light;
+  src: url(assets/fonts/Tajawal/Tajawal-Light.ttf) format("truetype");
+}
 
+//Cairo Arabic Fonts
+@font-face {
+  font-family: Cairo-Regular;
+  src: url(assets/fonts/Cairo/Cairo-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: Cairo-SemiBold;
+  src: url(assets/fonts/Cairo/Cairo-SemiBold.ttf) format("truetype");
+}
 
+//Almarai Arabic Fonts
+
+@font-face {
+  font-family: Almarai-Regular;
+  src: url(assets/fonts/Almarai/Almarai-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: Almarai-Bold;
+  src: url(assets/fonts/Almarai/Almarai-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: Almarai-Light;
+  src: url(assets/fonts/Almarai/Almarai-Light.ttf) format("truetype");
+}
 //Remove outline from website
 *{
   outline: none;
