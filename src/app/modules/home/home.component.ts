@@ -2,6 +2,7 @@ import { Component, OnInit, ViewChild } from '@angular/core'; //View Child for a
 import { Router } from '@angular/router';
 import { content } from '../../models/http-models/content';
 import { HomeService } from '../../services/home-service';
+import { langHelper } from '../../services/utilities/langHelper';
 import { ModalComponent } from '../shared/modal/modal.component';
 
 @Component({
@@ -12,15 +13,15 @@ import { ModalComponent } from '../shared/modal/modal.component';
 export class HomeComponent implements OnInit {
 
   //Declare services
-  constructor(private router: Router, private HomeService: HomeService) { }
+  constructor(private router: Router, private HomeService: HomeService, private LangHelper: langHelper) { }
   //Models and DTOs
   content: content;
   contents: Array<content> = new Array<content>();
-
+  langHelper;
   //Shared components declarations
   @ViewChild(ModalComponent) modal: ModalComponent;
   ngOnInit(): void {
-
+    this.langHelper = this.LangHelper.initializeMode();
     //Fetch Home Page Contents Via Observable (Http-request)
     //this.HomeService.GetHomePageContents().subscribe(res => {
     //  if (res.succeeded) { // API method sucessful

@@ -23,18 +23,80 @@ export class langHelper  {
       this.currentLang = (/true/i).test(localStorage.getItem("enLang"))
   }
 
-
-
   //Initialize language variables
   initializeMode() { 
     if (this.currentLang) {
       return {
-        image: 'Image',
+        layout: {
+          home: '',
+          about: '',
+          service: '',
+          products: '',
+          contactus: '',
+          language: '',
+
+          category: '',
+          link: '',
+          marketing: '',
+          branding: '',
+          seo: '',
+          webDesign: '',
+          video: '',
+          
+        },
+        home: {
+
+        },
+        about:{
+
+        },
+        services: {
+          erp: {
+
+          },
+          platform: {
+
+          },
+          mobile: {
+            
+          },
+          atm: {
+
+          },
+          DCN: {
+
+          },
+          digital: {
+
+          },
+          tailored: {
+
+          },
+
+        },
+        products: {
+          doctor: {
+
+          },
+          salon: {
+
+          },
+          restaurant: {
+
+          },
+          erp: {
+
+          }
+        },
+        contact: {
+
+        }
+
       }
     }
     else if (!this.currentLang) {
       return {
-        image: 'صورة',
+      
       }
     }
   }
