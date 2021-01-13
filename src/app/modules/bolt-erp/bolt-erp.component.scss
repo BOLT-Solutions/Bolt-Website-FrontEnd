@@ -92,12 +92,49 @@ main {
     perspective: 300px;
   }
 
-  .benefit-img {
+  .BetterReporting {
     height: 10vh;
-    background: url("../../../assets/img/icons/icon2.png") no-repeat;
+    background: url("../../../assets/designer-assets/icons/bolt-erp/BetterReporting.png") no-repeat;
     background-size: 40px 40px;
     background-position: center;
   }
+
+
+  .DataQuality {
+    height: 10vh;
+    background: url("../../../assets/designer-assets/icons/bolt-erp/DataQuality.png") no-repeat;
+    background-size: 40px 40px;
+    background-position: center;
+  }
+
+  .BusinessAnalytics {
+    height: 10vh;
+    background: url("../../../assets/designer-assets/icons/bolt-erp/BusinessAnalytics.png") no-repeat;
+    background-size: 40px 40px;
+    background-position: center;
+  }
+
+  .Scalability {
+    height: 10vh;
+    background: url("../../../assets/designer-assets/icons/bolt-erp/Scalability.png") no-repeat;
+    background-size: 40px 40px;
+    background-position: center;
+  }
+
+  .lowerCost {
+    height: 10vh;
+    background: url("../../../assets/designer-assets/icons/bolt-erp/Lowercostofoperations.png") no-repeat;
+    background-size: 40px 40px;
+    background-position: center;
+  }
+
+  .ImprovedCRM {
+    height: 10vh;
+    background: url("../../../assets/designer-assets/icons/bolt-erp/ImprovedCRM.png") no-repeat;
+    background-size: 40px 40px;
+    background-position: center;
+  }
+
 
   .benefit-inner {
     width: 96%;
@@ -221,12 +258,37 @@ main {
       background-position: bottom;
     }
 
-    .benefit-inner {
-      height: 26vh;
-      padding: 5% 5%;
-      border-radius: 24px;
+    .BetterReporting {
+      height: 7vh;
+      background-position: bottom;
     }
 
+    .DataQuality {
+      height: 7vh;
+      background-position: bottom;
+    }
+
+    .BusinessAnalytics {
+      height: 7vh;
+      background-position: bottom;
+    }
+
+    .Scalability {
+      height: 7vh;
+      background-position: bottom;
+    }
+
+    .lowerCost {
+      height: 7vh;
+      background-position: bottom;
+    }
+
+    .ImprovedCRM {
+      height: 7vh;
+      background-position: bottom;
+    }
+
+   
     .benefit:hover .benefit-inner {
       p {
         color: #8d8d8d !important;

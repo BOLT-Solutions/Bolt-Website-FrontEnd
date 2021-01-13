@@ -1,13 +1,11 @@
  <!-- Cover Image  -->
-<header class="py-5 bg-image-full homeBG">
+<header class="py-5 bg-image-full homeBG" dir="{{direction}}">
 
-  <h1>Feel comfortable <br />when you meet excellence</h1>
-  <p>
-    Bolt Solutions is an established Software house in Egypt with a commitment
-    to align employee development with the overall company culture and operating systems.
-    We will help empower people and businesses alike on a scientific basis, through the provision of optimally tailored solutions that are targeted to business excellence.
+  <h1 class="{{langHelper.header.classes.header_class}}">{{langHelper.header.h1_1}} <br />{{langHelper.header.h1_2}}</h1>
+  <p class="{{langHelper.header.classes.paragraph_class}}">
+    {{langHelper.header.paragraph}}
   </p>
-  <button class="read-more" routerLink="/about-us"><h2>Read More</h2></button>
+  <button class="read-more" routerLink="/about-us"><h2>{{langHelper.readMore}}</h2></button>
 </header>
 
 <!-- Section 1 -->
@@ -58,119 +56,120 @@
   <h1 class="display-4 p-5">Our Solutions </h1>
   <div class="title-list ml-4 ml-lg-5">
     <h2 class="solution-tab active" (click)="ViewSolution('all')" id="all" style="margin-left:2%;">Show All</h2>
-    <h2 class="solution-tab" (click)="ViewSolution('branded-ecommerce')" id="branded-ecommerce">BRANDED ECOMMERCE</h2>
-    <h2 class="solution-tab" (click)="ViewSolution('digital-experience')" id="digital-experience"> DIGITAL EXPERIENCES</h2>
-    <h2 class="solution-tab" (click)="ViewSolution('branding-strategy')" id="branding-strategy"> BRANDING STRATEGY</h2>
+    <h2 class="solution-tab" (click)="ViewSolution('Solutions')" id="Solutions">Solutions</h2>
+    <h2 class="solution-tab" (click)="ViewSolution('Services')" id="Services"> Services</h2>
   </div>
 
   <div class="text-center" style="overflow: hidden;">
     <div class="row m-lg-5">
       <div class="col-6 col-lg-4">
-        <div class="news-container p-0 p-lg-4" data-id="digital-experience">
+        <div class="news-container p-0 p-lg-4" data-id="Solutions">
           <div style="position:relative; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);">
             <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>Read More</h2></button></div></div></div>
-            <img src="./assets/img/solutions/solution1.png" class="img-fluid" alt="solutions" />
+            <img src="./assets/img/solutions/atm.jpg" class="img-fluid" alt="solutions" />
           </div>
           <h2 class="mt-2">ATM cleaning machine monitoring system</h2>
         </div>
       </div>
       <div class="col-6 col-lg-4">
-        <div class="news-container p-0 p-lg-4" data-id="branded-ecommerce">
+        <div class="news-container p-0 p-lg-4" data-id="Solutions">
           <div style="position:relative; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);">
             <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>Read More</h2></button></div></div></div>
-            <img src="./assets/img/solutions/solution2.jpg" class="img-fluid" alt="solutions" />
+            <img src="./assets/img/solutions/tailoredsolution.jpg" class="img-fluid" alt="solutions" />
           </div>
           <h2 class="mt-2">Tailored solutions</h2>
         </div>
       </div>
       <div class="col-6 col-lg-4">
-        <div class="news-container p-0 p-lg-4" data-id="branding-strategy">
+        <div class="news-container p-0 p-lg-4" data-id="Solutions">
           <div style="position:relative; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);">
             <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>Read More</h2></button></div></div></div>
-            <img src="./assets/img/solutions/solution3.jpg" class="img-fluid" alt="solutions" />
+            <img src="./assets/img/solutions/Digitaltransformation.jpg" class="img-fluid" alt="solutions" />
           </div>
           <h2 class="mt-2">Digital transformation</h2>
         </div>
       </div>
       <div class="col-6 col-lg-4">
-        <div class="news-container p-0 p-lg-4" data-id="branding-strategy">
+        <div class="news-container p-0 p-lg-4" data-id="Solutions">
           <div style="position:relative; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);">
             <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>Read More</h2></button></div></div></div>
-            <img src="./assets/img/solutions/solution4.jpg" class="img-fluid" alt="solutions" />
+            <img src="./assets/img/solutions/DataCenter.png" class="img-fluid" alt="solutions" />
           </div>
           <h2 class="mt-2">Data Center</h2>
         </div>
       </div>
       <div class="col-6 col-lg-4">
-        <div class="news-container p-0 p-lg-4" data-id="branding-strategy">
+        <div class="news-container p-0 p-lg-4" data-id="Solutions">
           <div style="position:relative; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);">
             <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>Read More</h2></button></div></div></div>
-            <img src="./assets/img/solutions/solution5.jpg" class="img-fluid" alt="solutions" />
+            <img src="./assets/img/solutions/website.png" class="img-fluid" alt="solutions" />
           </div>
-          <h2 class="mt-2">ERP </h2>
-        </div>
-      </div>
-      <div class="col-6 col-lg-4">
-        <div class="news-container p-0 p-lg-4" data-id="branding-strategy">
-          <div style="position:relative; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);">
-            <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>Read More</h2></button></div></div></div>
-            <img src="./assets/img/solutions/solution6.jpg" class="img-fluid" alt="solutions" />
-          </div>
-          <h2 class="mt-2">E-commerce Website</h2>
+          <h2 class="mt-2">Website Platform</h2>
         </div>
       </div>
 
       <div class="col-6 col-lg-4">
-        <div class="news-container p-0 p-lg-4" data-id="branding-strategy">
+        <div class="news-container p-0 p-lg-4" data-id="Solutions">
           <div style="position:relative; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);">
             <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>Read More</h2></button></div></div></div>
-            <img src="./assets/img/solutions/solution6.jpg" class="img-fluid" alt="solutions" />
+            <img src="./assets/img/solutions/ERP.jpg" class="img-fluid" alt="solutions" />
+          </div>
+          <h2 class="mt-2">ERP </h2>
+        </div>
+      </div>
+
+
+      <div class="col-6 col-lg-4">
+        <div class="news-container p-0 p-lg-4" data-id="Solutions">
+          <div style="position:relative; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);">
+            <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>Read More</h2></button></div></div></div>
+            <img src="./assets/img/solutions/mobileapp.png" class="img-fluid" alt="solutions" />
           </div>
           <h2 class="mt-2">Mobile Application</h2>
         </div>
       </div>
 
       <div class="col-6 col-lg-4">
-        <div class="news-container p-0 p-lg-4" data-id="branding-strategy">
+        <div class="news-container p-0 p-lg-4" data-id="Services">
           <div style="position:relative; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);">
             <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>Read More</h2></button></div></div></div>
-            <img src="./assets/img/solutions/solution6.jpg" class="img-fluid" alt="solutions" />
+            <img src="./assets/img/solutions/BoltSalon.jpg" class="img-fluid" alt="solutions" />
           </div>
           <h2 class="mt-2">Bolts salon</h2>
         </div>
       </div>
 
       <div class="col-6 col-lg-4">
-        <div class="news-container p-0 p-lg-4" data-id="branding-strategy">
+        <div class="news-container p-0 p-lg-4" data-id="Services">
           <div style="position:relative; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);">
             <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>Read More</h2></button></div></div></div>
-            <img src="./assets/img/solutions/solution6.jpg" class="img-fluid" alt="solutions" />
+            <img src="./assets/img/solutions/BoltDoctor.jpg" class="img-fluid" alt="solutions" />
           </div>
           <h2 class="mt-2">Bolts doctor</h2>
         </div>
       </div>
 
       <div class="col-6 col-lg-4">
-        <div class="news-container p-0 p-lg-4" data-id="branding-strategy">
+        <div class="news-container p-0 p-lg-4" data-id="Services">
           <div style="position:relative; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);">
             <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>Read More</h2></button></div></div></div>
-            <img src="./assets/img/solutions/solution6.jpg" class="img-fluid" alt="solutions" />
+            <img src="./assets/img/solutions/boltRestaurant.jpg" class="img-fluid" alt="solutions" />
           </div>
           <h2 class="mt-2">Bolts Restaurant</h2>
         </div>
       </div>
 
       <div class="col-6 col-lg-4">
-        <div class="news-container p-0 p-lg-4" data-id="branding-strategy">
+        <div class="news-container p-0 p-lg-4" data-id="Services">
           <div style="position:relative; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);">
             <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>Read More</h2></button></div></div></div>
-            <img src="./assets/img/solutions/solution6.jpg" class="img-fluid" alt="solutions" />
+            <img src="./assets/img/solutions/boltERP.jpg" class="img-fluid" alt="solutions" />
           </div>
           <h2 class="mt-2">Bolts ERP </h2>
         </div>
       </div>
 
-     
+
     </div>
   </div>
 </section>

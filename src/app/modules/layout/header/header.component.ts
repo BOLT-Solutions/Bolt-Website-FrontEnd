@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, RouterEvent } from '@angular/router';
 import { Subject } from 'rxjs';
+import { langHelper } from '../../../services/utilities/langHelper';
 
 @Component({
   selector: 'app-header',
@@ -15,10 +16,19 @@ export class HeaderComponent implements OnInit {
 
   routerUrl: string;
 
-  constructor(private router: Router) {
+
+  //Translation Variables
+  langHelper;
+  direction;
+
+  constructor(private router: Router, public LanguageService: langHelper) {
   }
 
   ngOnInit(): void {
+    this.langHelper = this.LanguageService.initializeMode().layout;
+    this.direction = this.LanguageService.initializeMode().dir;
+
+    //Set Header Activity
     this.ClearNavigationHighLight();
     var currentUrl = this.router.url.toString(); // Fetch current router link
     currentUrl = currentUrl.replace("/", "");

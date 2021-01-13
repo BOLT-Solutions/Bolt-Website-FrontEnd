@@ -1,5 +1,5 @@
 <!--Bootstrap Navigation Component-->
-<nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top" id="nav">
+<nav class="navbar navbar-expand-xl navbar-dark bg-dark fixed-top" id="nav" dir="{{direction}}">
   <!--Brand-->
   <img class="navbar-brand" src="./assets/img/bolt.png" alt="bolt-solutions" routerLink="/home"> 
 
@@ -8,13 +8,13 @@
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
+    <ul class="navbar-nav m-auto">
       <li class="nav-item" id="home">
-        <a class="nav-link" (click)="Navigate('home')">Home</a>
+        <a class="nav-link" (click)="Navigate('home')">{{langHelper.home}}</a>
       </li>
       <li class="nav-item dropdown" id="about">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          About
+          {{langHelper.about}}
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" (click)="Navigate('about-us')">About Company</a>
@@ -23,7 +23,7 @@
       </li>
       <li class="nav-item dropdown" id="services">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Services
+          {{langHelper.services}}
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <a class="dropdown-item" (click)="Navigate('ERP')">ERP</a>
@@ -37,7 +37,7 @@
       </li>
       <li class="nav-item dropdown" id="products">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Products
+          {{langHelper.products}}
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <!--<div class="dropdown-divider"></div>-->
@@ -48,14 +48,14 @@
         </div>
       </li>
       <li class="nav-item" id="contact-us">
-        <a class="nav-link" (click)="Navigate('contact-us')">Contact Us</a>
+        <a class="nav-link" (click)="Navigate('contact-us')">{{langHelper.contactus}}</a>
       </li>
       <!--<li class="nav-item" id="news">
         <a class="nav-link" (click)="Navigate('news')">News</a>
       </li>-->
     </ul>
     <form class="form-inline my-2 my-lg-0">
-      <button id="langButton" class="btn btn-outline-primary my-2 my-sm-0 {{languageStyle}}" type="submit" style="font-family: 'Almarai', sans-serif;">العربية</button>
+      <button id="langButton" class="btn btn-outline-primary my-2 my-sm-0 {{languageStyle}}" type="submit" style="font-family: 'Almarai', sans-serif;"(click)="LanguageService.switchLang()">{{langHelper.language}}</button>
     </form>
   </div>
 </nav>

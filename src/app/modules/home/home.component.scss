@@ -26,8 +26,15 @@ header {
     font-style: normal;
     line-height: 1.18;
     letter-spacing: normal;
-    text-align: left;
     color: #dcdcdc;
+  }
+
+  .arabicH1 {
+    text-align: right;
+    font-family: 'Cairo-SemiBold', sans-serif;
+  }
+  .arabic_paragraph {
+    font-family: 'Tajawal-Light', sans-serif;
   }
 
   p {
