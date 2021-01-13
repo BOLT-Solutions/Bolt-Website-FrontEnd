@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\modules",
+    "\\src\\app\\modules\\bolt-erp",
+    "\\src\\app\\modules\\contact-us"
   ],
+  "SelectedNode": "\\src\\app\\modules\\bolt-erp\\bolt-erp.component.html",
   "PreviewInSolutionExplorer": false
 }
