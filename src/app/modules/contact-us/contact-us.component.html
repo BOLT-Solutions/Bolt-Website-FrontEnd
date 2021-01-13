@@ -11,8 +11,7 @@
         <div>
           <p class="contactHeading">Let's get in touch</p>
           <p class="contactBody">
-            We're open for any suggestion or<br />
-            just to have a chat.
+            Ask us any question ,We are here to help.
           </p>
         </div>
         <div class="socialSection">
@@ -97,7 +96,7 @@
 
               <div class="row">
 
-                <div  class="col-12">
+                <div (mouseleave)="hideOption()" class="col-12">
                   <input class="textInputStatusValue customInput" type="text" placeholder="Product Name" value="{{stValue}}" (click)="showOption()" readonly />
                   <i *ngIf="show" id="filtersubmit" class="fa fa-chevron-down" aria-hidden="true"></i>
                   <i *ngIf="!show" id="filtersubmit" class="fa fa-chevron-up" aria-hidden="true"></i>

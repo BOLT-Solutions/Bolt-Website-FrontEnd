@@ -35,7 +35,7 @@ header {
     height: 170px;
     margin: 35px 72px 0 45px;
     font-family: 'Muli', sans-serif;
-    font-size: 24px;
+    font-size: 21px;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -240,14 +240,77 @@ header {
 //Responsive
 
 //Mobile View
-@media only screen and (max-device-width: 350px){
+@media only screen and (max-device-width: 450px){
+  .homeBG {
+    height: 70vh;
+  }
+
+  header {
+    h1 {
+      width: 250px;
+      height: 54px;
+      margin: 100.5px 46.5px 30px 14px;
+      font-family: 'Raleway',sans-serif;
+      font-size: 21px;
+      font-weight: normal;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.17;
+      letter-spacing: normal;
+      text-align: left;
+      color: #dcdcdc;
+    }
+
+    p {
+      width: 349px;
+      height: 95px;
+      margin: 7px 12px 25px;
+      font-family: 'Muli',sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+      font-stretch: normal;
+      font-style: normal;
+      line-height: 1.27;
+      letter-spacing: normal;
+      text-align: left;
+      color: #dcdcdc;
+    }
+  }
+
+  .sectionOne {
+    h1 {
+      width: 341px;
+      height: 66px;
+      margin: 19px -13px 24.6px;
+      font-family: 'Raleway',sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+    }
+
+    .col-7 {
+      display: none;
+    }
+
+    img {
+      width: 35.1px;
+      height: 34.6px;
+    }
+
+    h2 {
+      font-size: 18px;
+    }
+  }
+
+
+
     header{
         p{
             width:296px !important;
-            font-size:16px !important;
+            font-size:15px !important;
         }
         .read-more{
-            margin-top:20px !important;
+            margin-top:55px !important;
+            margin-left:20px !important;
         }
     }
     .sectionOne{
@@ -285,17 +348,18 @@ header {
     }
   }
 }
-@media only screen and (max-device-width: 1024px) {
-    .homeBG{
-        height:70vh;
-    }
+@media only screen and (min-device-width:700px) and (max-device-width: 1024px) {
+  .homeBG {
+    height: 70vh;
+  }
+
   header {
     h1 {
       width: 250px;
       height: 54px;
-      margin: 151.5px 46.5px 7px 14px;
+      margin: 100.5px 46.5px 30px 14px;
       font-family: 'Raleway',sans-serif;
-      font-size: 21px;
+      font-size: 23px;
       font-weight: normal;
       font-stretch: normal;
       font-style: normal;
@@ -310,7 +374,7 @@ header {
       height: 95px;
       margin: 7px 12px 25px;
       font-family: 'Muli',sans-serif;
-      font-size: 16px;
+      font-size: 20px;
       font-weight: 300;
       font-stretch: normal;
       font-style: normal;
@@ -319,9 +383,12 @@ header {
       text-align: left;
       color: #dcdcdc;
     }
-
-
+    .read-more
+        {
+        margin-top:140px!important;
+    }
   }
+
   .sectionOne {
     h1 {
       width: 341px;
@@ -350,17 +417,20 @@ header {
   .sectionTwo {
     h1 {
       font-size: 24px;
-      margin-top:5% !important;
+      margin-top: 5% !important;
       padding: 2rem !important;
     }
-    h2{
-        font-size: 16px;
+
+    h2 {
+      font-size: 15px;
     }
   }
+
   .row {
     margin-right: auto;
     margin-left: auto;
   }
+
   .sectionThree {
     h1 {
       font-size: 23px;
@@ -372,9 +442,10 @@ header {
       width: auto;
     }
   }
+
   .read-more {
     margin: 40px 0px 0px 29px;
-    margin-top: 40px;
+    margin-top: 40px !important;
     padding: 11px 23px;
     border-radius: 35px;
     width: 115px;
@@ -394,6 +465,7 @@ header {
       font-weight: 100;
     }
   }
+
   .news-container {
     .container-overlay {
       .read-more {
@@ -409,7 +481,6 @@ header {
       }
     }
   }
-
 }
 
 //Animations and keyframes
@@ -460,4 +531,14 @@ header {
     font-size: 13px !important;
     margin: 7px 12px -24px !important;
   }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait) {
+ .header
+ {
+     background-color:rebeccapurple !important;
+ }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
 }
