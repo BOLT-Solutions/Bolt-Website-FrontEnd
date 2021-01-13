@@ -108,6 +108,10 @@ section {
 .svg-icons {
   width: 88px;
 }
+.customInput {
+   width: 107% !important;
+  margin-left: -4% !important;
+}
 
 .mapName {
   font-family: 'Raleway', sans-serif;
@@ -119,7 +123,7 @@ section {
   letter-spacing: normal;
   text-align: left;
   color: #2e2e2e;
-  margin-top:3%;
+  margin-top: 3%;
 }
 
 .contact-data {
@@ -226,29 +230,31 @@ section {
 .fa-angle-down {
   font-size: 40px;
 }
-//svg-icons
-//contact-data
-//contact-submit
 
 .textInputStatusValue {
   position: relative;
   z-index: 8;
 }
+.textInputStatusValue:hover
+{
+    cursor:pointer;
+}
 .selectBusinessType {
   font-family: 'Mulish', sans-serif;
   color: black;
-  width: 85%;
+  width: 101%;
   border-radius: 6px;
   margin-top: -32px;
   position: absolute;
   z-index: 7;
   background-color: #ebe6e6;
+  margin-left: -4% !important;
 }
 #filtersubmit {
-  position: relative;
+  position: absolute;
   z-index: 9;
-  left: -31px;
-  top: -3px;
+  left: 94%;
+  top: 39%;
   color: black;
   cursor: pointer;
   width: 0;
@@ -262,8 +268,10 @@ section {
   margin-left: 9%;
   margin-top:2%;
 }
-
-
+.typeBusinessText:hover
+{
+    cursor:pointer;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .contact-img {
@@ -326,24 +334,25 @@ section {
     width: 99%;
     margin-bottom: 16%;
     margin-top: 12%;
-    }
-    .mapBox1 {
-      width: 90%;
-      margin: 0px;
-      padding: 0px;
-      margin-top: 3%;
-      margin-bottom: 16%;
-    }
+  }
 
-    .row {
-      margin: 0 !important;
-      padding: 0 !important;
-    }
-  .mapName
-  {
-      font-size:28px;
+  .mapBox1 {
+    width: 90%;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 3%;
+    margin-bottom: 16%;
   }
+
+  .row {
+    margin: 0 !important;
+    padding: 0 !important;
   }
+
+  .mapName {
+    font-size: 28px;
+  }
+}
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) and (max-width:800px) {
@@ -493,6 +502,10 @@ section {
   .mapBox1 {
     margin-left: 3%;
   }
+  .contact-img
+  {
+      height:28vh;
+  }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) and (-webkit-min-device-pixel-ratio: 2) {
   .mapBox {
@@ -522,4 +535,32 @@ section {
   .mapBox1 {
     margin-left: 3%;
   }
+}
+@media all and (max-width: 480px) {
+
+  #filtersubmit {
+   
+    left: 88%;
+    top: 39%;
+   
+  }
+    .selectBusinessType
+    {
+        width:97%;
+    }
+    .customInput {
+        width: 112% !important;
+        margin-left: -5% !important;
+    }
+  
+}
+
+@media all and (max-width: 320px) {
+ 
+}
+
+
+@media screen and (max-width: 992px)
+{
+  
 }

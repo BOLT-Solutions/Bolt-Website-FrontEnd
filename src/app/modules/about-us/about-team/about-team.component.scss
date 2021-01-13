@@ -2,9 +2,7 @@ main {
   background-color: #f2f2f2;
 }
 
-img {
-  width: 100%;
-}
+
 
 .selectionButton {
   position: relative;
@@ -13,6 +11,8 @@ img {
   img {
     cursor: pointer;
   }
+
+  transition: all 0.5s;
 }
 
 #bg {
@@ -72,7 +72,7 @@ img {
     font-stretch: normal;
     font-style: normal;
     line-height: 1.26;
-    margin-top:2%;
+    margin-top: 2%;
     letter-spacing: normal;
     text-align: left;
     color: rgba(0, 0, 0, 0.78);
@@ -104,6 +104,7 @@ img {
 //Teams Section
 #teams {
   padding-bottom: 600px;
+
   .img-container {
     img {
       width: 200px;
@@ -111,6 +112,7 @@ img {
       object-fit: contain;
     }
   }
+
   p {
     font-size: 22px !important;
   }
@@ -127,8 +129,8 @@ img {
     position: absolute !important;
     top: -316px;
     left: -90px;
-    -webkit-animation: slideInTechnicalTeam 2s forwards;
-    animation: slideInTechnicalTeam 2s forwards;
+    -webkit-animation: slideInTeam 2s forwards;
+    animation: slideInTeam 2s forwards;
   }
 
   .hideTeam {
@@ -144,6 +146,7 @@ img {
     width: 0;
   }
 }
+
 #marketingTeam {
   position: relative;
   display: none;
@@ -153,8 +156,8 @@ img {
     position: absolute !important;
     top: -316px;
     left: 150px;
-    -webkit-animation: slideInTechnicalTeam 2s forwards;
-    animation: slideInTechnicalTeam 2s forwards;
+    -webkit-animation: slideInTeam 2s forwards;
+    animation: slideInTeam 2s forwards;
   }
 
   .hideTeam {
@@ -170,6 +173,61 @@ img {
     width: 0;
   }
 }
+
+#qaTeam {
+  position: relative;
+  display: none;
+  z-index: 1;
+
+  .displayTeam {
+    position: absolute !important;
+    top: -316px;
+    left: 500px;
+    -webkit-animation: slideInTeam 2s forwards;
+    animation: slideInTeam 2s forwards;
+  }
+
+  .hideTeam {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-animation: slideOutQaTeam 1s forwards;
+    animation: slideOutQaTeam 1s forwards;
+  }
+
+  .col-2 {
+    width: 0;
+  }
+}
+
+#uiTeam {
+  position: relative;
+  display: none;
+  z-index: 1;
+
+  .displayTeam {
+    position: absolute !important;
+    top: -316px;
+    left: 700px;
+    -webkit-animation: slideInTeam 2s forwards;
+    animation: slideInTeam 2s forwards;
+  }
+
+  .hideTeam {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-animation: slideOutUiTeam 1s forwards;
+    animation: slideOutUiTeam 1s forwards;
+  }
+
+  .col-2 {
+    width: 0;
+  }
+}
+
 #businessTeam {
   position: relative;
   display: none;
@@ -178,9 +236,9 @@ img {
   .displayTeam {
     position: absolute !important;
     top: -316px;
-    left: 405px;
-    -webkit-animation: slideInTechnicalTeam 2s forwards;
-    animation: slideInTechnicalTeam 2s forwards;
+    left: 900px;
+    -webkit-animation: slideInTeam 2s forwards;
+    animation: slideInTeam 2s forwards;
   }
 
   .hideTeam {
@@ -196,7 +254,35 @@ img {
     width: 0;
   }
 }
-@keyframes slideInTechnicalTeam {
+
+#pmTeam {
+  position: relative;
+  display: none;
+  z-index: 1;
+
+  .displayTeam {
+    position: absolute !important;
+    top: -316px;
+    left: 80%;
+    -webkit-animation: slideInPmTeam 2s forwards;
+    animation: slideInPmTeam 2s forwards;
+  }
+
+  .hideTeam {
+    position: absolute !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    -webkit-animation: slideOutPmTeam 1s forwards;
+    animation: slideOutPmTeam 1s forwards;
+  }
+
+  .col-2 {
+    width: 0;
+  }
+}
+
+@keyframes slideInTeam {
   0% {
     top: -316px;
     right: 50%;
@@ -218,19 +304,45 @@ img {
   }
 }
 
+@keyframes slideInPmTeam {
+  0% {
+    top: -316px;
+    right: 50%;
+  }
+
+  25% {
+    top: 0;
+    right: 0;
+  }
+
+  50% {
+    right: 0;
+  }
+
+  100% {
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+//Hide Animations
 @keyframes slideOutTechnicalTeam {
   0% {
     top: 0;
     left: 0;
     right: 0;
   }
+
   25% {
     right: 0;
   }
+
   50% {
     top: 0;
     right: 0;
   }
+
   100% {
     top: -316px;
     left: -100px;
@@ -238,19 +350,23 @@ img {
     opacity: 0;
   }
 }
+
 @keyframes slideOutMarketingTeam {
   0% {
     top: 0;
     left: 0;
     right: 0;
   }
+
   25% {
     right: 0;
   }
+
   50% {
     top: 0;
     right: 0;
   }
+
   100% {
     top: -316px;
     left: 150px;
@@ -258,6 +374,55 @@ img {
     opacity: 0;
   }
 }
+
+@keyframes slideOutQaTeam {
+  0% {
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  25% {
+    right: 0;
+  }
+
+  50% {
+    top: 0;
+    right: 0;
+  }
+
+  100% {
+    top: -316px;
+    left: 520px;
+    right: 90%;
+    opacity: 0;
+  }
+}
+
+@keyframes slideOutUiTeam {
+  0% {
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  25% {
+    right: 0;
+  }
+
+  50% {
+    top: 0;
+    right: 0;
+  }
+
+  100% {
+    top: -316px;
+    left: 715px;
+    right: 90%;
+    opacity: 0;
+  }
+}
+
 @keyframes slideOutBusinessTeam {
   0% {
     top: 0;
@@ -276,7 +441,31 @@ img {
 
   100% {
     top: -316px;
-    left: 405px;
+    left: 900px;
+    right: 90%;
+    opacity: 0;
+  }
+}
+
+@keyframes slideOutPmTeam {
+  0% {
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  25% {
+    right: 0;
+  }
+
+  50% {
+    top: 0;
+    right: 0;
+  }
+
+  100% {
+    top: -316px;
+    left: 80%;
     right: 90%;
     opacity: 0;
   }
@@ -292,6 +481,7 @@ img {
     background-size: cover;
     background-position: center;
   }
+
   .img-container {
     img {
       width: 120px !important;
@@ -299,12 +489,15 @@ img {
       object-fit: contain;
     }
   }
+
   .selectionButton {
     img {
       width: 80px !important;
+      height: 90px !important;
     }
   }
 }
+
 @media screen and (max-width: 1024px) {
 
   #bg {
@@ -321,8 +514,6 @@ img {
       font-size: 18px;
       width: 246px;
     }
-
-
   }
 
   .mr-5 {
@@ -381,7 +572,6 @@ img {
     }
 
     .img-container {
-
       img {
         width: 180px;
         height: 200px;
@@ -391,21 +581,29 @@ img {
 
     img {
       width: 220px;
-      height: 250px
+      height: 250px;
     }
 
     .mb-5 {
       margin-bottom: 1.8rem !important;
     }
   }
+
   #teams {
-    padding-bottom: 800px;
+    padding-bottom: 850px;
 
     .img-container {
       img {
         width: 180px;
         height: 200px;
         object-fit: contain;
+      }
+    }
+
+    .selectionButton {
+      img {
+        width: 100px;
+        height: 100px;
       }
     }
 
@@ -420,9 +618,11 @@ img {
       margin: 0 auto;
     }
   }
-  .selectionButton {
-    img {
-      width: 100px !important;
-    }
-  }
+
+
+}
+
+.selectionButton:hover {
+  transform: scale(1.1);
+  transition: all 0.5s;
 }
