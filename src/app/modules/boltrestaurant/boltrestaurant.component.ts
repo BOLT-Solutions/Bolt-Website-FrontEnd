@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { langHelper } from '../../services/utilities/langHelper';
 
 @Component({
   selector: 'app-boltrestaurant',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BOLTRESTAURANTComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(public LanguageService: langHelper) { }
+  langHelper;
+  direction;
   ngOnInit(): void {
+    this.langHelper = this.LanguageService.initializeMode().products.restaurant;
+    this.direction = this.LanguageService.initializeMode().dir;
   }
 
 }
