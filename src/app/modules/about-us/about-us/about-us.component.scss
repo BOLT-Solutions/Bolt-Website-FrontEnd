@@ -7,7 +7,7 @@ main {
 #bg{
    
   background: url("../../../../assets/img/Header.png") no-repeat 0 0;
-  height: 70vh;
+  height: 80vh;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -23,7 +23,7 @@ img{
 
   h1 {
     font-family: 'Open Sans', sans-serif;
-    font-size: 64px;
+    font-size: 60px;
     font-weight: 300;
     line-height: 1.37;
     color: #ffffff;
@@ -31,7 +31,7 @@ img{
 
   p {
     font-family: 'Mulish', sans-serif;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 300;
     color: #ffffff;
   }
@@ -52,7 +52,7 @@ img{
 
   h1 {
     font-family: 'Raleway', sans-serif;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
@@ -73,6 +73,8 @@ img{
     text-align: left;
     color: #808080;
   }
+
+
 }
 
 #board {
@@ -81,7 +83,7 @@ img{
 
   h1 {
     font-family: 'Raleway', sans-serif;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 800;
     font-stretch: normal;
     font-style: normal;
@@ -93,7 +95,7 @@ img{
 
   h3 {
     font-family: 'Mulish', sans-serif;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: 300;
     font-stretch: normal;
     font-style: normal;
@@ -119,8 +121,8 @@ img{
   }
 
   img {
-    width: 380px;
-    height: 450px
+    width: 280px;
+    height: 320px
   }
 }
 

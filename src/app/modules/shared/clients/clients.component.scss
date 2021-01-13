@@ -3,9 +3,9 @@ main {
 
 
   h1 {
-    font-family: 'Raleway';
-    font-size: 50px;
-    font-weight: normal;
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.45;
@@ -16,8 +16,8 @@ main {
 
   p {
     font-family: 'Mulish', sans-serif;
-    font-size: 24px;
-    font-weight: 300;
+    font-size: 20px;
+    font-weight: 500;
     font-stretch: normal;
     font-style: normal;
     line-height: 1.24;
@@ -28,7 +28,7 @@ main {
 
   #bg {
     background: url("../../../../assets/img/client_bg.png") no-repeat 0 0;
-    height: 75vh;
+    height: 100vh;
     position: relative;
   }
 
