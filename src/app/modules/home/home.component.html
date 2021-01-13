@@ -14,30 +14,30 @@
     <div class="row">
       <div class="col-12 col-lg-5">
         <h1 style="z-index:9999; position:relative;">
-          We Create Digital Solutions That Help<br />
-          The Business Leaders To Monitor More<br />
-          To Have The Full Control.
+          {{langHelper.SectionOne.h1_1}}<br />
+          {{langHelper.SectionOne.h1_2}}<br />
+          {{langHelper.SectionOne.h1_3}}
         </h1>
         <!--icons-->
         <div class="text-center">
           <div class="row">
             <div class="col-6 px-3">
               <img src="./assets/img/icons/icon2.png" />
-              <h2 class="pt-3">User friendly</h2>
+              <h2 class="pt-3">{{langHelper.SectionOne.Userfriendly}}</h2>
             </div>
             <div class="col-6">
               <img src="./assets/img/icons/icon3.png" />
-              <h2 class="pt-3">Responsive</h2>
+              <h2 class="pt-3">{{langHelper.SectionOne.Responsive}}</h2>
             </div>
           </div>
           <div class="row" style="margin-top:20%;">
             <div class="col-6">
               <img src="./assets/img/icons/icon1.png" />
-              <h2 class="pt-3">Fully customized</h2>
+              <h2 class="pt-3">{{langHelper.SectionOne.Fullycustomized}}</h2>
             </div>
             <div class="col-6">
               <img src="./assets/img/icons/icon2.png" />
-              <h2 class="pt-3">Vast product portfolio</h2>
+              <h2 class="pt-3">{{langHelper.SectionOne.VastProductPortfolio}}</h2>
             </div>
           </div>
         </div>
@@ -53,11 +53,11 @@
 <!--End of section 1-->
 <!--Section 2 -Solutions- -->
 <section class="sectionTwo">
-  <h1 class="display-4 p-5">Our Solutions </h1>
+  <h1 class="display-4 p-5">{{langHelper.SectionTwo.h1}} </h1>
   <div class="title-list ml-4 ml-lg-5">
-    <h2 class="solution-tab active" (click)="ViewSolution('all')" id="all" style="margin-left:2%;">Show All</h2>
-    <h2 class="solution-tab" (click)="ViewSolution('Solutions')" id="Solutions">Solutions</h2>
-    <h2 class="solution-tab" (click)="ViewSolution('Services')" id="Services"> Services</h2>
+    <h2 class="solution-tab active" (click)="ViewSolution('all')" id="all" style="margin-left:2%;">{{langHelper.SectionTwo.h2_1}}</h2>
+    <h2 class="solution-tab" (click)="ViewSolution('Solutions')" id="Solutions">{{langHelper.SectionTwo.h2_2}}</h2>
+    <h2 class="solution-tab" (click)="ViewSolution('Services')" id="Services"> {{langHelper.SectionTwo.h2_3}}</h2>
   </div>
 
   <div class="text-center" style="overflow: hidden;">
@@ -65,56 +65,56 @@
       <div class="col-6 col-lg-4">
         <div class="news-container p-0 p-lg-4" data-id="Solutions">
           <div style="position:relative; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);">
-            <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>Read More</h2></button></div></div></div>
+            <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>{{langHelper.readMore}}</h2></button></div></div></div>
             <img src="./assets/img/solutions/atm.jpg" class="img-fluid" alt="solutions" />
           </div>
-          <h2 class="mt-2">ATM cleaning machine monitoring system</h2>
+          <h2 class="mt-2">{{langHelper.SectionTwo.atm}}</h2>
         </div>
       </div>
       <div class="col-6 col-lg-4">
         <div class="news-container p-0 p-lg-4" data-id="Solutions">
           <div style="position:relative; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);">
-            <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>Read More</h2></button></div></div></div>
+            <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>{{langHelper.readMore}}</h2></button></div></div></div>
             <img src="./assets/img/solutions/tailoredsolution.jpg" class="img-fluid" alt="solutions" />
           </div>
-          <h2 class="mt-2">Tailored solutions</h2>
+          <h2 class="mt-2">{{langHelper.SectionTwo.Tailored}}</h2>
         </div>
       </div>
       <div class="col-6 col-lg-4">
         <div class="news-container p-0 p-lg-4" data-id="Solutions">
           <div style="position:relative; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);">
-            <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>Read More</h2></button></div></div></div>
+            <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>{{langHelper.readMore}}</h2></button></div></div></div>
             <img src="./assets/img/solutions/Digitaltransformation.jpg" class="img-fluid" alt="solutions" />
           </div>
-          <h2 class="mt-2">Digital transformation</h2>
+          <h2 class="mt-2">{{langHelper.SectionTwo.Digital}}</h2>
         </div>
       </div>
       <div class="col-6 col-lg-4">
         <div class="news-container p-0 p-lg-4" data-id="Solutions">
           <div style="position:relative; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);">
-            <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>Read More</h2></button></div></div></div>
+            <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>{{langHelper.readMore}}</h2></button></div></div></div>
             <img src="./assets/img/solutions/DataCenter.png" class="img-fluid" alt="solutions" />
           </div>
-          <h2 class="mt-2">Data Center</h2>
+          <h2 class="mt-2">{{langHelper.SectionTwo.DataCenter}}</h2>
         </div>
       </div>
       <div class="col-6 col-lg-4">
         <div class="news-container p-0 p-lg-4" data-id="Solutions">
           <div style="position:relative; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);">
-            <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>Read More</h2></button></div></div></div>
+            <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>{{langHelper.readMore}}</h2></button></div></div></div>
             <img src="./assets/img/solutions/website.png" class="img-fluid" alt="solutions" />
           </div>
-          <h2 class="mt-2">Website Platform</h2>
+          <h2 class="mt-2">{{langHelper.SectionTwo.Website}}</h2>
         </div>
       </div>
 
       <div class="col-6 col-lg-4">
         <div class="news-container p-0 p-lg-4" data-id="Solutions">
           <div style="position:relative; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);">
-            <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>Read More</h2></button></div></div></div>
+            <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>{{langHelper.readMore}}</h2></button></div></div></div>
             <img src="./assets/img/solutions/ERP.jpg" class="img-fluid" alt="solutions" />
           </div>
-          <h2 class="mt-2">ERP </h2>
+          <h2 class="mt-2">{{langHelper.SectionTwo.ERP}} </h2>
         </div>
       </div>
 
@@ -122,50 +122,50 @@
       <div class="col-6 col-lg-4">
         <div class="news-container p-0 p-lg-4" data-id="Solutions">
           <div style="position:relative; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);">
-            <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>Read More</h2></button></div></div></div>
+            <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>{{langHelper.readMore}}</h2></button></div></div></div>
             <img src="./assets/img/solutions/mobileapp.png" class="img-fluid" alt="solutions" />
           </div>
-          <h2 class="mt-2">Mobile Application</h2>
+          <h2 class="mt-2">{{langHelper.SectionTwo.Mobile}}</h2>
         </div>
       </div>
 
       <div class="col-6 col-lg-4">
         <div class="news-container p-0 p-lg-4" data-id="Services">
           <div style="position:relative; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);">
-            <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>Read More</h2></button></div></div></div>
+            <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>{{langHelper.readMore}}</h2></button></div></div></div>
             <img src="./assets/img/solutions/BoltSalon.jpg" class="img-fluid" alt="solutions" />
           </div>
-          <h2 class="mt-2">Bolts salon</h2>
+          <h2 class="mt-2">{{langHelper.SectionTwo.Boltssalon}}</h2>
         </div>
       </div>
 
       <div class="col-6 col-lg-4">
         <div class="news-container p-0 p-lg-4" data-id="Services">
           <div style="position:relative; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);">
-            <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>Read More</h2></button></div></div></div>
+            <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>{{langHelper.readMore}}</h2></button></div></div></div>
             <img src="./assets/img/solutions/BoltDoctor.jpg" class="img-fluid" alt="solutions" />
           </div>
-          <h2 class="mt-2">Bolts doctor</h2>
+          <h2 class="mt-2">{{langHelper.SectionTwo.doctor}}</h2>
         </div>
       </div>
 
       <div class="col-6 col-lg-4">
         <div class="news-container p-0 p-lg-4" data-id="Services">
           <div style="position:relative; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);">
-            <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>Read More</h2></button></div></div></div>
+            <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>{{langHelper.readMore}}</h2></button></div></div></div>
             <img src="./assets/img/solutions/boltRestaurant.jpg" class="img-fluid" alt="solutions" />
           </div>
-          <h2 class="mt-2">Bolts Restaurant</h2>
+          <h2 class="mt-2">{{langHelper.SectionTwo.Restaurant}}</h2>
         </div>
       </div>
 
       <div class="col-6 col-lg-4">
         <div class="news-container p-0 p-lg-4" data-id="Services">
           <div style="position:relative; box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.31);">
-            <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>Read More</h2></button></div></div></div>
+            <div class="container-overlay"><div class="row"><div class="col-12"><button class="read-more text-center"><h2>{{langHelper.readMore}}</h2></button></div></div></div>
             <img src="./assets/img/solutions/boltERP.jpg" class="img-fluid" alt="solutions" />
           </div>
-          <h2 class="mt-2">Bolts ERP </h2>
+          <h2 class="mt-2">{{langHelper.SectionTwo.Bolt_ERP}} </h2>
         </div>
       </div>
 

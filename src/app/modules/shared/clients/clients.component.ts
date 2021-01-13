@@ -1,15 +1,20 @@
 import { Component, OnInit } from '@angular/core';
 import AOS from 'aos';
+import { langHelper } from '../../../services/utilities/langHelper';
 @Component({
   selector: 'app-clients',
   templateUrl: './clients.component.html',
   styleUrls: ['./clients.component.scss']
 })
 export class ClientsComponent implements OnInit {
-
-  constructor() { }
+  langHelper;
+  direction;
+  constructor(public LanguageService: langHelper) { }
 
   ngOnInit(): void {
+    this.langHelper = this.LanguageService.initializeMode().Clients;
+    this.direction = this.LanguageService.initializeMode().dir;
+
     AOS.init({
       // Global settings:
       disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function

@@ -9,9 +9,9 @@
     <div class="row">
       <div class="col-sm-12 col-md-6 col-lg-6">
         <div>
-          <p class="contactHeading">Let's get in touch</p>
+          <p class="contactHeading">{{langHelper.contactHeading}}</p>
           <p class="contactBody">
-            Ask us any question ,We are here to help.
+            {{langHelper.contactBody}}
           </p>
         </div>
         <div class="socialSection">
@@ -21,8 +21,7 @@
               <img src="./assets/img/contactus/location.png" class=" svg-icons">
             </div>
             <P class="contact-data col-9">
-              1171 Building , Road 9,
-              El-Mokattam, Cairo, Egypt.
+              {{langHelper.contact_data}}
             </P>
 
           </div>
@@ -51,44 +50,44 @@
           <form [formGroup]="contactRequestForm">
             <div class="container-fluid">
               <div class="row">
-                <input type="text" placeholder="Full Name" formControlName="fullname" maxlength="25" />
+                <input type="text" placeholder="{{langHelper.FullNamePlaceholder}}" formControlName="fullname" maxlength="25" />
                 <div *ngIf="ContactFormValidation.fullname.invalid
                          && (ContactFormValidation.fullname.dirty
                          || ContactFormValidation.fullname.touched)" class="alert-danger "
                      style="display:block; background-color: transparent !important;">
-                  <div *ngIf="ContactFormValidation.fullname.errors?.required" style="color:red !important;">Please enter your name</div>
-                  <div *ngIf="ContactFormValidation.fullname.errors?.pattern" style="color:red !important;">Only arabic and english letters are allowed</div>
-                  <div *ngIf="ContactFormValidation.fullname.errors?.minLength" style="color:red !important;">Name letters must be more than 3 letters</div>
-                  <div *ngIf="ContactFormValidation.fullname.errors?.maxLength" style="color:red !important;">Name letters must be less than 20 letters</div>
+                  <div *ngIf="ContactFormValidation.fullname.errors?.required" style="color:red !important;">{{langHelper.NameValidation}}</div>
+                  <div *ngIf="ContactFormValidation.fullname.errors?.pattern" style="color:red !important;">{{langHelper.arabicOrEngValidation}}</div>
+                  <div *ngIf="ContactFormValidation.fullname.errors?.minLength" style="color:red !important;">{{langHelper.MoreThanLetters}}</div>
+                  <div *ngIf="ContactFormValidation.fullname.errors?.maxLength" style="color:red !important;">{{langHelper.LessThanLetters}}</div>
                 </div>
               </div>
 
               <div class="row">
-                <input type="text" placeholder="E-mail" formControlName="email" />
+                <input type="text" placeholder="{{langHelper.EmailPlaceholder}}" formControlName="email" />
                 <div *ngIf="ContactFormValidation.email.invalid
                            && (ContactFormValidation.email.dirty
                            || ContactFormValidation.email.touched)" class="alert-danger mt-1"
                      style="display:block; background-color: transparent !important;">
                   <div *ngIf="ContactFormValidation.email.errors?.required" style="color: red !important;">
-                    Email is required.
+                    {{langHelper.EmailRequired}}
                   </div>
                   <div *ngIf="ContactFormValidation.email.errors?.email" style="color: red !important;">
-                    Email must be in a correct format (Ex: email@provider.com)
+                    {{langHelper.EmailValidation}}
                   </div>
                 </div>
               </div>
 
               <div class="row">
-                <input type="text" placeholder="Phone Number" formControlName="phoneNumber" />
+                <input type="text" placeholder="{{langHelper.PhoneNumberPlaceholder}}" formControlName="phoneNumber" />
                 <div *ngIf="ContactFormValidation.phoneNumber.invalid
                        && (ContactFormValidation.phoneNumber.dirty
                        || ContactFormValidation.phoneNumber.touched)" class="alert-danger mt-1"
                      style="display:block; background-color: transparent !important;">
                   <div *ngIf="ContactFormValidation.phoneNumber.errors?.required" style="color: red !important;">
-                    Kindly enter your phone number.
+                    {{langHelper.phoneNumberRequired}}
                   </div>
                   <div *ngIf="ContactFormValidation.phoneNumber.errors?.pattern" style="color: red !important;">
-                    Please enter a valid phone number.
+                    {{langHelper.PhoneNumberValidation}}
                   </div>
 
                 </div>
@@ -97,7 +96,7 @@
               <div class="row">
 
                 <div (mouseleave)="hideOption()" class="col-12">
-                  <input class="textInputStatusValue customInput" type="text" placeholder="Product Name" value="{{stValue}}" (click)="showOption()" readonly />
+                  <input class="textInputStatusValue customInput" type="text" placeholder="{{langHelper.productPlaceHolder}}" value="{{stValue}}" (click)="showOption()" readonly />
                   <i *ngIf="show" id="filtersubmit" class="fa fa-chevron-down" aria-hidden="true"></i>
                   <i *ngIf="!show" id="filtersubmit" class="fa fa-chevron-up" aria-hidden="true"></i>
 
@@ -114,20 +113,20 @@
 
 
               <div class="row">
-                <input type="text" class="message-box" placeholder="Your Message :" formControlName="message" />
+                <input type="text" class="message-box" placeholder="{{langHelper.MessagePlaceHolder}}" formControlName="message" />
                 <div *ngIf="ContactFormValidation.message.invalid
                  && (ContactFormValidation.message.dirty
                  || ContactFormValidation.message.touched)" class="alert-danger mt-2"
                      style="display:block; background-color: transparent !important;">
                   <div *ngIf="ContactFormValidation.message.errors?.required" style="color: red !important;">
-                    Message is required.
+                    {{langHelper.MessageRequired}}
                   </div>
                 </div>
               </div>
 
 
               <button type="submit" class="contact-submit" [disabled]="!contactRequestForm.valid">
-                SEND MESSAGE
+                {{langHelper.SendButton}}
               </button>
             </div>
 
@@ -152,14 +151,14 @@
 
         <iframe class="Mapfram" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1452.5718534483174!2d31.293471505588318!3d30.013394356836127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDAwJzQ3LjciTiAzMcKwMTcnMzYuNiJF!5e0!3m2!1sar!2seg!4v1608540644488!5m2!1sar!2seg"
                 frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        <p class="mapName">Egypt</p>
+        <p class="mapName">{{langHelper.Egypt}}</p>
       </div>
 
 
       <div class="mapBox col-lg-6  col-sm-6">
         <iframe class="Mapfram" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1452.5718534483174!2d31.293471505588318!3d30.013394356836127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzDCsDAwJzQ3LjciTiAzMcKwMTcnMzYuNiJF!5e0!3m2!1sar!2seg!4v1608540644488!5m2!1sar!2seg"
                 frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-        <p class="mapName">United Arab Emirates</p>
+        <p class="mapName">{{langHelper.Emirates}}</p>
       </div>
 
 

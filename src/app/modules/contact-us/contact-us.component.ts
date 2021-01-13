@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Validators, FormGroup, FormControl } from '@angular/forms';
+import { langHelper } from '../../services/utilities/langHelper';
 
 @Component({
   selector: 'app-contact-us',
@@ -7,7 +8,8 @@ import { Validators, FormGroup, FormControl } from '@angular/forms';
   styleUrls: ['./contact-us.component.scss']
 })
 export class ContactUsComponent implements OnInit {
-
+  langHelper;
+  direction;
   contactRequestForm: FormGroup = new FormGroup({
     fullname: new FormControl('', [Validators.required, Validators.minLength(3), Validators.maxLength(20), Validators.pattern("^[\u0600-\u065F\u066A-\u06EF\u06FA-\u06FFa-zA-Z-,]+(\s{0,1}\[\u0600-\u065F\u066A-\u06EF\u06FA-\u06FFa-zA-Z-, ])*$")]),
     email: new FormControl('', [Validators.required, Validators.email]),
@@ -19,7 +21,7 @@ export class ContactUsComponent implements OnInit {
 
 
 
-  constructor() { }
+  constructor(public LanguageService: langHelper) { }
   flag: boolean = false;
   showOptions: boolean = false;
   show: boolean = true;
@@ -31,6 +33,8 @@ export class ContactUsComponent implements OnInit {
   { id: 1, value: "Completed" },
   { id: 2, value: "Closed" }];
   ngOnInit(): void {
+    this.langHelper = this.LanguageService.initializeMode().contact;
+    this.direction = this.LanguageService.initializeMode().dir;
   }
   showOption() {
 
