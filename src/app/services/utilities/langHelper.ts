@@ -125,10 +125,91 @@ export class langHelper  {
             p: 'Enterprise Resource Planning (ERP), it’s a software that merges differentmodules into one complete system that streamline process and information across the entire organization.These core constructs are then interconnected with business processesdriven by workflows across business departments(e.g., Finance, Inventory, human resources, CRM, marketing, operations),connecting systems and the people who use them.'
           },
           platform: {
+            header:
+            {
+              h1: "Website Platform",
+                p: 'The website will provide gifts to the user, as anything you can search for you can find, simply the world is between your hands. About the E- commerce website, It is a system that refers to the buying and selling of goods or services using the internet.Moreover, the transfer of money and data to execute these transactions on this platform.Also, it is used for B2B, B2C, and B2G services.'
+            },
+            cards:
+            {
+              card1:
+              {
+                title: 'Be visible to the world',
+                desc: ' Your business will stop being invisible.'
+              },
+              card2:
+              {
+                title: 'More Sales',
+                desc: 'The website will create another sales tool.'
+              }
+              ,
+              card3:
+              {
+                title: 'accessibility',
+                desc: 'be available for your customers and give them 24/7 access.'
+              }
+              ,
+              card4:
+              {
+                title: 'Reach more clients',
+                desc: 'Expand and increase the reaching and targeted potential clients.'
+              }
+              ,
+            
+              card5:
+              {
+                title: 'Smart view of your products',
+                desc: ' Provide Sufficient analysis for the customers as a list of prices and product details and features.'
+              }
+              ,
+              card6:
+              {
+                title: 'Cut your costs',
+                desc: 'Reduce operation expenses for storing physical material with high cost, to an online solution that cuts cost.'
+              }
+              , card7:
+              {
+                title: 'More Analysis',
+                desc: 'Analyze the geographic products data and other competitor’s status through a detailed market scan.'
+              }
 
+
+            }
           },
           mobile: {
+            header:
+            {
+              h1: "Mobile Application",
+              p: 'A mobile application is a computer program or software application designed to run on a mobile device such as a phone or tablet. Apps are generally downloaded from application distribution platforms that are operating by the owner of the mobile operating system,such as the App Store(iOS) and Google Play Store(Android).'
+            },
+            cards:
+            {
+              card1:
+              {
+                title: 'Make it easy for your user',
+                desc: 'Mobile Apps are faster, will use personalized content which will build a rapport between you and your customers,they will have instant online and offline access.'
+              },
+              card2:
+              {
+                title: 'Push Notifications and instant updates',
+                desc: 'remind your users of your latest updates.'
+              }
+              ,
+              card3:
+              {
+                title: 'Indirect marketing',
+                desc: 'your application is integrated with your social media channels.'
+              }
+              ,
+              card4:
+              {
+                title: 'Unique experience',
+                desc: ' provide your customers with a simple application, with high speed, good image resolution, search options, and high security.'
+              }
+              
+               
 
+            }
           },
           atm: {
             h1: ' ATM Cleaning Machine Monitoring System',
