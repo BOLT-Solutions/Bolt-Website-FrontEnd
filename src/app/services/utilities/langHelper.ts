@@ -116,6 +116,56 @@ export class langHelper  {
             }
           },
           team: {
+            content: {
+              h1_1: 'Great Things In Business Are Never Done By One Person.',
+              h1_2: "They're Done By A Team",
+            },
+            board: {
+              h1: 'We are proud to share our great team members.',
+              h3:'We can all do small things, with great love, and together we can do something wonderful.'
+            },
+            h2: 'Ahmed Hassan',
+            p: 'Technology Lead',
+            h2_2: ' Mohammed Ragab',
+            p2: ' Business Analyst',
+            h2_3: 'Jamie Halpin',
+            p3: 'Marketing Lead',
+            technicalTeam: {
+              h2: 'Yasmin Ghazy',
+              p: 'Software Engineer',
+              h2_2: 'Nader Hosny',
+              h2_3: 'Moataz Yassin',
+              h2_4: 'Ahmed El-Bandarawy',
+              h2_5: 'Amr Moushtaha',
+            },
+            marketingTeam: {
+              h2: 'Youssef Dawood',
+              p: 'Creative/Art Director',
+              h2_2: 'Mohammed Tarek',
+              p2: 'Visual Artist',
+              h2_4: 'Mahmoud El- Fishawy',
+              p2_3: ' Video Editor',
+              h2_3:'Reem Abo El-Makarem',
+              p4:'Marketing Lead'
+            },
+            businessTeam: {
+              h2: 'Mohammed Amin',
+              p: 'Product Owner',
+              h2_2: 'Mohammed Hossam',
+            },
+            qaTeam: {
+              h2: 'Mohammed Adel',
+              p: 'AVP - QA/QC Lead',
+            },
+            uiTeam: {
+              h2: 'Mohammed Medhat',
+              p: ' UI/UX Designer',
+            },
+              pmTeam: {
+                h2: 'Youssef Afifi',
+                p: 'Project Manager',
+                h2_2: 'Hiba Chnawra',
+            }
 
           }
         },
@@ -228,9 +278,7 @@ export class langHelper  {
             h1: 'Tailored Solutions',
             p:' Based on your business need we can create suitable solutions that integrate your business.'
           },
-          footer: {
-
-          },
+          
         },
         products: {
           doctor: {
