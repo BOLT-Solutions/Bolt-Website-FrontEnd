@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { langHelper } from '../../../services/utilities/langHelper';
 
 @Component({
   selector: 'app-about-team',
@@ -6,16 +7,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about-team.component.scss']
 })
 export class AboutTeamComponent implements OnInit {
-
+  langHelper;
+  direction;
   technicalTeamImage: string = 'technical-icon-clicked';
   marketingTeamImage: string = 'marketing-icon';
   businessTeamImage: string = 'business-icon';
   pmTeamImage: string = 'pm-icon';
   qaTeamImage: string = 'qa-icon';
   uiTeamImage: string = 'ui-icon';
-  constructor() { }
+  constructor(public LanguageService: langHelper) { }
 
   ngOnInit(): void {
+    this.langHelper = this.LanguageService.initializeMode().about;
+    this.direction = this.LanguageService.initializeMode().dir;
     this.DisplayTeam('technicalTeam');
   }
 
