@@ -13,31 +13,24 @@ import { ModalComponent } from '../shared/modal/modal.component';
 export class HomeComponent implements OnInit {
 
   //Declare services
-  constructor(private router: Router, private HomeService: HomeService, private LangHelper: langHelper) { }
+  constructor(private router: Router, private HomeService: HomeService, public LanguageService: langHelper) { }
+
   //Models and DTOs
   content: content;
   contents: Array<content> = new Array<content>();
+  //Translation Variables
   langHelper;
+  direction;
+
   //Shared components declarations
   @ViewChild(ModalComponent) modal: ModalComponent;
-  ngOnInit(): void {
-    this.langHelper = this.LangHelper.initializeMode();
-    //Fetch Home Page Contents Via Observable (Http-request)
-    //this.HomeService.GetHomePageContents().subscribe(res => {
-    //  if (res.succeeded) { // API method sucessful
-    //    this.content = res.data;
-    //  }
-    //}, error => {
-    //  const errors: string[] = error.error.errors;
-    //    this.modal.showFailModal(errors[0]); // Display Error PopUp
-    //});
 
-    //Dummy Content Filled for static purposes
-    this.content = {
-      id: 0,
-      title: 'Bolt Solutions Front-End Layout',
-      body: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid, suscipit, rerum quos facilis repellat architecto commodi officia atque nemo facere eum non illo voluptatem quae delectus odit vel itaque amet.'
-    }
+  ngOnInit(): void {
+    //Translation
+    this.langHelper = this.LanguageService.initializeMode().home;
+    this.direction = this.LanguageService.initializeMode().dir;
+
+
   }
 
   //Filter Solution Images

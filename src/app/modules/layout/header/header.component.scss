@@ -1,6 +1,5 @@
 .navbar-brand {
   width: 140px;
-  margin-right: 4rem;
   cursor: pointer;
   transition: all 0.5s;
   -webkit-transition: all 0.5s;
@@ -26,8 +25,7 @@ li {
 }
 
 .nav-link {
-  font-size: 20px;
-  
+  font-size: 24px; 
   padding: 0;
   cursor: pointer;
   font-family: 'CenturyGothic', sans-serif;

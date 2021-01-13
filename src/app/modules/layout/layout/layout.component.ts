@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, RouterOutlet } from '@angular/router';
 import { trigger, transition, style, query, animate } from '@angular/animations';
+import { langHelper } from '../../../services/utilities/langHelper';
 export const routeTransitionAnimations = trigger('triggerName', [
   transition('* => *', [
 
@@ -38,12 +39,12 @@ export const routeTransitionAnimations = trigger('triggerName', [
 
 export class LayoutComponent implements OnInit {
 
-  constructor(private router: Router) { }
+  constructor(private router: Router, private LanguageService: langHelper) { }
 
   ngOnInit(): void {
     //Restore window scroll to top position
     window.scroll(0, 0);
-
+    //this.LanguageService.switchLang();
   }
   prepareRoute(outlet: RouterOutlet) {
     return outlet &&
