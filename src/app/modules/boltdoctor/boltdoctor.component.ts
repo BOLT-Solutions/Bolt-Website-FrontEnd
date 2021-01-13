@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { langHelper } from '../../services/utilities/langHelper';
+
 
 @Component({
   selector: 'app-boltdoctor',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BOLTDOCTORComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(public LanguageService: langHelper) { }
+  langHelper;
+  direction;
   ngOnInit(): void {
+    this.langHelper = this.LanguageService.initializeMode().products.doctor;
+    this.direction = this.LanguageService.initializeMode().dir;
+    
+
   }
 
 }

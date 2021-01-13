@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { langHelper } from '../../services/utilities/langHelper';
 
 @Component({
   selector: 'app-digital-transformation',
@@ -6,10 +7,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./digital-transformation.component.scss']
 })
 export class DigitalTransformationComponent implements OnInit {
+  constructor(public LanguageService: langHelper) { }
 
-  constructor() { }
+  langHelper;
+  direction;
 
   ngOnInit(): void {
+    this.langHelper = this.LanguageService.initializeMode().services.digital
+    this.direction = this.LanguageService.initializeMode().dir;
   }
-
 }
