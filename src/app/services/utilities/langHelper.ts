@@ -74,7 +74,8 @@ export class langHelper  {
         },
         services: {
           erp: {
-
+            h1: 'Enterprise Resource Planning ( ERP )',
+            p: 'Enterprise Resource Planning (ERP), it’s a software that merges differentmodules into one complete system that streamline process and information across the entire organization.These core constructs are then interconnected with business processesdriven by workflows across business departments(e.g., Finance, Inventory, human resources, CRM, marketing, operations),connecting systems and the people who use them.'
           },
           platform: {
 
@@ -83,31 +84,209 @@ export class langHelper  {
             
           },
           atm: {
+            h1: ' ATM Cleaning Machine Monitoring System',
+            p:'Using this system, you can monitor the maintenance process of your ATM from anywhere.'
 
           },
           DCN: {
-
+            h1: 'Data Center Network',
+            p: "we support the servers, switches, hubs, and infrastructure of the network preference.Also providing the database backup & recovery of the company's valuable data."
           },
           digital: {
-
+            h1: 'Digital Transformation',
+            p: 'Keeping up with the digital transformation initiatives by providing our clients what make them updated with new digital trends using our digital services'
           },
           tailored: {
-
+            h1: 'Tailored Solutions',
+            p:' Based on your business need we can create suitable solutions that integrate your business.'
           },
 
         },
         products: {
           doctor: {
+            header:
+            {
+              h1: "BOLT DOCTOR",
+              p: 'It is a Web-based application that allows individuals to book appointments online through any web-connected device, such as a computer, laptop, smartphone, or tablet.It lets the client choose from different doctors, Specialty,how long is he going to wait and how much is he going to pay.Moreover, the system is integrated with third - party companies so that the customer can give feedback about his experience.' 
+            },
+            cards:
+            {
+              card1:
+              {
+                title: 'Saves your staff time',
+                desc:'An automated system saves valuable working time for medical staff.'
+              },
+              card2:
+              {
+                title: 'Gives your Visitors more choices',
+                desc: 'visitor can choose from different doctors in the same specialty, view the profile of the doctor,add a Payment option, fill in Feedback forms, also they can get reminders of the appointment.'
+              }
+              ,
+              card3:
+              {
+                title: 'Saves Resources',
+                desc: ' The expenses accepted for manual appointments and bookings are suspended.'
+              }
+              ,
+              card4:
+              {
+                title: 'Automated reminders',
+                desc: ' The reminders on automated systems reduce the incidences of missed appointments by approximately 50%.'
+              }
+              ,
+              card5:
+              {
+                title: 'Flexible to use',
+                desc: ' Book anytime, Patients are not limited to any specific office-timings, and can be done around the clock, from anywhere.'
+              }
+              ,
+              card6:
+              {
+                title: 'Online booking',
+                desc: ' Making online appointments saves patients from the hassles and enhances their experience.'
+              }
+              ,
+              card7:
+              {
+                title: 'Efficient Information Management',
+                desc: ' Managing vital information online lets you manage them efficiently and more accurately.'
+              }
+
+            }
 
           },
           salon: {
+            header:
+            {
+              h1: "BOLT SALON",
+              p: ' It’s a web development system that helps the customer to have a better experience than any traditional barbers.It lets the client choose his barber, the type of service he wants, how long is he going to wait and how much is he going to pay.Moreover,the system is integrated with third - party companies so that the customer can give feedback about his experience.Not only the customer who is going to gain from this system but also the owner too by providing the oversee of barbers,the ques, reports, and the feedback reviews.'
+            },
+            cards:
+            {
+              card1:
+              {
+                title: 'Time-saving',
+                desc: ' Save time for the customer because of the queuing system.'
+              },
+              card2:
+              {
+                title: 'Automated reminders',
+                desc: ' The reminders on automated systems reduce the incidences of missing the reservation.'
+              }
+              ,
+              card3:
+              {
+                title: 'More than a choice',
+                desc: '  Allows the client to choose the barber.'
+              }
+              ,
+              card4:
+              {
+                title: 'Customer Feedback',
+                desc: ' Your customer can send feedback about his experience.'
+              }
+              ,
+              card5:
+              {
+                title: 'Satisfaction',
+                desc: 'Increase customer satisfaction and get more loyal customers.'
+              }
+              ,
+              card6:
+              {
+                title: 'Monitoring',
+                desc: '  Helps the manager to monitor the invoices.'
+              }
+              ,
+              card7:
+              {
+                title: 'Saving Resources',
+                desc: ' The expenses accepted for manual appointments and bookings are suspended.'
+              }
+              ,
+              card8:
+              {
+                title: 'More Data',
+                desc: ' Build your customer database.'
+              }
+
+            }
 
           },
           restaurant: {
+            header:
+            {
+              h1: "BOLT RESTAURANT",
+              p: 'Bolt Restaurant is an application that provides a unique experience for restaurant involved parties starting from Admin/Owner, Waiter, and Ends-user/ Customer.'
+            },
+            cards:
+            {
+              card1:
+              {
+                title: 'Ease of use',
+                desc: ' QR code to view the system, friendly to deal with the system, (simple steps to get the service) facilitating the customer way of ordering in a well-organized and systematic flow.'
+              },
+              card2:
+              {
+                title: 'Safety',
+                desc: 'Especially in COVID-19 pandemic as the system makes sure that the health and safety regulations are considered as simply avoiding crowd and hassle of disordering conflict.'
+              }
+              ,
+              card3:
+              {
+                title: 'Customer satisfaction',
+                desc: 'Since the business techniques and methods for providing a service are improved, therefore the customer will be more satisfied. (All you need by one click).'
+              }
+        
+
+            }
 
           },
           erp: {
+            header:
+            {
+              h1: "BOLT ERP",
+              p: ' Enterprise Resource Planning (ERP), it’s a software that merges different modules into one complete system that streamline process and information across the entire organization.These core constructs are then interconnected with business processes driven by workflows across business departments(e.g., Finance, Inventory, human resources, CRM, marketing, operations), connecting systems and the people who use them.'
+            },
+            cards:
+            {
+              card1:
+              {
+                title: 'Better Reporting',
+                desc: 'A significant part of wastefulness in operational work originates from improper reporting.'
+              },
+              card2:
+              {
+                title: 'Data Quality',
+                desc: ' ERP system improves data quality by improving the underlying process, as result it makes a better decision than the traditional approach.'
+              }
+              ,
+              card3:
+              {
+                title: 'Business Analytics',
+                desc: ' having high-quality data gives the business the power of intelligent analytics tools to arrive at better business decision.'
+              }
+              ,
+              card4:
+              {
+                title: 'Scalability',
+                desc: 'ERP system is easily upgradeable, which means that it can add new features to the system as the business needs, this leads to easy management of new features.'
+              }
+              ,
+              card5:
+              {
+                title: 'Lower cost of operations',
+                  desc: 'introduces base innovation in managing resources, which eliminates delays and this leads to reduction- the cost of operations.'
+              }
+              ,
+              card6:
+              {
+                title: 'Improved CRM',
+                desc: 'the direct benefit of using a good ERP system is improved customer relations as a result of better business process.'
+              }
+              
 
+            }
           }
         },
         contact: {
