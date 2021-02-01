@@ -18,5 +18,11 @@ export const API_CONSTANTS = {
   IMAGE_HANDLER_REMOVE_ADMIN_IMAGE: "/RemoveAdminImage/",
   //Login
   Login: "Users/Login",
-  Register: "Users/CreateAdminAccount"
+  Register: "Users/CreateAdminAccount",
+
+  //Contact Us
+  //Post
+  Create_Contact_Reuqest: "ContactRequests/CreateContactRequest"
+
+
 }

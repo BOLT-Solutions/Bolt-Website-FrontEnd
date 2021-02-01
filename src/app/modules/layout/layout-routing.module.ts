@@ -34,7 +34,7 @@ const routes: Routes = [
       { path: 'ERP', component: ERPComponent, data: { animationState: 'Eight' } },
       { path: 'ATM', component: AtmComponent, data: { animationState: 'Nine' } },
       { path: 'DCN', component: CdnComponent, data: { animationState: 'Ten' } },
-      { path: 'TaileredSolution', component: TailoredSolutionsComponent, data: { animationState: 'Eleven' } },
+      { path: 'TailoredSolution', component: TailoredSolutionsComponent, data: { animationState: 'Eleven' } },
       { path: 'DigitalTransformation', component: DigitalTransformationComponent, data: { animationState: 'Twelve' } },
       { path: 'BoltSalon', component: BOLTSALONComponent, data: { animationState: 'Thirteen' } },
       { path: 'BoltERP', component: BoltErpComponent, data: { animationState: 'Fourteen' }},
