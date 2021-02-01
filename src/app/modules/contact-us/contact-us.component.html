@@ -100,7 +100,7 @@
                   <i *ngIf="show" id="filtersubmit" class="fa fa-chevron-down" aria-hidden="true"></i>
                   <i *ngIf="!show" id="filtersubmit" class="fa fa-chevron-up" aria-hidden="true"></i>
 
-                  <div *ngIf="showOptions" id="businsessValue" class="selectBusinessType">
+                  <div *ngIf="showOptions" id="businsessValue" class="selectBusinessType" style="max-height: 200px; overflow-y: scroll;">
                     <!-- -->
                     <div class="valueOfStatus" *ngFor="let status_item of status_values">
                       <p class="typeBusinessText" (click)="getItemValue(status_item.id)"> {{status_item.value}}</p>
@@ -125,14 +125,25 @@
               </div>
 
 
-              <button type="submit" class="contact-submit" [disabled]="!contactRequestForm.valid">
+              <button  class="contact-submit" [disabled]="!contactRequestForm.valid"  (click)="SubmitContactRequest()" >
                 {{langHelper.SendButton}}
               </button>
             </div>
 
+            <div class="d-flex justify-content-center">
+              <div class="alert alert-success text-center col-7" role="alert" *ngIf="responseMessage=='success'" style="background-color: transparent !important; border: none !important;">
+                Your contact information has been submitted successfully ! 
+              </div>
+              <div class="alert alert-danger text-center col-7" role="alert" *ngIf="responseMessage=='failure'" style="background-color: transparent !important; border: none !important;">
+                Failed to submit contact data, Please try again !
+              </div>
+            </div>
+
+
           </form>
         </div>
 
+       
 
       </div>
     </div>
