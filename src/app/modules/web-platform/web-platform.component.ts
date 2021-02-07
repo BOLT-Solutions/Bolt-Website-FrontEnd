@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import AOS from 'aos';
+import { langHelper } from '../../services/utilities/langHelper';
 
 @Component({
   selector: 'app-web-platform',
@@ -8,10 +9,13 @@ import AOS from 'aos';
 })
 export class WebPlatformComponent implements OnInit {
 
-  constructor() { }
-
+  constructor(public LanguageService: langHelper) { }
+  langHelper;
+  direction;
   ngOnInit(): void {
     AOS.init();
+    this.langHelper = this.LanguageService.initializeMode().services.platform;
+    this.direction = this.LanguageService.initializeMode().dir;
 
   }
 
