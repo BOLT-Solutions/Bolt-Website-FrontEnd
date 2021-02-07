@@ -441,13 +441,14 @@ export class langHelper  {
         }
       }
     }
-    else if (this.currentLang==='ar') {
+  
+    else if (this.currentLang === 'ar') {
       return {
         dir: 'rtl',
         layout: {
           home: 'الرئيسية',
           about: 'من نحن',
-          services: 'الخدمات', 
+          services: 'الخدمات',
           products: 'المنتجات',
           contactus: 'التواصل معنا',
           language: 'English',
@@ -467,23 +468,121 @@ export class langHelper  {
             h1_2: 'تقابل التميز',
             paragraph: 'تسريع أداء فريقك من خلال التعيين المهام والتواصل وتتبع التقدم في واحد من أوائل تطبيقات مكان. هل تعلم أننااستضافة الاتحاد الأوروبي لدينا المهور لتقديم خياالعملاء الأوروبيون.',
             classes: {
-              header_class: 'arabicH1',
-              paragraph_class: 'arabic_paragraph'
+              header_class: '',
+              paragraph_class: ''
+            },
+            SectionOne: {
+              h1_1: '',
+              h1_2: '',
+              h1_3: '',
+              Userfriendly: '',
+              Responsive: '',
+              Fullycustomized: '',
+              VastProductPortfolio: ''
+            },
+            SectionTwo: {
+              h1: '',
+              h2_1: '',
+              h2_2: '',
+              h2_3: '',
+              atm: '',
+              Tailored: '',
+              Digital: '',
+              DataCenter: '',
+              Website: '',
+              ERP: '',
+              Mobile: '',
+              Boltssalon: '',
+              doctor: '',
+              Restaurant: '',
+              Bolt_ERP: ''
             },
           },
           readMore: 'المزيد',
         },
         about: {
           company: {
+            content: {
+              h1: '',
+              p: ''
+            },
+            siteContent: {
+              h1: '',
+              p: ' ',
+              h3: '',
+              p2: '',
+              p3: '',
+              h3_2: '',
+              p4: '',
 
+            },
+            board: {
+              h1: '',
+              h3: '',
+              h2_1: '',
+              p: '',
+
+
+            }
           },
           team: {
+            content: {
+              h1_1: '',
+              h1_2: "",
+            },
+            board: {
+              h1: '',
+              h3: ''
+            },
+            h2: ' ',
+            p: '',
+            h2_2: '',
+            p2: '',
+            h2_3: '',
+            p3: '',
+            technicalTeam: {
+              h2: '',
+              p: '',
+              h2_2: '',
+              h2_3: '',
+              h2_4: '',
+              h2_5: '',
+            },
+            marketingTeam: {
+              h2: '',
+              p: '',
+              h2_2: '',
+              p2: '',
+              h2_4: '',
+              p2_3: '',
+              h2_3: '',
+              p4: ''
+            },
+            businessTeam: {
+              h2: '',
+              p: '',
+              h2_2: '',
+            },
+            qaTeam: {
+              h2: '',
+              p: '',
+            },
+            uiTeam: {
+              h2: '',
+              p: ' ',
+            },
+            pmTeam: {
+              h2: '',
+              p: '',
+              h2_2: '',
+            }
 
           }
         },
         services: {
           erp: {
-
+            h1: '',
+            p: ''
           },
           platform: {
 
@@ -492,37 +591,264 @@ export class langHelper  {
 
           },
           atm: {
+            h1: '',
+            p: ''
 
           },
           DCN: {
-
+            h1: '',
+            p: ""
           },
           digital: {
-
+            h1: '',
+            p: ''
           },
           tailored: {
-
+            h1: '',
+            p: ''
           },
 
         },
         products: {
           doctor: {
+            header:
+            {
+              h1: "",
+              p: ''
+            },
+            cards:
+            {
+              card1:
+              {
+                title: '',
+                desc: ''
+              },
+              card2:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card3:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card4:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card5:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card6:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card7:
+              {
+                title: '',
+                desc: ''
+              }
+
+            }
 
           },
           salon: {
+            header:
+            {
+              h1: "",
+              p: ''
+            },
+            cards:
+            {
+              card1:
+              {
+                title: '',
+                desc: ''
+              },
+              card2:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card3:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card4:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card5:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card6:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card7:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card8:
+              {
+                title: '',
+                desc: ''
+              }
+
+            }
 
           },
           restaurant: {
+            header:
+            {
+              h1: "",
+              p: ''
+            },
+            cards:
+            {
+              card1:
+              {
+                title: '',
+                desc: ''
+              },
+              card2:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card3:
+              {
+                title: '',
+                desc: ''
+              }
+
+
+            }
 
           },
           erp: {
+            header:
+            {
+              h1: "",
+              p: ''
+            },
+            cards:
+            {
+              card1:
+              {
+                title: '',
+                desc: ''
+              },
+              card2:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card3:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card4:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card5:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card6:
+              {
+                title: '',
+                desc: ''
+              }
 
+
+            }
           }
         },
         contact: {
+          contactHeading: "",
+          contactBody: '',
+          contact_data: '',
+          ContactHeading2: '',
+          NameValidation: '',
+          arabicOrEngValidation: '',
+          MoreThanLetters: '',
+          LessThanLetters: '',
+          EmailRequired: '',
+          EmailValidation: '',
+          phoneNumberRequired: '',
+          PhoneNumberValidation: '',
+          FullNamePlaceholder: '',
+          EmailPlaceholder: '',
+          PhoneNumberPlaceholder: '',
+          productPlaceHolder: '',
+          MessagePlaceHolder: '',
+          MessageRequired: '',
+          SendButton: '',
+          Emirates: '',
+          Egypt: ''
+        },
+        footer: {
+          customText: '',
+          categroy: {
+            Category: '',
+            MarketingLi: '',
+            BrandingLi: '',
+            SEOLi: '',
+            WebDesignLi: ' ',
+            VideoLi: '',
 
+          },
+          Link: {
+            linkName: '',
+            BrandingLi: '',
+            SEOLi: '',
+            GraphicLi: ''
+          },
+          Services: {
+            ServicesName: '',
+            MarketingLi: '',
+            BrandingLi: '',
+            SEOLi: '',
+            WebDesignLi: ' ',
+            VideoLi: '',
+          }
+        },
+        Clients: {
+          h1: '',
+          p: ' '
         }
-
       }
     }
   }
