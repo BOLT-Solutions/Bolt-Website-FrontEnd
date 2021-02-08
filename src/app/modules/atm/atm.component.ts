@@ -13,8 +13,13 @@ export class AtmComponent implements OnInit {
   direction;
 
   ngOnInit(): void {
+    
     this.langHelper = this.LanguageService.initializeMode().services.atm
     this.direction = this.LanguageService.initializeMode().dir;
+
+    setTimeout(() => {
+      window.scroll(0, 0);
+    }, 500);
   }
 
 }

@@ -17,6 +17,9 @@ export class MobileAppComponent implements OnInit {
     AOS.init();
     this.langHelper = this.LanguageService.initializeMode().services.mobile;
     this.direction = this.LanguageService.initializeMode().dir;
+    setTimeout(() => {
+      window.scroll(0, 0);
+    }, 500);
   }
 
 }

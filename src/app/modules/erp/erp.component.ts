@@ -14,6 +14,10 @@ export class ERPComponent implements OnInit {
   ngOnInit(): void {
     this.langHelper = this.LanguageService.initializeMode().services.erp
     this.direction = this.LanguageService.initializeMode().dir;
+
+    setTimeout(() => {
+      window.scroll(0, 0);
+    }, 500);
   }
 
 }
