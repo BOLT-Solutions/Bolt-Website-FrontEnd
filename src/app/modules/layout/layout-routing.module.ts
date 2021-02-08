@@ -16,6 +16,7 @@ import { BOLTSALONComponent } from '../boltsalon/boltsalon.component';
 import { BoltErpComponent } from '../bolt-erp/bolt-erp.component';
 import { BOLTDOCTORComponent } from '../boltdoctor/boltdoctor.component';
 import { BOLTRESTAURANTComponent } from '../boltrestaurant/boltrestaurant.component';
+import { CRMComponent } from '../crm/crm.component';
 
 
 const routes: Routes = [
@@ -40,6 +41,7 @@ const routes: Routes = [
       { path: 'BoltERP', component: BoltErpComponent, data: { animationState: 'Fourteen' }},
       { path: 'BoltDoctor', component: BOLTDOCTORComponent, data: { animationState: 'Fifteen' } },
       { path: 'BoltRestaurant', component: BOLTRESTAURANTComponent, data: { animationState: 'Sixteen' } },
+      { path: 'CRM', component: CRMComponent, data: { animationState: 'seventeen' } },
 
 
 

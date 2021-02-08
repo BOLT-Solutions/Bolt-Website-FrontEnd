@@ -2,7 +2,11 @@ main {
   background-color: #f2f2f2;
 }
 
-
+.salesTeamContainer
+{
+    position:relative;
+    top:500px;
+}
 
 .selectionButton {
   position: relative;
@@ -474,7 +478,7 @@ main {
 
 //Responsive design
 
-@media only screen and (max-device-width: 350px) {
+@media only screen and (max-device-width: 370px) {
   #bg {
     height: 63vh !important;
     background-color: #e8e8e9;
