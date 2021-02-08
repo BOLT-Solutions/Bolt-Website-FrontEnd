@@ -1,11 +1,12 @@
 main {
   background-color: #f2f2f2;
 }
-
-.salesTeamContainer
-{
-    position:relative;
-    top:500px;
+.salesImg {
+  width: 400px !important;
+}
+.salesTeamContainer {
+  position: relative;
+  top: 500px;
 }
 
 .selectionButton {
@@ -485,7 +486,7 @@ main {
     background-size: cover;
     background-position: center;
   }
-
+ 
   .img-container {
     img {
       width: 120px !important;
@@ -503,7 +504,7 @@ main {
 }
 
 @media screen and (max-width: 1024px) {
-
+ 
   #bg {
     background: url("../../../../assets/img/team/about-teamBG.png") no-repeat 0 0;
     height: 43vh;
