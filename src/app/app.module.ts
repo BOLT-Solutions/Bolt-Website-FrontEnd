@@ -7,12 +7,14 @@ import { AppRoutingModule, routes } from './app-routing.module'; // Default Angu
 import { AppComponent } from './app.component';
 import { LayoutModule } from './modules/layout/layout.module';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
+import { CRMComponent } from './modules/crm/crm.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    CRMComponent,
 
   ],
   imports: [

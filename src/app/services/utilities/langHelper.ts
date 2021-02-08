@@ -54,9 +54,9 @@ export class langHelper  {
         },
         home: {
           header: {
-            h1_1: 'Feel comfortable',
-            h1_2: ' when you meet excellence',
-            paragraph: 'Bolt Solutions is an established Software house in Egypt with a commitment to align employee development with the overall company culture and operating systems. We will help empower people and businesses alike on a scientific basis, through the provision of optimally tailored solutions that are targeted to business excellence.',
+            h1_1: 'Feel comfortable when you meet excellence',
+            h1_2: '',
+            paragraph: 'Bolt Solutions is an established Software house in Egypt with a commitment to align employee development with the overall company culture and operating systems – will be deleted ',
             classes: {
               header_class: '',
               paragraph_class: ''
@@ -64,8 +64,9 @@ export class langHelper  {
           },
           SectionOne: {
             h1_1: 'We Create Digital Solutions That Help',
-            h1_2: ' The Business Leaders To Monitor More',
-            h1_3: ' To Have The Full Control.',
+            h1_2: 'The Business Leaders To Monitor More',
+            h1_3: 'To Have The Full Control.',
+            h1_4: 'Digitalization integrated into every aspect of your business, ensuring your digital transformation to the new age. ',
             Userfriendly: 'User friendly',
             Responsive: 'Responsive',
             Fullycustomized: 'Fully customized',
@@ -82,6 +83,7 @@ export class langHelper  {
             DataCenter: 'Data Center',
             Website: 'Website Platform',
             ERP: 'ERP',
+            CRM:'CRM',
             Mobile: 'Mobile Application',
             Boltssalon: 'Bolts salon',
             doctor: 'Bolts doctor',
@@ -97,7 +99,7 @@ export class langHelper  {
               p:'If you can dream it, we can build it…'
             },
             siteContent: {
-              h1: '  We Are the Best Accounting Agency.',
+              h1: 'Welcome to our business.',
               p: ' We can be your consultant, not only your service provider.Bolt Solutions is an established Software house in Egypt with resources / offices in Dubai and Birmingham, UK.With a commitment to align employee development with the overall company culture and operating systems.We will help empower people and businesses alike on a scientific basis,through the provision of optimally tailored solutions from our leading experts around the world.',
               h3: 'Vision Statement:',
               p2: ' Simply put, Bolt Solutions is one of the fastest growing software companies in the northern hemisphere.Aiming to becoming the leading performer, recognizing all customer landscapes in this global market place, serving numerous industries and sectors all over the world.',
@@ -109,10 +111,12 @@ export class langHelper  {
             board: {
               h1: ' Our Board Members',
               h3: 'With our experts we can make a difference.',
-              h2_1: 'Andrew Rooney',
-              p: ' Remodeling Consultant With a decade at BuidWall and a lifetime in the industry, Andrew Rooney has been an invaluable…',
-
-
+              h2_1: 'Muhammed Al Jammal',
+              p: 'Deputy CEO & Chief operations officer',
+              h2_2: 'Ibrahim Rashed',
+              p1: 'Chairman',
+              h2_3: 'Ahmed Abdel Moneim',
+              p2: 'CEO',
             }
           },
           team: {
@@ -122,14 +126,14 @@ export class langHelper  {
             },
             board: {
               h1: 'We are proud to share our great team members.',
-              h3:'We can all do small things, with great love, and together we can do something wonderful.'
+              h3:'We can all do small things, with great love, and together we can do something wonderful – OUR TEAMS'
             },
             h2: 'Ahmed Hassan',
             p: 'Technology Lead',
             h2_2: ' Mohammed Ragab',
             p2: ' Business Analyst',
             h2_3: 'Jamie Halpin',
-            p3: 'Marketing Lead',
+            p3: 'Chief commercial & marketing officer ',
             technicalTeam: {
               h2: 'Yasmin Ghazy',
               p: 'Software Engineer',
@@ -140,22 +144,29 @@ export class langHelper  {
             },
             marketingTeam: {
               h2: 'Youssef Dawood',
-              p: 'Creative/Art Director',
-              h2_2: 'Mohammed Tarek',
+              p: 'Creative Director',
+              h2_2: 'Mohammed Tareq',
               p2: 'Visual Artist',
               h2_4: 'Mahmoud El- Fishawy',
               p2_3: ' Video Editor',
-              h2_3:'Reem Abo El-Makarem',
-              p4:'Marketing Lead'
+              h2_3:'Nuran Hisham',
+              p4:'Graphic Designer'
+            },
+            SalesTeam: {
+              h2: 'Mina Alfones ',
+              p: 'Business development executive',
+              h2_2: 'Shaimaa Ibrahim',
+              p2: 'Sales team leader',
+             
             },
             businessTeam: {
               h2: 'Mohammed Amin',
-              p: 'Product Owner',
+              p: 'Business Analyst',
               h2_2: 'Mohammed Hossam',
             },
             qaTeam: {
               h2: 'Mohammed Adel',
-              p: 'AVP - QA/QC Lead',
+              p: 'QA/QC Lead',
             },
             uiTeam: {
               h2: 'Mohammed Medhat',
@@ -172,13 +183,39 @@ export class langHelper  {
         services: {
           erp: {
             h1: 'Enterprise Resource Planning ( ERP )',
-            p: 'Enterprise Resource Planning (ERP), it’s a software that merges differentmodules into one complete system that streamline process and information across the entire organization.These core constructs are then interconnected with business processesdriven by workflows across business departments(e.g., Finance, Inventory, human resources, CRM, marketing, operations),connecting systems and the people who use them.'
+            p: 'Enterprise Resource Planning (ERP), it’s software that merges different modules into one complete system, this streamlines process’s and information across the entire organization. These core constructs are then interconnected with business process’s driven by workflows across business departments (e.g. Accounts, Stocks, human resources, CRM, marketing, operations), connecting systems and the people who use them.',
+            Benefits: 'General Benefits for an ERP:',
+            benefitsWords: 'Efficient, lowers the costs and increases profit.',
+            Features: 'Features of an ERP:',
+            accountFeature: 'Account Module features: ',
+            accountFeatures2:'Journal and Payment',
+            accountFeatures3:'Billing',
+            accountFeatures4:'Taxes',
+            accountFeatures5:'Pricing',
+            accountFeatures6:'Retail Operation',
+            accountFeatures7:'Tools',
+            accountFeatures8:'Reports',
+            accountFeatures9:'Shareholder Management',
+
+
           },
           platform: {
             header:
             {
               h1: "Website Platform",
-                p: 'The website will provide gifts to the user, as anything you can search for you can find, simply the world is between your hands. About the E- commerce website, It is a system that refers to the buying and selling of goods or services using the internet.Moreover, the transfer of money and data to execute these transactions on this platform.Also, it is used for B2B, B2C, and B2G services.'
+              p: 'A website (also written as web site) is a collection of web pages and related content that is identified, domain name and published on one web server. This cements your business in cyber space leaving your mark in the online business market to enable you to work in the 21st century.',
+              p2: 'E-Commerce websites are online portals that facilitate online transactions of your goods and your services',
+              benefitsofWebiste: 'The Benefits of Having a Website for your Business:',
+              benefitsofWebiste1:'Your business will stop being invisible.',
+              benefitsofWebiste2:'The website will create another sales tool.',
+              benefitsofWebiste3:'Build authority',
+              benefitsofWebiste4:'Less Expensive for Advertising & Marketing.',
+              benefitsofWebiste5:'24/7 access .',
+              benefitsofWebiste6:'Worldwide presence.',
+              benefitsofWebiste7:'Frequently Updates for the business status.',
+              benefitsofWebiste8:'Brand awareness .',
+              benefitsofWebiste9:'Free advertising.',
+              benefitsofWebiste10:'Increasing target audience.',
             },
             cards:
             {
@@ -197,8 +234,7 @@ export class langHelper  {
               {
                 title: 'accessibility',
                 desc: 'be available for your customers and give them 24/7 access.'
-              }
-              ,
+              },
               card4:
               {
                 title: 'Reach more clients',
@@ -230,7 +266,27 @@ export class langHelper  {
             header:
             {
               h1: "Mobile Application",
-              p: 'A mobile application is a computer program or software application designed to run on a mobile device such as a phone or tablet. Apps are generally downloaded from application distribution platforms that are operating by the owner of the mobile operating system,such as the App Store(iOS) and Google Play Store(Android).'
+              p: 'is a computer program or software application designed to run on a mobile device such as a phone or tablet? Apps are generally downloaded from application distribution platforms which are operating by the owner of the mobile operating system, such as the App Store (iOS) and Google Play Store(Android).',
+              p2: 'If you can dream it, we can build it… ',
+              features: 'Mobile application features',
+              features1:'Simplicity',
+              features2:'Speed',
+              features3:'	Good image resolution',
+              features4:'Flexibility analytics',
+              features5:'Security',
+              features6:'Search options',
+              features7:'User feedback',
+              features8: 'Integration',
+              benefits: 'Mobile application benefits',
+              benefits2: 'Mobile Apps are faster',
+              benefits3: 'Personalized content',
+              benefits4: 'Instant Online and Offline access',
+              benefits5: 'Using device features',
+              benefits6: 'Push Notifications and instant updates',
+              benefits7: 'Branding and Design',
+              benefits8: 'Productivity Improvement and Cost reduction',
+              benefits9: 'Interactive Engagement',
+
             },
             cards:
             {
@@ -263,12 +319,28 @@ export class langHelper  {
           },
           atm: {
             h1: ' ATM Cleaning Machine Monitoring System',
-            p:'Using this system, you can monitor the maintenance process of your ATM from anywhere.'
+            p2: 'This enables the digital transformation of ATM channel management and the monitoring solution.',
+            p3: 'Increasing operational efficiency being automated and agile due to the collaboration between bank, branch and service providers, swiftly resolving all disputes.',
+            Benefits: 'Benefits:',
+            Benefits1:'Complete rounded solution for self-service channel management.',
+            Benefits2:'Suitable for Banks, Independent ATM Deployers, ATM Managed Service Providers and other Financial Institutions. ',
+            Benefits3:'Multi-Vendor Enterprise Solution – Can manage all brands of ATMs, Recyclers, Acceptors and Kiosks.',
+            Benefits4:'Monitors self-service devices using CEN-XFS standard.',
+            Benefits5:'Accepts multiple data feeds - Supports EFT Switch based monitoring also.',
+            Benefits6:'PCI DSS Validated - User access control, encrypted data store, TLS/SSL communication, periodic vulnerability assessments.',
+            Benefits7:'Integrated Analytics for Operations and Business Teams.',
+            Benefits8:'Masterly crafted over an open-source technology platform.',
 
           },
           DCN: {
             h1: 'Data Center Network',
-            p: "we support the servers, switches, hubs, and infrastructure of the network preference.Also providing the database backup & recovery of the company's valuable data."
+            p: "Data center is a pool of resources interconnected using a communication network. The network holds a pivotal role as it facilitates and centralizes an organization shared IT operations and equipment for the purpose of storing, processing and disseminating data and applications.",
+            p2: "We support the servers, switches, hubs, and infrastructure of the network preference. Also providing the database backup & recovery of the company's valuable data.",
+            Benefits: 'Benefits:',
+            Benefits1:'Protecting Power',
+            Benefits2:'Cutting costs',
+            Benefits3:'Improving efficiency',
+            Benefits4:'Making full use of in-house IT potential and HR',
           },
           digital: {
             h1: 'Digital Transformation',
@@ -278,14 +350,42 @@ export class langHelper  {
             h1: 'Tailored Solutions',
             p:' Based on your business need we can create suitable solutions that integrate your business.'
           },
-          
+          crm: {
+            h1: ' Customer Relationshio Management',
+            p2: 'Basically, CRM (Customer Relationship Management) essentially provides a central place where your business can store customer and prospect data, track customer interactions, and share this information with colleagues. It allows businesses to manage relationships with customers, helping the business grow.',
+            Benefits: 'General Benefits CRM:',
+            Benefits1: 'Reduce cost by being effective and efficient with operations, enhancing communications, automatic reminders, making all of customer information and records by making them digital which saves money and time. ',
+            Benefits2: 'Increase customer satisfaction by getting them exactly what they need',
+            Benefits3: 'Sharing the information among the sales team ',
+            Benefits4: 'Long-term profitability and sustainability ',
+            Benefits5: 'Better data organization (leads, contacts, customers)',
+           
+          },
         },
         products: {
           doctor: {
             header:
             {
               h1: "BOLT DOCTOR",
-              p: 'It is a Web-based application that allows individuals to book appointments online through any web-connected device, such as a computer, laptop, smartphone, or tablet.It lets the client choose from different doctors, Specialty,how long is he going to wait and how much is he going to pay.Moreover, the system is integrated with third - party companies so that the customer can give feedback about his experience.' 
+              p: 'It is a Web based application that allows individuals to book appointments online through any web-connected device, such as a computer, laptop, smartphone or tablet. It lets the client choose from different doctors, how long is he going to wait and how much is he going to pay. Moreover, the system is integrated with third-party companies so that the customer can give feedback about his experience. ',
+              Benefits: 'Benefits',
+              Benefits1: 'An automated system saves valuable working time of medical staff.',
+              Benefits2: 'Saves Resources - The expenses accepted for manual appointments and bookings are suspended. ',
+              Benefits3: 'The reminders on automated systems reduce the incidences of missed appointments by approximately 50%.',
+              Benefits4: 'Book anytime, from anywhere patients are not limited to any specific office-timings and bookings can be done round the clock at any time, from anywhere.',
+              Benefits5: 'A more convenient approach going online for all parties. People take alternative to online transactions for a safer, convenient and smoother way of life. Making online appointments saves patients from the hassles and enhances their experience.',
+              Benefits6: 'Efficient Information Management: An online system effectively registers all vital information of patients allowing you to give up from manual entries resulting in chances of errors. Managing vital information online lets you manage them efficiently and more accurately.',
+              Benefits7: 'Kiosk software/ QR Code at the clinic to confirm the booking by entering the name of patient or scan the QR Code',
+              Features: 'Features',
+              Features7: 'Online booking',
+              Features1: 'Choosing from different doctors in the same specialty',
+              Features2: 'View the profile of the doctor',
+              Features3: 'Payment Option ',
+              Features4: 'Feedback forms',
+              Features5: 'Reminders of the appointment ',
+              Features6: 'Shows the average waiting time for every doctor ',
+
+
             },
             cards:
             {
@@ -337,7 +437,38 @@ export class langHelper  {
             header:
             {
               h1: "BOLT SALON",
-              p: ' It’s a web development system that helps the customer to have a better experience than any traditional barbers.It lets the client choose his barber, the type of service he wants, how long is he going to wait and how much is he going to pay.Moreover,the system is integrated with third - party companies so that the customer can give feedback about his experience.Not only the customer who is going to gain from this system but also the owner too by providing the oversee of barbers,the ques, reports, and the feedback reviews.'
+              p: 'It’s a web development system that helps the customer to have a better experience than any traditional barbers. It lets the client choose his barber, the type of service he wants, how long is he going to wait and how much is he going to pay. Moreover, the system is integrated with third-party companies so that the customer can give feedback about his experience. Not only the customer who is going to gain from this system but also the owner too by providing a birds’ eye view of barbers, the queues, reports and the feedback reviews.',
+              benefitsforCustomer: 'Benefits for customer',
+              benefitsforCustomer1:'Save time for the customer because of queuing system',
+              benefitsforCustomer2:'The reminders on automated systems reduce the incidences of missing the reservation',
+              benefitsforCustomer3:'Allows the client to choose the barber',
+              benefitsforCustomer4:'Send feedback about his experience',
+              benefitsforCustomer5: 'Increase Customer satisfaction',
+              BenefitsforAdmin: 'Benefits for Admin',
+              BenefitsforAdmin1: 'Helps the manager to monitor the invoices',
+              BenefitsforAdmin2: 'Saves Resources: The expenses accepted for manual appointments and bookings are suspended.',
+              BenefitsforAdmin3: 'Control the Inventory and manage the retail',
+              BenefitsforAdmin4: 'Build customer database',
+              BenefitsforAdmin5: 'Improve service quality',
+              BenefitsforAdmin6: 'Increase Customer Loyalty',
+              BenefitsforAdmin7: 'Improve staff efficiency',
+              FeaturesForAdmin: 'Features for Admin ',
+              FeaturesForAdmin1: 'Showing how many barbers are working and their status ',
+              FeaturesForAdmin2: 'Integration with third-party companies for ex: SMS, Email, banks, etc. ',
+              FeaturesForAdmin3: 'Illustration the services that was done by the client ',
+              FeaturesForAdmin4: 'Feedback management to help the manager know which barber has more ratings  ',
+              FeaturesForAdmin5: 'Shows the invoices that was made through the day.',
+              FeaturesForAdmin6: 'Service management as the admin can add, edit or remove and service he wants ',
+              FeaturesForAdmin7: 'Offering promo code for clients',
+              FeaturesForCustomer: 'Features for Customer ',
+              FeaturesForCustomer1: 'Shows the waiting time for the customers ',
+              FeaturesForCustomer2: 'Features for •	Create account',
+              FeaturesForCustomer3: 'Payment Option ',
+              FeaturesForCustomer4: 'Feedback forms ',
+              FeaturesForCustomer5: 'Ratings and reviews  ',
+              FeaturesForCustomer6: 'Choose between different barbers',
+
+
             },
             cards:
             {
@@ -395,7 +526,25 @@ export class langHelper  {
             header:
             {
               h1: "BOLT RESTAURANT",
-              p: 'Bolt Restaurant is an application that provides a unique experience for restaurant involved parties starting from Admin/Owner, Waiter, and Ends-user/ Customer.'
+              p: 'Bolt Restaurant is an application that provides a unique experience for restaurant involved parties starting from Admin/Owner, Waiter, and Ends-user/ Customer.',
+              Benefits: 'Benefits',
+              benefits1: '1.Ease of use',
+              benefits1Description: 'Friendly to deal with system, (simple steps to get the service) facilitating the customer way of ordering in a well-organized and systematic flow. Images of the items with its details are provided to be more realistic and aware of all item’s variety and prices.',
+              benefits2: '2. Especially in COVID-19 pandemic as',
+              benefits2Description: 'The system makes sure that the health and safety regulations are considered as simply avoiding crowd and hassle of disordering a conflict. ',
+              benefits3: '3. Customer satisfaction',
+              benefits3Description: '•	Since the business techniques and methods for providing a service are improved, therefore the customer will be more satisfied. (All you need by one click)',
+              benefits4: '4. Unique experience ',
+              benefits4Description1: 'The customer will consider the service provider preferable, differentiated and a unique one. ',
+              benefits4Description2: 'Increase in customer satisfaction. ',
+              toSummerize: 'To summarize the system is automated and simpler than the classical way as its saves time and  problem-solves, this aims to help the business on both sides whether for business owner or beneficial customer (Guest).',
+              Features: 'Features',
+              Features1:'QR code to view the system',
+              Features2:'View the best-selling dish/drink',
+              Features3:'Friendly use ',
+              Features4:'Feedback form',
+              Features5:'Payment options ',
+
             },
             cards:
             {
@@ -518,17 +667,18 @@ export class langHelper  {
         },
         Clients: {
           h1: 'We are proud to share our clients',
-          p: ' we reach our business goals via in-depth communication and trust with our clients, we build rapport with them to meet their requirements ultimately reachinga close partnership together for future repeat business.'
+          p: ' we reach our business goals via in-depth communication and trust with our clients, we build rapport with them to meet their requirements ultimately reaching close partnership together for future repeat business – We’re honored to announce our partnership with'
         }
       }
     }
-    else if (this.currentLang==='ar') {
+  
+    else if (this.currentLang === 'ar') {
       return {
         dir: 'rtl',
         layout: {
           home: 'الرئيسية',
           about: 'من نحن',
-          services: 'الخدمات', 
+          services: 'الخدمات',
           products: 'المنتجات',
           contactus: 'التواصل معنا',
           language: 'English',
@@ -548,23 +698,121 @@ export class langHelper  {
             h1_2: 'تقابل التميز',
             paragraph: 'تسريع أداء فريقك من خلال التعيين المهام والتواصل وتتبع التقدم في واحد من أوائل تطبيقات مكان. هل تعلم أننااستضافة الاتحاد الأوروبي لدينا المهور لتقديم خياالعملاء الأوروبيون.',
             classes: {
-              header_class: 'arabicH1',
-              paragraph_class: 'arabic_paragraph'
+              header_class: '',
+              paragraph_class: ''
+            },
+            SectionOne: {
+              h1_1: '',
+              h1_2: '',
+              h1_3: '',
+              Userfriendly: '',
+              Responsive: '',
+              Fullycustomized: '',
+              VastProductPortfolio: ''
+            },
+            SectionTwo: {
+              h1: '',
+              h2_1: '',
+              h2_2: '',
+              h2_3: '',
+              atm: '',
+              Tailored: '',
+              Digital: '',
+              DataCenter: '',
+              Website: '',
+              ERP: '',
+              Mobile: '',
+              Boltssalon: '',
+              doctor: '',
+              Restaurant: '',
+              Bolt_ERP: ''
             },
           },
           readMore: 'المزيد',
         },
         about: {
           company: {
+            content: {
+              h1: '',
+              p: ''
+            },
+            siteContent: {
+              h1: '',
+              p: ' ',
+              h3: '',
+              p2: '',
+              p3: '',
+              h3_2: '',
+              p4: '',
 
+            },
+            board: {
+              h1: '',
+              h3: '',
+              h2_1: '',
+              p: '',
+
+
+            }
           },
           team: {
+            content: {
+              h1_1: '',
+              h1_2: "",
+            },
+            board: {
+              h1: '',
+              h3: ''
+            },
+            h2: ' ',
+            p: '',
+            h2_2: '',
+            p2: '',
+            h2_3: '',
+            p3: '',
+            technicalTeam: {
+              h2: '',
+              p: '',
+              h2_2: '',
+              h2_3: '',
+              h2_4: '',
+              h2_5: '',
+            },
+            marketingTeam: {
+              h2: '',
+              p: '',
+              h2_2: '',
+              p2: '',
+              h2_4: '',
+              p2_3: '',
+              h2_3: '',
+              p4: ''
+            },
+            businessTeam: {
+              h2: '',
+              p: '',
+              h2_2: '',
+            },
+            qaTeam: {
+              h2: '',
+              p: '',
+            },
+            uiTeam: {
+              h2: '',
+              p: ' ',
+            },
+            pmTeam: {
+              h2: '',
+              p: '',
+              h2_2: '',
+            }
 
           }
         },
         services: {
           erp: {
-
+            h1: '',
+            p: ''
           },
           platform: {
 
@@ -573,37 +821,264 @@ export class langHelper  {
 
           },
           atm: {
+            h1: '',
+            p: ''
 
           },
           DCN: {
-
+            h1: '',
+            p: ""
           },
           digital: {
-
+            h1: '',
+            p: ''
           },
           tailored: {
-
+            h1: '',
+            p: ''
           },
 
         },
         products: {
           doctor: {
+            header:
+            {
+              h1: "",
+              p: ''
+            },
+            cards:
+            {
+              card1:
+              {
+                title: '',
+                desc: ''
+              },
+              card2:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card3:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card4:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card5:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card6:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card7:
+              {
+                title: '',
+                desc: ''
+              }
+
+            }
 
           },
           salon: {
+            header:
+            {
+              h1: "",
+              p: ''
+            },
+            cards:
+            {
+              card1:
+              {
+                title: '',
+                desc: ''
+              },
+              card2:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card3:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card4:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card5:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card6:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card7:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card8:
+              {
+                title: '',
+                desc: ''
+              }
+
+            }
 
           },
           restaurant: {
+            header:
+            {
+              h1: "",
+              p: ''
+            },
+            cards:
+            {
+              card1:
+              {
+                title: '',
+                desc: ''
+              },
+              card2:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card3:
+              {
+                title: '',
+                desc: ''
+              }
+
+
+            }
 
           },
           erp: {
+            header:
+            {
+              h1: "",
+              p: ''
+            },
+            cards:
+            {
+              card1:
+              {
+                title: '',
+                desc: ''
+              },
+              card2:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card3:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card4:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card5:
+              {
+                title: '',
+                desc: ''
+              }
+              ,
+              card6:
+              {
+                title: '',
+                desc: ''
+              }
 
+
+            }
           }
         },
         contact: {
+          contactHeading: "",
+          contactBody: '',
+          contact_data: '',
+          ContactHeading2: '',
+          NameValidation: '',
+          arabicOrEngValidation: '',
+          MoreThanLetters: '',
+          LessThanLetters: '',
+          EmailRequired: '',
+          EmailValidation: '',
+          phoneNumberRequired: '',
+          PhoneNumberValidation: '',
+          FullNamePlaceholder: '',
+          EmailPlaceholder: '',
+          PhoneNumberPlaceholder: '',
+          productPlaceHolder: '',
+          MessagePlaceHolder: '',
+          MessageRequired: '',
+          SendButton: '',
+          Emirates: '',
+          Egypt: ''
+        },
+        footer: {
+          customText: '',
+          categroy: {
+            Category: '',
+            MarketingLi: '',
+            BrandingLi: '',
+            SEOLi: '',
+            WebDesignLi: ' ',
+            VideoLi: '',
 
+          },
+          Link: {
+            linkName: '',
+            BrandingLi: '',
+            SEOLi: '',
+            GraphicLi: ''
+          },
+          Services: {
+            ServicesName: '',
+            MarketingLi: '',
+            BrandingLi: '',
+            SEOLi: '',
+            WebDesignLi: ' ',
+            VideoLi: '',
+          }
+        },
+        Clients: {
+          h1: '',
+          p: ' '
         }
-
       }
     }
   }
