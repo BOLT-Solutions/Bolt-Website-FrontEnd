@@ -14,6 +14,10 @@ export class BOLTRESTAURANTComponent implements OnInit {
   ngOnInit(): void {
     this.langHelper = this.LanguageService.initializeMode().products.restaurant;
     this.direction = this.LanguageService.initializeMode().dir;
+
+    setTimeout(() => {
+      window.scroll(0, 0);
+    }, 500);
   }
 
 }

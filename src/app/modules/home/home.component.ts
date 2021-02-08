@@ -40,9 +40,9 @@ export class HomeComponent implements OnInit {
   Navigate(selector) {
 
     //Set Header Activity
-    window.scroll(0, 0);
-    this.ClearNavigationHighLight();
     this.router.navigate([selector]);
+    
+
     this.AdjustLanguageButton(selector);
     if (selector == "about-us" || selector == "about-us/about-team") { // highlight about dropdown
       document.getElementById('about').classList.add('active');

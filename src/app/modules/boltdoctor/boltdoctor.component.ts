@@ -15,7 +15,9 @@ export class BOLTDOCTORComponent implements OnInit {
   ngOnInit(): void {
     this.langHelper = this.LanguageService.initializeMode().products.doctor;
     this.direction = this.LanguageService.initializeMode().dir;
-    
+    setTimeout(() => {
+      window.scroll(0, 0);
+    }, 500);
 
   }
 

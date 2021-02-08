@@ -16,7 +16,9 @@ export class WebPlatformComponent implements OnInit {
     AOS.init();
     this.langHelper = this.LanguageService.initializeMode().services.platform;
     this.direction = this.LanguageService.initializeMode().dir;
-
+    setTimeout(() => {
+      window.scroll(0, 0);
+    }, 500);
   }
 
 }

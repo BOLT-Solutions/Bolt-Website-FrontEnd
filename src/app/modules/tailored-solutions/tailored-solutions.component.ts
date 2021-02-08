@@ -14,6 +14,9 @@ export class TailoredSolutionsComponent implements OnInit {
   ngOnInit(): void {
     this.langHelper = this.LanguageService.initializeMode().services.tailored
     this.direction = this.LanguageService.initializeMode().dir;
+    setTimeout(() => {
+      window.scroll(0, 0);
+    }, 500);
   }
 
 }
