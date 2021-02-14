@@ -3,8 +3,8 @@
 <section id="bg" class="pb-5">
 
   <div id="content">
-    <h1>{{langHelper.company.content.h1}}</h1>
-    <p>
+    <h1 class="{{langHelper.font}}">{{langHelper.company.content.h1}}</h1>
+    <p class="{{langHelper.font}}">
       {{langHelper.company.content.p}}
     </p>
   </div>
@@ -16,11 +16,11 @@
       <img src="./assets/img/aboutSec2.png"/>
     </div>
 
-    <div class="col-12 col-xl-6 p-5 " id="siteContent" dir="{{direction}}">
-      <h1>
+    <div class="col-12 col-xl-6 p-5" id="siteContent" dir="{{direction}}">
+      <h1 class="{{langHelper.font}} {{langHelper.textAlignStyle}}">
         {{langHelper.company.siteContent.h1}}
       </h1>
-      <p>
+      <p class="{{langHelper.font}} {{langHelper.textAlignStyle}}">
         {{langHelper.company.siteContent.p}}
       </p>
       <br />
@@ -38,11 +38,11 @@
 
   </div>
 </section>
-  <section id="board">
-    <h1>
+  <section id="board" dir="{{direction}}">
+    <h1 class="{{langHelper.font}} {{langHelper.textAlignStyle}}">
       {{langHelper.company.board.h1}}
     </h1>
-    <h3>
+    <h3 class="{{langHelper.font}} {{langHelper.textAlignStyle}}">
       {{langHelper.company.board.h3}}
     </h3>
     <div class="row  mt-5 px-4">

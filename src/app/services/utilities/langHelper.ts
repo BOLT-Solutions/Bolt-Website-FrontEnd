@@ -99,6 +99,8 @@ export class langHelper  {
           readMore: 'Read More',
         },
         about: {
+          font: '',
+          textAlignStyle: '',
           company: {
             content: {
               h1: 'More Than Just A Website',
@@ -747,6 +749,8 @@ export class langHelper  {
           readMore: 'المزيد',
         },
         about: {
+          font: 'arabicFont',
+          textAlignStyle: 'textAlignRight',
           company: {
             content: {
               h1: 'أكثر من مجرد موقع على شبكة الإنترنت',
@@ -763,13 +767,13 @@ export class langHelper  {
 
             },
             board: {
-              h1: ' Our Board Members',
-              h3: 'With our experts we can make a difference.',
-              h2_1: 'Muhammed Al Jammal',
+              h1: 'أعضاء مجلس الإدارة لدينا',
+              h3: 'مع خبرائنا يمكننا إحداث فرق',
+              h2_1: 'محمد الجمال',
               p: 'Deputy CEO & Chief operations officer',
-              h2_2: 'Ibrahim Rashed',
+              h2_2: 'ابراهيم راشد',
               p1: 'Chairman',
-              h2_3: 'Ahmed Abdel Moneim',
+              h2_3: 'احمد عبد المنعم',
               p2: 'CEO',
             }
           },
