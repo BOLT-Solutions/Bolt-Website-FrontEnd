@@ -11,10 +11,13 @@ h1 {
   height:100vh;
   background-position: center top;
   background-image: url('../../../assets/img/homeBG.png');
+
+
+}
+.arabicFont{
+  font-family: 'Cairo-Regular', sans-serif !important;
 }
 header {
-
-
   h1 {
     color: white;
     width: 782px;
@@ -51,6 +54,10 @@ header {
     text-align: left;
     color: #dcdcdc;
   }
+  .headerParagraphAR{
+    text-align: right;
+    font-family: 'Cairo-Regular', sans-serif;
+  }
 
   .read-more {
     border: 1px solid black;
@@ -73,6 +80,14 @@ header {
       color: #3b3b3bcc;
     }
   }
+  .readMoreButtonAR{
+    margin-left: 84%;
+    font-family: 'Cairo-Regular', sans-serif;
+  }
+}
+.textAlignRight{
+  text-align: right !important;
+  font-family: 'Cairo-Regular', sans-serif;
 }
 //Section One
 .sectionOne {
@@ -89,9 +104,7 @@ header {
     text-align: left;
     color: #2e2e2e;
   }
-
   h2 {
-
     font-family: 'Muli', sans-serif;
     font-size: 24px;
     font-weight: 300;
@@ -105,6 +118,14 @@ header {
 
   img {
     width: 50px
+  }
+  .headerPositionAR{
+    text-align: right;
+    margin: 100px 100px 76.2px 30px;
+    font-family: 'Cairo-Regular', sans-serif;
+  }
+  .imgPositionAR{
+    transform: scaleX(-1);
   }
 }
 
