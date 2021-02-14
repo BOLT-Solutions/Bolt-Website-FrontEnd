@@ -19,7 +19,12 @@ main {
 
   transition: all 0.5s;
 }
-
+.arabicFont{
+  font-family: 'Cairo-Regular', sans-serif !important;
+}
+.textAlignRight{
+  text-align: right !important;
+}
 #bg {
   background: url("../../../../assets/img/team/about-teamBG.png") no-repeat 0 0;
   background-size: cover;

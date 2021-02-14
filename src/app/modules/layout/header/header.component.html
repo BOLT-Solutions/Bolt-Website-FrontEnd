@@ -7,13 +7,13 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav m-auto">
+  <div class="collapse navbar-collapse {{langHelper.font}}" id="navbarSupportedContent">
+    <ul class="navbar-nav m-auto {{langHelper.navStyle}}">
       <li class="nav-item" id="home">
         <a class="nav-link" (click)="Navigate('home')">{{langHelper.home}}</a>
       </li>
       <li class="nav-item dropdown" id="about">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link {{langHelper.dropDownStyle}}" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           {{langHelper.about}}
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -22,7 +22,7 @@
         </div>
       </li>
       <li class="nav-item dropdown" id="services">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link {{langHelper.dropDownStyle}}" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           {{langHelper.services}}
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -37,7 +37,7 @@
         </div>
       </li>
       <li class="nav-item dropdown" id="products">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="nav-link {{langHelper.dropDownStyle}}" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           {{langHelper.products}}
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
