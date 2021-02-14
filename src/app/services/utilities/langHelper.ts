@@ -42,7 +42,6 @@ export class langHelper  {
           products: 'Products',
           contactus: 'Contact Us',
           language: 'العربيه',
-
           category: 'Category',
           link: 'Link',
           marketing: 'Marketing',
@@ -53,13 +52,16 @@ export class langHelper  {
 
         },
         home: {
+          font: '',
+          textAlignStyle: '', //Default alignment left, empty for default alignment
           header: {
             h1_1: 'Feel comfortable when you meet excellence',
             h1_2: '',
             paragraph: 'Bolt Solutions is an established Software house in Egypt with a commitment to align employee development with the overall company culture and operating systems – will be deleted ',
             classes: {
               header_class: '',
-              paragraph_class: ''
+              paragraph_class: '',
+              read_more_class: '',
             },
           },
           SectionOne: {
@@ -70,7 +72,11 @@ export class langHelper  {
             Userfriendly: 'User friendly',
             Responsive: 'Responsive',
             Fullycustomized: 'Fully customized',
-            VastProductPortfolio: 'Vast product portfolio'
+            VastProductPortfolio: 'Vast product portfolio',
+            classes: {
+              header_class: '',
+              img_class: '',
+            },
           },
           SectionTwo: {
             h1: 'Our Solutions',
@@ -178,7 +184,7 @@ export class langHelper  {
                 h2_2: 'Hiba Chnawra',
             }
 
-          }
+          },
         },
         services: {
           erp: {
@@ -666,6 +672,7 @@ export class langHelper  {
           }
         },
         Clients: {
+          textAlignStyle: '',
           h1: 'We are proud to share our clients',
           p: ' we reach our business goals via in-depth communication and trust with our clients, we build rapport with them to meet their requirements ultimately reaching close partnership together for future repeat business – We’re honored to announce our partnership with'
         }
@@ -693,121 +700,139 @@ export class langHelper  {
 
         },
         home: {
+          font: 'arabicFont',
+          textAlignStyle: 'textAlignRight',
           header: {
             h1_1: 'تشعر بالراحه عندما',
             h1_2: 'تقابل التميز',
             paragraph: 'تسريع أداء فريقك من خلال التعيين المهام والتواصل وتتبع التقدم في واحد من أوائل تطبيقات مكان. هل تعلم أننااستضافة الاتحاد الأوروبي لدينا المهور لتقديم خياالعملاء الأوروبيون.',
             classes: {
               header_class: '',
-              paragraph_class: ''
-            },
-            SectionOne: {
-              h1_1: '',
-              h1_2: '',
-              h1_3: '',
-              Userfriendly: '',
-              Responsive: '',
-              Fullycustomized: '',
-              VastProductPortfolio: ''
-            },
-            SectionTwo: {
-              h1: '',
-              h2_1: '',
-              h2_2: '',
-              h2_3: '',
-              atm: '',
-              Tailored: '',
-              Digital: '',
-              DataCenter: '',
-              Website: '',
-              ERP: '',
-              Mobile: '',
-              Boltssalon: '',
-              doctor: '',
-              Restaurant: '',
-              Bolt_ERP: ''
+              paragraph_class: 'headerParagraphAR',
+              read_more_class: 'readMoreButtonAR',
             },
           },
+            SectionOne: {
+              h1_1: 'نصنع حلولاً رقمية تساعد',
+              h1_2: ' قادة الأعمال على مراقبة المزيد من',
+              h1_3: ' أجل الحصول على التحكم الكامل',
+              h1_4: 'في كل جانب من جوانب عملك ، مما يضمن تحولك الرقمي إلى العصر الجديد.',
+              Userfriendly: 'سهل الاستخدام',
+              Responsive: 'متجاوب',
+              Fullycustomized: 'مخصصة بالكامل',
+              VastProductPortfolio: 'محفظة منتجات ضخمة',
+              classes: {
+                header_class: 'headerPositionAR',
+                img_class: 'imgPositionAR',
+              },
+            },
+            SectionTwo: {
+              h1: 'ما نقدمه لكم من حلول',
+              h2_1: 'عرض الكل',
+              h2_2: 'منتجات',
+              h2_3: 'خدمات',
+              atm: 'نظام مراقبة ماكينة تنظيف أجهزة الصراف الآلي',
+              Tailored: 'حلول مخصصة',
+              Digital: 'التحول الرقمي',
+              DataCenter: 'مركز البيانات',
+              Website: 'منصة الموقع',
+              ERP: 'تخطيط موارد المؤسسات',
+              CRM:'CRM',
+              Mobile: 'تطبيق الهاتف المحمول',
+              Boltssalon: 'Bolts salon',
+              doctor: 'Bolts doctor',
+              Restaurant: 'Bolts Restaurant',
+              Bolt_ERP: 'Bolts ERP '
+            },
           readMore: 'المزيد',
         },
         about: {
           company: {
             content: {
-              h1: '',
-              p: ''
+              h1: 'أكثر من مجرد موقع على شبكة الإنترنت',
+              p:'If you can dream it, we can build it…'
             },
             siteContent: {
-              h1: '',
-              p: ' ',
-              h3: '',
-              p2: '',
-              p3: '',
-              h3_2: '',
-              p4: '',
+              h1: 'مرحبا بكم في موقعنا',
+              p: 'بعيدًا ، خلف كلمة الجبال ، بعيدًا عن بلدان فوكاليا وكونسونانتيا ، هناك يعيش المكفوفين',
+              h3: 'Vision Statement:',
+              p2: ' Simply put, Bolt Solutions is one of the fastest growing software companies in the northern hemisphere.Aiming to becoming the leading performer, recognizing all customer landscapes in this global market place, serving numerous industries and sectors all over the world.',
+              p3: 'If you can dream it, we can build it…',
+              h3_2: 'Mission Statement:',
+              p4: 'We exist to assist the digital transformation of one-man bands, to SME’s and large blue-chip companies bringing them all into the 21st Century! Our highly skilled experts pave the way for our clients to evolve.Our mission is to enable all people and businesses throughout the world to realize their full potential, accelerating organizations digital transition.The transition in turn will enhance business growth of our customers with our creative solutions and design.To have a pro- active work ethic combined with professionality, our outlook is highly profitable and inevitable.',
 
             },
             board: {
-              h1: '',
-              h3: '',
-              h2_1: '',
-              p: '',
-
-
+              h1: ' Our Board Members',
+              h3: 'With our experts we can make a difference.',
+              h2_1: 'Muhammed Al Jammal',
+              p: 'Deputy CEO & Chief operations officer',
+              h2_2: 'Ibrahim Rashed',
+              p1: 'Chairman',
+              h2_3: 'Ahmed Abdel Moneim',
+              p2: 'CEO',
             }
           },
           team: {
             content: {
-              h1_1: '',
-              h1_2: "",
+              h1_1: 'Great Things In Business Are Never Done By One Person.',
+              h1_2: "They're Done By A Team",
             },
             board: {
-              h1: '',
-              h3: ''
+              h1: 'We are proud to share our great team members.',
+              h3:'We can all do small things, with great love, and together we can do something wonderful – OUR TEAMS'
             },
-            h2: ' ',
-            p: '',
-            h2_2: '',
-            p2: '',
-            h2_3: '',
-            p3: '',
+            h2: 'Ahmed Hassan',
+            p: 'Technology Lead',
+            h2_2: ' Mohammed Ragab',
+            p2: ' Business Analyst',
+            h2_3: 'Jamie Halpin',
+            p3: 'Chief commercial & marketing officer ',
             technicalTeam: {
-              h2: '',
-              p: '',
-              h2_2: '',
-              h2_3: '',
-              h2_4: '',
-              h2_5: '',
+              h2: 'Yasmin Ghazy',
+              p: 'Software Engineer',
+              h2_2: 'Nader Hosny',
+              h2_3: 'Moataz Yassin',
+              h2_4: 'Ahmed El-Bandarawy',
+              h2_5: 'Amr Moushtaha',
             },
             marketingTeam: {
-              h2: '',
-              p: '',
-              h2_2: '',
-              p2: '',
-              h2_4: '',
-              p2_3: '',
-              h2_3: '',
-              p4: ''
+              h2: 'Youssef Dawood',
+              p: 'Creative Director',
+              h2_2: 'Mohammed Tareq',
+              p2: 'Visual Artist',
+              h2_4: 'Mahmoud El- Fishawy',
+              p2_3: ' Video Editor',
+              h2_3:'Nuran Hisham',
+              p4:'Graphic Designer'
+            },
+            SalesTeam: {
+              h2: 'Mina Alfones ',
+              p: 'Business development executive',
+              h2_2: 'Shaimaa Ibrahim',
+              p2: 'Sales team leader',
+             
             },
             businessTeam: {
-              h2: '',
-              p: '',
-              h2_2: '',
+              h2: 'Mohammed Amin',
+              p: 'Business Analyst',
+              h2_2: 'Mohammed Hossam',
             },
             qaTeam: {
-              h2: '',
-              p: '',
+              h2: 'Mohammed Adel',
+              p: 'QA/QC Lead',
             },
             uiTeam: {
-              h2: '',
-              p: ' ',
+              h2: 'Mohammed Medhat',
+              p: ' UI/UX Designer',
             },
-            pmTeam: {
-              h2: '',
-              p: '',
-              h2_2: '',
+              pmTeam: {
+                h2: 'Youssef Afifi',
+                p: 'Project Manager',
+                h2_2: 'Hiba Chnawra',
             }
 
-          }
+          },
         },
         services: {
           erp: {
@@ -1076,8 +1101,9 @@ export class langHelper  {
           }
         },
         Clients: {
-          h1: '',
-          p: ' '
+          textAlignStyle: 'textAlignRight',
+          h1: 'نحن فخورون بمشاركة عملائنا',
+          p: 'نحن نقدر ثقتهم ، ونطور خدماتنا لتلبية توقعاتهم ، وبناء علاقة معهم لدينا علاقة طويلة الأمد تقوم على الثقة والجودة لتلبية التميز معًا.'
         }
       }
     }

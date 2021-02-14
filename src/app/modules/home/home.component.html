@@ -1,19 +1,19 @@
  <!-- Cover Image  -->
 <header class="py-5 bg-image-full homeBG" dir="{{direction}}">
 
-  <h1 class="{{langHelper.header.classes.header_class}}">{{langHelper.header.h1_1}} <br />{{langHelper.header.h1_2}}</h1>
+  <h1 class="{{langHelper.header.classes.paragraph_class}}">{{langHelper.header.h1_1}} <br />{{langHelper.header.h1_2}}</h1>
   <p class="{{langHelper.header.classes.paragraph_class}}">
     {{langHelper.header.paragraph}}
   </p>
-  <button class="read-more" routerLink="/about-us"><h2>{{langHelper.readMore}}</h2></button>
+  <button class="read-more {{langHelper.header.classes.read_more_class}}" routerLink="/about-us"><h2>{{langHelper.readMore}}</h2></button>
 </header>
 
 <!-- Section 1 -->
-<section class="sectionOne">
+<section class="sectionOne" dir="{{direction}}">
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 col-lg-5">
-        <h1 style="z-index:9999; position:relative;">
+        <h1 style="z-index:9999; position:relative;" class="{{langHelper.SectionOne.classes.header_class}}">
           <p>{{langHelper.SectionOne.h1_1}}</p>
           <p>{{langHelper.SectionOne.h1_2}}</p>
           <p>{{langHelper.SectionOne.h1_3}}</p>
@@ -24,21 +24,21 @@
           <div class="row">
             <div class="col-6 px-3">
               <img src="./assets/img/icons/icon2.png" />
-              <h2 class="pt-3">{{langHelper.SectionOne.Userfriendly}}</h2>
+              <h2 class="pt-3 {{langHelper.font}}">{{langHelper.SectionOne.Userfriendly}}</h2>
             </div>
             <div class="col-6">
               <img src="./assets/img/icons/icon3.png" />
-              <h2 class="pt-3">{{langHelper.SectionOne.Responsive}}</h2>
+              <h2 class="pt-3 {{langHelper.font}}">{{langHelper.SectionOne.Responsive}}</h2>
             </div>
           </div>
           <div class="row" style="margin-top:20%;">
             <div class="col-6">
               <img src="./assets/img/icons/icon1.png" />
-              <h2 class="pt-3">{{langHelper.SectionOne.Fullycustomized}}</h2>
+              <h2 class="pt-3 {{langHelper.font}}">{{langHelper.SectionOne.Fullycustomized}}</h2>
             </div>
             <div class="col-6">
               <img src="./assets/img/icons/icon2.png" />
-              <h2 class="pt-3">{{langHelper.SectionOne.VastProductPortfolio}}</h2>
+              <h2 class="pt-3 {{langHelper.font}}">{{langHelper.SectionOne.VastProductPortfolio}}</h2>
             </div>
           </div>
         </div>
@@ -46,16 +46,16 @@
       </div>
       <!--Background image-->
       <div class="col-7">
-        <img src="./assets/img/solutionscover.png" style="width:100%; z-index:0;" class="mt-5" />
+        <img src="./assets/img/solutionscover.png" style="width:100%; z-index:0;" class="mt-5 {{langHelper.SectionOne.classes.img_class}}" />
       </div>
     </div>
   </div>
 </section>
 <!--End of section 1-->
 <!--Section 2 -Solutions- -->
-<section class="sectionTwo">
-  <h1 class="display-4 p-5">{{langHelper.SectionTwo.h1}} </h1>
-  <div class="title-list ml-4 ml-lg-5">
+<section class="sectionTwo" dir="{{direction}}">
+  <h1 class="display-4 p-5 {{langHelper.textAlignStyle}} {{langHelper.font}}">{{langHelper.SectionTwo.h1}} </h1>
+  <div class="title-list ml-4 ml-lg-5 {{langHelper.textAlignStyle}}">
     <h2 class="solution-tab active" (click)="ViewSolution('all')" id="all" style="margin-left:2%;">{{langHelper.SectionTwo.h2_1}}</h2>
     <h2 class="solution-tab" (click)="ViewSolution('Solutions')" id="Solutions">{{langHelper.SectionTwo.h2_2}}</h2>
     <h2 class="solution-tab" (click)="ViewSolution('Services')" id="Services"> {{langHelper.SectionTwo.h2_3}}</h2>

@@ -1,7 +1,10 @@
 main {
   background-color: #d6d9e6;
 
-
+  .textAlignRight{
+    text-align: right !important;
+    font-family: 'Cairo-Regular', sans-serif;
+  }
   h1 {
     font-family: 'Mulish', sans-serif;
     font-size: 40px;
