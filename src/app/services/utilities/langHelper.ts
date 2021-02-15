@@ -202,7 +202,7 @@ export class langHelper  {
             accountFeatures7:'Tools',
             accountFeatures8:'Reports',
             accountFeatures9:'Shareholder Management',
-
+            textAlign: 'text-left',
 
           },
           platform: {
@@ -836,8 +836,21 @@ export class langHelper  {
         },
         services: {
           erp: {
-            h1: '',
-            p: ''
+            h1: 'تخطيط موارد المؤسسات (ERP )',
+            p: 'بعيدًا بعيدًا ، وراء كلمة جبال ، بعيدًا عن البلاد ، بعيدًا بعيدًا ، خلف كلمة جبال ، بعيدًا عن البلاد بعيدًا بعيدًا ، وراء كلمة عن البلاد ، بعيدًا بعيدًا ، خلف كلمة جبال ',
+            Benefits: ':الفوائد والميزاتة',
+            benefitsWords: 'كفاءة ، تقلل التكاليف وتزيد الربح',
+            Features: ':ميزات  ERP',
+            accountFeature: 'Account Module features: ',
+            accountFeatures2: 'Journal and Payment',
+            accountFeatures3: 'Billing',
+            accountFeatures4: 'Taxes',
+            accountFeatures5: 'Pricing',
+            accountFeatures6: 'Retail Operation',
+            accountFeatures7: 'Tools',
+            accountFeatures8: 'Reports',
+            accountFeatures9: 'Shareholder Management',
+            textAlign: 'text-right',
           },
           platform: {
 
