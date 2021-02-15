@@ -17,6 +17,9 @@ h1 {
 .arabicFont{
   font-family: 'Cairo-Regular', sans-serif !important;
 }
+.arabicFontAlMarai{
+  font-family: 'Almarai-Regular', sans-serif !important; 
+}
 header {
   h1 {
     color: white;
@@ -65,7 +68,7 @@ header {
     border: 1px solid black;
     margin: 65px 57px 0 105px;
     margin-top: 0 !important;
-    padding: 7px 22px;
+    padding: 7px 50px;
     border-radius: 35px;
 
 
@@ -84,8 +87,13 @@ header {
   }
 
   .readMoreButtonAR {
-    margin-left: 84%;
-    font-family: 'Cairo-Regular', sans-serif;
+    margin-left: 82%;
+    h2{
+      font-family: 'Almarai-Bold', sans-serif !important;
+      color: black;
+      font-size: 22px;
+    }
+    
   }
 }
 .textAlignRight{
@@ -244,7 +252,7 @@ header {
     text-align: left;
   }
 }
-.news-container:hover{
+.news-container:hover, .news-container:active{
     .container-overlay{
         display: block;
     }
@@ -309,10 +317,14 @@ header {
   }
 
   .sectionOne {
+
+    .headerPositionAR{
+      margin: 100px 21px 76.2px 30px;
+    }
     h1 {
       width: 341px;
       height: 66px;
-      margin: 19px -13px 24.6px;
+      margin: 19px 0px 45.6px;
       font-family: 'Raleway',sans-serif;
       font-size: 18px;
       font-weight: 400;
@@ -341,7 +353,7 @@ header {
         }
         .read-more{
             margin-top:55px !important;
-            margin-left:20px !important;
+            margin-left:20px;
         }
     }
     .sectionOne{
@@ -349,8 +361,12 @@ header {
             font-size:16px !important;
         }
     }
+    .mobileRow{
+      margin-left: 0 !important;
+      margin-right: 0 !important;
+    }
   .read-more {
-    margin: 33px 0px 0 -4px !important;
+    // margin: 33px 0px 0 -4px !important;
     padding: 8px 21px !important;
     border-radius: 35px;
     width: 107px !important;
@@ -362,11 +378,17 @@ header {
     }
 
     h2 {
-      width: 174px !important;
+      width: 115px; //
       height: 44px !important;
       font-family: "Muli", sans-serif;
       font-size: 13px !important;
       font-weight: 100;
+    }
+  }
+  .readMoreButtonAR{
+    margin-left: 60% !important;
+    h2{
+      width: 50px;
     }
   }
   .container-overlay {
@@ -376,6 +398,21 @@ header {
       width: 115px !important;
       height: 37px !important;
       font-weight: bold;
+    }
+  }
+  .sectionTwo{
+    h1{
+      font-size: 26px;
+    }
+  }
+  .title-list{
+    h2{
+      font-size: 16px;
+    }
+  }
+  .news-container{
+    h2{
+      font-size: 16px;
     }
   }
 }

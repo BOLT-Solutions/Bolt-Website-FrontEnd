@@ -2,7 +2,7 @@
 <section class="contact-img container-fluid"></section>
 
 <!--Contact Section-->
-<section class="contact-section">
+<section class="contact-section" dir="{{direction}}">
 
   <!--Contact Section -->
   <div class="container info-container">
@@ -46,7 +46,7 @@
       <div class="col-sm-12 col-md-6 col-lg-6">
 
         <div class="contact-form text-center container-fluid">
-          <p class="contactHeading">Contact Us With</p>
+          <p class="contactHeading">{{langHelper.ContactHeading2}}</p>
           <form [formGroup]="contactRequestForm">
             <div class="container-fluid">
               <div class="row">
@@ -155,7 +155,7 @@
   <!-- Contact Form -->
 
 
-  <div style="margin-bottom:10%" class="container-fluid mapSection">
+  <div style="margin-bottom:10%" class="container-fluid mapSection" dir="ltr">
     <div class="row">
 
       <div class="mapBox col-lg-6  col-sm-6 ">

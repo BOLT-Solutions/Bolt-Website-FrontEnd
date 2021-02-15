@@ -53,11 +53,13 @@ export class langHelper  {
           seo: 'SEO',
           webDesign: 'Web Design',
           video: 'Video',
-
+          aboutCompany: 'About Company',
+          aboutTeam: 'About Team',
         },
         home: {
           font: '',
           textAlignStyle: '', //Default alignment left, empty for default alignment
+          fontAlMarai: '', // For Arabic only
           header: {
             h1_1: 'Feel comfortable when you meet excellence',
             h1_2: '',
@@ -707,11 +709,14 @@ export class langHelper  {
           seo: 'المدير التنفيذي',
           webDesign: 'تصميم الويب',
           video: 'فيديو',
+          aboutCompany: 'عن الشركه',
+          aboutTeam: 'عن الفريق',
 
         },
         home: {
           font: 'arabicFont',
           textAlignStyle: 'textAlignRight',
+          fontAlMarai: 'arabicFontAlMarai',
           header: {
             h1_1: 'تشعر بالراحه عندما',
             h1_2: 'تقابل التميز',
@@ -1077,27 +1082,27 @@ export class langHelper  {
           }
         },
         contact: {
-          contactHeading: "",
-          contactBody: '',
-          contact_data: '',
-          ContactHeading2: '',
-          NameValidation: '',
-          arabicOrEngValidation: '',
-          MoreThanLetters: '',
-          LessThanLetters: '',
-          EmailRequired: '',
-          EmailValidation: '',
-          phoneNumberRequired: '',
-          PhoneNumberValidation: '',
-          FullNamePlaceholder: '',
-          EmailPlaceholder: '',
-          PhoneNumberPlaceholder: '',
-          productPlaceHolder: '',
-          MessagePlaceHolder: '',
-          MessageRequired: '',
-          SendButton: '',
-          Emirates: '',
-          Egypt: ''
+          contactHeading: "دعونا الحصول على اتصال",
+          contactBody: 'نحن منفتحون على أي اقتراح أو لمجرد إجراء دردشة',
+          contact_data: '1171 Building , Road 9,El- Mokattam, Cairo, Egypt.',
+          ContactHeading2: 'اتصل بنا مع',
+          NameValidation: 'من فضلك أدخل إسمك',
+          arabicOrEngValidation: 'مسموح فقط بالحروف العربية والإنجليزية',
+          MoreThanLetters: 'يجب أن تكون أحرف الاسم أكثر من 3 أحرف',
+          LessThanLetters: 'يجب أن تكون أحرف الاسم أقل من 20 حرفًا',
+          EmailRequired: 'البريد الالكتروني مطلوب',
+          EmailValidation: ' يجب أن يكون تنسيق البريد الإلكتروني صحيحًا (مثال: email@provider.com)',
+          phoneNumberRequired: ' يرجى إدخال رقم هاتفك',
+          PhoneNumberValidation: 'يرجى إدخال رقم هاتف صالح',
+          FullNamePlaceholder: 'الاسم بالكامل',
+          EmailPlaceholder: 'البريد الإلكتروني',
+          PhoneNumberPlaceholder: 'رقم الهاتف',
+          productPlaceHolder: 'اسم المنتج',
+          MessagePlaceHolder: 'رسالتك:',
+          MessageRequired: 'الرسالة مطلوبة',
+          SendButton: 'أرسل رسالة',
+          Emirates: 'الإمارات العربية المتحدة',
+          Egypt: 'مصر'
         },
         footer: {
           customText: 'تسريع أداء فريقك من خلال التعيينوالتواصل والتواصلالتطبيقات مكان. هل تعلم أننااستضافة الاتحادالأوروبي لدينا المهور لتقديم خياالعملاء الأوروبيون.',
