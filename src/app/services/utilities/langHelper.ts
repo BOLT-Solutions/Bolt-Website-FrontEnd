@@ -655,6 +655,8 @@ export class langHelper  {
           Egypt: 'Egypt'
         },
         footer: {
+          textAlign: '',
+          iconParagraph: 'iconParagraphEN',
           customText: 'We exist to assist the digital transformation of one-man bands,to SME’s and large blue- chip companies bringing them all into the 21st Century. Our highly skilled experts pave the way for our clients to evolve.',
           Products: {
             productsTitle: 'Products',
@@ -1106,6 +1108,8 @@ export class langHelper  {
           Egypt: 'مصر'
         },
         footer: {
+          textAlign: 'textAlignRight',
+          iconParagraph: 'iconParagraphAR',
           customText: 'تسريع أداء فريقك من خلال التعيينوالتواصل والتواصلالتطبيقات مكان. هل تعلم أننااستضافة الاتحادالأوروبي لدينا المهور لتقديم خياالعملاء الأوروبيون.',
           Products: {
             productsTitle: 'المنتجات',
