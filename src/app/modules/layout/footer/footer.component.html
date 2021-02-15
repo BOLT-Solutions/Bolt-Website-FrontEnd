@@ -2,7 +2,7 @@
   <div class="row justify-content-center" style="margin:50px ">
     <div class="col-12">
       <div class="row m-3 my-4" >
-        <div class="col-xl-3 col-12 p-0 mt-4 mt-xl-0"  >
+        <div class="col-xl-3 col-12 p-0 mt-4 mt-xl-0 {{langHelper.textAlign}}"  >
           <h3 class="text-muted mb-md-0 mb-3 mb-lg-0 bold-text">
           <img class="navbar-brand" src="./assets/img/bolt.png" style="filter:contrast(2); margin-bottom:20px;width:165px" alt="bolt-solutions" routerLink="/home">
           </h3>
@@ -11,34 +11,37 @@
 
           </p>
         </div>
-        <div class="col-xl-3 col-md-4 col-sm-4 col-12 custom" >
-          <h6 class="mb-3 mb-lg-4 bold-text "><b>{{langHelper.categroy.Category}}</b></h6>
+        <div class="col-xl-3 col-md-4 col-sm-4 col-12 custom {{langHelper.textAlign}}">
+          <h6 class="mb-3 mb-lg-4 bold-text "><b>{{langHelper.Services.serviceTitle}}</b></h6>
           <ul class="list-unstyled">
-            <li>{{langHelper.categroy.MarketingLi}}</li>
-            <li>{{langHelper.categroy.BrandingLi}}</li>
-            <li>{{langHelper.categroy.SEOLi}}</li>
-            <li>{{langHelper.categroy.WebDesignLi}}</li>
-            <li>{{langHelper.categroy.VideoLi}}</li>
+            <li routerLink="/ERP">{{langHelper.Services.service1}}</li>
+            <li routerLink="/web">{{langHelper.Services.service2}}</li>
+            <li routerLink="/MobileApp">{{langHelper.Services.service3}}</li>
+            <li routerLink="/ATM">{{langHelper.Services.service4}}</li>
+            <li routerLink="/CRM">{{langHelper.Services.service5}}</li>
+            <li routerLink="/DCN">{{langHelper.Services.service6}}</li>
+            <li routerLink="/DigitalTransformation">{{langHelper.Services.service7}}</li>
+            <li routerLink="/TailoredSolution">{{langHelper.Services.service8}}</li>
+
           </ul>
         </div>
-        <div class="col-xl-3 col-md-4 col-sm-4 col-12 custom">
-          <h6 class="mb-3 mb-lg-4 bold-text "><b>{{langHelper.Link.linkName}}</b></h6>
+        <div class="col-xl-3 col-md-4 col-sm-4 col-12 custom {{langHelper.textAlign}}">
+          <h6 class="mb-3 mb-lg-4 bold-text "><b>{{langHelper.Products.productsTitle}}</b></h6>
           <ul class="list-unstyled">
-            <li>{{langHelper.Link.BrandingLi}}</li>
-            <li>{{langHelper.Link.SEOLi}}</li>
-            <li>{{langHelper.Link.GraphicLi}}</li>
-          </ul>
-        </div>
-        <div class="col-xl-3 col-md-4 col-sm-4 col-12 custom">
-          <h6 class="mb-3 mb-lg-4 bold-text "><b>{{langHelper.Services.ServicesName}}</b></h6>
-          <ul class="list-unstyled">
-            <li>{{langHelper.Services.ServicesName}}</li>
-            <li>{{langHelper.Services.MarketingLi}}</li>
-            <li>{{langHelper.Services.BrandingLi}}</li>
-            <li>{{langHelper.Services.SEOLi}}</li>
-            <li>{{langHelper.Services.WebDesignLi}}</li>
-            <li>{{langHelper.Services.VideoLi}}</li>
+            <li routerLink="/BoltDoctor">{{langHelper.Products.product1}}</li>
+            <li routerLink="/BoltSalon">{{langHelper.Products.product2}}</li>
+            <li routerLink="/BoltRestaurant">{{langHelper.Products.product3}}</li>
+            <li routerLink="/BoltERP">{{langHelper.Products.product4}}</li>
          
+          </ul>
+        </div>
+        <div class="col-xl-3 col-md-4 col-sm-4 col-12 {{langHelper.textAlign}}" >
+          <h6 class="mb-3 mb-lg-4 bold-text "><b>{{langHelper.Contact.contactTitle}}</b></h6>
+          <ul class="list-unstyled">
+            <li><img src="./assets/img/contactus/location.png" class=" svg-icons iconStyle"><p class="{{langHelper.iconParagraph}}">{{langHelper.Contact.address}}</p></li>
+            <li><img src="./assets/img/contactus/phone.png" class="svg-icons">+2024213323</li>
+            <li><img src="./assets/img/contactus/message.png" class=" svg-icons">Info@Boltsolutions.net</li>
+
           </ul>
         </div>
       </div>

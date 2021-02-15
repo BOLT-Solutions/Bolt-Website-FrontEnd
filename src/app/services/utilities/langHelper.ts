@@ -57,6 +57,7 @@ export class langHelper  {
           aboutTeam: 'About Team',
         },
         home: {
+          backgroundImage: '', //Default image for EN
           font: '',
           textAlignStyle: '', //Default alignment left, empty for default alignment
           fontAlMarai: '', // For Arabic only
@@ -654,29 +655,30 @@ export class langHelper  {
           Egypt: 'Egypt'
         },
         footer: {
+          textAlign: '',
+          iconParagraph: 'iconParagraphEN',
           customText: 'We exist to assist the digital transformation of one-man bands,to SME’s and large blue- chip companies bringing them all into the 21st Century. Our highly skilled experts pave the way for our clients to evolve.',
-          categroy: {
-            Category: 'Category',
-            MarketingLi: 'Marketing',
-            BrandingLi: 'Branding',
-            SEOLi: 'SEO',
-            WebDesignLi: 'Web Design',
-            VideoLi: 'Video',
-
-          },
-          Link: {
-            linkName: 'Link',
-            BrandingLi: 'Branding',
-            SEOLi: 'SEO & SMM',
-            GraphicLi: 'Graphic'
+          Products: {
+            productsTitle: 'Products',
+            product1: 'Bolt Doctor',
+            product2: 'Bolt Salon',
+            product3: 'Bolt Restaurant',
+            product4: 'Bolt ERP',
           },
           Services: {
-            ServicesName: 'Services',
-            MarketingLi: 'Marketing',
-            BrandingLi: 'Branding',
-            SEOLi: 'SEO',
-            WebDesignLi: 'Web Design',
-            VideoLi: 'Video',
+            serviceTitle: 'Services',
+            service1: 'ERP',
+            service2: 'Website Platform',
+            service3: 'Mobile Application',
+            service4: 'ATM',
+            service5: 'CRM',
+            service6: 'Data Center Network',
+            service7: 'Digital Transformation',
+            service8: 'Tailored Solution',
+          },
+          Contact: {
+            contactTitle: "Let's get in touch",
+            address: "B-1171 , Road 9, El-Mokattam, Cairo, Egypt",
           }
         },
         Clients: {
@@ -714,6 +716,7 @@ export class langHelper  {
 
         },
         home: {
+          backgroundImage: 'homeBGAR',
           font: 'arabicFont',
           textAlignStyle: 'textAlignRight',
           fontAlMarai: 'arabicFontAlMarai',
@@ -1105,29 +1108,30 @@ export class langHelper  {
           Egypt: 'مصر'
         },
         footer: {
+          textAlign: 'textAlignRight',
+          iconParagraph: 'iconParagraphAR',
           customText: 'تسريع أداء فريقك من خلال التعيينوالتواصل والتواصلالتطبيقات مكان. هل تعلم أننااستضافة الاتحادالأوروبي لدينا المهور لتقديم خياالعملاء الأوروبيون.',
-          categroy: {
-            Category: 'أنواع',
-            MarketingLi: 'التسويق',
-            BrandingLi: 'ترويج',
-            SEOLi: 'المدير التنفيذي',
-            WebDesignLi: 'تصميم الويب',
-            VideoLi: 'فيديو',
-
-          },
-          Link: {
-            linkName: 'رابط',
-            BrandingLi: 'التسويق',
-            SEOLi: 'ترويج',
-            GraphicLi: 'ترويج'
+          Products: {
+            productsTitle: 'المنتجات',
+            product1: 'Bolt Doctor',
+            product2: 'Bolt Salon',
+            product3: 'Bolt Restaurant',
+            product4: 'Bolt ERP',
           },
           Services: {
-            ServicesName: 'الخدمات',
-            MarketingLi: 'التسويق',
-            BrandingLi: 'ترويج',
-            SEOLi: 'المدير التنفيذي',
-            WebDesignLi: 'تصميم الويب ',
-            VideoLi: 'المدير التنفيذي',
+            serviceTitle: 'الخدمات',
+            service1: 'ERP',
+            service2: 'Website Platform',
+            service3: 'Mobile Application',
+            service4: 'ATM',
+            service5: 'CRM',
+            service6: 'Data Center Network',
+            service7: 'Digital Transformation',
+            service8: 'Tailored Solution',
+          },
+          Contact: {
+            contactTitle: "دعونا الحصول على اتصال",
+            address: "مبنى 1171 ، شارع 9 ، المقطم ، القاهرة ، مصر",
           }
         },
         Clients: {
