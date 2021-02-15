@@ -57,6 +57,7 @@ export class langHelper  {
           aboutTeam: 'About Team',
         },
         home: {
+          backgroundImage: '', //Default image for EN
           font: '',
           textAlignStyle: '', //Default alignment left, empty for default alignment
           fontAlMarai: '', // For Arabic only
@@ -714,6 +715,7 @@ export class langHelper  {
 
         },
         home: {
+          backgroundImage: 'homeBGAR',
           font: 'arabicFont',
           textAlignStyle: 'textAlignRight',
           fontAlMarai: 'arabicFontAlMarai',
