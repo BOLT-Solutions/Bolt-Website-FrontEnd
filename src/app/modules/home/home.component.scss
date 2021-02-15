@@ -291,7 +291,7 @@ header {
       height: 54px;
       margin: 100.5px 46.5px 30px 14px;
       font-family: 'Raleway',sans-serif;
-      font-size: 21px;
+      font-size: 22px;
       font-weight: normal;
       font-stretch: normal;
       font-style: normal;
@@ -299,6 +299,7 @@ header {
       letter-spacing: normal;
       text-align: left;
       color: #dcdcdc;
+      margin-top: 38%;
     }
 
     p {
@@ -349,17 +350,18 @@ header {
 
     header{
         p{
-            width:296px !important;
-            font-size:15px !important;
+            width:340px !important;
+            font-size:16px !important;
         }
         .read-more{
-            margin-top:55px !important;
+            margin-top:14px !important;
             margin-left:20px;
         }
     }
     .sectionOne{
         h1{
-            font-size:16px !important;
+            font-size:18px !important;
+            line-height: 0.5rem;
         }
     }
     .mobileRow{
@@ -367,11 +369,10 @@ header {
       margin-right: 0 !important;
     }
   .read-more {
-    // margin: 33px 0px 0 -4px !important;
     padding: 8px 21px !important;
     border-radius: 35px;
-    width: 107px !important;
-    height: 33px !important;
+    width: 130px !important;
+    height: 44px !important;
 
     &:focus {
       border: none;
@@ -382,7 +383,7 @@ header {
       width: 115px; //
       height: 44px !important;
       font-family: "Muli", sans-serif;
-      font-size: 13px !important;
+      font-size: 18px !important;
       font-weight: 100;
     }
   }
@@ -417,18 +418,27 @@ header {
     }
   }
 }
+//Img display/show based on screen sizes
+@media only screen and(min-device-width:992px) and (max-device-width: 1080px){
+  .sectionOne .col-7{
+    display: block !important;
+    img{
+      width: 100% !important;
+      height: 100% !important;
+    }
+  }
+}
 @media only screen and (min-device-width:700px) and (max-device-width: 1024px) {
   .homeBG {
     height: 70vh;
   }
-
   header {
     h1 {
-      width: 250px;
+      width: 400px;
       height: 54px;
       margin: 100.5px 46.5px 30px 14px;
       font-family: 'Raleway',sans-serif;
-      font-size: 23px;
+      font-size: 34px;
       font-weight: normal;
       font-stretch: normal;
       font-style: normal;
@@ -436,10 +446,11 @@ header {
       letter-spacing: normal;
       text-align: left;
       color: #dcdcdc;
+      margin-top: 35%;
     }
 
     p {
-      width: 349px;
+      width: 600px;
       height: 95px;
       margin: 7px 12px 25px;
       font-family: 'Muli',sans-serif;
@@ -452,9 +463,31 @@ header {
       text-align: left;
       color: #dcdcdc;
     }
-    .read-more
-        {
-        margin-top:140px!important;
+    .read-more {
+      padding: 8px 21px !important;
+      border-radius: 35px;
+      width: 155px !important;
+      height: 50px !important;
+      margin-top: 73px !important;
+      margin: 65px 57px 0 50px;
+      &:focus {
+        border: none;
+        outline-style: none;
+      }
+  
+      h2 {
+        width: 115px; //
+        height: 44px !important;
+        font-family: "Muli", sans-serif;
+        font-size: 23px !important;
+        font-weight: 100;
+      }
+    }
+    .readMoreButtonAR{
+      margin-left: 60% !important;
+      h2{
+        width: 50px;
+      }
     }
   }
 
@@ -594,11 +627,37 @@ header {
 }
 
 @media only screen and (width: 320px)
-
 {
   .homeBG p {
     font-size: 13px !important;
     margin: 7px 12px -24px !important;
+  }
+  header{
+    p{
+        width:280px !important;
+    }
+  }
+  .read-more {
+    width: 115px !important;
+    height: 38px !important;
+
+    h2 {
+      font-size: 16px !important;
+    }
+  }
+}
+@media only screen and(min-height: 750px) and (max-height: 800px) and(max-width: 992px){
+  header {
+    h1 {
+      margin-top: 50%;
+    }
+  }
+}
+@media only screen and(min-height: 801px) and (max-height: 950px){
+  header {
+    h1 {
+      margin-top: 66% !important;
+    }
   }
 }
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait) {
