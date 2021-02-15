@@ -36,6 +36,10 @@ export class langHelper  {
       return {
         dir: 'ltr',
         layout: {
+          font: '',
+          textAlignStyle: '',
+          dropDownStyle: 'dropdown-toggle',
+          navStyle: '',
           home: 'Home',
           about: 'About',
           services: 'Services',
@@ -49,11 +53,13 @@ export class langHelper  {
           seo: 'SEO',
           webDesign: 'Web Design',
           video: 'Video',
-
+          aboutCompany: 'About Company',
+          aboutTeam: 'About Team',
         },
         home: {
           font: '',
           textAlignStyle: '', //Default alignment left, empty for default alignment
+          fontAlMarai: '', // For Arabic only
           header: {
             h1_1: 'Feel comfortable when you meet excellence',
             h1_2: '',
@@ -99,6 +105,8 @@ export class langHelper  {
           readMore: 'Read More',
         },
         about: {
+          font: '',
+          textAlignStyle: '',
           company: {
             content: {
               h1: 'More Than Just A Website',
@@ -128,7 +136,7 @@ export class langHelper  {
           team: {
             content: {
               h1_1: 'Great Things In Business Are Never Done By One Person.',
-              h1_2: "They're Done By A Team",
+              h1_2: "They're Done By A Team ",
             },
             board: {
               h1: 'We are proud to share our great team members.',
@@ -683,6 +691,10 @@ export class langHelper  {
       return {
         dir: 'rtl',
         layout: {
+          navStyle: 'arabicNavItem',
+          font: 'arabicFont',
+          textAlignStyle: 'textAlignRight',
+          dropDownStyle: 'dropdown-toggle-arabic',
           home: 'الرئيسية',
           about: 'من نحن',
           services: 'الخدمات',
@@ -697,11 +709,14 @@ export class langHelper  {
           seo: 'المدير التنفيذي',
           webDesign: 'تصميم الويب',
           video: 'فيديو',
+          aboutCompany: 'عن الشركه',
+          aboutTeam: 'عن الفريق',
 
         },
         home: {
           font: 'arabicFont',
           textAlignStyle: 'textAlignRight',
+          fontAlMarai: 'arabicFontAlMarai',
           header: {
             h1_1: 'تشعر بالراحه عندما',
             h1_2: 'تقابل التميز',
@@ -747,6 +762,8 @@ export class langHelper  {
           readMore: 'المزيد',
         },
         about: {
+          font: 'arabicFont',
+          textAlignStyle: 'textAlignRight',
           company: {
             content: {
               h1: 'أكثر من مجرد موقع على شبكة الإنترنت',
@@ -763,73 +780,73 @@ export class langHelper  {
 
             },
             board: {
-              h1: ' Our Board Members',
-              h3: 'With our experts we can make a difference.',
-              h2_1: 'Muhammed Al Jammal',
+              h1: 'أعضاء مجلس الإدارة لدينا',
+              h3: 'مع خبرائنا يمكننا إحداث فرق',
+              h2_1: 'محمد الجمال',
               p: 'Deputy CEO & Chief operations officer',
-              h2_2: 'Ibrahim Rashed',
+              h2_2: 'ابراهيم راشد',
               p1: 'Chairman',
-              h2_3: 'Ahmed Abdel Moneim',
+              h2_3: 'احمد عبد المنعم',
               p2: 'CEO',
             }
           },
           team: {
             content: {
-              h1_1: 'Great Things In Business Are Never Done By One Person.',
-              h1_2: "They're Done By A Team",
+              h1_1: 'الأشياء العظيمة في العمل لا يقوم بها شخص واحد',
+              h1_2: "تم إنجازها بواسطة فريق ",
             },
             board: {
-              h1: 'We are proud to share our great team members.',
-              h3:'We can all do small things, with great love, and together we can do something wonderful – OUR TEAMS'
+              h1: 'نحن فخورون بمشاركة أعضاء فريقنا الرائعين',
+              h3:'يمكننا جميعًا القيام بأشياء صغيرة ، بحب كبير ، ويمكننا معًا أن نفعل شيئًا رائعًا - فرقنا'
             },
-            h2: 'Ahmed Hassan',
+            h2: 'أحمد حسن',
             p: 'Technology Lead',
             h2_2: ' Mohammed Ragab',
             p2: ' Business Analyst',
-            h2_3: 'Jamie Halpin',
+            h2_3: 'جيمي هالبين',
             p3: 'Chief commercial & marketing officer ',
             technicalTeam: {
-              h2: 'Yasmin Ghazy',
+              h2: 'ياسمين غازي',
               p: 'Software Engineer',
-              h2_2: 'Nader Hosny',
-              h2_3: 'Moataz Yassin',
-              h2_4: 'Ahmed El-Bandarawy',
-              h2_5: 'Amr Moushtaha',
+              h2_2: 'نادر حسني',
+              h2_3: 'معتز ياسين',
+              h2_4: 'احمد البندراوى',
+              h2_5: 'عمرو مشتهى',
             },
             marketingTeam: {
-              h2: 'Youssef Dawood',
+              h2: 'يوسف داود',
               p: 'Creative Director',
-              h2_2: 'Mohammed Tareq',
+              h2_2: 'محمد طارق',
               p2: 'Visual Artist',
-              h2_4: 'Mahmoud El- Fishawy',
+              h2_4: 'محمود الفيشاوي',
               p2_3: ' Video Editor',
-              h2_3:'Nuran Hisham',
+              h2_3:'نوران هشام',
               p4:'Graphic Designer'
             },
             SalesTeam: {
-              h2: 'Mina Alfones ',
+              h2: 'مينا ألفونس',
               p: 'Business development executive',
-              h2_2: 'Shaimaa Ibrahim',
+              h2_2: 'شيماء ابراهيم',
               p2: 'Sales team leader',
              
             },
             businessTeam: {
-              h2: 'Mohammed Amin',
+              h2: 'محمد امين',
               p: 'Business Analyst',
-              h2_2: 'Mohammed Hossam',
+              h2_2: 'محمد حسام',
             },
             qaTeam: {
-              h2: 'Mohammed Adel',
+              h2: 'محمد عادل',
               p: 'QA/QC Lead',
             },
             uiTeam: {
-              h2: 'Mohammed Medhat',
+              h2: 'محمد مدحت',
               p: ' UI/UX Designer',
             },
               pmTeam: {
-                h2: 'Youssef Afifi',
+                h2: 'يوسف عفيفي',
                 p: 'Project Manager',
-                h2_2: 'Hiba Chnawra',
+                h2_2: 'هبة شناورة',
             }
 
           },
@@ -1065,52 +1082,52 @@ export class langHelper  {
           }
         },
         contact: {
-          contactHeading: "",
-          contactBody: '',
-          contact_data: '',
-          ContactHeading2: '',
-          NameValidation: '',
-          arabicOrEngValidation: '',
-          MoreThanLetters: '',
-          LessThanLetters: '',
-          EmailRequired: '',
-          EmailValidation: '',
-          phoneNumberRequired: '',
-          PhoneNumberValidation: '',
-          FullNamePlaceholder: '',
-          EmailPlaceholder: '',
-          PhoneNumberPlaceholder: '',
-          productPlaceHolder: '',
-          MessagePlaceHolder: '',
-          MessageRequired: '',
-          SendButton: '',
-          Emirates: '',
-          Egypt: ''
+          contactHeading: "دعونا الحصول على اتصال",
+          contactBody: 'نحن منفتحون على أي اقتراح أو لمجرد إجراء دردشة',
+          contact_data: '1171 Building , Road 9,El- Mokattam, Cairo, Egypt.',
+          ContactHeading2: 'اتصل بنا مع',
+          NameValidation: 'من فضلك أدخل إسمك',
+          arabicOrEngValidation: 'مسموح فقط بالحروف العربية والإنجليزية',
+          MoreThanLetters: 'يجب أن تكون أحرف الاسم أكثر من 3 أحرف',
+          LessThanLetters: 'يجب أن تكون أحرف الاسم أقل من 20 حرفًا',
+          EmailRequired: 'البريد الالكتروني مطلوب',
+          EmailValidation: ' يجب أن يكون تنسيق البريد الإلكتروني صحيحًا (مثال: email@provider.com)',
+          phoneNumberRequired: ' يرجى إدخال رقم هاتفك',
+          PhoneNumberValidation: 'يرجى إدخال رقم هاتف صالح',
+          FullNamePlaceholder: 'الاسم بالكامل',
+          EmailPlaceholder: 'البريد الإلكتروني',
+          PhoneNumberPlaceholder: 'رقم الهاتف',
+          productPlaceHolder: 'اسم المنتج',
+          MessagePlaceHolder: 'رسالتك:',
+          MessageRequired: 'الرسالة مطلوبة',
+          SendButton: 'أرسل رسالة',
+          Emirates: 'الإمارات العربية المتحدة',
+          Egypt: 'مصر'
         },
         footer: {
-          customText: '',
+          customText: 'تسريع أداء فريقك من خلال التعيينوالتواصل والتواصلالتطبيقات مكان. هل تعلم أننااستضافة الاتحادالأوروبي لدينا المهور لتقديم خياالعملاء الأوروبيون.',
           categroy: {
-            Category: '',
-            MarketingLi: '',
-            BrandingLi: '',
-            SEOLi: '',
-            WebDesignLi: ' ',
-            VideoLi: '',
+            Category: 'أنواع',
+            MarketingLi: 'التسويق',
+            BrandingLi: 'ترويج',
+            SEOLi: 'المدير التنفيذي',
+            WebDesignLi: 'تصميم الويب',
+            VideoLi: 'فيديو',
 
           },
           Link: {
-            linkName: '',
-            BrandingLi: '',
-            SEOLi: '',
-            GraphicLi: ''
+            linkName: 'رابط',
+            BrandingLi: 'التسويق',
+            SEOLi: 'ترويج',
+            GraphicLi: 'ترويج'
           },
           Services: {
-            ServicesName: '',
-            MarketingLi: '',
-            BrandingLi: '',
-            SEOLi: '',
-            WebDesignLi: ' ',
-            VideoLi: '',
+            ServicesName: 'الخدمات',
+            MarketingLi: 'التسويق',
+            BrandingLi: 'ترويج',
+            SEOLi: 'المدير التنفيذي',
+            WebDesignLi: 'تصميم الويب ',
+            VideoLi: 'المدير التنفيذي',
           }
         },
         Clients: {

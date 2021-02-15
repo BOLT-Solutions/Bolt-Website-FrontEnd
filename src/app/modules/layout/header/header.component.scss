@@ -16,15 +16,21 @@ nav {
 }
 
 li {
-  margin: 18px;
+  margin:37px;
 }
 .btn-outline-primary {
   border-color: white;
   color: white;
   font-size: 20px;
 }
+.arabicNavItem{
+  li{
+    margin:37px;
+  }
 
+}
 .nav-link {
+  color: white !important;
   font-size: 24px; 
   padding: 0;
   cursor: pointer;
@@ -34,7 +40,12 @@ li {
   -moz-transition: all 0.5s;
   -o-transition: all 0.5s;
 }
+.arabicFont{
+  .nav-link{
+    font-family: 'Cairo-Regular', sans-serif !important;
+  }
 
+}
 #about .nav-link:focus, #products .nav-link:focus, #services .nav-link:focus {
   /*  background-color: rgba(0, 0, 0, 0.6);*/
     border-bottom: solid 0.5px lightgrey;
@@ -86,11 +97,35 @@ li {
   background: url("../../../../assets/img/nav-arrow.png");
   background-position: center center;
   background-size: cover;
+  top: 15px;
   height: 10px;
   width: 10px;
   vertical-align: central;
   position: absolute;
+  opacity: 0.5;
+  content: "";
+  border-top: none;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  transition: all 0.5s;
+}
+.dropdown-toggle-arabic:focus:after{
+  transform:rotate(180deg);
+  opacity: 1;
+  transition: all 0.5s;
+}
+.dropdown-toggle-arabic:after {
+  content: '';
+  background: url("../../../../assets/img/nav-arrow.png");
+  background-position: center center;
+  background-size: cover;
   top: 15px;
+  left: -13px;
+  height: 10px;
+  width: 10px;
+  vertical-align: central;
+  position: absolute;
   opacity: 0.5;
   content: "";
   border-top: none;
@@ -177,7 +212,7 @@ li {
     bottom: 0;
     background-color: rgba(0,0,0,0.8) !important;
     text-align: center;
-
+    z-index: 9999999;
     #langButton {
       margin: 0 auto;
     }
@@ -226,4 +261,11 @@ nav .collapse.show {
 
 .navbar-dark .navbar-toggler-icon {
   background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.9%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+@media only screen and (max-device-width: 450px){
+  .dropdown-toggle-arabic:after {
+    left: 40px;
+  }
+
 }
