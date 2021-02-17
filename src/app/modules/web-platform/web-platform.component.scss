@@ -15,7 +15,7 @@ main {
 #content {
   color: #fff;
   text-align: left;
-  margin-left: 16%;
+  margin-left: 10%;
   margin-top: 60px;
 
   h1 {
@@ -37,8 +37,8 @@ main {
     font-size: 20px;
     font-weight: 300;
     color: #ffffff;
-    width: 300px;
-    line-height: 1.1;
+    width: 600px;
+    line-height: 1.2;
   }
 }
 
@@ -124,46 +124,9 @@ main {
     perspective: 300px;
   }
 
-  .benefit-img-1 {
-    height: 10vh;
-    background: url("../../../assets/designer-assets/icons/website/invisible.png") no-repeat;
-    background-position: center;
-  }
-
-  .benefit-img-2 {
-    height: 10vh;
-    background: url("../../../assets/designer-assets/icons/website/Moresales.png") no-repeat;
-    background-position: center;
-  }
-
-  .benefit-img-3 {
-    height: 10vh;
-    background: url("../../../assets/designer-assets/icons/website/accessibility.png") no-repeat;
-    background-position: center;
-  }
-
-  .benefit-img-4 {
-    height: 10vh;
-    background: url("../../../assets/designer-assets/icons/website/Reachmoreclients.png") no-repeat;
-    background-position: center;
-  }
-
-  .benefit-img-5 {
-    height: 10vh;
-    background: url("../../../assets/designer-assets/icons/website/Smartviewofyourproducts.png") no-repeat;
-    background-position: center;
-  }
-
-  .benefit-img-6 {
-    height: 10vh;
-    background: url("../../../assets/designer-assets/icons/website/Cutyourcosts.png") no-repeat;
-    background-position: center;
-  }
-
-  .benefit-img-7 {
-    height: 10vh;
-    background: url("../../../assets/designer-assets/icons/website/MoreAnalysis.png") no-repeat;
-    background-position: center;
+  .iconDarkenFilter {
+    filter: brightness(50%);
+    margin-top: 70px;
   }
 
   .benefit-inner {
@@ -178,6 +141,10 @@ main {
   .benefit:hover .benefit-inner {
     h2, p {
       color: white !important;
+    }
+
+    .iconDarkenFilter {
+      filter: brightness(100%) !important;
     }
 
     box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 0.53);
@@ -235,8 +202,8 @@ main {
   }
 
   #content {
-    margin-left: 20px;
-    margin-top: 60px;
+    margin-left: 10px;
+    margin-top: 45px;
 
     h1 {
       margin-left: 10px;
@@ -244,9 +211,9 @@ main {
     }
 
     p {
-      width: 200px;
+      width: 224px;
       margin-left: 10px;
-      font-size: 15px;
+      font-size: 10px;
     }
   }
 

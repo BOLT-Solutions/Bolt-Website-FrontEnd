@@ -360,7 +360,7 @@ header {
     }
     .sectionOne{
         h1{
-            font-size:18px !important;
+            font-size:16px !important;
             line-height: 0.5rem;
         }
     }
@@ -637,6 +637,11 @@ header {
         width:280px !important;
     }
   }
+  .sectionOne{
+      h1{
+          font-size: 16px;
+      }
+  }
   .read-more {
     width: 115px !important;
     height: 38px !important;
@@ -646,20 +651,23 @@ header {
     }
   }
 }
-@media only screen and(min-height: 750px) and (max-height: 800px) and(max-width: 992px){
+
+@media only screen and (min-height: 750px) and (max-height: 800px) and (max-width: 992px){
   header {
     h1 {
       margin-top: 50%;
     }
   }
 }
-@media only screen and(min-height: 801px) and (max-height: 950px){
+
+@media only screen and (min-height: 801px) and (max-height: 950px) and (max-width: 600px){
   header {
     h1 {
       margin-top: 66% !important;
     }
   }
 }
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation:portrait) {
  .header
  {

@@ -6,7 +6,6 @@ main {
   background: url("../../../assets/img/doctor.png") no-repeat 0 0;
   height: 80vh;
   background-size: cover;
- 
 }
 
 
@@ -86,52 +85,15 @@ main {
     text-align: left;
     color: #8d8d8d;
     margin: 0 auto;
+    margin-top: 40px;
   }
 
   .benefit {
     perspective: 300px;
   }
 
-  .benefit-img-1 {
-    height: 10vh;
-    background: url("../../../assets/designer-assets/icons/bolt doctor/savingtime.png") no-repeat;
-    background-position: center;
-  }
-
-  .benefit-img-2 {
-    height: 10vh;
-    background: url("../../../assets/designer-assets/icons/bolt doctor/visitorchoices.png") no-repeat;
-    background-position: center;
-  }
-
-  .benefit-img-3 {
-    height: 10vh;
-    background: url("../../../assets/designer-assets/icons/bolt doctor/savemoney.png") no-repeat;
-    background-position: center;
-  }
-
-  .benefit-img-4 {
-    height: 10vh;
-    background: url("../../../assets/designer-assets/icons/bolt doctor/autocalender.png") no-repeat;
-    background-position: center;
-  }
-
-  .benefit-img-5 {
-    height: 10vh;
-    background: url("../../../assets/designer-assets/icons/bolt doctor/Flexibletouse.png") no-repeat;
-    background-position: center;
-  }
-
-  .benefit-img-6 {
-    height: 10vh;
-    background: url("../../../assets/designer-assets/icons/bolt doctor/booking.png") no-repeat;
-    background-position: center;
-  }
-
-  .benefit-img-7 {
-    height: 10vh;
-    background: url("../../../assets/designer-assets/icons/bolt doctor/EfficientInformationManagement.png") no-repeat;
-    background-position: center;
+  .iconDarkenFilter {
+    filter: brightness(50%);
   }
 
   .benefit-inner {
@@ -146,6 +108,10 @@ main {
   .benefit:hover .benefit-inner {
     h2, p {
       color: white !important;
+    }
+
+    .iconDarkenFilter {
+      filter: brightness(100%) !important;
     }
 
     box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 0.53);
