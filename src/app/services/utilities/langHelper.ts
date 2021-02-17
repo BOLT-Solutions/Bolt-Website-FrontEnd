@@ -362,7 +362,7 @@ export class langHelper  {
             }
           },
           atm: {
-            h1: ' ATM Cleaning Machine Monitoring System',
+            h1: ' ATM Cleaning Service',
             p2: 'The ATM cleaning service application enables banks to monitor and track the performance of the service providers that clean the ATM machines. ',
             p3: "Giving the banks the oversight knowledge of the current status, where and when!",
             Benefits: 'Benefits:',
