@@ -89,7 +89,8 @@ export class langHelper  {
             h2_1: 'Show All',
             h2_2: 'Solutions',
             h2_3: 'Services',
-            atm: 'ATM cleaning machine monitoring system',
+            atm: 'ATM cleaning machinesystem',
+            atm2: 'ATM montoring system',
             Tailored: 'Tailored solutions',
             Digital: 'Digital transformation',
             DataCenter: 'Data Center',
@@ -379,6 +380,58 @@ export class langHelper  {
               card4: {
                 title: "Increase security as it detects skimming devices",
               },
+            }
+          },
+          atm2: {
+            h1: ' ATM Monitoring Service',
+            p2: 'It gives continuous examination of ATM wellbeing status, money and consumable levels, which rely on the business rules characterized, creates alerts and gathers data for proactive administration of the ATMs.',
+            p3: "This system gives you the power to oversee and have the birds eye view of the ATM chain.",
+            Benefits: 'Benefits:',
+            cards: {
+              card1: {
+                title: "Cash management",
+                desc: "Cash forecasting",
+                desc2: "Reconciliation ",
+              },
+              card2: {
+                title: "Incident and SLA Management",
+                desc: "Ticket dashboards",
+                desc2: "Service level monitoring of ticket resolution",
+                desc3: "Alerts, reminders, and escalation",
+              },
+              card3: {
+                title: "Journal records management",
+                desc: "EJ pulling and archival",
+                desc2: "Transaction image pulling",
+                desc3: "Surveillance videos ",
+                desc4: "Dispute resolution and compliance",
+
+              },
+              card4: {
+                title: "Mobile apps for branch and vendors",
+                desc: "Notification and escalation ",
+                desc2: "Anytime, anywhere access",
+                desc3: "Vendor incident management on mobile",
+              },
+              card5: {
+                title: "Availability Monitoring",
+                desc: "Uptime monitoring and reports",
+                desc2: "Cash level monitoring",
+                desc3: "Trend dashboards",
+              },
+              card6: {
+                title: "Business Analytics",
+                desc: "Terminal performance analytics",
+                desc2: "Transaction analytics",
+                desc3: "Vendor performance analytics",
+               
+              },
+              card7: {
+                title: "Content and patch management",
+                desc: "Centralized software and patch distribution",
+                desc2: "Asset and inventory maintenance ",
+                desc3: "Content distribution",
+              }
             }
           },
           DCN: {
