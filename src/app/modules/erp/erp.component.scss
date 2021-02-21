@@ -8,7 +8,133 @@ main {
   background-size: cover;
  
 }
+.iconBenefit1 {
+  background: url("../../../assets/icons/ERP/finance.png") no-repeat 0 0;
+  height: 10vh;
+  background-size: contain;
+  background-position: center;
+}
 
+.benefit:hover .iconBenefit1 {
+  background: url("../../../assets/icons/ERP/finance1.png") no-repeat 0 0 !important;
+  width: 89% !important;
+  height: 10vh !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.iconBenefit2 {
+  background: url("../../../assets/icons/ERP/inventory.png") no-repeat 0 0;
+  width: 89%;
+  height: 10vh;
+  background-size: contain;
+  background-position: center;
+}
+
+.benefit:hover .iconBenefit2 {
+  background: url("../../../assets/icons/ERP/inventory1.png") no-repeat 0 0 !important;
+  width: 89% !important;
+  height: 10vh !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.iconBenefit3 {
+  background: url("../../../assets/icons/ERP/crm.png") no-repeat 0 0;
+  width: 89%;
+  height: 10vh;
+  background-size: contain;
+  background-position: center;
+}
+
+.benefit:hover .iconBenefit3 {
+  background: url("../../../assets/icons/ERP/crm1.png") no-repeat 0 0 !important;
+  width: 89% !important;
+  height: 10vh !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.iconBenefit4 {
+  background: url("../../../assets/icons/ERP/Purchasing.png") no-repeat 0 0;
+  width: 89%;
+  height: 10vh;
+  background-size: contain;
+  background-position: center;
+}
+
+.benefit:hover .iconBenefit4 {
+  background: url("../../../assets/icons/ERP/Purchasing1.png") no-repeat 0 0 !important;
+  width: 89% !important;
+  height: 10vh !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.iconBenefit5 {
+  background: url("../../../assets/icons/ERP/human-resources.png") no-repeat 0 0;
+  width: 89%;
+  height: 10vh;
+  background-size: contain;
+  background-position: center;
+}
+
+.benefit:hover .iconBenefit5 {
+  background: url("../../../assets/icons/ERP/human-resources1.png") no-repeat 0 0 !important;
+  width: 89% !important;
+  height: 10vh !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.iconBenefit6 {
+  background: url("../../../assets/icons/ERP/Project managment.png") no-repeat 0 0;
+  width: 89%;
+  height: 10vh;
+  background-size: contain;
+  background-position: center;
+}
+
+.benefit:hover .iconBenefit6 {
+  background: url("../../../assets/icons/ERP/Project managment1.png") no-repeat 0 0 !important;
+  width: 89% !important;
+  height: 10vh !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.iconBenefit7 {
+  background: url("../../../assets/icons/ERP/manufacturing.png") no-repeat 0 0;
+  width: 89%;
+  height: 10vh;
+  background-size: contain;
+  background-position: center;
+}
+
+.benefit:hover .iconBenefit7 {
+  background: url("../../../assets/icons/ERP/manufacturing1.png") no-repeat 0 0 !important;
+  width: 89% !important;
+  height: 10vh !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+
+.iconBenefit8 {
+  background: url("../../../assets/icons/ERP/assets_.png") no-repeat 0 0 !important;
+  width: 89%;
+  height: 10vh;
+  background-size: contain;
+  background-position: center;
+}
+
+.benefit:hover .iconBenefit8 {
+  background: url("../../../assets/icons/ERP/assets1.png") no-repeat 0 0 !important;
+  width: 89% !important;
+  height: 10vh !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
 
 #desc {
   margin-top: 40px;
