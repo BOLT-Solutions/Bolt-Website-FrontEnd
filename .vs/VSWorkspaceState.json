@@ -4,14 +4,13 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\modules",
-    "\\src\\app\\modules\\about-us",
-    "\\src\\app\\modules\\about-us\\about-team",
+    "\\src\\app\\modules\\atm-monitoring",
+    "\\src\\app\\modules\\contact-us",
+    "\\src\\app\\modules\\layout",
+    "\\src\\app\\modules\\layout\\footer",
     "\\src\\app\\services",
-    "\\src\\app\\services\\utilities",
-    "\\src\\assets",
-    "\\src\\assets\\img",
-    "\\src\\assets\\img\\teams"
+    "\\src\\app\\services\\utilities"
   ],
-  "SelectedNode": "\\src\\app\\modules\\about-us\\about-team\\about-team.component.ts",
+  "SelectedNode": "\\src\\app\\services\\utilities\\langHelper.ts",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,305 @@
+main {
+  background-color: #f2f2f2;
+}
+
+#bg {
+  background: url("../../../assets/img/atm.png") no-repeat 0 0;
+  height: 80vh;
+  background-size: cover;
+}
+
+.benefitImg {
+  width: 89%;
+  height: 12vh;
+  background-size: contain;
+  background-position: center;
+}
+
+.benefit:hover .benefitImg {
+  width: 89% !important;
+  height: 12vh !important;
+}
+
+.iconBenefit1 {
+  background: url("../../../assets/icons/ATM Cleaning Service/track copy.png") no-repeat 0 0;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.iconBenefit2 {
+  background: url("../../../assets/icons/ATM Cleaning Service/blue dahsboard.png") no-repeat 0 0;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.iconBenefit3 {
+  background: url("../../../assets/icons/ATM Cleaning Service/safeguardblue.png") no-repeat 0 0;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.iconBenefit4 {
+  background: url("../../../assets/icons/ATM Cleaning Service/increase security.png") no-repeat 0 0;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+//Hover
+.benefit:hover .iconBenefit1 {
+  background: url("../../../assets/icons/ATM Cleaning Service/trackw.png") no-repeat 0 0 !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.benefit:hover .iconBenefit2 {
+  background: url("../../../assets/icons/ATM Cleaning Service/white dashboard.png") no-repeat 0 0 !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.benefit:hover .iconBenefit3 {
+  background: url("../../../assets/icons/ATM Cleaning Service/safe guard 1.png") no-repeat 0 0 !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.benefit:hover .iconBenefit4 {
+  background: url("../../../assets/icons/ATM Cleaning Service/increase security1.png") no-repeat 0 0 !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+#desc {
+  margin-top: 40px;
+
+  h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: .3px;
+    text-align: left;
+    color: #408ed1;
+  }
+
+  p {
+    font-family: 'avenir', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8e8e8e;
+    margin-top: 10px;
+  }
+}
+
+#benefits {
+  padding-left: 4rem;
+  padding-right: 4rem;
+
+  img {
+    width: 60px;
+  }
+
+  h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: .3px;
+    text-align: left;
+    color: #408ed1;
+    margin-bottom: 70px;
+  }
+
+  h2 {
+    padding-top: 20px;
+    font-family: 'avenir', Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.34;
+    letter-spacing: normal;
+    text-align: center;
+    color: #454545;
+  }
+
+  p {
+    padding-left: 40px;
+    font-family: 'avenir', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.1;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8d8d8d;
+    margin: 0 auto;
+  }
+
+  .benefit {
+    perspective: 300px;
+  }
+
+  .benefit-inner {
+    width: 96%;
+    height: 40vh;
+    padding: 5% 4%;
+    border-radius: 24px;
+    transition: transform 0.8s ease-in-out;
+    transform-style: preserve-3d;
+  }
+
+  .benefit:hover .benefit-inner {
+    h2, p {
+      color: white !important;
+    }
+
+    box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 0.53);
+    border-radius: 50px;
+    background-color: #4079ba;
+    transform: rotateY(10deg);
+    transition: transform 0.8s ease-in-out;
+  }
+
+  .benefit:hover .benefit-img {
+    height: 10vh;
+    background: url("../../../assets/img/icons/icon2.png") no-repeat;
+    background-size: 40px 40px;
+    background-position: center;
+  }
+}
+
+.img-fluid {
+  position: absolute;
+  width: 47%;
+  animation: secondDivOfLatestNewsAnimation 1.2s;
+  -webkit-animation: secondDivOfLatestNewsAnimation 1.2s;
+  right: 14%;
+  top: 12%;
+}
+
+
+@keyframes secondDivOfLatestNewsAnimation {
+  0% {
+    transform: translateX(30%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+@media screen and (max-width: 1024px)and (min-width: 800px) {
+  #bg {
+    height: 390px;
+  }
+
+  .benefit-inner {
+    height: 234px !important;
+  }
+}
+
+
+@media screen and (max-width: 800px) {
+  #bg {
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  @keyframes secondDivOfLatestNewsAnimation {
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  #desc {
+    margin-top: 40px;
+
+    h1 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+
+  #benefits {
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+    img {
+      width: 60px;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      padding-top: 20px;
+      font-size: 20px;
+    }
+
+    p {
+      padding-left: 40px;
+      font-size: 16px;
+    }
+
+    .benefit {
+      perspective: 300px;
+    }
+
+    .benefit-img {
+      height: 7vh;
+      background-position: bottom;
+    }
+
+    .benefit-inner {
+      height: 26vh;
+      padding: 5% 5%;
+      border-radius: 24px;
+    }
+
+    .benefit:hover .benefit-inner {
+      p {
+        color: #8d8d8d !important;
+      }
+
+      h2 {
+        color: #454545 !important;
+      }
+
+      box-shadow: none;
+      background-color: transparent;
+      transform: rotateY(0);
+      transition: transform 0.8s ease-in-out;
+    }
+
+    .benefit:hover .benefit-img {
+      height: 7vh;
+      background: url("../../../assets/img/icons/icon2.png") no-repeat 0 0;
+      background-size: 40px 40px;
+      background-position: bottom;
+    }
+
+    .py-4 {
+      padding-top: 0 !important;
+    }
+  }
+}

@@ -17,6 +17,7 @@ import { BoltErpComponent } from '../bolt-erp/bolt-erp.component';
 import { BOLTDOCTORComponent } from '../boltdoctor/boltdoctor.component';
 import { BOLTRESTAURANTComponent } from '../boltrestaurant/boltrestaurant.component';
 import { CRMComponent } from '../crm/crm.component';
+import { AtmMonitoringComponent } from '../atm-monitoring/atm-monitoring.component';
 
 
 const routes: Routes = [
@@ -34,6 +35,7 @@ const routes: Routes = [
       { path: 'web', component: WebPlatformComponent, data: { animationState: 'Seven' } },
       { path: 'ERP', component: ERPComponent, data: { animationState: 'Eight' } },
       { path: 'ATM', component: AtmComponent, data: { animationState: 'Nine' } },
+      { path: 'ATMMonitoring', component: AtmMonitoringComponent, data: { animationState: 'Nine' } },
       { path: 'DCN', component: CdnComponent, data: { animationState: 'Ten' } },
       { path: 'TailoredSolution', component: TailoredSolutionsComponent, data: { animationState: 'Eleven' } },
       { path: 'DigitalTransformation', component: DigitalTransformationComponent, data: { animationState: 'Twelve' } },

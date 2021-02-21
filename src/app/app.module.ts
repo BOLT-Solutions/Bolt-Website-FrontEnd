@@ -8,6 +8,7 @@ import { AppComponent } from './app.component';
 import { LayoutModule } from './modules/layout/layout.module';
 import { SlickCarouselModule } from 'ngx-slick-carousel';
 import { CRMComponent } from './modules/crm/crm.component';
+import { AtmMonitoringComponent } from './modules/atm-monitoring/atm-monitoring.component';
 
 
 
@@ -15,6 +16,7 @@ import { CRMComponent } from './modules/crm/crm.component';
   declarations: [
     AppComponent,
     CRMComponent,
+    AtmMonitoringComponent,
 
   ],
   imports: [
