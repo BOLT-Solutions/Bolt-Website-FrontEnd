@@ -39,14 +39,14 @@ export class ContactUsComponent implements OnInit {
     { id: 0, value: "ERP" },
     { id: 1, value: "Website Platform" },
     { id: 2, value: "Mobile Application" },
-    { id: 2, value: "ATM" },
-    { id: 2, value: "Data Center Network" },
-    { id: 2, value: "Digital Transformation Services" },
-    { id: 2, value: "Tailored Solutions" },
-    { id: 2, value: "Bolt Doctor" },
-    { id: 2, value: "Bolt Salon" },
-    { id: 2, value: "Bolt Restaurant" },
-    { id: 2, value: "Bolt ERP" }
+    { id: 3, value: "ATM" },
+    { id: 4, value: "Data Center Network" },
+    { id: 5, value: "Digital Transformation Services" },
+    { id: 6, value: "Tailored Solutions" },
+    { id: 7, value: "Bolt Doctor" },
+    { id: 8, value: "Bolt Salon" },
+    { id: 9, value: "Bolt Restaurant" },
+    { id: 10, value: "Bolt ERP" }
   ];
 
   ngOnInit(): void {
