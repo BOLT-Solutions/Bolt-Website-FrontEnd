@@ -63,7 +63,7 @@ export class langHelper  {
           header: {
             h1_1: 'Feel comfortable when you meet excellence',
             h1_2: '',
-            paragraph: 'Bolt Solutions is an established Software house in Egypt with a commitment to align employee development with the overall company culture and operating systems – will be deleted ',
+            paragraph: 'Bolt Solutions is an established Software house in Egypt with a commitment to align employee development with the overall company culture and operating systems.',
             classes: {
               header_class: '',
               paragraph_class: '',
@@ -115,12 +115,16 @@ export class langHelper  {
             },
             siteContent: {
               h1: 'Welcome to our business.',
-              p: ' We can be your consultant, not only your service provider.Bolt Solutions is an established Software house in Egypt with resources / offices in Dubai and Birmingham, UK.With a commitment to align employee development with the overall company culture and operating systems.We will help empower people and businesses alike on a scientific basis,through the provision of optimally tailored solutions from our leading experts around the world.',
-              h3: 'Vision Statement:',
-              p2: ' Simply put, Bolt Solutions is one of the fastest growing software companies in the northern hemisphere.Aiming to becoming the leading performer, recognizing all customer landscapes in this global market place, serving numerous industries and sectors all over the world.',
+              p: ' We can be your consultant, not only your service provider.',
+              p_2: "Bolt Solutions is an established Software house in Egypt with resources / offices in Dubai and Birmingham, UK.",
+              p_3: " With a commitment to align employee development with the overall company culture and operating systems.We will help empower people and businesses alike on a scientific basis,through the provision of optimally tailored solutions from our leading experts around the world.",
+              h3: 'Vision Statement',
+              p2: ' Simply put, Bolt Solutions is one of the fastest growing software companies in the northern hemisphere.',
+              p2_2: 'Aiming to become the leading performer, recognizing all customer landscapes in this global market place, serving numerous industries and sectors all over the world.',
               p3: 'If you can dream it, we can build it…',
-              h3_2: 'Mission Statement:',
-              p4: 'We exist to assist the digital transformation of one-man bands, to SME’s and large blue-chip companies bringing them all into the 21st Century! Our highly skilled experts pave the way for our clients to evolve.Our mission is to enable all people and businesses throughout the world to realize their full potential, accelerating organizations digital transition.The transition in turn will enhance business growth of our customers with our creative solutions and design.To have a pro- active work ethic combined with professionality, our outlook is highly profitable and inevitable.',
+              h3_2: 'Mission Statement',
+              p4: 'We exist to assist the digital transformation of one-man bands, to SME’s and large blue-chip companies bringing them all into the 21st Century! Our highly skilled experts pave the way for our clients to evolve.',
+              p4_2: "Our mission is to enable all people and businesses throughout the world to realize their full potential, accelerating organizations digital transition.The transition in turn will enhance business growth of our customers with our creative solutions and design.To have a pro- active work ethic combined with professionality, our outlook is highly profitable and inevitable.",
 
             },
             board: {
@@ -260,7 +264,9 @@ export class langHelper  {
             header:
             {
               benefits: 'Benefits & Features',
-              mainParagraph: "Being a trusted name for website development services, we have received a great response from businesses including many referrals. We work with you to ensure that we understand exactly what your unique requirements are. To ensure the finalized deliverable is sent on time, we follow a 6-phase approach. The process is completely aligned with the design specifications to achieve your goals.",
+              mainParagraph: "Being a trusted name for website development services, we have received a great response from businesses including many referrals.",
+              mainParagraph2: "We work with you to ensure that we understand exactly what your unique requirements are.",
+              mainParagraph3: "To ensure the finalized deliverable is sent on time, we follow a 6-phase approach. The process is completely aligned with the design specifications to achieve your goals.",
               h1: "Website Platform",
               p: 'A website (also written as web site) is a collection of web pages and related content that is identified, domain name and published on one web server. This cements your business in cyber space leaving your mark in the online business market to enable you to work in the 21st century.',
               p2: 'E-Commerce websites are online portals that facilitate online transactions of your goods and your services',
@@ -310,7 +316,8 @@ export class langHelper  {
             header:
             {
               h1: "Mobile Application",
-              mainParagraph: "Your dream deserves more than a place in your imagination. Our mobile app developers can build the application to your requirements, within your budget and per your timeline. ",
+              mainParagraph: "Your dream deserves more than a place in your imagination.",
+              mainParagraph2: " Our mobile app developers can build the application to your requirements, within your budget and per your timeline.",
               p: 'is a computer program or software application designed to run on a mobile device such as a phone or tablet? Apps are generally downloaded from application distribution platforms which are operating by the owner of the mobile operating system, such as the App Store (iOS) and Google Play Store(Android).',
               p2: 'If you can dream it, we can build it… ',
               features: 'Mobile application features',
@@ -824,18 +831,17 @@ export class langHelper  {
             product1: 'Bolt Doctor',
             product2: 'Bolt Salon',
             product3: 'Bolt Restaurant',
-            product4: 'Bolt ERP',
           },
           Services: {
             serviceTitle: 'Services',
-            service1: 'ERP',
+            service1: 'CRM',
             service2: 'Website Platform',
-            service3: 'Mobile Application',
-            service4: 'ATM',
-            service5: 'CRM',
-            service6: 'Data Center Network',
+            service3: 'Tailored Solutions',
+            service4: 'Mobile Application',
+            service5: 'Data Center Network',
+            service6: 'ATM Cleaning Service',
             service7: 'Digital Transformation',
-            service8: 'Tailored Solution',
+            service8: 'ATM Monitoring Service',
           },
           Contact: {
             contactTitle: "Let's get in touch",
@@ -936,10 +942,11 @@ export class langHelper  {
             siteContent: {
               h1: 'مرحبا بكم في موقعنا',
               p: 'بعيدًا ، خلف كلمة الجبال ، بعيدًا عن بلدان فوكاليا وكونسونانتيا ، هناك يعيش المكفوفين',
-              h3: 'Vision Statement:',
-              p2: ' Simply put, Bolt Solutions is one of the fastest growing software companies in the northern hemisphere.Aiming to becoming the leading performer, recognizing all customer landscapes in this global market place, serving numerous industries and sectors all over the world.',
+              h3: 'Vision Statement',
+              p2: ' Simply put, Bolt Solutions is one of the fastest growing software companies in the northern hemisphere.',
+              p2_2: 'Aiming to become the leading performer, recognizing all customer landscapes in this global market place, serving numerous industries and sectors all over the world.',
               p3: 'If you can dream it, we can build it…',
-              h3_2: 'Mission Statement:',
+              h3_2: 'Mission Statement',
               p4: 'We exist to assist the digital transformation of one-man bands, to SME’s and large blue-chip companies bringing them all into the 21st Century! Our highly skilled experts pave the way for our clients to evolve.Our mission is to enable all people and businesses throughout the world to realize their full potential, accelerating organizations digital transition.The transition in turn will enhance business growth of our customers with our creative solutions and design.To have a pro- active work ethic combined with professionality, our outlook is highly profitable and inevitable.',
 
             },
