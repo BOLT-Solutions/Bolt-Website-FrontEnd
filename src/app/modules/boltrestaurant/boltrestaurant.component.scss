@@ -8,9 +8,91 @@ main {
   background-size: cover;
 }
 
+.iconBenefit1 {
+  background: url("../../../assets/icons/Bolt rest/data analysis.png") no-repeat 0 0;
+  height: 10vh;
+  background-size: contain;
+  background-position: center;
+}
+
+.benefit:hover .iconBenefit1 {
+  background: url("../../../assets/icons/Bolt rest/data analysis1.png") no-repeat 0 0 !important;
+  width: 89% !important;
+  height: 10vh !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.iconBenefit2 {
+  background: url("../../../assets/icons/Bolt rest/Data base.png") no-repeat 0 0;
+  width: 89%;
+  height: 10vh;
+  background-size: contain;
+  background-position: center;
+}
+
+.benefit:hover .iconBenefit2 {
+  background: url("../../../assets/icons/Bolt rest/Data base1.png") no-repeat 0 0 !important;
+  width: 89% !important;
+  height: 10vh !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.iconBenefit3 {
+  background: url("../../../assets/icons/Bolt rest/staff development.png") no-repeat 0 0;
+  width: 89%;
+  height: 10vh;
+  background-size: contain;
+  background-position: center;
+}
+
+.benefit:hover .iconBenefit3 {
+  background: url("../../../assets/icons/Bolt rest/staff development1.png") no-repeat 0 0 !important;
+  width: 89% !important;
+  height: 10vh !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.iconBenefit4 {
+  background: url("../../../assets/icons/Bolt rest/Feedback.png") no-repeat 0 0;
+  width: 89%;
+  height: 10vh;
+  background-size: contain;
+  background-position: center;
+}
+
+.benefit:hover .iconBenefit4 {
+  background: url("../../../assets/icons/Bolt rest/Feedback1.png") no-repeat 0 0 !important;
+
+  width: 89% !important;
+  height: 10vh !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.iconBenefit5 {
+  background: url("../../../assets/icons/Bolt rest/Marketing promo.png") no-repeat 0 0;
+  width: 89%;
+  height: 10vh;
+  background-size: contain;
+  background-position: center;
+}
+
+.benefit:hover .iconBenefit5 {
+  background: url("../../../assets/icons/Bolt rest/Marketing promo1.png") no-repeat 0 0 !important;
+  width: 89% !important;
+  height: 10vh !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+
+
 
 #desc {
-  margin-top: 40px;
+  margin-top: 20px;
 
   h1 {
     font-family: 'Raleway', sans-serif;
@@ -63,7 +145,7 @@ main {
   h2 {
     padding-top: 20px;
     font-family: 'avenir', Arial, sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
