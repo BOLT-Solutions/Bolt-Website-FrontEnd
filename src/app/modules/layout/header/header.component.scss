@@ -192,7 +192,18 @@ li {
 }
 
 @media screen and (max-width: 1024px) {
-  
+  .navbar-collapse{
+      height:80vh;
+  }
+  .dropdown-item {
+    text-align: center;
+    padding: 0;
+  }
+  li {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+   
   .navbar {
     background-color: rgba(0,0,0,0.6);
   }
@@ -224,14 +235,14 @@ li {
   .navbar-dark .navbar-toggler {
     border: none !important;
   }
-  #navbarSupportedContent{
+/*  #navbarSupportedContent{
       padding-bottom: 30%;
-  }
+  }*/
   /*  li
   {
       margin:unset !important;
   }*/
-  #about .dropdown-item {
+/*  #about .dropdown-item {
     padding: 0.3rem 5.8rem !important;
   }
   #services .dropdown-item {
@@ -239,7 +250,7 @@ li {
   }
   #products .dropdown-item {
     padding: 0.3rem 5.8rem !important;
-  }
+  }*/
 }
 @media only screen and (max-device-width: 360px) {
   li {
