@@ -9,20 +9,154 @@ main {
 }
 
 .iconBenefit1 {
-  background: url("../../../assets/icons/Bolt doctor/choices1.png") no-repeat 0 0;
-  width: 89% ;
-  height: 12vh ;
+  background: url("../../../assets/icons/Bolt doctor/save-time1.png") no-repeat 0 0;
+  height: 10vh;
   background-size: contain;
   background-position: center;
 }
 .benefit:hover .iconBenefit1 {
+  background: url("../../../assets/icons/Bolt doctor/save-time.png") no-repeat 0 0 !important;
+  width: 89% !important;
+  height: 10vh !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+.iconBenefit2 {
+  background: url("../../../assets/icons/Bolt doctor/choices1.png") no-repeat 0 0;
+  width: 89% ;
+  height: 10vh ;
+  background-size: contain;
+  background-position: center;
+}
+.benefit:hover .iconBenefit2 {
   background: url("../../../assets/icons/Bolt doctor/choices.png") no-repeat 0 0 !important;
   width: 89% !important;
-  height: 12vh !important;
+  height: 10vh !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+.iconBenefit3 {
+  background: url("../../../assets/icons/Bolt doctor/Save resources1.png") no-repeat 0 0;
+  width: 89%;
+  height: 10vh;
+  background-size: contain;
+  background-position: center;
+}
+.benefit:hover .iconBenefit3 {
+  background: url("../../../assets/icons/Bolt doctor/Save resources.png") no-repeat 0 0 !important;
+  width: 89% !important;
+  height: 10vh !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+.iconBenefit4 {
+  background: url("../../../assets/icons/Bolt doctor/reminder1.png") no-repeat 0 0;
+  width: 89%;
+  height: 10vh;
+  background-size: contain;
+  background-position: center;
+}
+.benefit:hover .iconBenefit4 {
+  background: url("../../../assets/icons/Bolt doctor/reminder.png") no-repeat 0 0 !important;
+  width: 89% !important;
+  height: 10vh !important;
   background-size: contain !important;
   background-position: center !important;
 }
 
+.iconBenefit5 {
+  background: url("../../../assets/icons/Bolt doctor/Flexable to use1.png") no-repeat 0 0;
+  width: 89%;
+  height: 10vh;
+  background-size: contain;
+  background-position: center;
+}
+
+.benefit:hover .iconBenefit5 {
+  background: url("../../../assets/icons/Bolt doctor/Flexable to use.png") no-repeat 0 0 !important;
+  width: 89% !important;
+  height: 10vh !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.iconBenefit6 {
+  background: url("../../../assets/icons/Bolt doctor/online-booking1.png") no-repeat 0 0;
+  width: 89%;
+  height: 10vh;
+  background-size: contain;
+  background-position: center;
+}
+
+.benefit:hover .iconBenefit6 {
+  background: url("../../../assets/icons/Bolt doctor/online-booking.png") no-repeat 0 0 !important;
+  width: 89% !important;
+  height: 10vh !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.iconBenefit6 {
+  background: url("../../../assets/icons/Bolt doctor/online-booking1.png") no-repeat 0 0;
+  width: 89%;
+  height: 10vh;
+  background-size: contain;
+  background-position: center;
+}
+
+.benefit:hover .iconBenefit6 {
+  background: url("../../../assets/icons/Bolt doctor/online-booking.png") no-repeat 0 0 !important;
+  width: 89% !important;
+  height: 10vh !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+/*.iconBenefit6 {
+  background: url("../../../assets/icons/Bolt doctor/no-crowd1.png") no-repeat 0 0;
+  height: 10vh;
+  background-size: contain;
+  background-position: center;
+}
+
+.benefit:hover .iconBenefit6 {
+  background: url("../../../assets/icons/Bolt doctor/no-crowd.png") no-repeat 0 0;
+  width: 89% !important;
+  height: 10vh !important;
+  background-size: contain !important;
+  background-position: center !important;
+}*/
+
+.iconBenefit7 {
+  background: url("../../../assets/icons/Bolt doctor/choices1.png") no-repeat 0 0;
+  width: 89%;
+  height: 10vh;
+  background-size: contain;
+  background-position: center;
+}
+
+.benefit:hover .iconBenefit7 {
+  background: url("../../../assets/icons/Bolt doctor/choices.png") no-repeat 0 0;
+  width: 89% !important;
+  height: 10vh !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.iconBenefit8 {
+  background: url("../../../assets/icons/Bolt doctor/no-crowd1.png") no-repeat 0 0;
+  width: 89%;
+  height: 10vh;
+  background-size: contain;
+  background-position: center;
+}
+
+.benefit:hover .iconBenefit8 {
+  background: url("../../../assets/icons/Bolt doctor/no-crowd.png") no-repeat 0 0;
+  width: 89% !important;
+  height: 10vh !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
 
 
 #desc {
@@ -79,7 +213,7 @@ main {
   h2 {
     padding-top: 20px;
     font-family: 'avenir', Arial, sans-serif;
-    font-size: 28px;
+    font-size: 24px;
     font-weight: 600;
     font-stretch: normal;
     font-style: normal;
@@ -101,7 +235,7 @@ main {
     text-align: left;
     color: #8d8d8d;
     margin: 0 auto;
-    margin-top: 40px;
+    margin-top: 20px;
   }
 
   .benefit {
