@@ -16,7 +16,6 @@ export class langHelper  {
     if (localStorage.getItem("Lang")===null) {
       localStorage.setItem("Lang", "en")
       this.currentLang = 'en'
-
     }
     else
     //Set language
@@ -98,10 +97,10 @@ export class langHelper  {
             ERP: 'ERP',
             CRM:'CRM',
             Mobile: 'Mobile Application',
-            Boltssalon: 'Bolts salon',
-            doctor: 'Bolts doctor',
-            Restaurant: 'Bolts Restaurant',
-            Bolt_ERP: 'Bolts ERP '
+            Boltssalon: 'Bolt Salon',
+            doctor: 'Bolt Doctors',
+            Restaurant: 'Bolt Restaurant',
+            Bolt_ERP: 'Bolt ERP '
           },
           readMore: 'Read More',
         },
@@ -110,7 +109,7 @@ export class langHelper  {
           textAlignStyle: '',
           company: {
             content: {
-              h1: 'More Than Just A Website',
+              h1: 'More than just a website',
               p:'If you can dream it, we can build it…'
             },
             siteContent: {
@@ -136,12 +135,12 @@ export class langHelper  {
           },
           team: {
             content: {
-              h1_1: 'Great Things In Business Are Never Done By One Person.',
-              h1_2: "They're Done By A Team ",
+              h1_1: 'Great things in business are never done by one person.',
+              h1_2: "They're done by a team ",
             },
             board: {
               h1: 'We are proud to share our great team members.',
-              h3:'We can all do small things, with great love, and together we can do something wonderful – OUR TEAMS'
+              h3:'We can all do small things, with great love, and together we can do something wonderful'
             },
             h2: 'Ahmed Hassan',
             p: 'Technology Lead',
@@ -198,7 +197,8 @@ export class langHelper  {
         services: {
           erp: {
             h1: 'Enterprise Resource Planning ( ERP )',
-            p: 'Enterprise Resource Planning (ERP), it’s software that merges different modules into one complete system, this streamlines process’s and information across the entire organization. These core constructs are then interconnected with business process’s driven by workflows across business departments (e.g. Accounts, Stocks, human resources, CRM, marketing, operations), connecting systems and the people who use them.',
+            p: "Enterprise Resource Planning (ERP), it’s a software that merges different modules into one complete system that streamline process’s and information across the entire organization. ",
+            p2: "Ultimately our ERP’s bring together all the core components of your business into one unified, digital experience!",
             Benefits: 'General Benefits for an ERP:',
             benefitsWords: 'Efficient, lowers the costs and increases profit.',
             Features: 'Features of an ERP:',
@@ -212,75 +212,104 @@ export class langHelper  {
             accountFeatures8:'Reports',
             accountFeatures9:'Shareholder Management',
             textAlign: 'text-left',
-
+            cards: {
+              card1:
+              {
+                title: "Finance module",
+                desc: "Keeps track of all financial transactions like expenditures, balance sheet, general ledgers, budgeting, bank statements, payment receipts, tax management, etc.",
+              },
+              card2:
+              {
+                title: "Inventory module",
+                desc: "Keep track of your stock, monitoring product and resource supplies and maximizing profits",
+              },
+              card3:
+              {
+                title: "CRM module",
+                desc: "Support the sale’s performance through better customer service & establishing a healthy relationship with customers",
+              },
+              card4:
+              {
+                title: "Purchasing module",
+                desc: "Purchase modules take care of all the processes that are part of the procurement of items or raw materials that are required for the organization",
+              },
+              card5:
+              {
+                title: "HR & payroll module",
+                desc: "Manage employee information, track employee records like performance reviews, attendance tracking, training and development, payroll, etc.",
+              },
+              card6:
+              {
+                title: "Project management module",
+                desc: "Manages resources necessary to complete projects on track to deliver with transparency",
+              },
+              card7:
+              {
+                title: "Asset module",
+                desc: "This is a technology-empowered method for organizing assets, improving efficiency, and maximizing your investments.",
+              },
+              card8:
+              {
+                title: "Manufacturing module",
+                desc: "Helps manage the scheduling of staff as well as machine operation and maintenance to maximize production.",
+              },
+            }
           },
           platform: {
             header:
             {
+              benefits: 'Benefits & Features',
+              mainParagraph: "Being a trusted name for website development services, we have received a great response from businesses including many referrals. We work with you to ensure that we understand exactly what your unique requirements are. To ensure the finalized deliverable is sent on time, we follow a 6-phase approach. The process is completely aligned with the design specifications to achieve your goals.",
               h1: "Website Platform",
               p: 'A website (also written as web site) is a collection of web pages and related content that is identified, domain name and published on one web server. This cements your business in cyber space leaving your mark in the online business market to enable you to work in the 21st century.',
               p2: 'E-Commerce websites are online portals that facilitate online transactions of your goods and your services',
-              benefitsofWebiste: 'The Benefits of Having a Website for your Business:',
-              benefitsofWebiste1:'Your business will stop being invisible.',
-              benefitsofWebiste2:'The website will create another sales tool.',
-              benefitsofWebiste3:'Build authority',
-              benefitsofWebiste4:'Less Expensive for Advertising & Marketing.',
-              benefitsofWebiste5:'24/7 access .',
-              benefitsofWebiste6:'Worldwide presence.',
-              benefitsofWebiste7:'Frequently Updates for the business status.',
-              benefitsofWebiste8:'Brand awareness .',
-              benefitsofWebiste9:'Free advertising.',
-              benefitsofWebiste10:'Increasing target audience.',
             },
             cards:
             {
               card1:
               {
-                title: 'Be visible to the world',
-                desc: ' Your business will stop being invisible.'
+                title: 'User friendly',
               },
               card2:
               {
-                title: 'More Sales',
-                desc: 'The website will create another sales tool.'
+                title: 'Security features',
               }
               ,
               card3:
               {
-                title: 'accessibility',
-                desc: 'be available for your customers and give them 24/7 access.'
+                title: 'Payment gateways',
               },
               card4:
               {
-                title: 'Reach more clients',
-                desc: 'Expand and increase the reaching and targeted potential clients.'
-              }
-              ,
-            
+                title: 'Progressive web applications',
+              },
               card5:
               {
-                title: 'Smart view of your products',
-                desc: ' Provide Sufficient analysis for the customers as a list of prices and product details and features.'
-              }
-              ,
+                title: 'Animated website',
+              },
               card6:
               {
-                title: 'Cut your costs',
-                desc: 'Reduce operation expenses for storing physical material with high cost, to an online solution that cuts cost.'
-              }
-              , card7:
+                title: 'Responsive UI design',
+              },
+              card7:
               {
-                title: 'More Analysis',
-                desc: 'Analyze the geographic products data and other competitor’s status through a detailed market scan.'
-              }
-
-
+                title: 'Online presence',
+              },
+              card8:
+              {
+                title: 'Expanding your business',
+              },
+              card9:
+              {
+                title: 'Business branding',
+              },
             }
           },
           mobile: {
             header:
             {
               h1: "Mobile Application",
+              mainParagraph: "Your dream deserves more than a place in your imagination. Our mobile app developers can build the application to your requirements, within your budget and per your timeline. ",
               p: 'is a computer program or software application designed to run on a mobile device such as a phone or tablet? Apps are generally downloaded from application distribution platforms which are operating by the owner of the mobile operating system, such as the App Store (iOS) and Google Play Store(Android).',
               p2: 'If you can dream it, we can build it… ',
               features: 'Mobile application features',
@@ -307,25 +336,25 @@ export class langHelper  {
             {
               card1:
               {
-                title: 'Make it easy for your user',
-                desc: 'Mobile Apps are faster, will use personalized content which will build a rapport between you and your customers,they will have instant online and offline access.'
+                title: 'Building your target audience ',
               },
               card2:
               {
-                title: 'Push Notifications and instant updates',
-                desc: 'remind your users of your latest updates.'
+                title: 'Branding and Design ',
               }
               ,
               card3:
               {
-                title: 'Indirect marketing',
-                desc: 'your application is integrated with your social media channels.'
+                title: 'Business competitive advantage ',
               }
               ,
               card4:
               {
-                title: 'Unique experience',
-                desc: ' provide your customers with a simple application, with high speed, good image resolution, search options, and high security.'
+                title: 'Stay closer to your customer ',
+              },
+              card5:
+              {
+                title: 'Fitting to all business volumes ',
               }
               
                
@@ -333,47 +362,146 @@ export class langHelper  {
             }
           },
           atm: {
-            h1: ' ATM Cleaning Machine Monitoring System',
-            p2: 'This enables the digital transformation of ATM channel management and the monitoring solution.',
-            p3: 'Increasing operational efficiency being automated and agile due to the collaboration between bank, branch and service providers, swiftly resolving all disputes.',
+            h1: ' ATM Cleaning Service',
+            p2: 'The ATM cleaning service application enables banks to monitor and track the performance of the service providers that clean the ATM machines. ',
+            p3: "Giving the banks the oversight knowledge of the current status, where and when!",
             Benefits: 'Benefits:',
-            Benefits1:'Complete rounded solution for self-service channel management.',
-            Benefits2:'Suitable for Banks, Independent ATM Deployers, ATM Managed Service Providers and other Financial Institutions. ',
-            Benefits3:'Multi-Vendor Enterprise Solution – Can manage all brands of ATMs, Recyclers, Acceptors and Kiosks.',
-            Benefits4:'Monitors self-service devices using CEN-XFS standard.',
-            Benefits5:'Accepts multiple data feeds - Supports EFT Switch based monitoring also.',
-            Benefits6:'PCI DSS Validated - User access control, encrypted data store, TLS/SSL communication, periodic vulnerability assessments.',
-            Benefits7:'Integrated Analytics for Operations and Business Teams.',
-            Benefits8:'Masterly crafted over an open-source technology platform.',
-
+            cards: {
+              card1: {
+                title: "Real time tracking of the delivered services",
+              },
+              card2: {
+                title: "Dashboard to portray the time scale of cleaning the ATM’s",
+              },
+              card3: {
+                title: "Routine ATM cleaning safeguards from any errors or malfunctions",
+              },
+              card4: {
+                title: "Increase security as it detects skimming devices",
+              },
+            }
           },
           DCN: {
-            h1: 'Data Center Network',
-            p: "Data center is a pool of resources interconnected using a communication network. The network holds a pivotal role as it facilitates and centralizes an organization shared IT operations and equipment for the purpose of storing, processing and disseminating data and applications.",
+            h1: 'Data Center Services',
+            p: "Our Technology experts will build you a data center that centralizes your organization’s shared IT operations and equipment for the purposes of storing, processing, and disseminating data and applications. Because they house an organization's most critical and proprietary assets, data centers are vital to the continuity of daily operations. They are the heart of the new world.",
             p2: "We support the servers, switches, hubs, and infrastructure of the network preference. Also providing the database backup & recovery of the company's valuable data.",
-            Benefits: 'Benefits:',
-            Benefits1:'Protecting Power',
-            Benefits2:'Cutting costs',
-            Benefits3:'Improving efficiency',
-            Benefits4:'Making full use of in-house IT potential and HR',
+            cards: {
+              card1: {
+                title: "Reduce risk of losing data",
+                desc: "The data is backed-up on daily basis in one place",
+                desc2: "Data storage, management and recovery",
+              },
+              card2: {
+                title: "Scalability",
+                desc: "As it’s upgradable it can easily grow/evolve with your business",
+              },
+              card3: {
+                title: "Improve efficiency",
+                desc: "By decreasing the error of data entry",
+              },
+              card4: {
+                title: "Performance at scale",
+                desc: "Data center helps in fulfilling the capacity of different users at the same time without decreasing the performance",
+              },
+            }
           },
           digital: {
             h1: 'Digital Transformation',
-            p: 'Keeping up with the digital transformation initiatives by providing our clients what make them updated with new digital trends using our digital services'
+            p: "Using our latest cutting-edge technologies, we will provide you with an innovative tool that will dramatically improve your business processes based on technological advanced options.",
+            p2: "Our experience will ensure your digital transformation is swift and efficient, more importantly- to your requirements",
+            cards: {
+              card1:
+              {
+                title: "Helping employees to be more effective",
+                desc: "Our product facilitates the employee processes to maximize their output",
+              },
+              card2:
+              {
+                title: "Increased profits",
+                desc: "Companies that undergo digital transformation improve their efficiency and profitability",
+              },
+              card3:
+              {
+                title: "Enhanced data collection",
+                desc: "Optimizing a lot of data for analysis that will drive the business forward",
+              },
+              card4:
+              {
+                title: "Increase your business process efficiency",
+                desc: "Optimizing the business functionality to reach the most efficient output",
+              },
+              card5:
+              {
+                title: "Innovation",
+                desc: "Provide a space for creation towards supporting the business goals ",
+              },
+            }
           },
           tailored: {
             h1: 'Tailored Solutions',
-            p:' Based on your business need we can create suitable solutions that integrate your business.'
+            p: ' Based on your business need we can create suitable solutions that integrate your business.',
+            cards:
+            {
+              card1:
+              {
+                title: 'Unique creation starting point',
+              },
+              card2:
+              {
+                title: 'Market differentiated application',
+              },
+              card3:
+              {
+                title: 'Scalability',
+              },
+              card4:
+              {
+                title: 'Integration to reach target',
+              },
+              card5:
+              {
+                title: 'Customized as per client needs ',
+              }
+              ,
+              card6:
+              {
+                title: 'Realted directly to your business',
+              }
+              ,
+              card7:
+              {
+                title: 'Personalized technical support',
+              },
+              card8:
+              {
+                title: 'Costs are directly related to the features',
+              },
+
+
+
+            },
           },
           crm: {
             h1: ' Customer Relationshio Management',
-            p2: 'Basically, CRM (Customer Relationship Management) essentially provides a central place where your business can store customer and prospect data, track customer interactions, and share this information with colleagues. It allows businesses to manage relationships with customers, helping the business grow.',
-            Benefits: 'General Benefits CRM:',
-            Benefits1: 'Reduce cost by being effective and efficient with operations, enhancing communications, automatic reminders, making all of customer information and records by making them digital which saves money and time. ',
-            Benefits2: 'Increase customer satisfaction by getting them exactly what they need',
-            Benefits3: 'Sharing the information among the sales team ',
-            Benefits4: 'Long-term profitability and sustainability ',
-            Benefits5: 'Better data organization (leads, contacts, customers)',
+            p2: "CRM (Customer Relationship Management) is a way to manage your leads and your existing customers in the most efficient way possible. This technology manages all your company’s relationships and interactions with customers and potential customers, this tool helps with contact management, sales management, productivity and much more! ",
+            cards: {
+              card1: {
+                title: "Sales module",
+                desc: "This a mix of operational and analytical capabilities that connect back-office processes, like sales planning with front-office like sales representative ",
+              },
+              card2: {
+                title: "Marketing module",
+                desc: "The module helps in gather all your customer information and evaluate marketing campaigns efficiently",
+              },
+              card3: {
+                title: "Customer service module",
+                desc: "This enables you to accept an incoming customer request on a Case (or incident), manage these in queues or views, and track all communications with your customer",
+              },
+              card4: {
+                title: "Reporting & analysis",
+                desc: "Provides data that helps in decision making and can come in many forms",
+              },
+            }
            
           },
         },
@@ -381,11 +509,12 @@ export class langHelper  {
           doctor: {
             header:
             {
-              h1: "BOLT DOCTOR",
-              p: 'It is a Web based application that allows individuals to book appointments online through any web-connected device, such as a computer, laptop, smartphone or tablet. It lets the client choose from different doctors, how long is he going to wait and how much is he going to pay. Moreover, the system is integrated with third-party companies so that the customer can give feedback about his experience. ',
+              h1: "BOLT DOCTORS",
+              p: 'It is a Web based application that allows patients to book appointments online through any web-connected device, such as a computer, laptop, smartphone or tablet. It lets the patient choose from a portfolio of doctors, specialty, experience, and how long to wait for an appointment including the cost involved.',
+              p2:' In a nutshell this is an advanced medical/ doctor queuing system of the future',
               Benefits: 'Benefits',
-              Benefits1: 'An automated system saves valuable working time of medical staff.',
-              Benefits2: 'Saves Resources - The expenses accepted for manual appointments and bookings are suspended. ',
+              Benefits1: 'Saves your staff time.',
+              Benefits2: 'Gives your patients more options ',
               Benefits3: 'The reminders on automated systems reduce the incidences of missed appointments by approximately 50%.',
               Benefits4: 'Book anytime, from anywhere patients are not limited to any specific office-timings and bookings can be done round the clock at any time, from anywhere.',
               Benefits5: 'A more convenient approach going online for all parties. People take alternative to online transactions for a safer, convenient and smoother way of life. Making online appointments saves patients from the hassles and enhances their experience.',
@@ -411,38 +540,43 @@ export class langHelper  {
               },
               card2:
               {
-                title: 'Gives your Visitors more choices',
-                desc: 'visitor can choose from different doctors in the same specialty, view the profile of the doctor,add a Payment option, fill in Feedback forms, also they can get reminders of the appointment.'
+                title: 'Gives your patients more options',
+                desc: 'By allowing the customer to choose from different doctors within different specialized medical fields'
               }
               ,
               card3:
               {
                 title: 'Saves Resources',
-                desc: ' The expenses accepted for manual appointments and bookings are suspended.'
+                desc: 'The expenses accepted for manual appointments and bookings are suspended.'
               }
               ,
               card4:
               {
                 title: 'Automated reminders',
-                desc: ' The reminders on automated systems reduce the incidences of missed appointments by approximately 50%.'
+                desc: 'Remind your patients about their appointments.'
               }
               ,
               card5:
               {
                 title: 'Flexible to use',
-                desc: ' Book anytime, Patients are not limited to any specific office-timings, and can be done around the clock, from anywhere.'
+                desc: 'Patients would be able to book their appointments at anytime anywhere.'
               }
               ,
               card6:
               {
                 title: 'Online booking',
-                desc: ' Making online appointments saves patients from the hassles and enhances their experience.'
+                desc: 'Making online appointments saves patients time instead of going to the clinic, everyone wins..'
               }
               ,
               card7:
               {
-                title: 'Efficient Information Management',
-                desc: ' Managing vital information online lets you manage them efficiently and more accurately.'
+                title: 'Efficient information management',
+                desc: 'Having your patient’s information online lets you manage them efficiently and more accurately.'
+              },
+              card8:
+              {
+                title: 'More organized',
+                desc: 'By decreasing any “overcrowding” surgeries, peak times are a thing of the past.'
               }
 
             }
@@ -452,36 +586,10 @@ export class langHelper  {
             header:
             {
               h1: "BOLT SALON",
-              p: 'It’s a web development system that helps the customer to have a better experience than any traditional barbers. It lets the client choose his barber, the type of service he wants, how long is he going to wait and how much is he going to pay. Moreover, the system is integrated with third-party companies so that the customer can give feedback about his experience. Not only the customer who is going to gain from this system but also the owner too by providing a birds’ eye view of barbers, the queues, reports and the feedback reviews.',
-              benefitsforCustomer: 'Benefits for customer',
-              benefitsforCustomer1:'Save time for the customer because of queuing system',
-              benefitsforCustomer2:'The reminders on automated systems reduce the incidences of missing the reservation',
-              benefitsforCustomer3:'Allows the client to choose the barber',
-              benefitsforCustomer4:'Send feedback about his experience',
-              benefitsforCustomer5: 'Increase Customer satisfaction',
-              BenefitsforAdmin: 'Benefits for Admin',
-              BenefitsforAdmin1: 'Helps the manager to monitor the invoices',
-              BenefitsforAdmin2: 'Saves Resources: The expenses accepted for manual appointments and bookings are suspended.',
-              BenefitsforAdmin3: 'Control the Inventory and manage the retail',
-              BenefitsforAdmin4: 'Build customer database',
-              BenefitsforAdmin5: 'Improve service quality',
-              BenefitsforAdmin6: 'Increase Customer Loyalty',
-              BenefitsforAdmin7: 'Improve staff efficiency',
-              FeaturesForAdmin: 'Features for Admin ',
-              FeaturesForAdmin1: 'Showing how many barbers are working and their status ',
-              FeaturesForAdmin2: 'Integration with third-party companies for ex: SMS, Email, banks, etc. ',
-              FeaturesForAdmin3: 'Illustration the services that was done by the client ',
-              FeaturesForAdmin4: 'Feedback management to help the manager know which barber has more ratings  ',
-              FeaturesForAdmin5: 'Shows the invoices that was made through the day.',
-              FeaturesForAdmin6: 'Service management as the admin can add, edit or remove and service he wants ',
-              FeaturesForAdmin7: 'Offering promo code for clients',
-              FeaturesForCustomer: 'Features for Customer ',
-              FeaturesForCustomer1: 'Shows the waiting time for the customers ',
-              FeaturesForCustomer2: 'Features for •	Create account',
-              FeaturesForCustomer3: 'Payment Option ',
-              FeaturesForCustomer4: 'Feedback forms ',
-              FeaturesForCustomer5: 'Ratings and reviews  ',
-              FeaturesForCustomer6: 'Choose between different barbers',
+              p: 'Digitizing your salon will help your customers to have a better user experience than any traditional salon. Imagine being able to choose who cuts your hair before you arrive and being able to choose the service type to see the cost.',
+              p2: 'The monitoring tools give the owner the ability to see what is happening in real time, increasing efficiency and profit!',
+              p3: "Bolt salon is rolling out fast and already making its mark on the high street . To bring your salon into the future call us now to get a free consultation and please don't hesitate to ask about our case studies of salons that already use this fantastic product with ease and satisfaction due to its cost savings and efficiency.",
+              p4: 'Cut out the time and straighten your salon with BOLT ',
 
 
             },
@@ -489,50 +597,38 @@ export class langHelper  {
             {
               card1:
               {
-                title: 'Time-saving',
-                desc: ' Save time for the customer because of the queuing system.'
+                title: 'Monitor your invoices',
+                desc: 'Helps the manager monitor and view invoices in any time '
               },
               card2:
               {
-                title: 'Automated reminders',
-                desc: ' The reminders on automated systems reduce the incidences of missing the reservation.'
+                title: 'Build customer database',
+                desc: 'you get to have complete reference or log for each customer'
               }
               ,
               card3:
               {
-                title: 'More than a choice',
-                desc: '  Allows the client to choose the barber.'
+                title: 'Staff development',
+                desc: ' By using our app, it is simple to figure out the strength and weakness points of your staff.'
               }
               ,
               card4:
               {
-                title: 'Customer Feedback',
-                desc: ' Your customer can send feedback about his experience.'
+                title: 'Feedback management',
+                desc: ' Get to know what your customers think of you'
               }
               ,
               card5:
               {
-                title: 'Satisfaction',
-                desc: 'Increase customer satisfaction and get more loyal customers.'
+                title: 'Marketing promotions for your customers',
+                desc: 'Promo codes for your tailored customer base'
               }
               ,
               card6:
               {
-                title: 'Monitoring',
-                desc: '  Helps the manager to monitor the invoices.'
-              }
-              ,
-              card7:
-              {
-                title: 'Saving Resources',
-                desc: ' The expenses accepted for manual appointments and bookings are suspended.'
-              }
-              ,
-              card8:
-              {
-                title: 'More Data',
-                desc: ' Build your customer database.'
-              }
+                title: 'Monitor staff ',
+                desc: 'See who’s working on what service, managing your staff more efficiently from a bird’s eye point of view.'
+              },
 
             }
 
@@ -541,14 +637,16 @@ export class langHelper  {
             header:
             {
               h1: "BOLT RESTAURANT",
-              p: 'Bolt Restaurant is an application that provides a unique experience for restaurant involved parties starting from Admin/Owner, Waiter, and Ends-user/ Customer.',
+              p: 'Bolt restaurant is a solution that provides a unique in-dining experience for restaurants by digitalizing the ordering process. From the comfort of your personal device, you are able to order food and drinks remotely and for the restaurateur you get the birds eye view with all the trimmings!',
+              p2: "Providing you with all the monitoring tools at your fingertips to see which waiter is working, idle or taking which order. We have found Restaurateur's specifically like the ability to see how much money they have made automatically and being able to view customer feedback on the food and service.",
+              p3: "Bolt restaurant gives you full transparency and automation leaving you and the customer with more options and time to do the things you love. Bolt restaurant is the new-age model of the ordering process and we are very excited to share this with you.Bringing your restaurant into the 21st century…",
               Benefits: 'Benefits',
-              benefits1: '1.Ease of use',
-              benefits1Description: 'Friendly to deal with system, (simple steps to get the service) facilitating the customer way of ordering in a well-organized and systematic flow. Images of the items with its details are provided to be more realistic and aware of all item’s variety and prices.',
-              benefits2: '2. Especially in COVID-19 pandemic as',
-              benefits2Description: 'The system makes sure that the health and safety regulations are considered as simply avoiding crowd and hassle of disordering a conflict. ',
-              benefits3: '3. Customer satisfaction',
-              benefits3Description: '•	Since the business techniques and methods for providing a service are improved, therefore the customer will be more satisfied. (All you need by one click)',
+              benefits1: 'Data analysis.',
+              benefits1Description: 'Provides you with useful reports like periodical statistics about all the customer visits, total cost of service and customer waiting time and more!',
+              benefits2: 'Build customer database',
+              benefits2Description: 'You get to have a complete reference for each customer building a profile for each one so wen they come back they have a more personalized experience.',
+              benefits3: 'Staff development',
+              benefits3Description: '',
               benefits4: '4. Unique experience ',
               benefits4Description1: 'The customer will consider the service provider preferable, differentiated and a unique one. ',
               benefits4Description2: 'Increase in customer satisfaction. ',
@@ -565,20 +663,30 @@ export class langHelper  {
             {
               card1:
               {
-                title: 'Ease of use',
-                desc: ' QR code to view the system, friendly to deal with the system, (simple steps to get the service) facilitating the customer way of ordering in a well-organized and systematic flow.'
+                title: 'Data analysis',
+                desc: 'Provides you with useful reports like periodical statistics about all the customer visits, total cost of service and customer waiting time and more!'
               },
               card2:
               {
-                title: 'Safety',
-                desc: 'Especially in COVID-19 pandemic as the system makes sure that the health and safety regulations are considered as simply avoiding crowd and hassle of disordering conflict.'
+                title: 'Build customer database',
+                desc: 'You get to have a complete reference for each customer building a profile for each one so wen they come back they have a more personalized experience.'
               }
               ,
               card3:
               {
-                title: 'Customer satisfaction',
-                desc: 'Since the business techniques and methods for providing a service are improved, therefore the customer will be more satisfied. (All you need by one click).'
-              }
+                title: 'Staff development',
+                desc: 'By using our app, it is easy to figure out your strength and weakness points of your staff'
+              },
+              card4:
+              {
+                title: 'Effective feedback',
+                desc: 'Get to know what your customers think of your business'
+              },
+              card5:
+              {
+                title: 'Marketing promotions for your customers',
+                desc: 'You can reward your customers by providing them with a promo code that will entice them to come back to you for another meal'
+              },
         
 
             }

@@ -85,6 +85,7 @@ main {
     text-align: left;
     color: #8d8d8d;
     margin: 0 auto;
+    margin-top: 10px;
   }
 
   .benefit {
@@ -97,22 +98,8 @@ main {
     background-position: center;
   }
 
-  .easeOfUse {
-    height: 10vh;
-    background: url("../../../assets/designer-assets/icons/bolt-resturant/Easeofuse.png") no-repeat;
-    background-position: center;
-  }
-
-  .safety {
-    height: 10vh;
-    background: url("../../../assets/designer-assets/icons/bolt-resturant/safety.png") no-repeat;
-    background-position: center;
-  }
-
-  .CusSatisfaction {
-    height: 10vh;
-    background: url("../../../assets/designer-assets/icons/bolt-resturant/satisfication.png") no-repeat;
-    background-position: center;
+  .iconDarkenFilter {
+    filter: brightness(50%);
   }
 
   .benefit-inner {
@@ -127,6 +114,10 @@ main {
   .benefit:hover .benefit-inner {
     h2, p {
       color: white !important;
+    }
+
+    .iconDarkenFilter {
+      filter: brightness(100%) !important;
     }
 
     box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 0.53);
