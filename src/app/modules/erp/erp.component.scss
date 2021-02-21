@@ -103,25 +103,25 @@ main {
   background-position: center !important;
 }
 
-.iconBenefit7 {
-  background: url("../../../assets/icons/ERP/manufacturing.png") no-repeat 0 0;
-  width: 89%;
-  height: 10vh;
-  background-size: contain;
-  background-position: center;
-}
 
-.benefit:hover .iconBenefit7 {
-  background: url("../../../assets/icons/ERP/manufacturing1.png") no-repeat 0 0 !important;
+.iconBenefit7 {
+  background: url("../../../assets/icons/ERP/benefit7erpb.png") no-repeat 0 0 !important;
   width: 89% !important;
   height: 10vh !important;
   background-size: contain !important;
   background-position: center !important;
 }
 
+.benefit:hover .iconBenefit7 {
+  background: url("../../../assets/icons/ERP/benefit7erpw.png") no-repeat 0 0 !important;
+  width: 89% !important;
+  height: 10vh !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
 
 .iconBenefit8 {
-  background: url("../../../assets/icons/ERP/assets_.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/ERP/manufacturingb.png") no-repeat 0 0;
   width: 89%;
   height: 10vh;
   background-size: contain;
@@ -129,7 +129,7 @@ main {
 }
 
 .benefit:hover .iconBenefit8 {
-  background: url("../../../assets/icons/ERP/assets1.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/ERP/manufacturingw.png") no-repeat 0 0 !important;
   width: 89% !important;
   height: 10vh !important;
   background-size: contain !important;
@@ -218,10 +218,6 @@ main {
     perspective: 300px;
   }
 
-  .iconDarkenFilter {
-    filter: brightness(50%);
-  }
-
   .benefit-inner {
     width: 96%;
     height: 40vh;
@@ -234,10 +230,6 @@ main {
   .benefit:hover .benefit-inner {
     h2, p {
       color: white !important;
-    }
-
-    .iconDarkenFilter {
-      filter: brightness(100%) !important;
     }
 
     box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 0.53);
