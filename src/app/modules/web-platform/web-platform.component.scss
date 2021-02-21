@@ -124,10 +124,127 @@ main {
     perspective: 300px;
   }
 
-  .iconDarkenFilter {
-    filter: brightness(50%);
-    margin-top: 70px;
+  .benefitImg {
+    width: 89%;
+    height: 12vh;
+    background-size: contain;
+    background-position: center;
   }
+
+  .benefit:hover .benefitImg {
+    width: 89% !important;
+    height: 12vh !important;
+  }
+
+  .iconBenefit1 {
+    background: url("../../../assets/icons/Website/User friendly1.png") no-repeat 0 0;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .iconBenefit2 {
+    background: url("../../../assets/icons/Website/Security fea1.png") no-repeat 0 0;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .iconBenefit3 {
+    background: url("../../../assets/icons/Website/Payment gateway1.png") no-repeat 0 0;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .iconBenefit4 {
+    background: url("../../../assets/icons/Website/Progressive1.png") no-repeat 0 0;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .iconBenefit5 {
+    background: url("../../../assets/icons/Website/Animated website1.png") no-repeat 0 0;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .iconBenefit6 {
+    background: url("../../../assets/icons/Website/responsive website1.png") no-repeat 0 0;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .iconBenefit7 {
+    background: url("../../../assets/icons/Website/Online presence1.png") no-repeat 0 0;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .iconBenefit8 {
+    background: url("../../../assets/icons/Website/expanding business1.png") no-repeat 0 0;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .iconBenefit9 {
+    background: url("../../../assets/icons/Website/Branding and design11.png") no-repeat 0 0;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit1 {
+    background: url("../../../assets/icons/Website/User friendly.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit2 {
+    background: url("../../../assets/icons/Website/Security fea.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit3 {
+    background: url("../../../assets/icons/Website/Payment gateway.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit4 {
+    background: url("../../../assets/icons/Website/Progressive.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit5 {
+    background: url("../../../assets/icons/Website/Animated website.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit6 {
+    background: url("../../../assets/icons/Website/responsive website.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit7 {
+    background: url("../../../assets/icons/Website/Online presence.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit8 {
+    background: url("../../../assets/icons/Website/expanding business.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit9 {
+    background: url("../../../assets/icons/Website/Branding and design.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+
 
   .benefit-inner {
     width: 96%;
@@ -141,10 +258,6 @@ main {
   .benefit:hover .benefit-inner {
     h2, p {
       color: white !important;
-    }
-
-    .iconDarkenFilter {
-      filter: brightness(100%) !important;
     }
 
     box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 0.53);
