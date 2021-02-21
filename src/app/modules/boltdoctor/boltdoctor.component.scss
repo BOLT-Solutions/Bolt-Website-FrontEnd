@@ -8,6 +8,22 @@ main {
   background-size: cover;
 }
 
+.iconBenefit1 {
+  background: url("../../../assets/icons/Bolt doctor/choices1.png") no-repeat 0 0;
+  width: 89% ;
+  height: 12vh ;
+  background-size: contain;
+  background-position: center;
+}
+.benefit:hover .iconBenefit1 {
+  background: url("../../../assets/icons/Bolt doctor/choices.png") no-repeat 0 0 !important;
+  width: 89% !important;
+  height: 12vh !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+
 
 #desc {
   margin-top: 40px;
