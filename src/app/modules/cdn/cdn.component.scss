@@ -8,6 +8,67 @@ main {
   background-size: cover;
 }
 
+.benefitImg {
+  width: 89%;
+  height: 12vh;
+  background-size: contain;
+  background-position: center;
+}
+
+.benefit:hover .benefitImg {
+  width: 89% !important;
+  height: 12vh !important;
+}
+
+.iconBenefit1 {
+  background: url("../../../assets/icons/DCS/blue/reducerisk.png") no-repeat 0 0;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.iconBenefit2 {
+  background: url("../../../assets/icons/DCS/blue/scalability.png") no-repeat 0 0;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.iconBenefit3 {
+  background: url("../../../assets/icons/DCS/blue/efficiency.png") no-repeat 0 0;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.iconBenefit4 {
+  background: url("../../../assets/icons/DCS/blue/increasesecurity.png") no-repeat 0 0;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+//Hover
+.benefit:hover .iconBenefit1 {
+  background: url("../../../assets/icons/DCS/white/reduceriskwhite.png") no-repeat 0 0 !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.benefit:hover .iconBenefit2 {
+  background: url("../../../assets/icons/DCS/white/scalabilitywhite.png") no-repeat 0 0 !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.benefit:hover .iconBenefit3 {
+  background: url("../../../assets/icons/DCS/white/efficiencywhite.png") no-repeat 0 0 !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.benefit:hover .iconBenefit4 {
+  background: url("../../../assets/icons/DCS/white/increasesecuritywhite.png") no-repeat 0 0 !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
 #desc {
   margin-top: 40px;
 
@@ -90,10 +151,6 @@ main {
     perspective: 300px;
   }
 
-  .iconDarkenFilter {
-    filter: brightness(50%);
-  }
-
   .benefit-inner {
     width: 96%;
     height: 260px;
@@ -107,11 +164,6 @@ main {
     h2, p {
       color: white !important;
     }
-
-    .iconDarkenFilter {
-      filter: brightness(100%) !important;
-    }
-
     box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 0.53);
     border-radius: 50px;
     background-color: #4079ba;

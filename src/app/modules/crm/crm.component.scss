@@ -3,11 +3,72 @@ main {
 }
 
 #bg {
-  background: url("../../../assets/img/crm.png") no-repeat 0 0;
+  background: url("../../../assets/img/crmbg.png") no-repeat 0 0 !important;
   height: 80vh;
   background-size: cover;
 }
 
+
+.benefitImg {
+  width: 89%;
+  height: 12vh;
+  background-size: contain;
+  background-position: center;
+}
+
+.benefit:hover .benefitImg {
+  width: 89% !important;
+  height: 12vh !important;
+}
+
+.iconBenefit1 {
+  background: url("../../../assets/icons/CRM/sales1.png") no-repeat 0 0;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.iconBenefit2 {
+  background: url("../../../assets/icons/CRM/marketing1.png") no-repeat 0 0;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.iconBenefit3 {
+  background: url("../../../assets/icons/CRM/crm.png") no-repeat 0 0;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.iconBenefit4 {
+  background: url("../../../assets/icons/CRM/analysis1.png") no-repeat 0 0;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+//Hover
+.benefit:hover .iconBenefit1 {
+  background: url("../../../assets/icons/CRM/sales.png") no-repeat 0 0 !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.benefit:hover .iconBenefit2 {
+  background: url("../../../assets/icons/CRM/marketing.png") no-repeat 0 0 !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.benefit:hover .iconBenefit3 {
+  background: url("../../../assets/icons/CRM/crm1.png") no-repeat 0 0 !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
+
+.benefit:hover .iconBenefit4 {
+  background: url("../../../assets/icons/CRM/analysis.png") no-repeat 0 0 !important;
+  background-size: contain !important;
+  background-position: center !important;
+}
 
 #desc {
   margin-top: 40px;
@@ -91,10 +152,6 @@ main {
     perspective: 300px;
   }
 
-  .iconDarkenFilter {
-    filter: brightness(50%);
-  }
-
   .benefit-inner {
     width: 96%;
     height: 40vh;
@@ -107,10 +164,6 @@ main {
   .benefit:hover .benefit-inner {
     h2, p {
       color: white !important;
-    }
-
-    .iconDarkenFilter {
-      filter: brightness(100%) !important;
     }
 
     box-shadow: 0 3px 22px 0 rgba(0, 0, 0, 0.53);
