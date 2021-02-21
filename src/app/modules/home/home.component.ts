@@ -36,6 +36,9 @@ export class HomeComponent implements OnInit {
   }
 
 
+  NavigateSolution(selector) {
+    this.router.navigate([selector]);
+  }
 
   Navigate(selector) {
 
