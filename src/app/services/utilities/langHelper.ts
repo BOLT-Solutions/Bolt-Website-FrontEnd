@@ -30,7 +30,7 @@ export class langHelper  {
 
   //Initialize language variables
   initializeMode() {
-    console.log('init')
+
     if (this.currentLang === 'en') {
       return {
         dir: 'ltr',
@@ -851,6 +851,11 @@ export class langHelper  {
         Clients: {
           textAlignStyle: '',
           h1: 'We are proud to share our clients',
+          p: ' we reach our business goals via in-depth communication and trust with our clients, we build rapport with them to meet their requirements ultimately reaching close partnership together for future repeat business – We’re honored to announce our partnership with'
+        },
+        Partners: {
+          textAlignStyle: '',
+          h1: 'We are proud to share our Partners',
           p: ' we reach our business goals via in-depth communication and trust with our clients, we build rapport with them to meet their requirements ultimately reaching close partnership together for future repeat business – We’re honored to announce our partnership with'
         }
       }

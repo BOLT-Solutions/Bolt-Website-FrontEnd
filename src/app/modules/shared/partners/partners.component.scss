@@ -1,0 +1,94 @@
+main {
+  background-color: #d6d9e6;
+
+  .textAlignRight {
+    text-align: right !important;
+    font-family: 'Cairo-Regular', sans-serif;
+  }
+
+  h1 {
+    font-family: 'Mulish', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.45;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2e2e2e;
+  }
+
+  p {
+    font-family: 'Mulish', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.24;
+    letter-spacing: normal;
+    text-align: left;
+    color: #2d2d2d;
+  }
+  #bg {
+    background: url("../../../../assets/img/client_bg.png") no-repeat 0 0;
+    height: 100vh;
+    position: relative;
+  }
+
+  #content {
+    padding: 30px;
+  }
+
+
+}
+.row1 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.logoContainer {
+  background-color: #fff;
+  border-radius: 30px;
+  width: 224px;
+  height: 119px;
+  text-align: center;
+
+  img {
+    width: 135px;
+  }
+}
+@media screen and (max-width: 992px) {
+
+  .row1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .logoContainer {
+    background-color: #fff;
+    border-radius: 30px;
+    width: 152px;
+    height: 90px;
+    text-align: center;
+    margin: 10px;
+
+    img {
+      width: 100px;
+    }
+  }
+  .mb-5{
+      margin-bottom:0 !important;
+  }
+  #content {
+
+    h1 {
+      font-size: 26px;
+      line-height: normal;
+    }
+
+    p {
+      font-size: 16px;
+    }
+  }
+  }
