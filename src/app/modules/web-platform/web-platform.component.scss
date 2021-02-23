@@ -131,10 +131,10 @@ main {
     background-position: center;
   }
 
-  .benefit:hover .benefitImg {
+/*  .benefit:hover .benefitImg {
     width: 89% !important;
     height: 12vh !important;
-  }
+  }*/
 
   .iconBenefit1 {
     background: url("../../../assets/icons/Website/User friendly1.png") no-repeat 0 0;
@@ -191,55 +191,55 @@ main {
   }
 
   .benefit:hover .iconBenefit1 {
-    background: url("../../../assets/icons/Website/User friendly.png") no-repeat 0 0 !important;
+    background: url("../../../assets/icons/Website/User friendly.png") no-repeat 0 0 ;
     background-size: contain !important;
     background-position: center !important;
   }
 
   .benefit:hover .iconBenefit2 {
-    background: url("../../../assets/icons/Website/Security fea.png") no-repeat 0 0 !important;
+    background: url("../../../assets/icons/Website/Security fea.png") no-repeat 0 0 ;
     background-size: contain !important;
     background-position: center !important;
   }
 
   .benefit:hover .iconBenefit3 {
-    background: url("../../../assets/icons/Website/Payment gateway.png") no-repeat 0 0 !important;
+    background: url("../../../assets/icons/Website/Payment gateway.png") no-repeat 0 0 ;
     background-size: contain !important;
     background-position: center !important;
   }
 
   .benefit:hover .iconBenefit4 {
-    background: url("../../../assets/icons/Website/Progressive.png") no-repeat 0 0 !important;
+    background: url("../../../assets/icons/Website/Progressive.png") no-repeat 0 0 ;
     background-size: contain !important;
     background-position: center !important;
   }
 
   .benefit:hover .iconBenefit5 {
-    background: url("../../../assets/icons/Website/Animated website.png") no-repeat 0 0 !important;
+    background: url("../../../assets/icons/Website/Animated website.png") no-repeat 0 0 ;
     background-size: contain !important;
     background-position: center !important;
   }
 
   .benefit:hover .iconBenefit6 {
-    background: url("../../../assets/icons/Website/responsive website.png") no-repeat 0 0 !important;
+    background: url("../../../assets/icons/Website/responsive website.png") no-repeat 0 0 ;
     background-size: contain !important;
     background-position: center !important;
   }
 
   .benefit:hover .iconBenefit7 {
-    background: url("../../../assets/icons/Website/Online presence.png") no-repeat 0 0 !important;
+    background: url("../../../assets/icons/Website/Online presence.png") no-repeat 0 0 ;
     background-size: contain !important;
     background-position: center !important;
   }
 
   .benefit:hover .iconBenefit8 {
-    background: url("../../../assets/icons/Website/expanding business.png") no-repeat 0 0 !important;
+    background: url("../../../assets/icons/Website/expanding business.png") no-repeat 0 0 ;
     background-size: contain !important;
     background-position: center !important;
   }
 
   .benefit:hover .iconBenefit9 {
-    background: url("../../../assets/icons/Website/Branding and design.png") no-repeat 0 0 !important;
+    background: url("../../../assets/icons/Website/Branding and design.png") no-repeat 0 0 ;
     background-size: contain !important;
     background-position: center !important;
   }
@@ -296,6 +296,68 @@ main {
 }
 
 
+@media screen and (max-width: 1024px)  {
+  .benefit:hover .benefit-img-1 .benefit-img-2 .benefit-img-3 .benefit-img-4 .benefit-img-5 .benefit-img-6 .benefit-img-7 {
+    height: 6vh !important;
+    background: url("../../../assets/img/icons/icon2.png") no-repeat;
+    background-size: 40px 40px;
+    background-position: center;
+  }
+
+  .benefit:hover .iconBenefit1 {
+    background: url("../../../assets/icons/Website/User friendly1.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit2 {
+    background: url("../../../assets/icons/Website/Security fea1.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit3 {
+    background: url("../../../assets/icons/Website/Payment gateway1.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit4 {
+    background: url("../../../assets/icons/Website/Progressive1.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit5 {
+    background: url("../../../assets/icons/Website/Animated website1.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit6 {
+    background: url("../../../assets/icons/Website/responsive website1.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit7 {
+    background: url("../../../assets/icons/Website/Online presence1.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit8 {
+    background: url("../../../assets/icons/Website/expanding business1.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit9 {
+    background: url("../../../assets/icons/Website/Branding and design11.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+}
 @media screen and (max-width: 1024px)and (min-width: 800px) {
   #bg {
     height: 390px;
@@ -306,7 +368,6 @@ main {
   }
 }
 
-
 @media screen and (max-width: 800px) {
   #bg {
     height: 270px;
@@ -316,7 +377,7 @@ main {
 
   #content {
     margin-left: 10px;
-    margin-top: 45px;
+    margin-top: 73px;
 
     h1 {
       margin-left: 10px;
@@ -326,7 +387,12 @@ main {
     p {
       width: 224px;
       margin-left: 10px;
-      font-size: 10px;
+      font-size: 8px;
+      margin-bottom:4px;
+    }
+    p:last-of-type {
+      width: 170px;
+
     }
   }
 
@@ -343,6 +409,195 @@ main {
     }
   }
 
+  #desc {
+    margin-top: 40px;
+
+    h1 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+
+  #benefits {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-top: 50px;
+
+    img {
+      width: 60px;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      padding-top: 20px;
+      font-size: 20px;
+    }
+
+    p {
+      padding-left: 40px;
+      font-size: 16px;
+    }
+
+    .benefit {
+      perspective: 300px;
+    }
+
+    .benefitImg {
+      height: 7vh;
+      background-position: bottom;
+    }
+
+    .benefit-inner {
+      height: 16vh;
+      padding: 5% 5%;
+      border-radius: 24px;
+    }
+
+    .benefit:hover .benefit-inner {
+      p {
+        color: #8d8d8d !important;
+      }
+
+      h2 {
+        color: #454545 !important;
+      }
+
+      box-shadow: none;
+      background-color: transparent;
+      transform: rotateY(0);
+      transition: transform 0.8s ease-in-out;
+    }
+
+    .benefit:hover .benefit-img-1 .benefit-img-2 .benefit-img-3 .benefit-img-4 .benefit-img-5 .benefit-img-6 .benefit-img-7 {
+      height: 7vh;
+      background-size: 40px 40px;
+      background-position: bottom;
+    }
+
+    .py-4 {
+      padding-top: 0 !important;
+    }
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  #content p:last-of-type {
+    width: 204px;
+  }
+
+  #content {
+    margin-top: 76px;
+  }
+
+  #benefits {
+    margin-top: 40px;
+  }
+
+  #bg {
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-fluid {
+    width: 61%;
+    right: 0;
+    top: 174px;
+  }
+}
+
+@media screen and (min-width: 399px)and (max-width: 759px) {
+  #benefits {
+    margin-top: 37px;
+  }
+
+  #bg {
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  #content {
+    margin-left: 0;
+    margin-top: 87px;
+
+    h1 {
+      margin-left: 10px;
+      font-size: 1rem;
+    }
+
+    p {
+      width: 224px;
+      margin-left: 10px;
+      font-size: 8px;
+    }
+  }
+
+  .img-fluid {
+    width: 61%;
+    right: 0;
+    top: 133px;
+  }
+
+
+
+  @keyframes secondDivOfLatestNewsAnimation {
+
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+@media screen and (width: 1024px) {
+  .img-fluid {
+    top: 4%;
+  }
+}
+
+@media screen and (max-width: 1024px)and (min-width: 760px) {
+  #bg {
+    height: 390px;
+  }
+
+  #content h1 {
+    font-size: 20px;
+  }
+
+  #content p {
+    width: 460px;
+    font-size: 16px;
+  }
+
+  #content p:last-of-type {
+    width: 390px;
+  }
+
+  .benefit-inner {
+    height: 234px !important;
+  }
+
+  .img-fluid {
+    right: 36px;
+  }
+
+  #benefits .benefitImg {
+    width: 89%;
+    height: 6vh;
+  }
+
+  #content {
+    margin-left: 10px;
+  }
   #desc {
     margin-top: 40px;
 
@@ -420,3 +675,5 @@ main {
     }
   }
 }
+
+

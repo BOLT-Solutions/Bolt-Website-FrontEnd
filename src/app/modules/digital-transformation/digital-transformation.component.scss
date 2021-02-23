@@ -15,11 +15,11 @@ main {
   background-position: center;
 }
 
-.benefit:hover .benefitImg {
+/*.benefit:hover .benefitImg {
   width: 89% !important;
   height: 12vh !important;
 }
-
+*/
 .iconBenefit1 {
   background: url("../../../assets/icons/Digital transformation/blue/help.png") no-repeat 0 0;
   background-size: contain !important;
@@ -52,31 +52,31 @@ main {
 
 //Hover
 .benefit:hover .iconBenefit1 {
-  background: url("../../../assets/icons/Digital transformation/white/helpw.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/Digital transformation/white/helpw.png") no-repeat 0 0 ;
   background-size: contain !important;
   background-position: center !important;
 }
 
 .benefit:hover .iconBenefit2 {
-  background: url("../../../assets/icons/Digital transformation/white/Increase profitw.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/Digital transformation/white/Increase profitw.png") no-repeat 0 0 ;
   background-size: contain !important;
   background-position: center !important;
 }
 
 .benefit:hover .iconBenefit3 {
-  background: url("../../../assets/icons/Digital transformation/white/data-collectionw.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/Digital transformation/white/data-collectionw.png") no-repeat 0 0 ;
   background-size: contain !important;
   background-position: center !important;
 }
 
 .benefit:hover .iconBenefit4 {
-  background: url("../../../assets/icons/Digital transformation/white/efficiencyw.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/Digital transformation/white/efficiencyw.png") no-repeat 0 0 ;
   background-size: contain !important;
   background-position: center !important;
 }
 
 .benefit:hover .iconBenefit5 {
-  background: url("../../../assets/icons/Digital transformation/white/Innovationw.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/Digital transformation/white/Innovationw.png") no-repeat 0 0 ;
   background-size: contain !important;
   background-position: center !important;
 }
@@ -214,6 +214,49 @@ main {
   }
 }
 
+@media screen and (max-width: 1024px) {
+
+
+  //Hover
+  .benefit:hover .iconBenefit1 {
+    background: url("../../../assets/icons/Digital transformation/blue/help.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit2 {
+    background: url("../../../assets/icons/Digital transformation/blue/Increase profit.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit3 {
+    background: url("../../../assets/icons/Digital transformation/blue/data-collection.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit4 {
+    background: url("../../../assets/icons/Digital transformation/blue/efficiency.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit5 {
+    background: url("../../../assets/icons/Digital transformation/blue/Innovation.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+
+  .benefit-inner {
+    margin-bottom: 54px;
+  }
+
+  .benefitImg {
+    height: 9vh;
+  }
+}
 
 @media screen and (max-width: 1024px)and (min-width: 800px) {
   #bg {

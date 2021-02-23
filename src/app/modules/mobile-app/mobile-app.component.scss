@@ -18,10 +18,10 @@ main {
   background-position: center;
 }
 
-.benefit:hover .benefitImg {
+/*.benefit:hover .benefitImg {
   width: 89% !important;
   height: 12vh !important;
-}
+}*/
 .iconBenefit1 {
   background: url("../../../assets/icons/Mobile Apps/output 3/targetaud.png") no-repeat 0 0;
   background-size: contain !important;
@@ -54,25 +54,25 @@ main {
 
 //Hover
 .benefit:hover .iconBenefit1 {
-  background: url("../../../assets/icons/mobile apps/output 2/target aud.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/mobile apps/output 2/target aud.png") no-repeat 0 0 ;
   background-size: contain !important;
   background-position: center !important;
 }
 
 .benefit:hover .iconBenefit2 {
-  background: url("../../../assets/icons/mobile apps/output 2/branding and designw.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/mobile apps/output 2/branding and designw.png") no-repeat 0 0 ;
   background-size: contain !important;
   background-position: center !important;
 }
 
 .benefit:hover .iconBenefit3 {
-  background: url("../../../assets/icons/mobile apps/output 2/competitve adv.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/mobile apps/output 2/competitve adv.png") no-repeat 0 0 ;
   background-size: contain !important;
   background-position: center !important;
 }
 
 .benefit:hover .iconBenefit4 {
-  background: url("../../../assets/icons/mobile apps/output 2/say closer.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/mobile apps/output 2/say closer.png") no-repeat 0 0 ;
   background-size: contain !important;
   background-position: center !important;
 }
@@ -246,6 +246,43 @@ main {
 }
 
 
+@media screen and (max-width: 1024px) {
+  .benefitImg {
+
+    height: 10vh;
+ 
+  }
+  //Hover
+  .benefit:hover .iconBenefit1 {
+    background: url("../../../assets/icons/Mobile Apps/output 3/targetaud.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit2 {
+    background: url("../../../assets/icons/Mobile Apps/output 3/Branding and designb.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit3 {
+    background: url("../../../assets/icons/Mobile Apps/output 3/Competitve adv.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit4 {
+    background: url("../../../assets/icons/Mobile Apps/output 3/Say closer.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit5 {
+    background: url("../../../assets/icons/Mobile Apps/output 3/fitting.png") no-repeat 0 0 !important; 
+    background-size: contain !important;
+    background-position: center !important;
+  }
+  }
 @media screen and (max-width: 1024px)and (min-width: 800px) {
   #bg {
     height: 390px;
@@ -275,7 +312,7 @@ main {
     }
 
     p {
-      width: 195px;
+      width: 179px;
       margin-left: 10px;
       font-size: 12px;
     }

@@ -15,10 +15,10 @@ main {
   background-position: center;
 }
 
-.benefit:hover .benefitImg {
+/*.benefit:hover .benefitImg {
   width: 89% !important;
   height: 12vh !important;
-}
+}*/
 
 .iconBenefit1 {
   background: url("../../../assets/icons/ATM Cleaning Service/track copy.png") no-repeat 0 0;
@@ -46,25 +46,25 @@ main {
 
 //Hover
 .benefit:hover .iconBenefit1 {
-  background: url("../../../assets/icons/ATM Cleaning Service/trackw.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/ATM Cleaning Service/trackw.png") no-repeat 0 0 ;
   background-size: contain !important;
   background-position: center !important;
 }
 
 .benefit:hover .iconBenefit2 {
-  background: url("../../../assets/icons/ATM Cleaning Service/white dashboard.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/ATM Cleaning Service/white dashboard.png") no-repeat 0 0 ;
   background-size: contain !important;
   background-position: center !important;
 }
 
 .benefit:hover .iconBenefit3 {
-  background: url("../../../assets/icons/ATM Cleaning Service/safe guard 1.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/ATM Cleaning Service/safe guard 1.png") no-repeat 0 0 ;
   background-size: contain !important;
   background-position: center !important;
 }
 
 .benefit:hover .iconBenefit4 {
-  background: url("../../../assets/icons/ATM Cleaning Service/increase security1.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/ATM Cleaning Service/increase security1.png") no-repeat 0 0 ;
   background-size: contain !important;
   background-position: center !important;
 }
@@ -199,6 +199,39 @@ main {
   }
 }
 
+@media screen and (max-width: 1024px) {
+
+  //Hover
+  .benefit:hover .iconBenefit1 {
+    background: url("../../../assets/icons/ATM Cleaning Service/track copy.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit2 {
+    background: url("../../../assets/icons/ATM Cleaning Service/blue dahsboard.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit3 {
+    background: url("../../../assets/icons/ATM Cleaning Service/safeguardblue.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit4 {
+    background: url("../../../assets/icons/ATM Cleaning Service/increase security.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+
+
+  .benefitImg {
+    height: 9vh;
+  }
+}
 
 @media screen and (max-width: 1024px)and (min-width: 800px) {
   #bg {

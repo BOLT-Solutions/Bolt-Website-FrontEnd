@@ -14,11 +14,11 @@ main {
   background-size: contain;
   background-position: center;
 }
-
+/*
 .benefit:hover .benefitImg {
   width: 89% !important;
   height: 12vh !important;
-}
+}*/
 
 .iconBenefit1 {
   background: url("../../../assets/icons/DCS/blue/reducerisk.png") no-repeat 0 0;
@@ -196,6 +196,41 @@ main {
 
   100% {
     transform: translateX(0);
+  }
+}
+
+
+@media screen and (max-width: 1024px) {
+
+
+
+  //Hover
+  .benefit:hover .iconBenefit1 {
+    background: url("../../../assets/icons/DCS/blue/reducerisk.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit2 {
+    background: url("../../../assets/icons/DCS/blue/scalability.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit3 {
+    background: url("../../../assets/icons/DCS/blue/efficiency.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit4 {
+    background: url("../../../assets/icons/DCS/blue/increasesecurity.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefitImg {
+    height: 9vh;
   }
 }
 
