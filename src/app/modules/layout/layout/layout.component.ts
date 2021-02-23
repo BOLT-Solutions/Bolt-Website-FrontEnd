@@ -43,8 +43,9 @@ export class LayoutComponent implements OnInit {
 
   ngOnInit(): void {
     //Restore window scroll to top position
-    window.scroll(0, 0);
-    //this.LanguageService.switchLang();
+    setTimeout(() => {
+      window.scroll(0, 0);
+    }, 500);
   }
   prepareRoute(outlet: RouterOutlet) {
     return outlet &&
