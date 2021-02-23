@@ -121,7 +121,7 @@ main {
 }
 
 .iconBenefit8 {
-  background: url("../../../assets/icons/ERP/manufacturingb.png") no-repeat 0 0;
+  background: url("../../../assets/icons/ERP/manufacturingb.png") no-repeat 0 0 ;
   width: 100%;
   height: 10vh;
   background-size: contain;
@@ -129,7 +129,7 @@ main {
 }
 
 .benefit:hover .iconBenefit8 {
-  background: url("../../../assets/icons/ERP/manufacturingw.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/ERP/manufacturingw.png") no-repeat 0 0 ;
   width: 100% !important;
   height: 10vh !important;
   background-size: contain !important;
@@ -267,6 +267,159 @@ main {
   }
 }
 
+@media screen and (max-width: 1024px) {
+
+
+  .benefit:hover .iconBenefit1 {
+    background: url("../../../assets/icons/ERP/finance.png") no-repeat 0 0 !important;
+    width: 100% !important;
+    height: 10vh !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit2 {
+    background: url("../../../assets/icons/ERP/inventory.png") no-repeat 0 0 !important;
+    width: 100% !important;
+    height: 10vh !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit3 {
+    background: url("../../../assets/icons/ERP/crm.png") no-repeat 0 0 !important;
+    width: 100% !important;
+    height: 10vh !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit4 {
+    background: url("../../../assets/icons/ERP/Purchasing.png") no-repeat 0 0 !important;
+    width: 100% !important;
+    height: 10vh !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit5 {
+    background: url("../../../assets/icons/ERP/human-resources.png") no-repeat 0 0 !important;
+    width: 100% !important;
+    height: 10vh !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit6 {
+    background: url("../../../assets/icons/ERP/Project managment.png") no-repeat 0 0 !important;
+    width: 100% !important;
+    height: 10vh !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit7 {
+    background: url("../../../assets/icons/ERP/benefit7erpb.png") no-repeat 0 0 !important;
+    width: 100% !important;
+    height: 10vh !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit8 {
+    background: url("../../../assets/icons/ERP/manufacturingb.png") no-repeat 0 0;
+    width: 100% !important;
+    height: 10vh !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit-inner {
+    margin-bottom: 54px;
+  }
+
+  .benefitImg {
+    height: 9vh;
+  }
+
+  #benefits {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 100px !important;
+
+
+    img {
+      width: 60px;
+    }
+
+    h1 {
+      font-size: 1.6rem;
+      margin-bottom: 10px;
+    }
+
+    h2 {
+      padding-top: 20px;
+      font-size: 20px;
+    }
+
+    p {
+      padding-left: 40px;
+      font-size: 16px;
+    }
+
+    .benefit {
+      perspective: 300px;
+    }
+
+    .benefit-img {
+      height: 7vh;
+      background-position: bottom;
+    }
+
+    .benefit-inner {
+      height: 26vh;
+      padding: 5% 5%;
+      border-radius: 24px;
+    }
+
+    .benefit:hover .benefit-inner {
+      p {
+        color: #8d8d8d !important;
+      }
+
+      h2 {
+        color: #454545 !important;
+      }
+
+      box-shadow: none;
+      background-color: transparent;
+      transform: rotateY(0);
+      transition: transform 0.8s ease-in-out;
+    }
+
+    .benefit:hover .benefit-img {
+      height: 7vh;
+      background: url("../../../assets/img/icons/icon2.png") no-repeat 0 0;
+      background-size: 40px 40px;
+      background-position: bottom;
+    }
+
+    .py-4 {
+      padding-top: 0 !important;
+    }
+  }
+  #desc {
+    margin-top: 40px;
+
+    h1 {
+      font-size: 24px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+}
 
 @media screen and (max-width: 1024px)and (min-width: 800px) {
   #bg {
@@ -286,10 +439,10 @@ main {
     background-position: center;
   }
 
-  .benefit {
+/*  .benefit {
     margin-top: 150px !important;
   }
-
+*/
   #benefits {
     padding-bottom: 145px !important;
   }

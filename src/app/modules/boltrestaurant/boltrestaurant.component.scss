@@ -237,6 +237,46 @@ main {
   }
 }
 
+@media screen and (max-width: 1024px) {
+
+  .benefit:hover .iconBenefit1 {
+    background: url("../../../assets/icons/Bolt rest/data analysis.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit2 {
+    background: url("../../../assets/icons/Bolt rest/Data base.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit3 {
+    background: url("../../../assets/icons/Bolt rest/staff development.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+
+  .benefit:hover .iconBenefit4 {
+    background: url("../../../assets/icons/Bolt rest/Feedback.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+
+  .benefit:hover .iconBenefit5 {
+    background: url("../../../assets/icons/Bolt rest/Marketing promo.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+
+  .iconBenefit1, iconBenefit2, iconBenefit3, iconBenefit4, iconBenefit5, iconBenefit6, iconBenefit6 {
+    height: 9vh;
+  }
+}
+
 
 @media screen and (max-width: 1024px)and (min-width: 800px) {
   #bg {

@@ -299,6 +299,66 @@ main {
   }
 }
 
+@media screen and (max-width: 1024px) {
+
+  .benefit:hover .iconBenefit1 {
+    background: url("../../../assets/icons/Bolt doctor/save-time1.png") no-repeat 0 0 !important;
+
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit2 {
+    background: url("../../../assets/icons/Bolt doctor/choices1.png") no-repeat 0 0 !important;
+
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit3 {
+    background: url("../../../assets/icons/Bolt doctor/Save resources1.png") no-repeat 0 0 !important;
+
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit4 {
+    background: url("../../../assets/icons/Bolt doctor/reminder1.png") no-repeat 0 0 !important;
+  
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit5 {
+    background: url("../../../assets/icons/Bolt doctor/Flexable to use1.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+
+  .benefit:hover .iconBenefit6 {
+    background: url("../../../assets/icons/Bolt doctor/online-booking1.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit7 {
+    background: url("../../../assets/icons/Bolt doctor/choices1.png") no-repeat 0 0;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit8 {
+    background: url("../../../assets/icons/Bolt doctor/no-crowd1.png") no-repeat 0 0;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .iconBenefit1, iconBenefit2, iconBenefit3, iconBenefit4, iconBenefit5, iconBenefit6, iconBenefit6 {
+    height: 9vh;
+  }
+}
+
 @media screen and (max-width: 1024px)and (min-width: 800px) {
   #bg {
     height: 390px;

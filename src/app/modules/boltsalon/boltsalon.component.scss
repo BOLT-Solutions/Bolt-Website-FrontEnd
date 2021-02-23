@@ -16,7 +16,7 @@ main {
 }
 
 .benefit:hover .iconBenefit1 {
-  background: url("../../../assets/icons/Bolt Salon/Monitor invoices1.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/Bolt Salon/Monitor invoices1.png") no-repeat 0 0 ;
   width: 100% !important;
   height: 10vh !important;
   background-size: contain !important;
@@ -32,7 +32,7 @@ main {
 }
 
 .benefit:hover .iconBenefit2 {
-  background: url("../../../assets/icons/Bolt Salon/Customer Data base.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/Bolt Salon/Customer Data base.png") no-repeat 0 0 ;
   width: 100% !important;
   height: 10vh !important;
   background-size: contain !important;
@@ -48,7 +48,7 @@ main {
 }
 
 .benefit:hover .iconBenefit3 {
-  background: url("../../../assets/icons/Bolt Salon/staff development1.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/Bolt Salon/staff development1.png") no-repeat 0 0 ;
   width: 100% !important;
   height: 10vh !important;
   background-size: contain !important;
@@ -64,7 +64,7 @@ main {
 }
 
 .benefit:hover .iconBenefit4 {
-  background: url("../../../assets/icons/Bolt Salon/Feedback.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/Bolt Salon/Feedback.png") no-repeat 0 0 ;
   width: 100% !important;
   height: 10vh !important;
   background-size: contain !important;
@@ -80,7 +80,7 @@ main {
 }
 
 .benefit:hover .iconBenefit5 {
-  background: url("../../../assets/icons/Bolt Salon/Marketing promo.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/Bolt Salon/Marketing promo.png") no-repeat 0 0 ;
   width: 100% !important;
   height: 10vh !important;
   background-size: contain !important;
@@ -96,7 +96,7 @@ main {
 }
 
 .benefit:hover .iconBenefit6 {
-  background: url("../../../assets/icons/Bolt Salon/Monitoring staff.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/Bolt Salon/Monitoring staff.png") no-repeat 0 0 ;
   width: 100% !important;
   height: 10vh !important;
   background-size: contain !important;
@@ -253,6 +253,55 @@ main {
 }
 
 
+@media screen and (max-width: 1024px) {
+
+  .benefit:hover .iconBenefit1 {
+    background: url("../../../assets/icons/Bolt Salon/Monotoring invoices.png") no-repeat 0 0;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit2 {
+    background: url("../../../assets/icons/Bolt Salon/Customer Data base1.png") no-repeat 0 0;
+
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit3 {
+    background: url("../../../assets/icons/Bolt Salon/staff development.png") no-repeat 0 0;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit4 {
+    background: url("../../../assets/icons/Bolt Salon/Feedback1.png") no-repeat 0 0;
+
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+
+  .benefit:hover .iconBenefit5 {
+    background: url("../../../assets/icons/Bolt Salon/Marketing promo1.png") no-repeat 0 0;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+
+  .benefit:hover .iconBenefit6 {
+    background: url("../../../assets/icons/Bolt Salon/Monitoring staff1.png") no-repeat 0 0;
+    width: 100% !important;
+
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+
+  .iconBenefit1, iconBenefit2, iconBenefit3, iconBenefit4, iconBenefit5, iconBenefit6, iconBenefit6 {
+    height: 9vh;
+  }
+}
 @media screen and (max-width: 1024px)and (min-width: 800px) {
   #bg {
     height: 390px;

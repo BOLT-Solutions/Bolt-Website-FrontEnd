@@ -15,11 +15,11 @@ main {
   background-position: center;
 }
 
-.benefit:hover .benefitImg {
+/*.benefit:hover .benefitImg {
   width: 89% !important;
   height: 12vh !important;
 }
-
+*/
 .iconBenefit1 {
   background: url("../../../assets/icons/Tailored solution/blue/unique creation.png") no-repeat 0 0;
   background-size: contain !important;
@@ -67,49 +67,49 @@ main {
 
 //Hover
 .benefit:hover .iconBenefit1 {
-  background: url("../../../assets/icons/Tailored solution/white/unique creationw.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/Tailored solution/white/unique creationw.png") no-repeat 0 0 ;
   background-size: contain !important;
   background-position: center !important;
 }
 
 .benefit:hover .iconBenefit2 {
-  background: url("../../../assets/icons/Tailored solution/white/Market Diffw.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/Tailored solution/white/Market Diffw.png") no-repeat 0 0 ;
   background-size: contain !important;
   background-position: center !important;
 }
 
 .benefit:hover .iconBenefit3 {
-  background: url("../../../assets/icons/Tailored solution/white/scalabilityw.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/Tailored solution/white/scalabilityw.png") no-repeat 0 0 ;
   background-size: contain !important;
   background-position: center !important;
 }
 
 .benefit:hover .iconBenefit4 {
-  background: url("../../../assets/icons/Tailored solution/white/reach targetw.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/Tailored solution/white/reach targetw.png") no-repeat 0 0 ;
   background-size: contain !important;
   background-position: center !important;
 }
 
 .benefit:hover .iconBenefit5 {
-  background: url("../../../assets/icons/Tailored solution/white/dw.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/Tailored solution/white/dw.png") no-repeat 0 0 ;
   background-size: contain !important;
   background-position: center !important;
 }
 
 .benefit:hover .iconBenefit6 {
-  background: url("../../../assets/icons/Tailored solution/white/related directlyw.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/Tailored solution/white/related directlyw.png") no-repeat 0 0 ;
   background-size: contain !important;
   background-position: center !important;
 }
 
 .benefit:hover .iconBenefit7 {
-  background: url("../../../assets/icons/Tailored solution/white/technical-supportw.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/Tailored solution/white/technical-supportw.png") no-repeat 0 0 ;
   background-size: contain !important;
   background-position: center !important;
 }
 
 .benefit:hover .iconBenefit8 {
-  background: url("../../../assets/icons/Tailored solution/white/Costs relatedw.png") no-repeat 0 0 !important;
+  background: url("../../../assets/icons/Tailored solution/white/Costs relatedw.png") no-repeat 0 0 ;
   background-size: contain !important;
   background-position: center !important;
 }
@@ -254,7 +254,62 @@ main {
   }
 }
 
+@media screen and (max-width: 1024px) {
 
+  //Hover
+  .benefit:hover .iconBenefit1 {
+    background: url("../../../assets/icons/Tailored solution/blue/unique creation.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit2 {
+    background: url("../../../assets/icons/Tailored solution/blue/Market Diff.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit3 {
+    background: url("../../../assets/icons/Tailored solution/blue/scalability.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit4 {
+    background: url("../../../assets/icons/Tailored solution/blue/reach target.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit5 {
+    background: url("../../../assets/icons/Tailored solution/blue/d.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit6 {
+    background: url("../../../assets/icons/Tailored solution/blue/related directly.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit7 {
+    background: url("../../../assets/icons/Tailored solution/blue/technical-support.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+  .benefit:hover .iconBenefit8 {
+    background: url("../../../assets/icons/Tailored solution/blue/Costs related.png") no-repeat 0 0 !important;
+    background-size: contain !important;
+    background-position: center !important;
+  }
+
+
+  .benefitImg {
+    height: 9vh;
+  }
+}
 @media screen and (max-width: 1024px)and (min-width: 800px) {
   #bg {
     height: 390px;
