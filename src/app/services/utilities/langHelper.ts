@@ -131,11 +131,11 @@ export class langHelper  {
               h1: ' Our Board Members',
               h3: 'With our experts we can make a difference.',
               h2_1: 'Muhammed Al Jammal',
-              p: 'Deputy CEO & Chief operations officer',
+              p: 'Deputy CEO & Chief Operations Officer',
               h2_2: 'Ibrahim Rashed',
               p1: 'Chairman',
               h2_3: 'Ahmed Abdel Moneim',
-              p2: 'CEO',
+              p2: 'Chief Executive Officer',
             }
           },
           team: {
