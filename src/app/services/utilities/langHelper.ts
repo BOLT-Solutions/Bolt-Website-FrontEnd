@@ -53,7 +53,7 @@ export class langHelper  {
           webDesign: 'Web Design',
           video: 'Video',
           aboutCompany: 'About Company',
-          aboutTeam: 'About Team',
+          aboutTeam: 'Our Team',
         },
         home: {
           backgroundImage: '', //Default image for EN
