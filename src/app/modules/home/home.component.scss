@@ -116,6 +116,7 @@ header {
     text-align: left;
     color: #2e2e2e;
   }
+
   h2 {
     font-family: 'Muli', sans-serif;
     font-size: 24px;
@@ -129,14 +130,28 @@ header {
   }
 
   img {
-    width: 50px
+    width: 50px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
   }
-  .headerPositionAR{
+
+  img:hover, img:active {
+    transform: scale(1.1);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+  }
+
+  .headerPositionAR {
     text-align: right;
     margin: 100px 100px 76.2px 30px;
     font-family: 'Cairo-Regular', sans-serif;
   }
-  .imgPositionAR{
+
+  .imgPositionAR {
     transform: scaleX(-1);
   }
 }
@@ -228,8 +243,10 @@ header {
 
     .read-more {
       border: 1px solid rgba(53, 119, 147, 0.6);
-      margin: 91px 0px 0 0px;
-      padding: 13px ;
+      background-color: rgb(239, 239, 239);
+      margin: 0 auto;
+      margin-top: 30%;
+      padding: 13px;
       border-radius: 35px;
       width: 185px;
       height: 55px;

@@ -1,28 +1,56 @@
 main {
-
-   background-color: #f2f2f2;
- 
+  background-color: #f2f2f2;
 }
 
-#bg{
-   
+#bg {
   background: url("../../../../assets/img/Header.png") no-repeat 0 0;
   height: 80vh;
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
- 
 }
-.arabicFont{
+
+.arabicFont {
   font-family: 'Cairo-Regular', sans-serif !important;
 }
-.textAlignRight{
+
+.textAlignRight {
   text-align: right !important;
 }
-img{
-    width:100%;
+
+.founderTextRight {
+  margin-left: 27%;
+  position: absolute;
+  top: 195px;
+  max-width: 75%;
 }
+
+.founderTextLeft {
+  position: absolute;
+  top: 195px;
+  max-width: 70%;
+}
+
+img {
+  width: 100%;
+}
+
+.founderImg {
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
+.founderImg:hover, .founderImg:active {
+  transform: scale(1.009);
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+}
+
 #content {
   color: #fff;
   text-align: center;
@@ -70,7 +98,7 @@ img{
 
   p {
     font-family: 'Mulish', sans-serif;
-    font-size: 15px;
+    font-size: 16px;
     font-weight: normal;
     font-stretch: normal;
     font-style: normal;
@@ -79,8 +107,12 @@ img{
     text-align: left;
     color: #808080;
   }
+}
 
-
+#siteContent {
+  p {
+    max-width: 600px;
+  }
 }
 
 #board {
@@ -130,12 +162,12 @@ img{
     width: 243px;
     height: 375px;
   }
-
-
 }
+
 .ibrahim {
   width: 277px;
 }
+
 @media screen and (max-width: 1024px) {
   #bg {
     background: url("../../../../assets/img/about_bg_mobile.png") no-repeat 0 0;
@@ -143,43 +175,39 @@ img{
     background-size: contain;
     /*background-position: center;*/
   }
+
   #content {
-   
+
     h1 {
-      
       font-size: 38px;
-     
     }
 
     p {
-     display:none;
+      display: none;
     }
   }
-  #contentImg{
-      display:none;
+
+  #contentImg {
+    display: none;
   }
+
   .mt-5 {
     margin-top: 0 !important;
   }
+
   #siteContent {
-   
-      padding-top:0 !important;
+    padding-top: 0 !important;
+
     h3 {
-    
       font-size: 30px;
-     
     }
 
     h1 {
-  
       font-size: 24px;
-
     }
 
     p {
-   
       font-size: 20px;
-    
     }
   }
 }
@@ -193,16 +221,27 @@ img{
     /*background-position: center;*/
   }
 
+  .founderTextRight {
+    position: relative;
+    max-width: 100%;
+    top: 0;
+  }
+
+  .founderTextLeft {
+    position: relative;
+    max-width: 100%;
+    top: 0;
+  }
+
   #content {
 
     h1 {
       font-size: 20px;
     }
-
- 
   }
+
   .mr-5 {
-    margin-right:0!important;
+    margin-right: 0 !important;
   }
 
   .mt-5 {
@@ -217,7 +256,7 @@ img{
     }
 
     h1 {
-      font-size: 24px;
+      font-size: 22px;
     }
 
     p {
@@ -254,7 +293,7 @@ img{
 
 
     p {
-      width: 220px;
+      width: 250px;
       padding-top: .8rem !important;
       padding-right: 0 !important;
       text-align: left;
@@ -271,5 +310,4 @@ img{
       margin-bottom: 1.8rem !important;
     }
   }
-
-  }
+}

@@ -137,7 +137,7 @@ li {
 #services .dropdown-menu {
   top: -3px;
   left: -26px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.7);
   z-index: 1 !important;
   padding-top: 40px;
 }
@@ -192,8 +192,10 @@ li {
 }
 
 @media screen and (max-width: 1024px) {
-  .navbar-collapse{
-      height:80vh;
+  .navbar-collapse {
+    height: 80vh;
+    max-height: 80vh;
+    overflow-y: scroll;
   }
   .dropdown-item {
     text-align: center;

@@ -21,19 +21,21 @@
           <a class="dropdown-item" (click)="Navigate('about-us/about-team')">{{langHelper.aboutTeam}}</a>
         </div>
       </li>
+
       <li class="nav-item dropdown" id="services">
         <a class="nav-link {{langHelper.dropDownStyle}}" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           {{langHelper.services}}
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" (click)="Navigate('ERP')">ERP</a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="text-align: center;">
           <a class="dropdown-item" (click)="Navigate('web')">Website Platform</a>
-          <a class="dropdown-item" (click)="Navigate('MobileApp')">Mobile Application</a>
-          <a class="dropdown-item" (click)="Navigate('ATM')">ATM</a>
           <a class="dropdown-item" (click)="Navigate('CRM')">CRM</a>
-          <a class="dropdown-item" (click)="Navigate('DCN')">Data Center Network</a>
+          <a class="dropdown-item" (click)="Navigate('ERP')">ERP</a>
+          <a class="dropdown-item" (click)="Navigate('MobileApp')">Mobile Application</a>
+          <a class="dropdown-item" (click)="Navigate('TailoredSolution')">Tailored Solutions</a>
           <a class="dropdown-item" (click)="Navigate('DigitalTransformation')">Digital Transformation</a>
-          <a class="dropdown-item" (click)="Navigate('TailoredSolution')">Tailored Solution</a>
+          <a class="dropdown-item" (click)="Navigate('DCN')">Data Center Network</a>
+          <a class="dropdown-item" (click)="Navigate('ATM')">ATM Cleaning System</a>
+          <a class="dropdown-item" (click)="Navigate('ATMMonitoring')">ATM Monitoring System</a>
         </div>
       </li>
       <li class="nav-item dropdown" id="products">
@@ -42,9 +44,9 @@
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
           <!--<div class="dropdown-divider"></div>-->
-          <a class="dropdown-item" (click)="Navigate('BoltDoctor')">Bolt Doctor</a>
           <a class="dropdown-item" (click)="Navigate('BoltSalon')">Bolt Salon</a>
-          <a class="dropdown-item" (click)="Navigate('BoltRestaurant')">Bolt restaurant</a>
+          <a class="dropdown-item" (click)="Navigate('BoltDoctor')">Bolt Doctor</a>
+          <a class="dropdown-item" (click)="Navigate('BoltRestaurant')">Bolt Restaurant</a>
           <!--<a class="dropdown-item" (click)="Navigate('BoltERP')">Bolt ERP</a>-->
         </div>
       </li>
