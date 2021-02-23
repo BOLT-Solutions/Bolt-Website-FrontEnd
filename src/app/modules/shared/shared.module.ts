@@ -7,6 +7,7 @@ import { ImageSliderComponent } from './image-slider/image-slider.component';
 import { ModalModule } from 'ngx-bootstrap/modal';
 import { ModalComponent } from './modal/modal.component';
 import { ClientsComponent } from './clients/clients.component';
+import { PartnersComponent } from './partners/partners.component';
 
 //Shared Components and imported modules between the project are imported here
 //Components that shall be re-used between modules should be exported.
@@ -14,7 +15,8 @@ import { ClientsComponent } from './clients/clients.component';
   declarations: [
     ImageSliderComponent,
     ModalComponent,
-    ClientsComponent
+    ClientsComponent,
+    PartnersComponent
     ],
   imports: [
     CommonModule,
@@ -25,7 +27,8 @@ import { ClientsComponent } from './clients/clients.component';
   , exports: [
     ImageSliderComponent,
     ModalComponent,
-    ClientsComponent
+    ClientsComponent,
+    PartnersComponent
     ]
 })
 export class SharedModule { }
