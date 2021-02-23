@@ -8,6 +8,9 @@ main {
   background-size: cover;
 }
 
+.mt-5{
+    margin-top: 100px !important;
+}
 .benefitImg {
   width: 89%;
   height: 12vh;
@@ -151,7 +154,7 @@ main {
   }
 
   h2 {
-    padding-top: 20px;
+    padding-top: 0;
     font-family: 'avenir', Arial, sans-serif;
     font-size: 28px;
     font-weight: 600;
@@ -241,8 +244,22 @@ main {
   }
 }
 
+//iphone 5 and similar sizes
+@media screen and (max-width: 450px) and (max-height:600px){
+  #bg {
+    height: 270px;
+    background-size: cover;
+    background-position: center;
+  }
+  .benefit{
+      margin-top: 150px !important;
+  }
+  #benefits{
+      padding-bottom: 145px !important;
+  } 
+}
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 800px) and (min-device-height: 620px) and  (max-height:900px) {
   #bg {
     height: 270px;
     background-size: cover;
@@ -272,6 +289,7 @@ main {
   #benefits {
     padding-left: 4rem;
     padding-right: 4rem;
+    padding-bottom: 100px !important;
 
     img {
       width: 60px;
@@ -305,6 +323,50 @@ main {
       height: 26vh;
       padding: 5% 5%;
       border-radius: 24px;
+    }
+
+    .benefit:hover {
+      .iconBenefit1 {
+        background: url("../../../assets/icons/ATM Cleaning Service/businessman.png") no-repeat 0 0 !important;
+        background-size: contain !important;
+        background-position: center !important;
+      }
+
+      .iconBenefit2 {
+        background: url("../../../assets/icons/ATM Monitoring/check-list1.png") no-repeat 0 0 !important;
+        background-size: contain !important;
+        background-position: center !important;
+      }
+
+      .iconBenefit3 {
+        background: url("../../../assets/icons/ATM Monitoring/newspaper1.png") no-repeat 0 0 !important;
+        background-size: contain !important;
+        background-position: center !important;
+      }
+
+      .iconBenefit4 {
+        background: url("../../../assets/icons/ATM Monitoring/apps1.png") no-repeat 0 0 !important;
+        background-size: contain !important;
+        background-position: center !important;
+      }
+
+      .iconBenefit5 {
+        background: url("../../../assets/icons/ATM Monitoring/monitoring1.png") no-repeat 0 0 !important;
+        background-size: contain !important;
+        background-position: center !important;
+      }
+
+      .iconBenefit6 {
+        background: url("../../../assets/icons/ATM Monitoring/bus9iness anaolytics1.png") no-repeat 0 0 !important;
+        background-size: contain !important;
+        background-position: center !important;
+      }
+
+      .iconBenefit7 {
+        background: url("../../../assets/icons/ATM Monitoring/blue content.png") no-repeat 0 0 !important;
+        background-size: contain !important;
+        background-position: center !important;
+      }
     }
 
     .benefit:hover .benefit-inner {

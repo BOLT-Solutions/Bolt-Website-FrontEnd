@@ -192,8 +192,10 @@ li {
 }
 
 @media screen and (max-width: 1024px) {
-  .navbar-collapse{
-      height:80vh;
+  .navbar-collapse {
+    height: 80vh;
+    max-height: 80vh;
+    overflow-y: scroll;
   }
   .dropdown-item {
     text-align: center;
