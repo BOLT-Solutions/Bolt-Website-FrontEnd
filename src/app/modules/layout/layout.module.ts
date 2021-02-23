@@ -24,6 +24,7 @@ import { BOLTRESTAURANTComponent } from '../boltrestaurant/boltrestaurant.compon
 import { BOLTSALONComponent } from '../boltsalon/boltsalon.component';
 import { AtmComponent } from '../atm/atm.component';
 import { BOLTDOCTORComponent } from '../boltdoctor/boltdoctor.component';
+import { PartnersComponent } from '../shared/partners/partners.component';
 
 
 @NgModule({
