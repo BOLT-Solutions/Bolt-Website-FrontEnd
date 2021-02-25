@@ -3,9 +3,9 @@
     "",
     "\\src",
     "\\src\\app",
-    "\\src\\app\\modules",
-    "\\src\\app\\modules\\home"
+    "\\src\\app\\services",
+    "\\src\\app\\services\\shared-services"
   ],
-  "SelectedNode": "\\src\\app\\modules\\home\\home.component.scss",
+  "SelectedNode": "\\src\\app\\services\\shared-services\\api-constants.ts",
   "PreviewInSolutionExplorer": false
 }

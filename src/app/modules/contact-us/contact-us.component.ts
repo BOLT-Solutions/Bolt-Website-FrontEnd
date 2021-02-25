@@ -16,7 +16,7 @@ export class ContactUsComponent implements OnInit {
   contactRequestForm: FormGroup = new FormGroup({
     fullname: new FormControl('', [Validators.required, Validators.minLength(3), Validators.maxLength(20), Validators.pattern("^[\u0600-\u065F\u066A-\u06EF\u06FA-\u06FFa-zA-Z-,]+(\s{0,1}\[\u0600-\u065F\u066A-\u06EF\u06FA-\u06FFa-zA-Z-, ])*$")]),
     email: new FormControl('', [Validators.required, Validators.email]),
-    phoneNumber: new FormControl('', [Validators.required, Validators.pattern(/^-?(0|[1-9]\d*)?$/)]),
+    phoneNumber: new FormControl('', [Validators.required, Validators.pattern(/^-?([0-9]\d*)?$/)]),
     productValue: new FormControl('',),
     message: new FormControl('', [Validators.required, Validators.minLength(2)]),
   });
@@ -46,7 +46,7 @@ export class ContactUsComponent implements OnInit {
     { id: 7, value: "Bolt Doctor" },
     { id: 8, value: "Bolt Salon" },
     { id: 9, value: "Bolt Restaurant" },
-    { id: 10, value: "Bolt ERP" }
+    //{ id: 10, value: "Bolt ERP" }
   ];
 
   ngOnInit(): void {
