@@ -4,8 +4,9 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\services",
-    "\\src\\app\\services\\shared-services"
+    "\\src\\app\\services\\shared-services",
+    "\\src\\environments"
   ],
-  "SelectedNode": "\\src\\app\\services\\shared-services\\api-constants.ts",
+  "SelectedNode": "\\src\\environments\\environment.prod.ts",
   "PreviewInSolutionExplorer": false
 }
